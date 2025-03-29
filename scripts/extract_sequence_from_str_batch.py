@@ -22,7 +22,11 @@ def extract_sequences_from_directory(directory_path, output_csv):
             full_path = os.path.join(directory_path, filename)
             try:
                 sequence = extract_sequence_from_nmrstar(full_path)
-                data.append({"filename": filename, "sequence": sequence})
+                # i added this next line to purge sequences with unusual amino acids (which are marked with X).
+                # the purge against U gets rid of two random RNA sequences that are for some reason present...
+                # which is quite odd because the list i got from the BMRB was explicitly protein-only.
+                if "X" not in sequence and "U" not in sequence:
+                    data.append({"filename": filename, "sequence": sequence})
             except Exception as e:
                 print(f"Failed to extract from {filename}: {e}")
 
