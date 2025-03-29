@@ -5,12 +5,20 @@ import pynmrstar
 def extract_sequence_from_nmrstar(file_path):
     entry = pynmrstar.Entry.from_file(file_path)
 
+    sequence = ""
+
     for sf in entry:
         if sf.category == "entity":
             if "Polymer_seq_one_letter_code" in sf:
                 raw_seq = sf["Polymer_seq_one_letter_code"][0]
-                sequence = raw_seq.replace("\n", "").replace(" ", "")
-                return sequence
+                if len(sequence)>1:
+                    # uncomment this line if you want things with more than 1 molecule.
+                    #sequence = sequence + ":"
+                    # comment out this next line if you want things with more than 1 molecule.
+                    raise ValueError("Star file contained more than a single polypeptide")
+                sequence = sequence + raw_seq.replace("\n", "").replace(" ", "")
+    
+    return sequence
 
     raise ValueError("Could not find sequence in 'Polymer_seq_one_letter_code'.")
 
