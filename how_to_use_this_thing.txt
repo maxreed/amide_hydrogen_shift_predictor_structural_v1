@@ -1,4 +1,7 @@
-Step 1: You need a bunch of star files. (Right now the script for this is on my Desktop in my earlier trial folder.)
+Step 1: You need a bunch of star files. Also, we sort through to find things at roughly ambient temperature and physiological pH.
+python download_star_files.py --input_file CNH_withPDB_smallTest.txt --output_dir test_downloaded_files
+python filter_and_move_star_files.py --input_dir test_downloaded_files --output_dir test_filtered_files --report_csv test_filtering_report.csv
+Note that though some filtering is done here, we need to do more in the next step too.
 
 Step 2: Extract the sequences from them. Also extract the amide hydrogen shifts (will use later).
 This script gets the sequences (from a folder full of star files):
