@@ -6,11 +6,11 @@ import subprocess
 
 for i in range(1, 11):
     model_str = f"model{i}"
-    base = f"bmr11103_3_{model_str}_h"
+    base = f"bmr34887_3_{model_str}_h"
 
     pdb_path = f"pdb_files/split_models_h/{base}.pdb"
-    out_csv = f"cvs_files/bmr11103_3/{base}_output.csv"
-    rotated_csv = f"cvs_files/bmr11103_3_rotated/{base}_output_rotated.csv"
+    out_csv = f"cvs_files/bmr34887_3/{base}_output.csv"
+    rotated_csv = f"cvs_files/bmr34887_3_rotated/{base}_output_rotated.csv"
 
     extract_cmd = [
         "python",

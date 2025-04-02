@@ -10,6 +10,9 @@ Step 3: Run AlphaFlow using the sequences. This needs to be done on my desktop w
 
 Step 4: Prep the AlphaFlow PDBs for use. This involves separating the models, adding hydrogens, and fixing the C terminus (it's missing OXT).
 add_h_with_cleaning.py is the script for this
+Command example:
+python ../scripts/add_h_with_cleaning.py bmr34887_3.str.pdb split_models_h
+You need to run this while in the pbd_files directory because of the dumb way I wrote the file names.
 
 Step 5: Extract nearest neighbors for all amide hydrogens, then extract distance feature and normalize vectors. This script does that:
 python run_extract_batch.py
@@ -20,3 +23,8 @@ Note that this makes 2 CSV files. The first is for inspection to assure function
 
 Step 7: Now we go back to those extracted H shifts. We read them in, and for every shift you find, grab the feature vector from the appropriate row of the CSV made in the last step. That can be done like this:
 python scripts/attach_shifts_to_features.py h_shifts/bmr11103_3_H.csv cvs_files/bmr11103_3_rotated/bmr11103_3_allNeighborsAllModels_averagedVectors_only25_groupedFeatures.csv training_data/bmr11103_forTraining.csv
+
+Step 8:
+On recommendation from Juan and Jon, I'm switching the atom type and residue type to be one-hot encoded. Run with this:
+python scripts/one_hot_encode_features.py training_data/bmr11103_forTraining.csv training_data/bmr11103_forTraining_oneHot.csv
+

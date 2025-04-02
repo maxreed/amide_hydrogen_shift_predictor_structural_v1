@@ -139,6 +139,9 @@ if __name__ == "__main__":
     models = split_models(input_pdb)
 
     for i, model in enumerate(models, start=1):
+        # beware of this next line. i may want to modify it to be less dumb later. as is, you need
+        # to be running this in the pdb_files directory (or wherever your starting pdb is) because
+        # otherwise it'll put the filepath in the name... which is wrong.
         out_file = os.path.join(output_dir, input_pdb[:-8] + "_model" + str(i) + "_h.pdb")
         print(f"Processing model {i} → {out_file}")
         add_hydrogens_to_model(model, out_file)
