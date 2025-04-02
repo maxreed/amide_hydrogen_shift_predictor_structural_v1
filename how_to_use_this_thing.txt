@@ -1,0 +1,22 @@
+Step 1: You need a bunch of star files. (Right now the script for this is on my Desktop in my earlier trial folder.)
+
+Step 2: Extract the sequences from them. Also extract the amide hydrogen shifts (will use later).
+This script gets the sequences (from a folder full of star files):
+extract_sequence_from_str_batch_no_dimers.py
+This gets the shifts (it points to a single star file, I'll make it work in batch later):
+python scripts/extract_H_shifts_from_str.py star_files/bmr11103_3.str h_shifts/bmr11103_3_H.csv
+
+Step 3: Run AlphaFlow using the sequences. This needs to be done on my desktop with Cameron's modified AlphaFlow.
+
+Step 4: Prep the AlphaFlow PDBs for use. This involves separating the models, adding hydrogens, and fixing the C terminus (it's missing OXT).
+add_h_with_cleaning.py is the script for this
+
+Step 5: Extract nearest neighbors for all amide hydrogens, then extract distance feature and normalize vectors. This script does that:
+python run_extract_batch.py
+
+Step 6: Construct the modified direction vector and put output into format for eventual training. This line does that:
+python scripts/concat_neighbors_after_norm_from_all_models_and_sort_and_average_models.py cvs_files/bmr11103_3_rotated cvs_files/bmr11103_3_rotated/bmr11103_3_allNeighborsAllModels_averagedVectors_only25.csv cvs_files/bmr11103_3_rotated/bmr11103_3_allNeighborsAllModels_averagedVectors_only25_groupedFeatures.csv
+Note that this makes 2 CSV files. The first is for inspection to assure function, the second is for further processing.
+
+Step 7: Now we go back to those extracted H shifts. We read them in, and for every shift you find, grab the feature vector from the appropriate row of the CSV made in the last step. That can be done like this:
+python scripts/attach_shifts_to_features.py h_shifts/bmr11103_3_H.csv cvs_files/bmr11103_3_rotated/bmr11103_3_allNeighborsAllModels_averagedVectors_only25_groupedFeatures.csv training_data/bmr11103_forTraining.csv

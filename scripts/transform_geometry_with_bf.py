@@ -84,7 +84,7 @@ def transform_neighbors(h_idx, amide_h, neighbors, atom_type_to_id, res_name_to_
 
         # we feed in normalized orientation vectors for all the backbone amide hydrogen's 20 nearest neighbors, but we ALSO
         # want to keep distance information, thus "scalar" is an (approximately) normalized feature representing inverse distance.
-        scalar = 0.2 / dist
+        scalar = 2.0 / dist
 
         # But for plotting, use real spatial vector (not unit)
         transformed_coords.append(transformed)
@@ -123,6 +123,9 @@ def visualize_frame(coords, labels, h_idx, atom_type_id_to_name, res_id_to_name)
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
     ax.set_zlabel("Z")
+    ax.set_xlim([-5,5])
+    ax.set_ylim([-5,5])
+    ax.set_zlim([-3.6,3.6])
     plt.tight_layout()
 
     # Draw coordinate axes at origin
