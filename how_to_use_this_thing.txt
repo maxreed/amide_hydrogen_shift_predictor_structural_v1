@@ -10,6 +10,8 @@ This gets the shifts (it points to a single star file, I'll make it work in batc
 python scripts/extract_H_shifts_from_str.py star_files/bmr11103_3.str h_shifts/bmr11103_3_H.csv
 
 Step 3: Run AlphaFlow using the sequences. This needs to be done on my desktop with Cameron's modified AlphaFlow.
+Here's the useful command for aligning alphaflow output for visualization btw:
+cmd.intra_fit("sele", 1)
 
 Step 4: Prep the AlphaFlow PDBs for use. This involves separating the models, adding hydrogens, and fixing the C terminus (it's missing OXT).
 add_h_with_cleaning.py is the script for this

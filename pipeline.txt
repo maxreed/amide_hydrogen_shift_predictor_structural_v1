@@ -1,0 +1,24 @@
+# this the pseudocode for a script to generate data for a single star file in an automated way.
+
+bmrb_id = 34887
+
+run this: python scripts/extract_H_shifts_from_str.py star_files/bmr{bmrb_id}_3.str h_shifts/bmr{bmrb_id}_3_H.csv
+
+go to the directory pdb_files
+
+run this: python ../scripts/add_h_with_cleaning.py bmr{bmrb_id}_3.str.pdb split_models_h
+
+go up one directory level, then go to cvs_files directory
+
+make two folders called bmr{bmrb_id}_3 and bmr{bmrb_id}_3_rotated
+
+go up one directory level
+
+run this: python run_extract_batch.py --bmrbID bmrb_id
+NOTE: I never actually implemented run_extract_batch.py taking a bmrb id. This is because this script is wrapping two other scripts anyway, so I just transferred its functionality to pipelin.py.
+
+run this: python scripts/concat_neighbors_after_norm_from_all_models_and_sort_and_average_models.py cvs_files/bmr{bmrb_id}_3_rotated cvs_files/bmr{bmrb_id}_3_rotated/bmr{bmrb_id}_3_allNeighborsAllModels_averagedVectors_only25.csv cvs_files/bmr{bmrb_id}_3_rotated/bmr{bmrb_id}_3_allNeighborsAllModels_averagedVectors_only25_groupedFeatures.csv
+
+run this: python scripts/attach_shifts_to_features.py h_shifts/bmr{bmrb_id}_3_H.csv cvs_files/bmr{bmrb_id}_3_rotated/bmr{bmrb_id}_3_allNeighborsAllModels_averagedVectors_only25_groupedFeatures.csv training_data/bmr{bmrb_id}_forTraining.csv
+
+run this: python scripts/one_hot_encode_features.py training_data/bmr11103_forTraining.csv training_data/bmr11103_forTraining_oneHot.csv

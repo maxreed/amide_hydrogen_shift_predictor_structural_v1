@@ -1,0 +1,38 @@
+✅ Wrote output to h_shifts/bmr19752_3_H.csv
+Processing model 1 → split_models_h/bmr19752_3_model1_h.pdb
+Processing model 2 → split_models_h/bmr19752_3_model2_h.pdb
+Processing model 3 → split_models_h/bmr19752_3_model3_h.pdb
+Processing model 4 → split_models_h/bmr19752_3_model4_h.pdb
+Processing model 5 → split_models_h/bmr19752_3_model5_h.pdb
+Processing model 6 → split_models_h/bmr19752_3_model6_h.pdb
+Processing model 7 → split_models_h/bmr19752_3_model7_h.pdb
+Processing model 8 → split_models_h/bmr19752_3_model8_h.pdb
+Processing model 9 → split_models_h/bmr19752_3_model9_h.pdb
+Processing model 10 → split_models_h/bmr19752_3_model10_h.pdb
+Finished processing 10 models.
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model1_h.pdb cvs_files/bmr19752_3/bmr19752_3_model1_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model1_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model1_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model2_h.pdb cvs_files/bmr19752_3/bmr19752_3_model2_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model2_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model2_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model3_h.pdb cvs_files/bmr19752_3/bmr19752_3_model3_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model3_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model3_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model4_h.pdb cvs_files/bmr19752_3/bmr19752_3_model4_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model4_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model4_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model5_h.pdb cvs_files/bmr19752_3/bmr19752_3_model5_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model5_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model5_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model6_h.pdb cvs_files/bmr19752_3/bmr19752_3_model6_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model6_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model6_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model7_h.pdb cvs_files/bmr19752_3/bmr19752_3_model7_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model7_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model7_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model8_h.pdb cvs_files/bmr19752_3/bmr19752_3_model8_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model8_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model8_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model9_h.pdb cvs_files/bmr19752_3/bmr19752_3_model9_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model9_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model9_h_output_rotated.csv
+Running extract: python scripts/extract_neighbours_with_names.py pdb_files/split_models_h/bmr19752_3_model10_h.pdb cvs_files/bmr19752_3/bmr19752_3_model10_h_output.csv
+Running transform: python scripts/transform_geometry_fromCSV_withNames.py cvs_files/bmr19752_3/bmr19752_3_model10_h_output.csv cvs_files/bmr19752_3_rotated/bmr19752_3_model10_h_output_rotated.csv
+Wrote reduced + filtered CSV to: cvs_files/bmr19752_3_rotated/bmr19752_3_allNeighborsAllModels_averagedVectors_only25.csv
+Wrote pivoted CSV to: cvs_files/bmr19752_3_rotated/bmr19752_3_allNeighborsAllModels_averagedVectors_only25_groupedFeatures.csv
+Wrote labeled features to: training_data/bmr19752_3_forTraining.csv
+Wrote one-hot encoded features to: training_data/bmr19752_3_forTraining_oneHot.csv
+
+Pipeline complete for BMRB ID 19752.
