@@ -74,4 +74,4 @@ def run_pipeline(bmrb_id):
     print(f"\nPipeline complete for BMRB ID {bmrb_id}.")
 
 if __name__ == "__main__":
-    run_pipeline(19752)
+    run_pipeline(4892)

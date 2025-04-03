@@ -33,3 +33,8 @@ Step 8:
 On recommendation from Juan and Jon, I'm switching the atom type and residue type to be one-hot encoded. Run with this:
 python scripts/one_hot_encode_features.py training_data/bmr11103_forTraining.csv training_data/bmr11103_forTraining_oneHot.csv
 
+Step 9:
+Oh yes, and then we add pH and temperature. Do it like this:
+python scripts/add_pH_T_to_features.py get_star_files/star_file_conditions.csv training_data_pH_T
+(It does it in batch btw. Also it makes the output target directory for you.)
+
