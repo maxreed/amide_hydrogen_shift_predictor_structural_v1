@@ -1,0 +1,15 @@
+This was done with about 240 protein structures (220 training and about 20 for the test set).
+
+50 estimators and a max depth of 4 seem to work best at this point, though I'm optimistic I can go higher with both once I have the full database.
+However, interestingly, deleting the direction from the amide H to its N makes the predictor worse even though that H was put in by an algorithm!
+Note that even though our list partition for training and test is "random" it's actually the same between runs. Might want to change later.
+
+As it turns out, deleting the useless constant vector point to the amide N and deleting the pH and T features results in marginal improvement.
+
+Reassuringly, deleting either all atomic identity info or all positional info makes the predictor worse.
+
+After ablating the N vector plus pH and T, I performed analysis on the statistics of the results. These include:
+Histograms of the average error (MAE) on a protein-by-protein basis (which is about 0.38 ppm on my test set on a residue-by-residue basis average).
+Offset curves (analyzing impact of adding x to the experimental values and them comparing against predicted values).
+Histograms of the ideal offset per data set (some are as large as 0.3 ppm!).
+

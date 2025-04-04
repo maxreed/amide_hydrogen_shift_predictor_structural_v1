@@ -53,6 +53,18 @@ def analyze_offsets(file_path, output_prefix, num_plots=5):
         plt.close()
         print(f"Saved plot for source_id {source_id}")
 
+    # Histogram of best_x across all structures
+    best_x_values = error_df["best_x"].astype(float)
+    plt.figure()
+    plt.hist(best_x_values, bins=np.arange(-1, 1.05, 0.05), edgecolor='black')
+    plt.xlabel("Ideal Offset x")
+    plt.ylabel("Number of Structures")
+    plt.title(f"Distribution of Best x — {output_prefix.capitalize()} Set")
+    plt.grid(True)
+    plt.savefig(f"{output_prefix}_best_x_histogram.png", dpi=300)
+    plt.close()
+    print(f"Saved best_x histogram to {output_prefix}_best_x_histogram.png")
+
 
 # Run on both datasets
 analyze_offsets("train_predictions.csv", "train")
