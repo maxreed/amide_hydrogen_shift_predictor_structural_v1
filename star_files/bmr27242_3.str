@@ -1,0 +1,2270 @@
+data_27242
+
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             27242
+   _Entry.Title
+;
+Trigger Factor
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2017-09-01
+   _Entry.Accession_date                 2017-09-01
+   _Entry.Last_release_date              2017-09-01
+   _Entry.Original_release_date          2017-09-01
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Leonor      Morgado   .   .   .   .   27242
+      2   Bjoern      Burmann   .   .   .   .   27242
+      3   Sebastian   Hiller    .   .   .   .   27242
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   27242
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   201   27242
+      '15N chemical shifts'   182   27242
+      '1H chemical shifts'    181   27242
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2018-01-18   2017-09-01   update     BMRB     'update entry citation'   27242
+      1   .   .   2017-11-20   2017-09-01   original   author   'original release'        27242
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   27239   'Trigger factor: RBD; SBD; PPD; RBD-SBD; SBD-PPD'   27242
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     27242
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1038/s41467-017-02196-7
+   _Citation.PubMed_ID                    29222465
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+The dynamic dimer structure of the chaperone Trigger Factor.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Nat. Commun.'
+   _Citation.Journal_name_full            'Nature communications'
+   _Citation.Journal_volume               8
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 2041-1723
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   1992
+   _Citation.Page_last                    1992
+   _Citation.Year                         2017
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Leonor      Morgado   .   .    .   .   27242   1
+      2   Bjoern      Burmann   .   M.   .   .   27242   1
+      3   Timothy     Sharpe    .   .    .   .   27242   1
+      4   Adam        Mazur     .   .    .   .   27242   1
+      5   Sebastian   Hiller    .   .    .   .   27242   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          27242
+   _Assembly.ID                                1
+   _Assembly.Name                              'Trigger factor'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   TF   1   $TF   A   .   yes   native   no   no   .   .   .   27242   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_TF
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      TF
+   _Entity.Entry_ID                          27242
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              TF
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MQVSVETTQGLGRRVTITIA
+ADSIETAVKSELVNVAKKVR
+IDGFRKGKVPMNIVAQRYGA
+SVRQDVLGDLMSRNFIDAII
+KEKINPAGAPTYVPGEYKLG
+EDFTYSVEFEVYPEVELQGL
+EAIEVEKPIVEVTDADVDGM
+LDTLRKQQATWKEKDGAVEA
+EDRVTIDFTGSVDGEEFEGG
+KASDFVLAMGQGRMIPGFED
+GIKGHKAGEEFTIDVTFPEE
+YHAENLKGKAAKFAINLKKV
+EERELPELTAEFIKRFGVED
+GSVEGLRAEVRKNMERELKS
+AIRNRVKSQAIEGLVKANDI
+DVPAALIDSEIDVLRRQAAQ
+RFGGNEKQALELPRELFEEQ
+AKRRVVVGLLLGEVIRTNEL
+KADEERVKGLIEEMASAYED
+PKEVIEFYSKNKELMDNMRN
+VALEEQAVEAVLAKAKVTEK
+ETTFNELMNQQA
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                432
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     .   MET   .   27242   1
+      2     .   GLN   .   27242   1
+      3     .   VAL   .   27242   1
+      4     .   SER   .   27242   1
+      5     .   VAL   .   27242   1
+      6     .   GLU   .   27242   1
+      7     .   THR   .   27242   1
+      8     .   THR   .   27242   1
+      9     .   GLN   .   27242   1
+      10    .   GLY   .   27242   1
+      11    .   LEU   .   27242   1
+      12    .   GLY   .   27242   1
+      13    .   ARG   .   27242   1
+      14    .   ARG   .   27242   1
+      15    .   VAL   .   27242   1
+      16    .   THR   .   27242   1
+      17    .   ILE   .   27242   1
+      18    .   THR   .   27242   1
+      19    .   ILE   .   27242   1
+      20    .   ALA   .   27242   1
+      21    .   ALA   .   27242   1
+      22    .   ASP   .   27242   1
+      23    .   SER   .   27242   1
+      24    .   ILE   .   27242   1
+      25    .   GLU   .   27242   1
+      26    .   THR   .   27242   1
+      27    .   ALA   .   27242   1
+      28    .   VAL   .   27242   1
+      29    .   LYS   .   27242   1
+      30    .   SER   .   27242   1
+      31    .   GLU   .   27242   1
+      32    .   LEU   .   27242   1
+      33    .   VAL   .   27242   1
+      34    .   ASN   .   27242   1
+      35    .   VAL   .   27242   1
+      36    .   ALA   .   27242   1
+      37    .   LYS   .   27242   1
+      38    .   LYS   .   27242   1
+      39    .   VAL   .   27242   1
+      40    .   ARG   .   27242   1
+      41    .   ILE   .   27242   1
+      42    .   ASP   .   27242   1
+      43    .   GLY   .   27242   1
+      44    .   PHE   .   27242   1
+      45    .   ARG   .   27242   1
+      46    .   LYS   .   27242   1
+      47    .   GLY   .   27242   1
+      48    .   LYS   .   27242   1
+      49    .   VAL   .   27242   1
+      50    .   PRO   .   27242   1
+      51    .   MET   .   27242   1
+      52    .   ASN   .   27242   1
+      53    .   ILE   .   27242   1
+      54    .   VAL   .   27242   1
+      55    .   ALA   .   27242   1
+      56    .   GLN   .   27242   1
+      57    .   ARG   .   27242   1
+      58    .   TYR   .   27242   1
+      59    .   GLY   .   27242   1
+      60    .   ALA   .   27242   1
+      61    .   SER   .   27242   1
+      62    .   VAL   .   27242   1
+      63    .   ARG   .   27242   1
+      64    .   GLN   .   27242   1
+      65    .   ASP   .   27242   1
+      66    .   VAL   .   27242   1
+      67    .   LEU   .   27242   1
+      68    .   GLY   .   27242   1
+      69    .   ASP   .   27242   1
+      70    .   LEU   .   27242   1
+      71    .   MET   .   27242   1
+      72    .   SER   .   27242   1
+      73    .   ARG   .   27242   1
+      74    .   ASN   .   27242   1
+      75    .   PHE   .   27242   1
+      76    .   ILE   .   27242   1
+      77    .   ASP   .   27242   1
+      78    .   ALA   .   27242   1
+      79    .   ILE   .   27242   1
+      80    .   ILE   .   27242   1
+      81    .   LYS   .   27242   1
+      82    .   GLU   .   27242   1
+      83    .   LYS   .   27242   1
+      84    .   ILE   .   27242   1
+      85    .   ASN   .   27242   1
+      86    .   PRO   .   27242   1
+      87    .   ALA   .   27242   1
+      88    .   GLY   .   27242   1
+      89    .   ALA   .   27242   1
+      90    .   PRO   .   27242   1
+      91    .   THR   .   27242   1
+      92    .   TYR   .   27242   1
+      93    .   VAL   .   27242   1
+      94    .   PRO   .   27242   1
+      95    .   GLY   .   27242   1
+      96    .   GLU   .   27242   1
+      97    .   TYR   .   27242   1
+      98    .   LYS   .   27242   1
+      99    .   LEU   .   27242   1
+      100   .   GLY   .   27242   1
+      101   .   GLU   .   27242   1
+      102   .   ASP   .   27242   1
+      103   .   PHE   .   27242   1
+      104   .   THR   .   27242   1
+      105   .   TYR   .   27242   1
+      106   .   SER   .   27242   1
+      107   .   VAL   .   27242   1
+      108   .   GLU   .   27242   1
+      109   .   PHE   .   27242   1
+      110   .   GLU   .   27242   1
+      111   .   VAL   .   27242   1
+      112   .   TYR   .   27242   1
+      113   .   PRO   .   27242   1
+      114   .   GLU   .   27242   1
+      115   .   VAL   .   27242   1
+      116   .   GLU   .   27242   1
+      117   .   LEU   .   27242   1
+      118   .   GLN   .   27242   1
+      119   .   GLY   .   27242   1
+      120   .   LEU   .   27242   1
+      121   .   GLU   .   27242   1
+      122   .   ALA   .   27242   1
+      123   .   ILE   .   27242   1
+      124   .   GLU   .   27242   1
+      125   .   VAL   .   27242   1
+      126   .   GLU   .   27242   1
+      127   .   LYS   .   27242   1
+      128   .   PRO   .   27242   1
+      129   .   ILE   .   27242   1
+      130   .   VAL   .   27242   1
+      131   .   GLU   .   27242   1
+      132   .   VAL   .   27242   1
+      133   .   THR   .   27242   1
+      134   .   ASP   .   27242   1
+      135   .   ALA   .   27242   1
+      136   .   ASP   .   27242   1
+      137   .   VAL   .   27242   1
+      138   .   ASP   .   27242   1
+      139   .   GLY   .   27242   1
+      140   .   MET   .   27242   1
+      141   .   LEU   .   27242   1
+      142   .   ASP   .   27242   1
+      143   .   THR   .   27242   1
+      144   .   LEU   .   27242   1
+      145   .   ARG   .   27242   1
+      146   .   LYS   .   27242   1
+      147   .   GLN   .   27242   1
+      148   .   GLN   .   27242   1
+      149   .   ALA   .   27242   1
+      150   .   THR   .   27242   1
+      151   .   TRP   .   27242   1
+      152   .   LYS   .   27242   1
+      153   .   GLU   .   27242   1
+      154   .   LYS   .   27242   1
+      155   .   ASP   .   27242   1
+      156   .   GLY   .   27242   1
+      157   .   ALA   .   27242   1
+      158   .   VAL   .   27242   1
+      159   .   GLU   .   27242   1
+      160   .   ALA   .   27242   1
+      161   .   GLU   .   27242   1
+      162   .   ASP   .   27242   1
+      163   .   ARG   .   27242   1
+      164   .   VAL   .   27242   1
+      165   .   THR   .   27242   1
+      166   .   ILE   .   27242   1
+      167   .   ASP   .   27242   1
+      168   .   PHE   .   27242   1
+      169   .   THR   .   27242   1
+      170   .   GLY   .   27242   1
+      171   .   SER   .   27242   1
+      172   .   VAL   .   27242   1
+      173   .   ASP   .   27242   1
+      174   .   GLY   .   27242   1
+      175   .   GLU   .   27242   1
+      176   .   GLU   .   27242   1
+      177   .   PHE   .   27242   1
+      178   .   GLU   .   27242   1
+      179   .   GLY   .   27242   1
+      180   .   GLY   .   27242   1
+      181   .   LYS   .   27242   1
+      182   .   ALA   .   27242   1
+      183   .   SER   .   27242   1
+      184   .   ASP   .   27242   1
+      185   .   PHE   .   27242   1
+      186   .   VAL   .   27242   1
+      187   .   LEU   .   27242   1
+      188   .   ALA   .   27242   1
+      189   .   MET   .   27242   1
+      190   .   GLY   .   27242   1
+      191   .   GLN   .   27242   1
+      192   .   GLY   .   27242   1
+      193   .   ARG   .   27242   1
+      194   .   MET   .   27242   1
+      195   .   ILE   .   27242   1
+      196   .   PRO   .   27242   1
+      197   .   GLY   .   27242   1
+      198   .   PHE   .   27242   1
+      199   .   GLU   .   27242   1
+      200   .   ASP   .   27242   1
+      201   .   GLY   .   27242   1
+      202   .   ILE   .   27242   1
+      203   .   LYS   .   27242   1
+      204   .   GLY   .   27242   1
+      205   .   HIS   .   27242   1
+      206   .   LYS   .   27242   1
+      207   .   ALA   .   27242   1
+      208   .   GLY   .   27242   1
+      209   .   GLU   .   27242   1
+      210   .   GLU   .   27242   1
+      211   .   PHE   .   27242   1
+      212   .   THR   .   27242   1
+      213   .   ILE   .   27242   1
+      214   .   ASP   .   27242   1
+      215   .   VAL   .   27242   1
+      216   .   THR   .   27242   1
+      217   .   PHE   .   27242   1
+      218   .   PRO   .   27242   1
+      219   .   GLU   .   27242   1
+      220   .   GLU   .   27242   1
+      221   .   TYR   .   27242   1
+      222   .   HIS   .   27242   1
+      223   .   ALA   .   27242   1
+      224   .   GLU   .   27242   1
+      225   .   ASN   .   27242   1
+      226   .   LEU   .   27242   1
+      227   .   LYS   .   27242   1
+      228   .   GLY   .   27242   1
+      229   .   LYS   .   27242   1
+      230   .   ALA   .   27242   1
+      231   .   ALA   .   27242   1
+      232   .   LYS   .   27242   1
+      233   .   PHE   .   27242   1
+      234   .   ALA   .   27242   1
+      235   .   ILE   .   27242   1
+      236   .   ASN   .   27242   1
+      237   .   LEU   .   27242   1
+      238   .   LYS   .   27242   1
+      239   .   LYS   .   27242   1
+      240   .   VAL   .   27242   1
+      241   .   GLU   .   27242   1
+      242   .   GLU   .   27242   1
+      243   .   ARG   .   27242   1
+      244   .   GLU   .   27242   1
+      245   .   LEU   .   27242   1
+      246   .   PRO   .   27242   1
+      247   .   GLU   .   27242   1
+      248   .   LEU   .   27242   1
+      249   .   THR   .   27242   1
+      250   .   ALA   .   27242   1
+      251   .   GLU   .   27242   1
+      252   .   PHE   .   27242   1
+      253   .   ILE   .   27242   1
+      254   .   LYS   .   27242   1
+      255   .   ARG   .   27242   1
+      256   .   PHE   .   27242   1
+      257   .   GLY   .   27242   1
+      258   .   VAL   .   27242   1
+      259   .   GLU   .   27242   1
+      260   .   ASP   .   27242   1
+      261   .   GLY   .   27242   1
+      262   .   SER   .   27242   1
+      263   .   VAL   .   27242   1
+      264   .   GLU   .   27242   1
+      265   .   GLY   .   27242   1
+      266   .   LEU   .   27242   1
+      267   .   ARG   .   27242   1
+      268   .   ALA   .   27242   1
+      269   .   GLU   .   27242   1
+      270   .   VAL   .   27242   1
+      271   .   ARG   .   27242   1
+      272   .   LYS   .   27242   1
+      273   .   ASN   .   27242   1
+      274   .   MET   .   27242   1
+      275   .   GLU   .   27242   1
+      276   .   ARG   .   27242   1
+      277   .   GLU   .   27242   1
+      278   .   LEU   .   27242   1
+      279   .   LYS   .   27242   1
+      280   .   SER   .   27242   1
+      281   .   ALA   .   27242   1
+      282   .   ILE   .   27242   1
+      283   .   ARG   .   27242   1
+      284   .   ASN   .   27242   1
+      285   .   ARG   .   27242   1
+      286   .   VAL   .   27242   1
+      287   .   LYS   .   27242   1
+      288   .   SER   .   27242   1
+      289   .   GLN   .   27242   1
+      290   .   ALA   .   27242   1
+      291   .   ILE   .   27242   1
+      292   .   GLU   .   27242   1
+      293   .   GLY   .   27242   1
+      294   .   LEU   .   27242   1
+      295   .   VAL   .   27242   1
+      296   .   LYS   .   27242   1
+      297   .   ALA   .   27242   1
+      298   .   ASN   .   27242   1
+      299   .   ASP   .   27242   1
+      300   .   ILE   .   27242   1
+      301   .   ASP   .   27242   1
+      302   .   VAL   .   27242   1
+      303   .   PRO   .   27242   1
+      304   .   ALA   .   27242   1
+      305   .   ALA   .   27242   1
+      306   .   LEU   .   27242   1
+      307   .   ILE   .   27242   1
+      308   .   ASP   .   27242   1
+      309   .   SER   .   27242   1
+      310   .   GLU   .   27242   1
+      311   .   ILE   .   27242   1
+      312   .   ASP   .   27242   1
+      313   .   VAL   .   27242   1
+      314   .   LEU   .   27242   1
+      315   .   ARG   .   27242   1
+      316   .   ARG   .   27242   1
+      317   .   GLN   .   27242   1
+      318   .   ALA   .   27242   1
+      319   .   ALA   .   27242   1
+      320   .   GLN   .   27242   1
+      321   .   ARG   .   27242   1
+      322   .   PHE   .   27242   1
+      323   .   GLY   .   27242   1
+      324   .   GLY   .   27242   1
+      325   .   ASN   .   27242   1
+      326   .   GLU   .   27242   1
+      327   .   LYS   .   27242   1
+      328   .   GLN   .   27242   1
+      329   .   ALA   .   27242   1
+      330   .   LEU   .   27242   1
+      331   .   GLU   .   27242   1
+      332   .   LEU   .   27242   1
+      333   .   PRO   .   27242   1
+      334   .   ARG   .   27242   1
+      335   .   GLU   .   27242   1
+      336   .   LEU   .   27242   1
+      337   .   PHE   .   27242   1
+      338   .   GLU   .   27242   1
+      339   .   GLU   .   27242   1
+      340   .   GLN   .   27242   1
+      341   .   ALA   .   27242   1
+      342   .   LYS   .   27242   1
+      343   .   ARG   .   27242   1
+      344   .   ARG   .   27242   1
+      345   .   VAL   .   27242   1
+      346   .   VAL   .   27242   1
+      347   .   VAL   .   27242   1
+      348   .   GLY   .   27242   1
+      349   .   LEU   .   27242   1
+      350   .   LEU   .   27242   1
+      351   .   LEU   .   27242   1
+      352   .   GLY   .   27242   1
+      353   .   GLU   .   27242   1
+      354   .   VAL   .   27242   1
+      355   .   ILE   .   27242   1
+      356   .   ARG   .   27242   1
+      357   .   THR   .   27242   1
+      358   .   ASN   .   27242   1
+      359   .   GLU   .   27242   1
+      360   .   LEU   .   27242   1
+      361   .   LYS   .   27242   1
+      362   .   ALA   .   27242   1
+      363   .   ASP   .   27242   1
+      364   .   GLU   .   27242   1
+      365   .   GLU   .   27242   1
+      366   .   ARG   .   27242   1
+      367   .   VAL   .   27242   1
+      368   .   LYS   .   27242   1
+      369   .   GLY   .   27242   1
+      370   .   LEU   .   27242   1
+      371   .   ILE   .   27242   1
+      372   .   GLU   .   27242   1
+      373   .   GLU   .   27242   1
+      374   .   MET   .   27242   1
+      375   .   ALA   .   27242   1
+      376   .   SER   .   27242   1
+      377   .   ALA   .   27242   1
+      378   .   TYR   .   27242   1
+      379   .   GLU   .   27242   1
+      380   .   ASP   .   27242   1
+      381   .   PRO   .   27242   1
+      382   .   LYS   .   27242   1
+      383   .   GLU   .   27242   1
+      384   .   VAL   .   27242   1
+      385   .   ILE   .   27242   1
+      386   .   GLU   .   27242   1
+      387   .   PHE   .   27242   1
+      388   .   TYR   .   27242   1
+      389   .   SER   .   27242   1
+      390   .   LYS   .   27242   1
+      391   .   ASN   .   27242   1
+      392   .   LYS   .   27242   1
+      393   .   GLU   .   27242   1
+      394   .   LEU   .   27242   1
+      395   .   MET   .   27242   1
+      396   .   ASP   .   27242   1
+      397   .   ASN   .   27242   1
+      398   .   MET   .   27242   1
+      399   .   ARG   .   27242   1
+      400   .   ASN   .   27242   1
+      401   .   VAL   .   27242   1
+      402   .   ALA   .   27242   1
+      403   .   LEU   .   27242   1
+      404   .   GLU   .   27242   1
+      405   .   GLU   .   27242   1
+      406   .   GLN   .   27242   1
+      407   .   ALA   .   27242   1
+      408   .   VAL   .   27242   1
+      409   .   GLU   .   27242   1
+      410   .   ALA   .   27242   1
+      411   .   VAL   .   27242   1
+      412   .   LEU   .   27242   1
+      413   .   ALA   .   27242   1
+      414   .   LYS   .   27242   1
+      415   .   ALA   .   27242   1
+      416   .   LYS   .   27242   1
+      417   .   VAL   .   27242   1
+      418   .   THR   .   27242   1
+      419   .   GLU   .   27242   1
+      420   .   LYS   .   27242   1
+      421   .   GLU   .   27242   1
+      422   .   THR   .   27242   1
+      423   .   THR   .   27242   1
+      424   .   PHE   .   27242   1
+      425   .   ASN   .   27242   1
+      426   .   GLU   .   27242   1
+      427   .   LEU   .   27242   1
+      428   .   MET   .   27242   1
+      429   .   ASN   .   27242   1
+      430   .   GLN   .   27242   1
+      431   .   GLN   .   27242   1
+      432   .   ALA   .   27242   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     27242   1
+      .   GLN   2     2     27242   1
+      .   VAL   3     3     27242   1
+      .   SER   4     4     27242   1
+      .   VAL   5     5     27242   1
+      .   GLU   6     6     27242   1
+      .   THR   7     7     27242   1
+      .   THR   8     8     27242   1
+      .   GLN   9     9     27242   1
+      .   GLY   10    10    27242   1
+      .   LEU   11    11    27242   1
+      .   GLY   12    12    27242   1
+      .   ARG   13    13    27242   1
+      .   ARG   14    14    27242   1
+      .   VAL   15    15    27242   1
+      .   THR   16    16    27242   1
+      .   ILE   17    17    27242   1
+      .   THR   18    18    27242   1
+      .   ILE   19    19    27242   1
+      .   ALA   20    20    27242   1
+      .   ALA   21    21    27242   1
+      .   ASP   22    22    27242   1
+      .   SER   23    23    27242   1
+      .   ILE   24    24    27242   1
+      .   GLU   25    25    27242   1
+      .   THR   26    26    27242   1
+      .   ALA   27    27    27242   1
+      .   VAL   28    28    27242   1
+      .   LYS   29    29    27242   1
+      .   SER   30    30    27242   1
+      .   GLU   31    31    27242   1
+      .   LEU   32    32    27242   1
+      .   VAL   33    33    27242   1
+      .   ASN   34    34    27242   1
+      .   VAL   35    35    27242   1
+      .   ALA   36    36    27242   1
+      .   LYS   37    37    27242   1
+      .   LYS   38    38    27242   1
+      .   VAL   39    39    27242   1
+      .   ARG   40    40    27242   1
+      .   ILE   41    41    27242   1
+      .   ASP   42    42    27242   1
+      .   GLY   43    43    27242   1
+      .   PHE   44    44    27242   1
+      .   ARG   45    45    27242   1
+      .   LYS   46    46    27242   1
+      .   GLY   47    47    27242   1
+      .   LYS   48    48    27242   1
+      .   VAL   49    49    27242   1
+      .   PRO   50    50    27242   1
+      .   MET   51    51    27242   1
+      .   ASN   52    52    27242   1
+      .   ILE   53    53    27242   1
+      .   VAL   54    54    27242   1
+      .   ALA   55    55    27242   1
+      .   GLN   56    56    27242   1
+      .   ARG   57    57    27242   1
+      .   TYR   58    58    27242   1
+      .   GLY   59    59    27242   1
+      .   ALA   60    60    27242   1
+      .   SER   61    61    27242   1
+      .   VAL   62    62    27242   1
+      .   ARG   63    63    27242   1
+      .   GLN   64    64    27242   1
+      .   ASP   65    65    27242   1
+      .   VAL   66    66    27242   1
+      .   LEU   67    67    27242   1
+      .   GLY   68    68    27242   1
+      .   ASP   69    69    27242   1
+      .   LEU   70    70    27242   1
+      .   MET   71    71    27242   1
+      .   SER   72    72    27242   1
+      .   ARG   73    73    27242   1
+      .   ASN   74    74    27242   1
+      .   PHE   75    75    27242   1
+      .   ILE   76    76    27242   1
+      .   ASP   77    77    27242   1
+      .   ALA   78    78    27242   1
+      .   ILE   79    79    27242   1
+      .   ILE   80    80    27242   1
+      .   LYS   81    81    27242   1
+      .   GLU   82    82    27242   1
+      .   LYS   83    83    27242   1
+      .   ILE   84    84    27242   1
+      .   ASN   85    85    27242   1
+      .   PRO   86    86    27242   1
+      .   ALA   87    87    27242   1
+      .   GLY   88    88    27242   1
+      .   ALA   89    89    27242   1
+      .   PRO   90    90    27242   1
+      .   THR   91    91    27242   1
+      .   TYR   92    92    27242   1
+      .   VAL   93    93    27242   1
+      .   PRO   94    94    27242   1
+      .   GLY   95    95    27242   1
+      .   GLU   96    96    27242   1
+      .   TYR   97    97    27242   1
+      .   LYS   98    98    27242   1
+      .   LEU   99    99    27242   1
+      .   GLY   100   100   27242   1
+      .   GLU   101   101   27242   1
+      .   ASP   102   102   27242   1
+      .   PHE   103   103   27242   1
+      .   THR   104   104   27242   1
+      .   TYR   105   105   27242   1
+      .   SER   106   106   27242   1
+      .   VAL   107   107   27242   1
+      .   GLU   108   108   27242   1
+      .   PHE   109   109   27242   1
+      .   GLU   110   110   27242   1
+      .   VAL   111   111   27242   1
+      .   TYR   112   112   27242   1
+      .   PRO   113   113   27242   1
+      .   GLU   114   114   27242   1
+      .   VAL   115   115   27242   1
+      .   GLU   116   116   27242   1
+      .   LEU   117   117   27242   1
+      .   GLN   118   118   27242   1
+      .   GLY   119   119   27242   1
+      .   LEU   120   120   27242   1
+      .   GLU   121   121   27242   1
+      .   ALA   122   122   27242   1
+      .   ILE   123   123   27242   1
+      .   GLU   124   124   27242   1
+      .   VAL   125   125   27242   1
+      .   GLU   126   126   27242   1
+      .   LYS   127   127   27242   1
+      .   PRO   128   128   27242   1
+      .   ILE   129   129   27242   1
+      .   VAL   130   130   27242   1
+      .   GLU   131   131   27242   1
+      .   VAL   132   132   27242   1
+      .   THR   133   133   27242   1
+      .   ASP   134   134   27242   1
+      .   ALA   135   135   27242   1
+      .   ASP   136   136   27242   1
+      .   VAL   137   137   27242   1
+      .   ASP   138   138   27242   1
+      .   GLY   139   139   27242   1
+      .   MET   140   140   27242   1
+      .   LEU   141   141   27242   1
+      .   ASP   142   142   27242   1
+      .   THR   143   143   27242   1
+      .   LEU   144   144   27242   1
+      .   ARG   145   145   27242   1
+      .   LYS   146   146   27242   1
+      .   GLN   147   147   27242   1
+      .   GLN   148   148   27242   1
+      .   ALA   149   149   27242   1
+      .   THR   150   150   27242   1
+      .   TRP   151   151   27242   1
+      .   LYS   152   152   27242   1
+      .   GLU   153   153   27242   1
+      .   LYS   154   154   27242   1
+      .   ASP   155   155   27242   1
+      .   GLY   156   156   27242   1
+      .   ALA   157   157   27242   1
+      .   VAL   158   158   27242   1
+      .   GLU   159   159   27242   1
+      .   ALA   160   160   27242   1
+      .   GLU   161   161   27242   1
+      .   ASP   162   162   27242   1
+      .   ARG   163   163   27242   1
+      .   VAL   164   164   27242   1
+      .   THR   165   165   27242   1
+      .   ILE   166   166   27242   1
+      .   ASP   167   167   27242   1
+      .   PHE   168   168   27242   1
+      .   THR   169   169   27242   1
+      .   GLY   170   170   27242   1
+      .   SER   171   171   27242   1
+      .   VAL   172   172   27242   1
+      .   ASP   173   173   27242   1
+      .   GLY   174   174   27242   1
+      .   GLU   175   175   27242   1
+      .   GLU   176   176   27242   1
+      .   PHE   177   177   27242   1
+      .   GLU   178   178   27242   1
+      .   GLY   179   179   27242   1
+      .   GLY   180   180   27242   1
+      .   LYS   181   181   27242   1
+      .   ALA   182   182   27242   1
+      .   SER   183   183   27242   1
+      .   ASP   184   184   27242   1
+      .   PHE   185   185   27242   1
+      .   VAL   186   186   27242   1
+      .   LEU   187   187   27242   1
+      .   ALA   188   188   27242   1
+      .   MET   189   189   27242   1
+      .   GLY   190   190   27242   1
+      .   GLN   191   191   27242   1
+      .   GLY   192   192   27242   1
+      .   ARG   193   193   27242   1
+      .   MET   194   194   27242   1
+      .   ILE   195   195   27242   1
+      .   PRO   196   196   27242   1
+      .   GLY   197   197   27242   1
+      .   PHE   198   198   27242   1
+      .   GLU   199   199   27242   1
+      .   ASP   200   200   27242   1
+      .   GLY   201   201   27242   1
+      .   ILE   202   202   27242   1
+      .   LYS   203   203   27242   1
+      .   GLY   204   204   27242   1
+      .   HIS   205   205   27242   1
+      .   LYS   206   206   27242   1
+      .   ALA   207   207   27242   1
+      .   GLY   208   208   27242   1
+      .   GLU   209   209   27242   1
+      .   GLU   210   210   27242   1
+      .   PHE   211   211   27242   1
+      .   THR   212   212   27242   1
+      .   ILE   213   213   27242   1
+      .   ASP   214   214   27242   1
+      .   VAL   215   215   27242   1
+      .   THR   216   216   27242   1
+      .   PHE   217   217   27242   1
+      .   PRO   218   218   27242   1
+      .   GLU   219   219   27242   1
+      .   GLU   220   220   27242   1
+      .   TYR   221   221   27242   1
+      .   HIS   222   222   27242   1
+      .   ALA   223   223   27242   1
+      .   GLU   224   224   27242   1
+      .   ASN   225   225   27242   1
+      .   LEU   226   226   27242   1
+      .   LYS   227   227   27242   1
+      .   GLY   228   228   27242   1
+      .   LYS   229   229   27242   1
+      .   ALA   230   230   27242   1
+      .   ALA   231   231   27242   1
+      .   LYS   232   232   27242   1
+      .   PHE   233   233   27242   1
+      .   ALA   234   234   27242   1
+      .   ILE   235   235   27242   1
+      .   ASN   236   236   27242   1
+      .   LEU   237   237   27242   1
+      .   LYS   238   238   27242   1
+      .   LYS   239   239   27242   1
+      .   VAL   240   240   27242   1
+      .   GLU   241   241   27242   1
+      .   GLU   242   242   27242   1
+      .   ARG   243   243   27242   1
+      .   GLU   244   244   27242   1
+      .   LEU   245   245   27242   1
+      .   PRO   246   246   27242   1
+      .   GLU   247   247   27242   1
+      .   LEU   248   248   27242   1
+      .   THR   249   249   27242   1
+      .   ALA   250   250   27242   1
+      .   GLU   251   251   27242   1
+      .   PHE   252   252   27242   1
+      .   ILE   253   253   27242   1
+      .   LYS   254   254   27242   1
+      .   ARG   255   255   27242   1
+      .   PHE   256   256   27242   1
+      .   GLY   257   257   27242   1
+      .   VAL   258   258   27242   1
+      .   GLU   259   259   27242   1
+      .   ASP   260   260   27242   1
+      .   GLY   261   261   27242   1
+      .   SER   262   262   27242   1
+      .   VAL   263   263   27242   1
+      .   GLU   264   264   27242   1
+      .   GLY   265   265   27242   1
+      .   LEU   266   266   27242   1
+      .   ARG   267   267   27242   1
+      .   ALA   268   268   27242   1
+      .   GLU   269   269   27242   1
+      .   VAL   270   270   27242   1
+      .   ARG   271   271   27242   1
+      .   LYS   272   272   27242   1
+      .   ASN   273   273   27242   1
+      .   MET   274   274   27242   1
+      .   GLU   275   275   27242   1
+      .   ARG   276   276   27242   1
+      .   GLU   277   277   27242   1
+      .   LEU   278   278   27242   1
+      .   LYS   279   279   27242   1
+      .   SER   280   280   27242   1
+      .   ALA   281   281   27242   1
+      .   ILE   282   282   27242   1
+      .   ARG   283   283   27242   1
+      .   ASN   284   284   27242   1
+      .   ARG   285   285   27242   1
+      .   VAL   286   286   27242   1
+      .   LYS   287   287   27242   1
+      .   SER   288   288   27242   1
+      .   GLN   289   289   27242   1
+      .   ALA   290   290   27242   1
+      .   ILE   291   291   27242   1
+      .   GLU   292   292   27242   1
+      .   GLY   293   293   27242   1
+      .   LEU   294   294   27242   1
+      .   VAL   295   295   27242   1
+      .   LYS   296   296   27242   1
+      .   ALA   297   297   27242   1
+      .   ASN   298   298   27242   1
+      .   ASP   299   299   27242   1
+      .   ILE   300   300   27242   1
+      .   ASP   301   301   27242   1
+      .   VAL   302   302   27242   1
+      .   PRO   303   303   27242   1
+      .   ALA   304   304   27242   1
+      .   ALA   305   305   27242   1
+      .   LEU   306   306   27242   1
+      .   ILE   307   307   27242   1
+      .   ASP   308   308   27242   1
+      .   SER   309   309   27242   1
+      .   GLU   310   310   27242   1
+      .   ILE   311   311   27242   1
+      .   ASP   312   312   27242   1
+      .   VAL   313   313   27242   1
+      .   LEU   314   314   27242   1
+      .   ARG   315   315   27242   1
+      .   ARG   316   316   27242   1
+      .   GLN   317   317   27242   1
+      .   ALA   318   318   27242   1
+      .   ALA   319   319   27242   1
+      .   GLN   320   320   27242   1
+      .   ARG   321   321   27242   1
+      .   PHE   322   322   27242   1
+      .   GLY   323   323   27242   1
+      .   GLY   324   324   27242   1
+      .   ASN   325   325   27242   1
+      .   GLU   326   326   27242   1
+      .   LYS   327   327   27242   1
+      .   GLN   328   328   27242   1
+      .   ALA   329   329   27242   1
+      .   LEU   330   330   27242   1
+      .   GLU   331   331   27242   1
+      .   LEU   332   332   27242   1
+      .   PRO   333   333   27242   1
+      .   ARG   334   334   27242   1
+      .   GLU   335   335   27242   1
+      .   LEU   336   336   27242   1
+      .   PHE   337   337   27242   1
+      .   GLU   338   338   27242   1
+      .   GLU   339   339   27242   1
+      .   GLN   340   340   27242   1
+      .   ALA   341   341   27242   1
+      .   LYS   342   342   27242   1
+      .   ARG   343   343   27242   1
+      .   ARG   344   344   27242   1
+      .   VAL   345   345   27242   1
+      .   VAL   346   346   27242   1
+      .   VAL   347   347   27242   1
+      .   GLY   348   348   27242   1
+      .   LEU   349   349   27242   1
+      .   LEU   350   350   27242   1
+      .   LEU   351   351   27242   1
+      .   GLY   352   352   27242   1
+      .   GLU   353   353   27242   1
+      .   VAL   354   354   27242   1
+      .   ILE   355   355   27242   1
+      .   ARG   356   356   27242   1
+      .   THR   357   357   27242   1
+      .   ASN   358   358   27242   1
+      .   GLU   359   359   27242   1
+      .   LEU   360   360   27242   1
+      .   LYS   361   361   27242   1
+      .   ALA   362   362   27242   1
+      .   ASP   363   363   27242   1
+      .   GLU   364   364   27242   1
+      .   GLU   365   365   27242   1
+      .   ARG   366   366   27242   1
+      .   VAL   367   367   27242   1
+      .   LYS   368   368   27242   1
+      .   GLY   369   369   27242   1
+      .   LEU   370   370   27242   1
+      .   ILE   371   371   27242   1
+      .   GLU   372   372   27242   1
+      .   GLU   373   373   27242   1
+      .   MET   374   374   27242   1
+      .   ALA   375   375   27242   1
+      .   SER   376   376   27242   1
+      .   ALA   377   377   27242   1
+      .   TYR   378   378   27242   1
+      .   GLU   379   379   27242   1
+      .   ASP   380   380   27242   1
+      .   PRO   381   381   27242   1
+      .   LYS   382   382   27242   1
+      .   GLU   383   383   27242   1
+      .   VAL   384   384   27242   1
+      .   ILE   385   385   27242   1
+      .   GLU   386   386   27242   1
+      .   PHE   387   387   27242   1
+      .   TYR   388   388   27242   1
+      .   SER   389   389   27242   1
+      .   LYS   390   390   27242   1
+      .   ASN   391   391   27242   1
+      .   LYS   392   392   27242   1
+      .   GLU   393   393   27242   1
+      .   LEU   394   394   27242   1
+      .   MET   395   395   27242   1
+      .   ASP   396   396   27242   1
+      .   ASN   397   397   27242   1
+      .   MET   398   398   27242   1
+      .   ARG   399   399   27242   1
+      .   ASN   400   400   27242   1
+      .   VAL   401   401   27242   1
+      .   ALA   402   402   27242   1
+      .   LEU   403   403   27242   1
+      .   GLU   404   404   27242   1
+      .   GLU   405   405   27242   1
+      .   GLN   406   406   27242   1
+      .   ALA   407   407   27242   1
+      .   VAL   408   408   27242   1
+      .   GLU   409   409   27242   1
+      .   ALA   410   410   27242   1
+      .   VAL   411   411   27242   1
+      .   LEU   412   412   27242   1
+      .   ALA   413   413   27242   1
+      .   LYS   414   414   27242   1
+      .   ALA   415   415   27242   1
+      .   LYS   416   416   27242   1
+      .   VAL   417   417   27242   1
+      .   THR   418   418   27242   1
+      .   GLU   419   419   27242   1
+      .   LYS   420   420   27242   1
+      .   GLU   421   421   27242   1
+      .   THR   422   422   27242   1
+      .   THR   423   423   27242   1
+      .   PHE   424   424   27242   1
+      .   ASN   425   425   27242   1
+      .   GLU   426   426   27242   1
+      .   LEU   427   427   27242   1
+      .   MET   428   428   27242   1
+      .   ASN   429   429   27242   1
+      .   GLN   430   430   27242   1
+      .   GLN   431   431   27242   1
+      .   ALA   432   432   27242   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       27242
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $TF   .   562   organism   .   'Escherichia coli'   'E. coli'   .   .   Bacteria   .   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   .   .   .   27242   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       27242
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $TF   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   .   .   .   .   .   .   pET28b   .   .   .   27242   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         27242
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '95% H2O/5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   TF                      '[U-13C; U-15N; U-2H]'   .   .   1   $TF   .   .   1     .   .   mM   .   .   .   .   27242   1
+      2   'potassium phosphate'   'natural abundance'      .   .   .   .     .   .   20    .   .   mM   .   .   .   .   27242   1
+      3   'potassium chloride'    'natural abundance'      .   .   .   .     .   .   100   .   .   mM   .   .   .   .   27242   1
+      4   EDTA                    'natural abundance'      .   .   .   .     .   .   0.5   .   .   mM   .   .   .   .   27242   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       27242
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   100   .   mM    27242   1
+      pH                 6.5   .   pH    27242   1
+      pressure           1     .   atm   27242   1
+      temperature        298   .   K     27242   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_PROSA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   PROSA
+   _Software.Entry_ID       27242
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           PROSA
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Guntert   .   .   27242   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   27242   2
+   stop_
+save_
+
+save_CARA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CARA
+   _Software.Entry_ID       27242
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           CARA
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Keller and Wuthrich'   .   .   27242   3
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   27242   3
+   stop_
+save_
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       27242
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           TOPSPIN
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin'   .   .   27242   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection   27242   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         27242
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   900
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       27242
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Bruker   Avance   .   900   .   .   .   27242   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       27242
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D 1H-15N HSQC'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27242   1
+      2   '3D HNCACB'        no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27242   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       27242
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.251449530   .   .   .   .   .   27242   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.00   internal   direct     1.000000000   .   .   .   .   .   27242   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.101329118   .   .   .   .   .   27242   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      27242
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D 1H-15N HSQC'   .   .   .   27242   1
+      2   '3D HNCACB'        .   .   .   27242   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   6     6     GLU   CA    C   13   53.8    0.3    .   1   .   .   .   .   .   6     GLU   CA    .   27242   1
+      2     .   1   1   6     6     GLU   CB    C   13   32.9    0.3    .   1   .   .   .   .   .   6     GLU   CB    .   27242   1
+      3     .   1   1   7     7     THR   H     H   1    8.66    0.02   .   1   .   .   .   .   .   7     THR   H     .   27242   1
+      4     .   1   1   7     7     THR   CA    C   13   61.7    0.3    .   1   .   .   .   .   .   7     THR   CA    .   27242   1
+      5     .   1   1   7     7     THR   CB    C   13   69.1    0.3    .   1   .   .   .   .   .   7     THR   CB    .   27242   1
+      6     .   1   1   7     7     THR   N     N   15   119.4   0.3    .   1   .   .   .   .   .   7     THR   N     .   27242   1
+      7     .   1   1   8     8     THR   H     H   1    7.60    0.02   .   1   .   .   .   .   .   8     THR   H     .   27242   1
+      8     .   1   1   8     8     THR   CA    C   13   59.7    0.3    .   1   .   .   .   .   .   8     THR   CA    .   27242   1
+      9     .   1   1   8     8     THR   CB    C   13   66.6    0.3    .   1   .   .   .   .   .   8     THR   CB    .   27242   1
+      10    .   1   1   8     8     THR   N     N   15   118.3   0.3    .   1   .   .   .   .   .   8     THR   N     .   27242   1
+      11    .   1   1   10    10    GLY   H     H   1    8.96    0.02   .   1   .   .   .   .   .   10    GLY   H     .   27242   1
+      12    .   1   1   10    10    GLY   CA    C   13   46.8    0.3    .   1   .   .   .   .   .   10    GLY   CA    .   27242   1
+      13    .   1   1   10    10    GLY   N     N   15   115.9   0.3    .   1   .   .   .   .   .   10    GLY   N     .   27242   1
+      14    .   1   1   11    11    LEU   H     H   1    9.06    0.02   .   1   .   .   .   .   .   11    LEU   H     .   27242   1
+      15    .   1   1   11    11    LEU   N     N   15   129.7   0.3    .   1   .   .   .   .   .   11    LEU   N     .   27242   1
+      16    .   1   1   12    12    GLY   H     H   1    8.61    0.02   .   1   .   .   .   .   .   12    GLY   H     .   27242   1
+      17    .   1   1   12    12    GLY   N     N   15   107.6   0.3    .   1   .   .   .   .   .   12    GLY   N     .   27242   1
+      18    .   1   1   16    16    THR   H     H   1    8.90    0.02   .   1   .   .   .   .   .   16    THR   H     .   27242   1
+      19    .   1   1   16    16    THR   N     N   15   125.4   0.3    .   1   .   .   .   .   .   16    THR   N     .   27242   1
+      20    .   1   1   17    17    ILE   H     H   1    8.75    0.02   .   1   .   .   .   .   .   17    ILE   H     .   27242   1
+      21    .   1   1   17    17    ILE   N     N   15   130.8   0.3    .   1   .   .   .   .   .   17    ILE   N     .   27242   1
+      22    .   1   1   104   104   THR   H     H   1    8.37    0.02   .   1   .   .   .   .   .   104   THR   H     .   27242   1
+      23    .   1   1   104   104   THR   N     N   15   127.5   0.3    .   1   .   .   .   .   .   104   THR   N     .   27242   1
+      24    .   1   1   105   105   TYR   H     H   1    8.80    0.02   .   1   .   .   .   .   .   105   TYR   H     .   27242   1
+      25    .   1   1   105   105   TYR   N     N   15   122.1   0.3    .   1   .   .   .   .   .   105   TYR   N     .   27242   1
+      26    .   1   1   107   107   VAL   H     H   1    9.04    0.02   .   1   .   .   .   .   .   107   VAL   H     .   27242   1
+      27    .   1   1   107   107   VAL   N     N   15   122.4   0.3    .   1   .   .   .   .   .   107   VAL   N     .   27242   1
+      28    .   1   1   108   108   GLU   H     H   1    8.94    0.02   .   1   .   .   .   .   .   108   GLU   H     .   27242   1
+      29    .   1   1   108   108   GLU   N     N   15   126.1   0.3    .   1   .   .   .   .   .   108   GLU   N     .   27242   1
+      30    .   1   1   111   111   VAL   H     H   1    8.05    0.02   .   1   .   .   .   .   .   111   VAL   H     .   27242   1
+      31    .   1   1   111   111   VAL   CA    C   13   59.1    0.3    .   1   .   .   .   .   .   111   VAL   CA    .   27242   1
+      32    .   1   1   111   111   VAL   CB    C   13   33.0    0.3    .   1   .   .   .   .   .   111   VAL   CB    .   27242   1
+      33    .   1   1   111   111   VAL   N     N   15   114.1   0.3    .   1   .   .   .   .   .   111   VAL   N     .   27242   1
+      34    .   1   1   114   114   GLU   H     H   1    8.34    0.02   .   1   .   .   .   .   .   114   GLU   H     .   27242   1
+      35    .   1   1   114   114   GLU   CA    C   13   55.9    0.3    .   1   .   .   .   .   .   114   GLU   CA    .   27242   1
+      36    .   1   1   114   114   GLU   CB    C   13   29.3    0.3    .   1   .   .   .   .   .   114   GLU   CB    .   27242   1
+      37    .   1   1   114   114   GLU   N     N   15   122.6   0.3    .   1   .   .   .   .   .   114   GLU   N     .   27242   1
+      38    .   1   1   115   115   VAL   CA    C   13   60.7    0.3    .   1   .   .   .   .   .   115   VAL   CA    .   27242   1
+      39    .   1   1   116   116   GLU   H     H   1    8.27    0.02   .   1   .   .   .   .   .   116   GLU   H     .   27242   1
+      40    .   1   1   116   116   GLU   CA    C   13   55.6    0.3    .   1   .   .   .   .   .   116   GLU   CA    .   27242   1
+      41    .   1   1   116   116   GLU   CB    C   13   29.3    0.3    .   1   .   .   .   .   .   116   GLU   CB    .   27242   1
+      42    .   1   1   116   116   GLU   N     N   15   125.4   0.3    .   1   .   .   .   .   .   116   GLU   N     .   27242   1
+      43    .   1   1   118   118   GLN   H     H   1    9.39    0.02   .   1   .   .   .   .   .   118   GLN   H     .   27242   1
+      44    .   1   1   118   118   GLN   N     N   15   122.8   0.3    .   1   .   .   .   .   .   118   GLN   N     .   27242   1
+      45    .   1   1   119   119   GLY   H     H   1    8.41    0.02   .   1   .   .   .   .   .   119   GLY   H     .   27242   1
+      46    .   1   1   119   119   GLY   CA    C   13   45.8    0.3    .   1   .   .   .   .   .   119   GLY   CA    .   27242   1
+      47    .   1   1   119   119   GLY   N     N   15   105.1   0.3    .   1   .   .   .   .   .   119   GLY   N     .   27242   1
+      48    .   1   1   120   120   LEU   H     H   1    8.03    0.02   .   1   .   .   .   .   .   120   LEU   H     .   27242   1
+      49    .   1   1   120   120   LEU   N     N   15   121.4   0.3    .   1   .   .   .   .   .   120   LEU   N     .   27242   1
+      50    .   1   1   121   121   GLU   H     H   1    8.58    0.02   .   1   .   .   .   .   .   121   GLU   H     .   27242   1
+      51    .   1   1   121   121   GLU   N     N   15   113.1   0.3    .   1   .   .   .   .   .   121   GLU   N     .   27242   1
+      52    .   1   1   122   122   ALA   H     H   1    7.19    0.02   .   1   .   .   .   .   .   122   ALA   H     .   27242   1
+      53    .   1   1   122   122   ALA   N     N   15   120.2   0.3    .   1   .   .   .   .   .   122   ALA   N     .   27242   1
+      54    .   1   1   123   123   ILE   CA    C   13   62.3    0.3    .   1   .   .   .   .   .   123   ILE   CA    .   27242   1
+      55    .   1   1   123   123   ILE   N     N   15   122.9   0.3    .   1   .   .   .   .   .   123   ILE   N     .   27242   1
+      56    .   1   1   124   124   GLU   H     H   1    8.18    0.02   .   1   .   .   .   .   .   124   GLU   H     .   27242   1
+      57    .   1   1   124   124   GLU   CA    C   13   54.6    0.3    .   1   .   .   .   .   .   124   GLU   CA    .   27242   1
+      58    .   1   1   124   124   GLU   CB    C   13   29.9    0.3    .   1   .   .   .   .   .   124   GLU   CB    .   27242   1
+      59    .   1   1   124   124   GLU   N     N   15   127.5   0.3    .   1   .   .   .   .   .   124   GLU   N     .   27242   1
+      60    .   1   1   125   125   VAL   H     H   1    8.38    0.02   .   1   .   .   .   .   .   125   VAL   H     .   27242   1
+      61    .   1   1   125   125   VAL   CA    C   13   60.5    0.3    .   1   .   .   .   .   .   125   VAL   CA    .   27242   1
+      62    .   1   1   125   125   VAL   CB    C   13   34.8    0.3    .   1   .   .   .   .   .   125   VAL   CB    .   27242   1
+      63    .   1   1   125   125   VAL   N     N   15   123.7   0.3    .   1   .   .   .   .   .   125   VAL   N     .   27242   1
+      64    .   1   1   126   126   GLU   H     H   1    9.03    0.02   .   1   .   .   .   .   .   126   GLU   H     .   27242   1
+      65    .   1   1   126   126   GLU   CA    C   13   53.6    0.3    .   1   .   .   .   .   .   126   GLU   CA    .   27242   1
+      66    .   1   1   126   126   GLU   CB    C   13   30.2    0.3    .   1   .   .   .   .   .   126   GLU   CB    .   27242   1
+      67    .   1   1   126   126   GLU   N     N   15   127.9   0.3    .   1   .   .   .   .   .   126   GLU   N     .   27242   1
+      68    .   1   1   127   127   LYS   H     H   1    9.21    0.02   .   1   .   .   .   .   .   127   LYS   H     .   27242   1
+      69    .   1   1   127   127   LYS   CA    C   13   51.9    0.3    .   1   .   .   .   .   .   127   LYS   CA    .   27242   1
+      70    .   1   1   127   127   LYS   N     N   15   131.3   0.3    .   1   .   .   .   .   .   127   LYS   N     .   27242   1
+      71    .   1   1   129   129   ILE   H     H   1    8.00    0.02   .   1   .   .   .   .   .   129   ILE   H     .   27242   1
+      72    .   1   1   129   129   ILE   CA    C   13   58.8    0.3    .   1   .   .   .   .   .   129   ILE   CA    .   27242   1
+      73    .   1   1   129   129   ILE   CB    C   13   36.6    0.3    .   1   .   .   .   .   .   129   ILE   CB    .   27242   1
+      74    .   1   1   129   129   ILE   N     N   15   125.3   0.3    .   1   .   .   .   .   .   129   ILE   N     .   27242   1
+      75    .   1   1   130   130   VAL   H     H   1    7.98    0.02   .   1   .   .   .   .   .   130   VAL   H     .   27242   1
+      76    .   1   1   130   130   VAL   CA    C   13   59.4    0.3    .   1   .   .   .   .   .   130   VAL   CA    .   27242   1
+      77    .   1   1   130   130   VAL   CB    C   13   33.3    0.3    .   1   .   .   .   .   .   130   VAL   CB    .   27242   1
+      78    .   1   1   130   130   VAL   N     N   15   126.2   0.3    .   1   .   .   .   .   .   130   VAL   N     .   27242   1
+      79    .   1   1   133   133   THR   H     H   1    9.65    0.02   .   1   .   .   .   .   .   133   THR   H     .   27242   1
+      80    .   1   1   133   133   THR   N     N   15   123.3   0.3    .   1   .   .   .   .   .   133   THR   N     .   27242   1
+      81    .   1   1   134   134   ASP   H     H   1    8.72    0.02   .   1   .   .   .   .   .   134   ASP   H     .   27242   1
+      82    .   1   1   134   134   ASP   N     N   15   121.0   0.3    .   1   .   .   .   .   .   134   ASP   N     .   27242   1
+      83    .   1   1   136   136   ASP   H     H   1    7.77    0.02   .   1   .   .   .   .   .   136   ASP   H     .   27242   1
+      84    .   1   1   136   136   ASP   N     N   15   121.6   0.3    .   1   .   .   .   .   .   136   ASP   N     .   27242   1
+      85    .   1   1   137   137   VAL   H     H   1    7.54    0.02   .   1   .   .   .   .   .   137   VAL   H     .   27242   1
+      86    .   1   1   137   137   VAL   N     N   15   123.0   0.3    .   1   .   .   .   .   .   137   VAL   N     .   27242   1
+      87    .   1   1   139   139   GLY   H     H   1    8.07    0.02   .   1   .   .   .   .   .   139   GLY   H     .   27242   1
+      88    .   1   1   139   139   GLY   N     N   15   107.6   0.3    .   1   .   .   .   .   .   139   GLY   N     .   27242   1
+      89    .   1   1   151   151   TRP   H     H   1    8.26    0.02   .   1   .   .   .   .   .   151   TRP   H     .   27242   1
+      90    .   1   1   151   151   TRP   HE1   H   1    9.75    0.02   .   1   .   .   .   .   .   151   TRP   HE1   .   27242   1
+      91    .   1   1   151   151   TRP   CA    C   13   55.2    0.3    .   1   .   .   .   .   .   151   TRP   CA    .   27242   1
+      92    .   1   1   151   151   TRP   CB    C   13   30.0    0.3    .   1   .   .   .   .   .   151   TRP   CB    .   27242   1
+      93    .   1   1   151   151   TRP   N     N   15   123.4   0.3    .   1   .   .   .   .   .   151   TRP   N     .   27242   1
+      94    .   1   1   151   151   TRP   NE1   N   15   129.1   0.3    .   1   .   .   .   .   .   151   TRP   NE1   .   27242   1
+      95    .   1   1   152   152   LYS   H     H   1    9.28    0.02   .   1   .   .   .   .   .   152   LYS   H     .   27242   1
+      96    .   1   1   152   152   LYS   CA    C   13   53.7    0.3    .   1   .   .   .   .   .   152   LYS   CA    .   27242   1
+      97    .   1   1   152   152   LYS   CB    C   13   34.6    0.3    .   1   .   .   .   .   .   152   LYS   CB    .   27242   1
+      98    .   1   1   152   152   LYS   N     N   15   123.2   0.3    .   1   .   .   .   .   .   152   LYS   N     .   27242   1
+      99    .   1   1   153   153   GLU   H     H   1    8.78    0.02   .   1   .   .   .   .   .   153   GLU   H     .   27242   1
+      100   .   1   1   153   153   GLU   CA    C   13   57.7    0.3    .   1   .   .   .   .   .   153   GLU   CA    .   27242   1
+      101   .   1   1   153   153   GLU   CB    C   13   28.9    0.3    .   1   .   .   .   .   .   153   GLU   CB    .   27242   1
+      102   .   1   1   153   153   GLU   N     N   15   124.8   0.3    .   1   .   .   .   .   .   153   GLU   N     .   27242   1
+      103   .   1   1   154   154   LYS   H     H   1    8.70    0.02   .   1   .   .   .   .   .   154   LYS   H     .   27242   1
+      104   .   1   1   154   154   LYS   CA    C   13   53.8    0.3    .   1   .   .   .   .   .   154   LYS   CA    .   27242   1
+      105   .   1   1   154   154   LYS   CB    C   13   34.8    0.3    .   1   .   .   .   .   .   154   LYS   CB    .   27242   1
+      106   .   1   1   154   154   LYS   N     N   15   123.9   0.3    .   1   .   .   .   .   .   154   LYS   N     .   27242   1
+      107   .   1   1   155   155   ASP   H     H   1    8.56    0.02   .   1   .   .   .   .   .   155   ASP   H     .   27242   1
+      108   .   1   1   155   155   ASP   CA    C   13   52.5    0.3    .   1   .   .   .   .   .   155   ASP   CA    .   27242   1
+      109   .   1   1   155   155   ASP   CB    C   13   39.8    0.3    .   1   .   .   .   .   .   155   ASP   CB    .   27242   1
+      110   .   1   1   155   155   ASP   N     N   15   123.6   0.3    .   1   .   .   .   .   .   155   ASP   N     .   27242   1
+      111   .   1   1   156   156   GLY   H     H   1    7.15    0.02   .   1   .   .   .   .   .   156   GLY   H     .   27242   1
+      112   .   1   1   156   156   GLY   CA    C   13   43.1    0.3    .   1   .   .   .   .   .   156   GLY   CA    .   27242   1
+      113   .   1   1   156   156   GLY   N     N   15   106.7   0.3    .   1   .   .   .   .   .   156   GLY   N     .   27242   1
+      114   .   1   1   157   157   ALA   H     H   1    8.09    0.02   .   1   .   .   .   .   .   157   ALA   H     .   27242   1
+      115   .   1   1   157   157   ALA   CA    C   13   50.6    0.3    .   1   .   .   .   .   .   157   ALA   CA    .   27242   1
+      116   .   1   1   157   157   ALA   CB    C   13   18.9    0.3    .   1   .   .   .   .   .   157   ALA   CB    .   27242   1
+      117   .   1   1   157   157   ALA   N     N   15   120.3   0.3    .   1   .   .   .   .   .   157   ALA   N     .   27242   1
+      118   .   1   1   158   158   VAL   H     H   1    8.64    0.02   .   1   .   .   .   .   .   158   VAL   H     .   27242   1
+      119   .   1   1   158   158   VAL   CA    C   13   63.6    0.3    .   1   .   .   .   .   .   158   VAL   CA    .   27242   1
+      120   .   1   1   158   158   VAL   CB    C   13   31.5    0.3    .   1   .   .   .   .   .   158   VAL   CB    .   27242   1
+      121   .   1   1   158   158   VAL   N     N   15   119.6   0.3    .   1   .   .   .   .   .   158   VAL   N     .   27242   1
+      122   .   1   1   159   159   GLU   H     H   1    9.49    0.02   .   1   .   .   .   .   .   159   GLU   H     .   27242   1
+      123   .   1   1   159   159   GLU   CA    C   13   54.1    0.3    .   1   .   .   .   .   .   159   GLU   CA    .   27242   1
+      124   .   1   1   159   159   GLU   CB    C   13   31.2    0.3    .   1   .   .   .   .   .   159   GLU   CB    .   27242   1
+      125   .   1   1   159   159   GLU   N     N   15   132.5   0.3    .   1   .   .   .   .   .   159   GLU   N     .   27242   1
+      126   .   1   1   160   160   ALA   H     H   1    8.14    0.02   .   1   .   .   .   .   .   160   ALA   H     .   27242   1
+      127   .   1   1   160   160   ALA   CA    C   13   54.9    0.3    .   1   .   .   .   .   .   160   ALA   CA    .   27242   1
+      128   .   1   1   160   160   ALA   CB    C   13   18.9    0.3    .   1   .   .   .   .   .   160   ALA   CB    .   27242   1
+      129   .   1   1   160   160   ALA   N     N   15   117.5   0.3    .   1   .   .   .   .   .   160   ALA   N     .   27242   1
+      130   .   1   1   161   161   GLU   H     H   1    8.03    0.02   .   1   .   .   .   .   .   161   GLU   H     .   27242   1
+      131   .   1   1   161   161   GLU   CA    C   13   54.7    0.3    .   1   .   .   .   .   .   161   GLU   CA    .   27242   1
+      132   .   1   1   161   161   GLU   CB    C   13   28.5    0.3    .   1   .   .   .   .   .   161   GLU   CB    .   27242   1
+      133   .   1   1   161   161   GLU   N     N   15   112.1   0.3    .   1   .   .   .   .   .   161   GLU   N     .   27242   1
+      134   .   1   1   162   162   ASP   H     H   1    7.16    0.02   .   1   .   .   .   .   .   162   ASP   H     .   27242   1
+      135   .   1   1   162   162   ASP   CA    C   13   54.9    0.3    .   1   .   .   .   .   .   162   ASP   CA    .   27242   1
+      136   .   1   1   162   162   ASP   CB    C   13   40.9    0.3    .   1   .   .   .   .   .   162   ASP   CB    .   27242   1
+      137   .   1   1   162   162   ASP   N     N   15   123.1   0.3    .   1   .   .   .   .   .   162   ASP   N     .   27242   1
+      138   .   1   1   163   163   ARG   H     H   1    8.85    0.02   .   1   .   .   .   .   .   163   ARG   H     .   27242   1
+      139   .   1   1   163   163   ARG   CA    C   13   53.9    0.3    .   1   .   .   .   .   .   163   ARG   CA    .   27242   1
+      140   .   1   1   163   163   ARG   CB    C   13   33.1    0.3    .   1   .   .   .   .   .   163   ARG   CB    .   27242   1
+      141   .   1   1   163   163   ARG   N     N   15   118.9   0.3    .   1   .   .   .   .   .   163   ARG   N     .   27242   1
+      142   .   1   1   164   164   VAL   H     H   1    8.90    0.02   .   1   .   .   .   .   .   164   VAL   H     .   27242   1
+      143   .   1   1   164   164   VAL   CA    C   13   57.7    0.3    .   1   .   .   .   .   .   164   VAL   CA    .   27242   1
+      144   .   1   1   164   164   VAL   CB    C   13   33.1    0.3    .   1   .   .   .   .   .   164   VAL   CB    .   27242   1
+      145   .   1   1   164   164   VAL   N     N   15   120.0   0.3    .   1   .   .   .   .   .   164   VAL   N     .   27242   1
+      146   .   1   1   166   166   ILE   H     H   1    9.48    0.02   .   1   .   .   .   .   .   166   ILE   H     .   27242   1
+      147   .   1   1   166   166   ILE   CA    C   13   57.9    0.3    .   1   .   .   .   .   .   166   ILE   CA    .   27242   1
+      148   .   1   1   166   166   ILE   CB    C   13   41.7    0.3    .   1   .   .   .   .   .   166   ILE   CB    .   27242   1
+      149   .   1   1   166   166   ILE   N     N   15   120.2   0.3    .   1   .   .   .   .   .   166   ILE   N     .   27242   1
+      150   .   1   1   167   167   ASP   H     H   1    8.42    0.02   .   1   .   .   .   .   .   167   ASP   H     .   27242   1
+      151   .   1   1   167   167   ASP   CA    C   13   52.0    0.3    .   1   .   .   .   .   .   167   ASP   CA    .   27242   1
+      152   .   1   1   167   167   ASP   CB    C   13   41.5    0.3    .   1   .   .   .   .   .   167   ASP   CB    .   27242   1
+      153   .   1   1   167   167   ASP   N     N   15   119.5   0.3    .   1   .   .   .   .   .   167   ASP   N     .   27242   1
+      154   .   1   1   168   168   PHE   H     H   1    8.47    0.02   .   1   .   .   .   .   .   168   PHE   H     .   27242   1
+      155   .   1   1   168   168   PHE   N     N   15   115.1   0.3    .   1   .   .   .   .   .   168   PHE   N     .   27242   1
+      156   .   1   1   169   169   THR   H     H   1    8.37    0.02   .   1   .   .   .   .   .   169   THR   H     .   27242   1
+      157   .   1   1   169   169   THR   N     N   15   115.1   0.3    .   1   .   .   .   .   .   169   THR   N     .   27242   1
+      158   .   1   1   170   170   GLY   H     H   1    9.14    0.02   .   1   .   .   .   .   .   170   GLY   H     .   27242   1
+      159   .   1   1   170   170   GLY   CA    C   13   44.3    0.3    .   1   .   .   .   .   .   170   GLY   CA    .   27242   1
+      160   .   1   1   170   170   GLY   N     N   15   119.4   0.3    .   1   .   .   .   .   .   170   GLY   N     .   27242   1
+      161   .   1   1   171   171   SER   H     H   1    8.87    0.02   .   1   .   .   .   .   .   171   SER   H     .   27242   1
+      162   .   1   1   171   171   SER   CA    C   13   56.5    0.3    .   1   .   .   .   .   .   171   SER   CA    .   27242   1
+      163   .   1   1   171   171   SER   CB    C   13   65.4    0.3    .   1   .   .   .   .   .   171   SER   CB    .   27242   1
+      164   .   1   1   171   171   SER   N     N   15   116.2   0.3    .   1   .   .   .   .   .   171   SER   N     .   27242   1
+      165   .   1   1   172   172   VAL   H     H   1    8.73    0.02   .   1   .   .   .   .   .   172   VAL   H     .   27242   1
+      166   .   1   1   172   172   VAL   CA    C   13   60.7    0.3    .   1   .   .   .   .   .   172   VAL   CA    .   27242   1
+      167   .   1   1   172   172   VAL   CB    C   13   33.5    0.3    .   1   .   .   .   .   .   172   VAL   CB    .   27242   1
+      168   .   1   1   172   172   VAL   N     N   15   120.8   0.3    .   1   .   .   .   .   .   172   VAL   N     .   27242   1
+      169   .   1   1   173   173   ASP   H     H   1    9.46    0.02   .   1   .   .   .   .   .   173   ASP   H     .   27242   1
+      170   .   1   1   173   173   ASP   CA    C   13   55.0    0.3    .   1   .   .   .   .   .   173   ASP   CA    .   27242   1
+      171   .   1   1   173   173   ASP   CB    C   13   38.8    0.3    .   1   .   .   .   .   .   173   ASP   CB    .   27242   1
+      172   .   1   1   173   173   ASP   N     N   15   129.4   0.3    .   1   .   .   .   .   .   173   ASP   N     .   27242   1
+      173   .   1   1   174   174   GLY   H     H   1    8.51    0.02   .   1   .   .   .   .   .   174   GLY   H     .   27242   1
+      174   .   1   1   174   174   GLY   CA    C   13   44.5    0.3    .   1   .   .   .   .   .   174   GLY   CA    .   27242   1
+      175   .   1   1   174   174   GLY   N     N   15   102.9   0.3    .   1   .   .   .   .   .   174   GLY   N     .   27242   1
+      176   .   1   1   175   175   GLU   H     H   1    7.78    0.02   .   1   .   .   .   .   .   175   GLU   H     .   27242   1
+      177   .   1   1   175   175   GLU   CA    C   13   53.9    0.3    .   1   .   .   .   .   .   175   GLU   CA    .   27242   1
+      178   .   1   1   175   175   GLU   CB    C   13   30.9    0.3    .   1   .   .   .   .   .   175   GLU   CB    .   27242   1
+      179   .   1   1   175   175   GLU   N     N   15   120.9   0.3    .   1   .   .   .   .   .   175   GLU   N     .   27242   1
+      180   .   1   1   176   176   GLU   H     H   1    8.65    0.02   .   1   .   .   .   .   .   176   GLU   H     .   27242   1
+      181   .   1   1   176   176   GLU   CA    C   13   55.1    0.3    .   1   .   .   .   .   .   176   GLU   CA    .   27242   1
+      182   .   1   1   176   176   GLU   CB    C   13   29.0    0.3    .   1   .   .   .   .   .   176   GLU   CB    .   27242   1
+      183   .   1   1   176   176   GLU   N     N   15   125.3   0.3    .   1   .   .   .   .   .   176   GLU   N     .   27242   1
+      184   .   1   1   177   177   PHE   CA    C   13   53.8    0.3    .   1   .   .   .   .   .   177   PHE   CA    .   27242   1
+      185   .   1   1   177   177   PHE   CB    C   13   40.3    0.3    .   1   .   .   .   .   .   177   PHE   CB    .   27242   1
+      186   .   1   1   178   178   GLU   H     H   1    8.90    0.02   .   1   .   .   .   .   .   178   GLU   H     .   27242   1
+      187   .   1   1   178   178   GLU   CA    C   13   57.4    0.3    .   1   .   .   .   .   .   178   GLU   CA    .   27242   1
+      188   .   1   1   178   178   GLU   CB    C   13   28.3    0.3    .   1   .   .   .   .   .   178   GLU   CB    .   27242   1
+      189   .   1   1   178   178   GLU   N     N   15   125.1   0.3    .   1   .   .   .   .   .   178   GLU   N     .   27242   1
+      190   .   1   1   179   179   GLY   H     H   1    8.84    0.02   .   1   .   .   .   .   .   179   GLY   H     .   27242   1
+      191   .   1   1   179   179   GLY   CA    C   13   44.7    0.3    .   1   .   .   .   .   .   179   GLY   CA    .   27242   1
+      192   .   1   1   179   179   GLY   N     N   15   114.2   0.3    .   1   .   .   .   .   .   179   GLY   N     .   27242   1
+      193   .   1   1   180   180   GLY   CA    C   13   45.8    0.3    .   1   .   .   .   .   .   180   GLY   CA    .   27242   1
+      194   .   1   1   181   181   LYS   H     H   1    7.38    0.02   .   1   .   .   .   .   .   181   LYS   H     .   27242   1
+      195   .   1   1   181   181   LYS   CA    C   13   53.8    0.3    .   1   .   .   .   .   .   181   LYS   CA    .   27242   1
+      196   .   1   1   181   181   LYS   CB    C   13   34.6    0.3    .   1   .   .   .   .   .   181   LYS   CB    .   27242   1
+      197   .   1   1   181   181   LYS   N     N   15   119.5   0.3    .   1   .   .   .   .   .   181   LYS   N     .   27242   1
+      198   .   1   1   182   182   ALA   H     H   1    7.96    0.02   .   1   .   .   .   .   .   182   ALA   H     .   27242   1
+      199   .   1   1   182   182   ALA   CA    C   13   50.9    0.3    .   1   .   .   .   .   .   182   ALA   CA    .   27242   1
+      200   .   1   1   182   182   ALA   CB    C   13   21.9    0.3    .   1   .   .   .   .   .   182   ALA   CB    .   27242   1
+      201   .   1   1   182   182   ALA   N     N   15   125.8   0.3    .   1   .   .   .   .   .   182   ALA   N     .   27242   1
+      202   .   1   1   183   183   SER   H     H   1    8.27    0.02   .   1   .   .   .   .   .   183   SER   H     .   27242   1
+      203   .   1   1   183   183   SER   CA    C   13   55.9    0.3    .   1   .   .   .   .   .   183   SER   CA    .   27242   1
+      204   .   1   1   183   183   SER   CB    C   13   64.5    0.3    .   1   .   .   .   .   .   183   SER   CB    .   27242   1
+      205   .   1   1   183   183   SER   N     N   15   116.0   0.3    .   1   .   .   .   .   .   183   SER   N     .   27242   1
+      206   .   1   1   184   184   ASP   H     H   1    9.50    0.02   .   1   .   .   .   .   .   184   ASP   H     .   27242   1
+      207   .   1   1   184   184   ASP   CA    C   13   55.6    0.3    .   1   .   .   .   .   .   184   ASP   CA    .   27242   1
+      208   .   1   1   184   184   ASP   CB    C   13   38.7    0.3    .   1   .   .   .   .   .   184   ASP   CB    .   27242   1
+      209   .   1   1   184   184   ASP   N     N   15   123.8   0.3    .   1   .   .   .   .   .   184   ASP   N     .   27242   1
+      210   .   1   1   185   185   PHE   H     H   1    9.04    0.02   .   1   .   .   .   .   .   185   PHE   H     .   27242   1
+      211   .   1   1   185   185   PHE   CA    C   13   57.3    0.3    .   1   .   .   .   .   .   185   PHE   CA    .   27242   1
+      212   .   1   1   185   185   PHE   CB    C   13   39.1    0.3    .   1   .   .   .   .   .   185   PHE   CB    .   27242   1
+      213   .   1   1   185   185   PHE   N     N   15   121.9   0.3    .   1   .   .   .   .   .   185   PHE   N     .   27242   1
+      214   .   1   1   186   186   VAL   H     H   1    7.74    0.02   .   1   .   .   .   .   .   186   VAL   H     .   27242   1
+      215   .   1   1   186   186   VAL   CA    C   13   61.6    0.3    .   1   .   .   .   .   .   186   VAL   CA    .   27242   1
+      216   .   1   1   186   186   VAL   CB    C   13   30.2    0.3    .   1   .   .   .   .   .   186   VAL   CB    .   27242   1
+      217   .   1   1   186   186   VAL   N     N   15   129.8   0.3    .   1   .   .   .   .   .   186   VAL   N     .   27242   1
+      218   .   1   1   187   187   LEU   H     H   1    9.20    0.02   .   1   .   .   .   .   .   187   LEU   H     .   27242   1
+      219   .   1   1   187   187   LEU   CA    C   13   52.2    0.3    .   1   .   .   .   .   .   187   LEU   CA    .   27242   1
+      220   .   1   1   187   187   LEU   CB    C   13   43.2    0.3    .   1   .   .   .   .   .   187   LEU   CB    .   27242   1
+      221   .   1   1   187   187   LEU   N     N   15   131.4   0.3    .   1   .   .   .   .   .   187   LEU   N     .   27242   1
+      222   .   1   1   188   188   ALA   H     H   1    8.46    0.02   .   1   .   .   .   .   .   188   ALA   H     .   27242   1
+      223   .   1   1   188   188   ALA   CA    C   13   51.0    0.3    .   1   .   .   .   .   .   188   ALA   CA    .   27242   1
+      224   .   1   1   188   188   ALA   CB    C   13   15.7    0.3    .   1   .   .   .   .   .   188   ALA   CB    .   27242   1
+      225   .   1   1   188   188   ALA   N     N   15   132.7   0.3    .   1   .   .   .   .   .   188   ALA   N     .   27242   1
+      226   .   1   1   189   189   MET   H     H   1    8.52    0.02   .   1   .   .   .   .   .   189   MET   H     .   27242   1
+      227   .   1   1   189   189   MET   CA    C   13   56.5    0.3    .   1   .   .   .   .   .   189   MET   CA    .   27242   1
+      228   .   1   1   189   189   MET   CB    C   13   32.2    0.3    .   1   .   .   .   .   .   189   MET   CB    .   27242   1
+      229   .   1   1   189   189   MET   N     N   15   125.6   0.3    .   1   .   .   .   .   .   189   MET   N     .   27242   1
+      230   .   1   1   190   190   GLY   H     H   1    10.07   0.02   .   1   .   .   .   .   .   190   GLY   H     .   27242   1
+      231   .   1   1   190   190   GLY   N     N   15   110.1   0.3    .   1   .   .   .   .   .   190   GLY   N     .   27242   1
+      232   .   1   1   192   192   GLY   H     H   1    9.00    0.02   .   1   .   .   .   .   .   192   GLY   H     .   27242   1
+      233   .   1   1   192   192   GLY   N     N   15   111.4   0.3    .   1   .   .   .   .   .   192   GLY   N     .   27242   1
+      234   .   1   1   198   198   PHE   H     H   1    7.67    0.02   .   1   .   .   .   .   .   198   PHE   H     .   27242   1
+      235   .   1   1   198   198   PHE   N     N   15   123.1   0.3    .   1   .   .   .   .   .   198   PHE   N     .   27242   1
+      236   .   1   1   200   200   ASP   H     H   1    8.21    0.02   .   1   .   .   .   .   .   200   ASP   H     .   27242   1
+      237   .   1   1   200   200   ASP   CA    C   13   56.9    0.3    .   1   .   .   .   .   .   200   ASP   CA    .   27242   1
+      238   .   1   1   200   200   ASP   CB    C   13   39.4    0.3    .   1   .   .   .   .   .   200   ASP   CB    .   27242   1
+      239   .   1   1   200   200   ASP   N     N   15   117.5   0.3    .   1   .   .   .   .   .   200   ASP   N     .   27242   1
+      240   .   1   1   201   201   GLY   H     H   1    7.27    0.02   .   1   .   .   .   .   .   201   GLY   H     .   27242   1
+      241   .   1   1   201   201   GLY   N     N   15   103.5   0.3    .   1   .   .   .   .   .   201   GLY   N     .   27242   1
+      242   .   1   1   202   202   ILE   H     H   1    7.21    0.02   .   1   .   .   .   .   .   202   ILE   H     .   27242   1
+      243   .   1   1   202   202   ILE   CA    C   13   62.4    0.3    .   1   .   .   .   .   .   202   ILE   CA    .   27242   1
+      244   .   1   1   202   202   ILE   N     N   15   119.5   0.3    .   1   .   .   .   .   .   202   ILE   N     .   27242   1
+      245   .   1   1   203   203   LYS   H     H   1    6.87    0.02   .   1   .   .   .   .   .   203   LYS   H     .   27242   1
+      246   .   1   1   203   203   LYS   CA    C   13   57.8    0.3    .   1   .   .   .   .   .   203   LYS   CA    .   27242   1
+      247   .   1   1   203   203   LYS   CB    C   13   31.0    0.3    .   1   .   .   .   .   .   203   LYS   CB    .   27242   1
+      248   .   1   1   203   203   LYS   N     N   15   117.7   0.3    .   1   .   .   .   .   .   203   LYS   N     .   27242   1
+      249   .   1   1   204   204   GLY   H     H   1    8.78    0.02   .   1   .   .   .   .   .   204   GLY   H     .   27242   1
+      250   .   1   1   204   204   GLY   CA    C   13   44.3    0.3    .   1   .   .   .   .   .   204   GLY   CA    .   27242   1
+      251   .   1   1   204   204   GLY   N     N   15   109.7   0.3    .   1   .   .   .   .   .   204   GLY   N     .   27242   1
+      252   .   1   1   205   205   HIS   H     H   1    7.37    0.02   .   1   .   .   .   .   .   205   HIS   H     .   27242   1
+      253   .   1   1   205   205   HIS   CA    C   13   55.2    0.3    .   1   .   .   .   .   .   205   HIS   CA    .   27242   1
+      254   .   1   1   205   205   HIS   CB    C   13   29.6    0.3    .   1   .   .   .   .   .   205   HIS   CB    .   27242   1
+      255   .   1   1   205   205   HIS   N     N   15   118.3   0.3    .   1   .   .   .   .   .   205   HIS   N     .   27242   1
+      256   .   1   1   206   206   LYS   H     H   1    8.50    0.02   .   1   .   .   .   .   .   206   LYS   H     .   27242   1
+      257   .   1   1   206   206   LYS   CA    C   13   53.9    0.3    .   1   .   .   .   .   .   206   LYS   CA    .   27242   1
+      258   .   1   1   206   206   LYS   CB    C   13   35.0    0.3    .   1   .   .   .   .   .   206   LYS   CB    .   27242   1
+      259   .   1   1   206   206   LYS   N     N   15   118.3   0.3    .   1   .   .   .   .   .   206   LYS   N     .   27242   1
+      260   .   1   1   207   207   ALA   H     H   1    8.64    0.02   .   1   .   .   .   .   .   207   ALA   H     .   27242   1
+      261   .   1   1   207   207   ALA   CA    C   13   52.8    0.3    .   1   .   .   .   .   .   207   ALA   CA    .   27242   1
+      262   .   1   1   207   207   ALA   CB    C   13   16.7    0.3    .   1   .   .   .   .   .   207   ALA   CB    .   27242   1
+      263   .   1   1   207   207   ALA   N     N   15   121.4   0.3    .   1   .   .   .   .   .   207   ALA   N     .   27242   1
+      264   .   1   1   208   208   GLY   H     H   1    9.06    0.02   .   1   .   .   .   .   .   208   GLY   H     .   27242   1
+      265   .   1   1   208   208   GLY   CA    C   13   44.0    0.3    .   1   .   .   .   .   .   208   GLY   CA    .   27242   1
+      266   .   1   1   208   208   GLY   N     N   15   111.0   0.3    .   1   .   .   .   .   .   208   GLY   N     .   27242   1
+      267   .   1   1   209   209   GLU   H     H   1    7.81    0.02   .   1   .   .   .   .   .   209   GLU   H     .   27242   1
+      268   .   1   1   209   209   GLU   CA    C   13   56.3    0.3    .   1   .   .   .   .   .   209   GLU   CA    .   27242   1
+      269   .   1   1   209   209   GLU   CB    C   13   31.4    0.3    .   1   .   .   .   .   .   209   GLU   CB    .   27242   1
+      270   .   1   1   209   209   GLU   N     N   15   120.2   0.3    .   1   .   .   .   .   .   209   GLU   N     .   27242   1
+      271   .   1   1   210   210   GLU   H     H   1    8.16    0.02   .   1   .   .   .   .   .   210   GLU   H     .   27242   1
+      272   .   1   1   210   210   GLU   CA    C   13   54.0    0.3    .   1   .   .   .   .   .   210   GLU   CA    .   27242   1
+      273   .   1   1   210   210   GLU   CB    C   13   31.1    0.3    .   1   .   .   .   .   .   210   GLU   CB    .   27242   1
+      274   .   1   1   210   210   GLU   N     N   15   120.0   0.3    .   1   .   .   .   .   .   210   GLU   N     .   27242   1
+      275   .   1   1   211   211   PHE   H     H   1    8.15    0.02   .   1   .   .   .   .   .   211   PHE   H     .   27242   1
+      276   .   1   1   211   211   PHE   CA    C   13   55.0    0.3    .   1   .   .   .   .   .   211   PHE   CA    .   27242   1
+      277   .   1   1   211   211   PHE   CB    C   13   38.1    0.3    .   1   .   .   .   .   .   211   PHE   CB    .   27242   1
+      278   .   1   1   211   211   PHE   N     N   15   120.7   0.3    .   1   .   .   .   .   .   211   PHE   N     .   27242   1
+      279   .   1   1   212   212   THR   H     H   1    8.60    0.02   .   1   .   .   .   .   .   212   THR   H     .   27242   1
+      280   .   1   1   212   212   THR   CA    C   13   60.2    0.3    .   1   .   .   .   .   .   212   THR   CA    .   27242   1
+      281   .   1   1   212   212   THR   CB    C   13   70.5    0.3    .   1   .   .   .   .   .   212   THR   CB    .   27242   1
+      282   .   1   1   212   212   THR   N     N   15   115.7   0.3    .   1   .   .   .   .   .   212   THR   N     .   27242   1
+      283   .   1   1   213   213   ILE   H     H   1    8.83    0.02   .   1   .   .   .   .   .   213   ILE   H     .   27242   1
+      284   .   1   1   213   213   ILE   CA    C   13   59.0    0.3    .   1   .   .   .   .   .   213   ILE   CA    .   27242   1
+      285   .   1   1   213   213   ILE   CB    C   13   40.1    0.3    .   1   .   .   .   .   .   213   ILE   CB    .   27242   1
+      286   .   1   1   213   213   ILE   N     N   15   120.0   0.3    .   1   .   .   .   .   .   213   ILE   N     .   27242   1
+      287   .   1   1   214   214   ASP   H     H   1    8.36    0.02   .   1   .   .   .   .   .   214   ASP   H     .   27242   1
+      288   .   1   1   214   214   ASP   CA    C   13   53.2    0.3    .   1   .   .   .   .   .   214   ASP   CA    .   27242   1
+      289   .   1   1   214   214   ASP   CB    C   13   41.9    0.3    .   1   .   .   .   .   .   214   ASP   CB    .   27242   1
+      290   .   1   1   214   214   ASP   N     N   15   123.4   0.3    .   1   .   .   .   .   .   214   ASP   N     .   27242   1
+      291   .   1   1   215   215   VAL   H     H   1    8.49    0.02   .   1   .   .   .   .   .   215   VAL   H     .   27242   1
+      292   .   1   1   215   215   VAL   N     N   15   119.3   0.3    .   1   .   .   .   .   .   215   VAL   N     .   27242   1
+      293   .   1   1   217   217   PHE   H     H   1    8.80    0.02   .   1   .   .   .   .   .   217   PHE   H     .   27242   1
+      294   .   1   1   217   217   PHE   CA    C   13   57.5    0.3    .   1   .   .   .   .   .   217   PHE   CA    .   27242   1
+      295   .   1   1   217   217   PHE   CB    C   13   38.2    0.3    .   1   .   .   .   .   .   217   PHE   CB    .   27242   1
+      296   .   1   1   217   217   PHE   N     N   15   127.8   0.3    .   1   .   .   .   .   .   217   PHE   N     .   27242   1
+      297   .   1   1   218   218   PRO   CA    C   13   61.8    0.3    .   1   .   .   .   .   .   218   PRO   CA    .   27242   1
+      298   .   1   1   218   218   PRO   CB    C   13   31.3    0.3    .   1   .   .   .   .   .   218   PRO   CB    .   27242   1
+      299   .   1   1   219   219   GLU   H     H   1    8.77    0.02   .   1   .   .   .   .   .   219   GLU   H     .   27242   1
+      300   .   1   1   219   219   GLU   CA    C   13   58.8    0.3    .   1   .   .   .   .   .   219   GLU   CA    .   27242   1
+      301   .   1   1   219   219   GLU   CB    C   13   28.6    0.3    .   1   .   .   .   .   .   219   GLU   CB    .   27242   1
+      302   .   1   1   219   219   GLU   N     N   15   123.4   0.3    .   1   .   .   .   .   .   219   GLU   N     .   27242   1
+      303   .   1   1   220   220   GLU   H     H   1    8.10    0.02   .   1   .   .   .   .   .   220   GLU   H     .   27242   1
+      304   .   1   1   220   220   GLU   CA    C   13   54.8    0.3    .   1   .   .   .   .   .   220   GLU   CA    .   27242   1
+      305   .   1   1   220   220   GLU   CB    C   13   27.3    0.3    .   1   .   .   .   .   .   220   GLU   CB    .   27242   1
+      306   .   1   1   220   220   GLU   N     N   15   115.4   0.3    .   1   .   .   .   .   .   220   GLU   N     .   27242   1
+      307   .   1   1   221   221   TYR   H     H   1    7.34    0.02   .   1   .   .   .   .   .   221   TYR   H     .   27242   1
+      308   .   1   1   221   221   TYR   CA    C   13   58.7    0.3    .   1   .   .   .   .   .   221   TYR   CA    .   27242   1
+      309   .   1   1   221   221   TYR   CB    C   13   39.2    0.3    .   1   .   .   .   .   .   221   TYR   CB    .   27242   1
+      310   .   1   1   221   221   TYR   N     N   15   122.4   0.3    .   1   .   .   .   .   .   221   TYR   N     .   27242   1
+      311   .   1   1   222   222   HIS   H     H   1    6.76    0.02   .   1   .   .   .   .   .   222   HIS   H     .   27242   1
+      312   .   1   1   222   222   HIS   N     N   15   120.9   0.3    .   1   .   .   .   .   .   222   HIS   N     .   27242   1
+      313   .   1   1   223   223   ALA   H     H   1    5.49    0.02   .   1   .   .   .   .   .   223   ALA   H     .   27242   1
+      314   .   1   1   223   223   ALA   N     N   15   122.9   0.3    .   1   .   .   .   .   .   223   ALA   N     .   27242   1
+      315   .   1   1   224   224   GLU   H     H   1    8.82    0.02   .   1   .   .   .   .   .   224   GLU   H     .   27242   1
+      316   .   1   1   224   224   GLU   CA    C   13   59.1    0.3    .   1   .   .   .   .   .   224   GLU   CA    .   27242   1
+      317   .   1   1   224   224   GLU   CB    C   13   28.3    0.3    .   1   .   .   .   .   .   224   GLU   CB    .   27242   1
+      318   .   1   1   224   224   GLU   N     N   15   127.1   0.3    .   1   .   .   .   .   .   224   GLU   N     .   27242   1
+      319   .   1   1   225   225   ASN   H     H   1    8.61    0.02   .   1   .   .   .   .   .   225   ASN   H     .   27242   1
+      320   .   1   1   225   225   ASN   CA    C   13   53.8    0.3    .   1   .   .   .   .   .   225   ASN   CA    .   27242   1
+      321   .   1   1   225   225   ASN   CB    C   13   36.1    0.3    .   1   .   .   .   .   .   225   ASN   CB    .   27242   1
+      322   .   1   1   225   225   ASN   N     N   15   113.3   0.3    .   1   .   .   .   .   .   225   ASN   N     .   27242   1
+      323   .   1   1   226   226   LEU   H     H   1    6.94    0.02   .   1   .   .   .   .   .   226   LEU   H     .   27242   1
+      324   .   1   1   226   226   LEU   N     N   15   117.7   0.3    .   1   .   .   .   .   .   226   LEU   N     .   27242   1
+      325   .   1   1   227   227   LYS   H     H   1    6.90    0.02   .   1   .   .   .   .   .   227   LYS   H     .   27242   1
+      326   .   1   1   227   227   LYS   CA    C   13   57.7    0.3    .   1   .   .   .   .   .   227   LYS   CA    .   27242   1
+      327   .   1   1   227   227   LYS   CB    C   13   31.2    0.3    .   1   .   .   .   .   .   227   LYS   CB    .   27242   1
+      328   .   1   1   227   227   LYS   N     N   15   117.7   0.3    .   1   .   .   .   .   .   227   LYS   N     .   27242   1
+      329   .   1   1   228   228   GLY   H     H   1    7.06    0.02   .   1   .   .   .   .   .   228   GLY   H     .   27242   1
+      330   .   1   1   228   228   GLY   CA    C   13   45.5    0.3    .   1   .   .   .   .   .   228   GLY   CA    .   27242   1
+      331   .   1   1   228   228   GLY   N     N   15   111.6   0.3    .   1   .   .   .   .   .   228   GLY   N     .   27242   1
+      332   .   1   1   229   229   LYS   H     H   1    7.76    0.02   .   1   .   .   .   .   .   229   LYS   H     .   27242   1
+      333   .   1   1   229   229   LYS   CA    C   13   55.1    0.3    .   1   .   .   .   .   .   229   LYS   CA    .   27242   1
+      334   .   1   1   229   229   LYS   CB    C   13   31.9    0.3    .   1   .   .   .   .   .   229   LYS   CB    .   27242   1
+      335   .   1   1   229   229   LYS   N     N   15   119.7   0.3    .   1   .   .   .   .   .   229   LYS   N     .   27242   1
+      336   .   1   1   230   230   ALA   H     H   1    8.20    0.02   .   1   .   .   .   .   .   230   ALA   H     .   27242   1
+      337   .   1   1   230   230   ALA   CA    C   13   51.2    0.3    .   1   .   .   .   .   .   230   ALA   CA    .   27242   1
+      338   .   1   1   230   230   ALA   CB    C   13   17.8    0.3    .   1   .   .   .   .   .   230   ALA   CB    .   27242   1
+      339   .   1   1   230   230   ALA   N     N   15   124.1   0.3    .   1   .   .   .   .   .   230   ALA   N     .   27242   1
+      340   .   1   1   231   231   ALA   H     H   1    9.16    0.02   .   1   .   .   .   .   .   231   ALA   H     .   27242   1
+      341   .   1   1   231   231   ALA   CA    C   13   49.8    0.3    .   1   .   .   .   .   .   231   ALA   CA    .   27242   1
+      342   .   1   1   231   231   ALA   CB    C   13   23.0    0.3    .   1   .   .   .   .   .   231   ALA   CB    .   27242   1
+      343   .   1   1   231   231   ALA   N     N   15   127.0   0.3    .   1   .   .   .   .   .   231   ALA   N     .   27242   1
+      344   .   1   1   232   232   LYS   H     H   1    8.54    0.02   .   1   .   .   .   .   .   232   LYS   H     .   27242   1
+      345   .   1   1   232   232   LYS   CA    C   13   53.6    0.3    .   1   .   .   .   .   .   232   LYS   CA    .   27242   1
+      346   .   1   1   232   232   LYS   CB    C   13   34.6    0.3    .   1   .   .   .   .   .   232   LYS   CB    .   27242   1
+      347   .   1   1   232   232   LYS   N     N   15   121.0   0.3    .   1   .   .   .   .   .   232   LYS   N     .   27242   1
+      348   .   1   1   233   233   PHE   H     H   1    9.01    0.02   .   1   .   .   .   .   .   233   PHE   H     .   27242   1
+      349   .   1   1   233   233   PHE   N     N   15   119.3   0.3    .   1   .   .   .   .   .   233   PHE   N     .   27242   1
+      350   .   1   1   234   234   ALA   H     H   1    8.45    0.02   .   1   .   .   .   .   .   234   ALA   H     .   27242   1
+      351   .   1   1   234   234   ALA   CA    C   13   51.1    0.3    .   1   .   .   .   .   .   234   ALA   CA    .   27242   1
+      352   .   1   1   234   234   ALA   CB    C   13   17.7    0.3    .   1   .   .   .   .   .   234   ALA   CB    .   27242   1
+      353   .   1   1   234   234   ALA   N     N   15   128.2   0.3    .   1   .   .   .   .   .   234   ALA   N     .   27242   1
+      354   .   1   1   235   235   ILE   H     H   1    9.01    0.02   .   1   .   .   .   .   .   235   ILE   H     .   27242   1
+      355   .   1   1   235   235   ILE   CA    C   13   58.0    0.3    .   1   .   .   .   .   .   235   ILE   CA    .   27242   1
+      356   .   1   1   235   235   ILE   CB    C   13   37.1    0.3    .   1   .   .   .   .   .   235   ILE   CB    .   27242   1
+      357   .   1   1   235   235   ILE   N     N   15   126.7   0.3    .   1   .   .   .   .   .   235   ILE   N     .   27242   1
+      358   .   1   1   236   236   ASN   H     H   1    8.46    0.02   .   1   .   .   .   .   .   236   ASN   H     .   27242   1
+      359   .   1   1   236   236   ASN   CA    C   13   51.4    0.3    .   1   .   .   .   .   .   236   ASN   CA    .   27242   1
+      360   .   1   1   236   236   ASN   CB    C   13   39.3    0.3    .   1   .   .   .   .   .   236   ASN   CB    .   27242   1
+      361   .   1   1   236   236   ASN   N     N   15   124.5   0.3    .   1   .   .   .   .   .   236   ASN   N     .   27242   1
+      362   .   1   1   237   237   LEU   H     H   1    8.48    0.02   .   1   .   .   .   .   .   237   LEU   H     .   27242   1
+      363   .   1   1   237   237   LEU   CA    C   13   54.0    0.3    .   1   .   .   .   .   .   237   LEU   CA    .   27242   1
+      364   .   1   1   237   237   LEU   CB    C   13   41.5    0.3    .   1   .   .   .   .   .   237   LEU   CB    .   27242   1
+      365   .   1   1   237   237   LEU   N     N   15   127.8   0.3    .   1   .   .   .   .   .   237   LEU   N     .   27242   1
+      366   .   1   1   238   238   LYS   H     H   1    8.57    0.02   .   1   .   .   .   .   .   238   LYS   H     .   27242   1
+      367   .   1   1   238   238   LYS   CA    C   13   57.8    0.3    .   1   .   .   .   .   .   238   LYS   CA    .   27242   1
+      368   .   1   1   238   238   LYS   CB    C   13   32.1    0.3    .   1   .   .   .   .   .   238   LYS   CB    .   27242   1
+      369   .   1   1   238   238   LYS   N     N   15   127.7   0.3    .   1   .   .   .   .   .   238   LYS   N     .   27242   1
+      370   .   1   1   239   239   LYS   H     H   1    7.47    0.02   .   1   .   .   .   .   .   239   LYS   H     .   27242   1
+      371   .   1   1   239   239   LYS   CA    C   13   56.1    0.3    .   1   .   .   .   .   .   239   LYS   CA    .   27242   1
+      372   .   1   1   239   239   LYS   CB    C   13   35.1    0.3    .   1   .   .   .   .   .   239   LYS   CB    .   27242   1
+      373   .   1   1   239   239   LYS   N     N   15   118.1   0.3    .   1   .   .   .   .   .   239   LYS   N     .   27242   1
+      374   .   1   1   240   240   VAL   H     H   1    9.05    0.02   .   1   .   .   .   .   .   240   VAL   H     .   27242   1
+      375   .   1   1   240   240   VAL   CA    C   13   61.7    0.3    .   1   .   .   .   .   .   240   VAL   CA    .   27242   1
+      376   .   1   1   240   240   VAL   CB    C   13   33.4    0.3    .   1   .   .   .   .   .   240   VAL   CB    .   27242   1
+      377   .   1   1   240   240   VAL   N     N   15   126.7   0.3    .   1   .   .   .   .   .   240   VAL   N     .   27242   1
+      378   .   1   1   241   241   GLU   H     H   1    9.25    0.02   .   1   .   .   .   .   .   241   GLU   H     .   27242   1
+      379   .   1   1   241   241   GLU   CA    C   13   53.6    0.3    .   1   .   .   .   .   .   241   GLU   CA    .   27242   1
+      380   .   1   1   241   241   GLU   CB    C   13   35.5    0.3    .   1   .   .   .   .   .   241   GLU   CB    .   27242   1
+      381   .   1   1   241   241   GLU   N     N   15   125.2   0.3    .   1   .   .   .   .   .   241   GLU   N     .   27242   1
+      382   .   1   1   242   242   GLU   H     H   1    9.40    0.02   .   1   .   .   .   .   .   242   GLU   H     .   27242   1
+      383   .   1   1   242   242   GLU   CA    C   13   52.4    0.3    .   1   .   .   .   .   .   242   GLU   CA    .   27242   1
+      384   .   1   1   242   242   GLU   CB    C   13   32.7    0.3    .   1   .   .   .   .   .   242   GLU   CB    .   27242   1
+      385   .   1   1   242   242   GLU   N     N   15   118.7   0.3    .   1   .   .   .   .   .   242   GLU   N     .   27242   1
+      386   .   1   1   247   247   GLU   CA    C   13   52.9    0.3    .   1   .   .   .   .   .   247   GLU   CA    .   27242   1
+      387   .   1   1   247   247   GLU   CB    C   13   29.6    0.3    .   1   .   .   .   .   .   247   GLU   CB    .   27242   1
+      388   .   1   1   248   248   LEU   H     H   1    8.67    0.02   .   1   .   .   .   .   .   248   LEU   H     .   27242   1
+      389   .   1   1   248   248   LEU   CA    C   13   55.1    0.3    .   1   .   .   .   .   .   248   LEU   CA    .   27242   1
+      390   .   1   1   248   248   LEU   CB    C   13   38.3    0.3    .   1   .   .   .   .   .   248   LEU   CB    .   27242   1
+      391   .   1   1   248   248   LEU   N     N   15   124.9   0.3    .   1   .   .   .   .   .   248   LEU   N     .   27242   1
+      392   .   1   1   249   249   THR   H     H   1    7.63    0.02   .   1   .   .   .   .   .   249   THR   H     .   27242   1
+      393   .   1   1   249   249   THR   CA    C   13   59.4    0.3    .   1   .   .   .   .   .   249   THR   CA    .   27242   1
+      394   .   1   1   249   249   THR   CB    C   13   71.1    0.3    .   1   .   .   .   .   .   249   THR   CB    .   27242   1
+      395   .   1   1   249   249   THR   N     N   15   115.4   0.3    .   1   .   .   .   .   .   249   THR   N     .   27242   1
+      396   .   1   1   250   250   ALA   H     H   1    8.75    0.02   .   1   .   .   .   .   .   250   ALA   H     .   27242   1
+      397   .   1   1   250   250   ALA   N     N   15   123.3   0.3    .   1   .   .   .   .   .   250   ALA   N     .   27242   1
+      398   .   1   1   251   251   GLU   H     H   1    8.20    0.02   .   1   .   .   .   .   .   251   GLU   H     .   27242   1
+      399   .   1   1   251   251   GLU   N     N   15   115.5   0.3    .   1   .   .   .   .   .   251   GLU   N     .   27242   1
+      400   .   1   1   258   258   VAL   CA    C   13   59.0    0.3    .   1   .   .   .   .   .   258   VAL   CA    .   27242   1
+      401   .   1   1   258   258   VAL   CB    C   13   28.3    0.3    .   1   .   .   .   .   .   258   VAL   CB    .   27242   1
+      402   .   1   1   259   259   GLU   H     H   1    8.38    0.02   .   1   .   .   .   .   .   259   GLU   H     .   27242   1
+      403   .   1   1   259   259   GLU   CA    C   13   61.3    0.3    .   1   .   .   .   .   .   259   GLU   CA    .   27242   1
+      404   .   1   1   259   259   GLU   CB    C   13   29.0    0.3    .   1   .   .   .   .   .   259   GLU   CB    .   27242   1
+      405   .   1   1   259   259   GLU   N     N   15   128.5   0.3    .   1   .   .   .   .   .   259   GLU   N     .   27242   1
+      406   .   1   1   260   260   ASP   H     H   1    8.14    0.02   .   1   .   .   .   .   .   260   ASP   H     .   27242   1
+      407   .   1   1   260   260   ASP   CA    C   13   52.7    0.3    .   1   .   .   .   .   .   260   ASP   CA    .   27242   1
+      408   .   1   1   260   260   ASP   CB    C   13   39.3    0.3    .   1   .   .   .   .   .   260   ASP   CB    .   27242   1
+      409   .   1   1   260   260   ASP   N     N   15   114.9   0.3    .   1   .   .   .   .   .   260   ASP   N     .   27242   1
+      410   .   1   1   261   261   GLY   H     H   1    7.83    0.02   .   1   .   .   .   .   .   261   GLY   H     .   27242   1
+      411   .   1   1   261   261   GLY   N     N   15   107.1   0.3    .   1   .   .   .   .   .   261   GLY   N     .   27242   1
+      412   .   1   1   263   263   VAL   H     H   1    8.71    0.02   .   1   .   .   .   .   .   263   VAL   H     .   27242   1
+      413   .   1   1   263   263   VAL   N     N   15   125.3   0.3    .   1   .   .   .   .   .   263   VAL   N     .   27242   1
+      414   .   1   1   264   264   GLU   H     H   1    8.83    0.02   .   1   .   .   .   .   .   264   GLU   H     .   27242   1
+      415   .   1   1   264   264   GLU   N     N   15   120.2   0.3    .   1   .   .   .   .   .   264   GLU   N     .   27242   1
+      416   .   1   1   265   265   GLY   H     H   1    8.26    0.02   .   1   .   .   .   .   .   265   GLY   H     .   27242   1
+      417   .   1   1   265   265   GLY   N     N   15   110.6   0.3    .   1   .   .   .   .   .   265   GLY   N     .   27242   1
+      418   .   1   1   271   271   ARG   H     H   1    7.59    0.02   .   1   .   .   .   .   .   271   ARG   H     .   27242   1
+      419   .   1   1   271   271   ARG   N     N   15   123.1   0.3    .   1   .   .   .   .   .   271   ARG   N     .   27242   1
+      420   .   1   1   278   278   LEU   H     H   1    8.69    0.02   .   1   .   .   .   .   .   278   LEU   H     .   27242   1
+      421   .   1   1   278   278   LEU   N     N   15   122.2   0.3    .   1   .   .   .   .   .   278   LEU   N     .   27242   1
+      422   .   1   1   280   280   SER   H     H   1    7.45    0.02   .   1   .   .   .   .   .   280   SER   H     .   27242   1
+      423   .   1   1   280   280   SER   N     N   15   114.3   0.3    .   1   .   .   .   .   .   280   SER   N     .   27242   1
+      424   .   1   1   281   281   ALA   H     H   1    8.08    0.02   .   1   .   .   .   .   .   281   ALA   H     .   27242   1
+      425   .   1   1   281   281   ALA   N     N   15   125.4   0.3    .   1   .   .   .   .   .   281   ALA   N     .   27242   1
+      426   .   1   1   290   290   ALA   H     H   1    8.20    0.02   .   1   .   .   .   .   .   290   ALA   H     .   27242   1
+      427   .   1   1   290   290   ALA   N     N   15   124.2   0.3    .   1   .   .   .   .   .   290   ALA   N     .   27242   1
+      428   .   1   1   291   291   ILE   H     H   1    8.26    0.02   .   1   .   .   .   .   .   291   ILE   H     .   27242   1
+      429   .   1   1   291   291   ILE   N     N   15   116.4   0.3    .   1   .   .   .   .   .   291   ILE   N     .   27242   1
+      430   .   1   1   293   293   GLY   H     H   1    7.95    0.02   .   1   .   .   .   .   .   293   GLY   H     .   27242   1
+      431   .   1   1   293   293   GLY   N     N   15   105.0   0.3    .   1   .   .   .   .   .   293   GLY   N     .   27242   1
+      432   .   1   1   299   299   ASP   H     H   1    8.22    0.02   .   1   .   .   .   .   .   299   ASP   H     .   27242   1
+      433   .   1   1   299   299   ASP   N     N   15   122.8   0.3    .   1   .   .   .   .   .   299   ASP   N     .   27242   1
+      434   .   1   1   300   300   ILE   H     H   1    7.61    0.02   .   1   .   .   .   .   .   300   ILE   H     .   27242   1
+      435   .   1   1   300   300   ILE   N     N   15   120.3   0.3    .   1   .   .   .   .   .   300   ILE   N     .   27242   1
+      436   .   1   1   310   310   GLU   H     H   1    7.55    0.02   .   1   .   .   .   .   .   310   GLU   H     .   27242   1
+      437   .   1   1   310   310   GLU   N     N   15   123.4   0.3    .   1   .   .   .   .   .   310   GLU   N     .   27242   1
+      438   .   1   1   313   313   VAL   H     H   1    7.30    0.02   .   1   .   .   .   .   .   313   VAL   H     .   27242   1
+      439   .   1   1   313   313   VAL   N     N   15   120.9   0.3    .   1   .   .   .   .   .   313   VAL   N     .   27242   1
+      440   .   1   1   324   324   GLY   H     H   1    8.06    0.02   .   1   .   .   .   .   .   324   GLY   H     .   27242   1
+      441   .   1   1   324   324   GLY   N     N   15   108.6   0.3    .   1   .   .   .   .   .   324   GLY   N     .   27242   1
+      442   .   1   1   326   326   GLU   H     H   1    8.43    0.02   .   1   .   .   .   .   .   326   GLU   H     .   27242   1
+      443   .   1   1   326   326   GLU   N     N   15   121.5   0.3    .   1   .   .   .   .   .   326   GLU   N     .   27242   1
+      444   .   1   1   329   329   ALA   H     H   1    7.95    0.02   .   1   .   .   .   .   .   329   ALA   H     .   27242   1
+      445   .   1   1   329   329   ALA   CA    C   13   53.6    0.3    .   1   .   .   .   .   .   329   ALA   CA    .   27242   1
+      446   .   1   1   329   329   ALA   CB    C   13   17.4    0.3    .   1   .   .   .   .   .   329   ALA   CB    .   27242   1
+      447   .   1   1   329   329   ALA   N     N   15   123.1   0.3    .   1   .   .   .   .   .   329   ALA   N     .   27242   1
+      448   .   1   1   330   330   LEU   H     H   1    7.67    0.02   .   1   .   .   .   .   .   330   LEU   H     .   27242   1
+      449   .   1   1   330   330   LEU   N     N   15   116.9   0.3    .   1   .   .   .   .   .   330   LEU   N     .   27242   1
+      450   .   1   1   332   332   LEU   H     H   1    7.54    0.02   .   1   .   .   .   .   .   332   LEU   H     .   27242   1
+      451   .   1   1   332   332   LEU   N     N   15   123.9   0.3    .   1   .   .   .   .   .   332   LEU   N     .   27242   1
+      452   .   1   1   334   334   ARG   H     H   1    8.62    0.02   .   1   .   .   .   .   .   334   ARG   H     .   27242   1
+      453   .   1   1   334   334   ARG   N     N   15   122.9   0.3    .   1   .   .   .   .   .   334   ARG   N     .   27242   1
+      454   .   1   1   335   335   GLU   H     H   1    9.38    0.02   .   1   .   .   .   .   .   335   GLU   H     .   27242   1
+      455   .   1   1   335   335   GLU   N     N   15   117.6   0.3    .   1   .   .   .   .   .   335   GLU   N     .   27242   1
+      456   .   1   1   336   336   LEU   H     H   1    7.38    0.02   .   1   .   .   .   .   .   336   LEU   H     .   27242   1
+      457   .   1   1   336   336   LEU   N     N   15   119.0   0.3    .   1   .   .   .   .   .   336   LEU   N     .   27242   1
+      458   .   1   1   338   338   GLU   H     H   1    7.26    0.02   .   1   .   .   .   .   .   338   GLU   H     .   27242   1
+      459   .   1   1   338   338   GLU   N     N   15   120.0   0.3    .   1   .   .   .   .   .   338   GLU   N     .   27242   1
+      460   .   1   1   339   339   GLU   H     H   1    8.57    0.02   .   1   .   .   .   .   .   339   GLU   H     .   27242   1
+      461   .   1   1   339   339   GLU   N     N   15   120.2   0.3    .   1   .   .   .   .   .   339   GLU   N     .   27242   1
+      462   .   1   1   343   343   ARG   H     H   1    7.60    0.02   .   1   .   .   .   .   .   343   ARG   H     .   27242   1
+      463   .   1   1   343   343   ARG   N     N   15   118.3   0.3    .   1   .   .   .   .   .   343   ARG   N     .   27242   1
+      464   .   1   1   344   344   ARG   H     H   1    7.83    0.02   .   1   .   .   .   .   .   344   ARG   H     .   27242   1
+      465   .   1   1   344   344   ARG   N     N   15   117.7   0.3    .   1   .   .   .   .   .   344   ARG   N     .   27242   1
+      466   .   1   1   348   348   GLY   H     H   1    7.84    0.02   .   1   .   .   .   .   .   348   GLY   H     .   27242   1
+      467   .   1   1   348   348   GLY   N     N   15   105.4   0.3    .   1   .   .   .   .   .   348   GLY   N     .   27242   1
+      468   .   1   1   350   350   LEU   H     H   1    8.47    0.02   .   1   .   .   .   .   .   350   LEU   H     .   27242   1
+      469   .   1   1   350   350   LEU   N     N   15   120.0   0.3    .   1   .   .   .   .   .   350   LEU   N     .   27242   1
+      470   .   1   1   351   351   LEU   H     H   1    9.08    0.02   .   1   .   .   .   .   .   351   LEU   H     .   27242   1
+      471   .   1   1   351   351   LEU   N     N   15   118.4   0.3    .   1   .   .   .   .   .   351   LEU   N     .   27242   1
+      472   .   1   1   352   352   GLY   H     H   1    8.03    0.02   .   1   .   .   .   .   .   352   GLY   H     .   27242   1
+      473   .   1   1   352   352   GLY   N     N   15   107.1   0.3    .   1   .   .   .   .   .   352   GLY   N     .   27242   1
+      474   .   1   1   353   353   GLU   H     H   1    7.66    0.02   .   1   .   .   .   .   .   353   GLU   H     .   27242   1
+      475   .   1   1   353   353   GLU   N     N   15   123.6   0.3    .   1   .   .   .   .   .   353   GLU   N     .   27242   1
+      476   .   1   1   357   357   THR   H     H   1    8.56    0.02   .   1   .   .   .   .   .   357   THR   H     .   27242   1
+      477   .   1   1   357   357   THR   N     N   15   112.4   0.3    .   1   .   .   .   .   .   357   THR   N     .   27242   1
+      478   .   1   1   358   358   ASN   H     H   1    7.30    0.02   .   1   .   .   .   .   .   358   ASN   H     .   27242   1
+      479   .   1   1   358   358   ASN   N     N   15   116.6   0.3    .   1   .   .   .   .   .   358   ASN   N     .   27242   1
+      480   .   1   1   359   359   GLU   H     H   1    7.60    0.02   .   1   .   .   .   .   .   359   GLU   H     .   27242   1
+      481   .   1   1   359   359   GLU   N     N   15   118.7   0.3    .   1   .   .   .   .   .   359   GLU   N     .   27242   1
+      482   .   1   1   360   360   LEU   H     H   1    7.96    0.02   .   1   .   .   .   .   .   360   LEU   H     .   27242   1
+      483   .   1   1   360   360   LEU   CA    C   13   54.3    0.3    .   1   .   .   .   .   .   360   LEU   CA    .   27242   1
+      484   .   1   1   360   360   LEU   CB    C   13   41.2    0.3    .   1   .   .   .   .   .   360   LEU   CB    .   27242   1
+      485   .   1   1   360   360   LEU   N     N   15   116.5   0.3    .   1   .   .   .   .   .   360   LEU   N     .   27242   1
+      486   .   1   1   361   361   LYS   H     H   1    8.21    0.02   .   1   .   .   .   .   .   361   LYS   H     .   27242   1
+      487   .   1   1   361   361   LYS   CA    C   13   53.5    0.3    .   1   .   .   .   .   .   361   LYS   CA    .   27242   1
+      488   .   1   1   361   361   LYS   CB    C   13   33.9    0.3    .   1   .   .   .   .   .   361   LYS   CB    .   27242   1
+      489   .   1   1   361   361   LYS   N     N   15   120.8   0.3    .   1   .   .   .   .   .   361   LYS   N     .   27242   1
+      490   .   1   1   362   362   ALA   H     H   1    8.74    0.02   .   1   .   .   .   .   .   362   ALA   H     .   27242   1
+      491   .   1   1   362   362   ALA   CA    C   13   52.1    0.3    .   1   .   .   .   .   .   362   ALA   CA    .   27242   1
+      492   .   1   1   362   362   ALA   CB    C   13   17.2    0.3    .   1   .   .   .   .   .   362   ALA   CB    .   27242   1
+      493   .   1   1   362   362   ALA   N     N   15   126.3   0.3    .   1   .   .   .   .   .   362   ALA   N     .   27242   1
+      494   .   1   1   364   364   GLU   H     H   1    8.91    0.02   .   1   .   .   .   .   .   364   GLU   H     .   27242   1
+      495   .   1   1   364   364   GLU   N     N   15   127.3   0.3    .   1   .   .   .   .   .   364   GLU   N     .   27242   1
+      496   .   1   1   369   369   GLY   H     H   1    7.83    0.02   .   1   .   .   .   .   .   369   GLY   H     .   27242   1
+      497   .   1   1   369   369   GLY   N     N   15   106.7   0.3    .   1   .   .   .   .   .   369   GLY   N     .   27242   1
+      498   .   1   1   376   376   SER   H     H   1    7.70    0.02   .   1   .   .   .   .   .   376   SER   H     .   27242   1
+      499   .   1   1   376   376   SER   CA    C   13   60.0    0.3    .   1   .   .   .   .   .   376   SER   CA    .   27242   1
+      500   .   1   1   376   376   SER   N     N   15   112.8   0.3    .   1   .   .   .   .   .   376   SER   N     .   27242   1
+      501   .   1   1   377   377   ALA   H     H   1    7.20    0.02   .   1   .   .   .   .   .   377   ALA   H     .   27242   1
+      502   .   1   1   377   377   ALA   N     N   15   122.7   0.3    .   1   .   .   .   .   .   377   ALA   N     .   27242   1
+      503   .   1   1   378   378   TYR   H     H   1    7.71    0.02   .   1   .   .   .   .   .   378   TYR   H     .   27242   1
+      504   .   1   1   378   378   TYR   N     N   15   119.0   0.3    .   1   .   .   .   .   .   378   TYR   N     .   27242   1
+      505   .   1   1   383   383   GLU   H     H   1    7.34    0.02   .   1   .   .   .   .   .   383   GLU   H     .   27242   1
+      506   .   1   1   383   383   GLU   N     N   15   119.4   0.3    .   1   .   .   .   .   .   383   GLU   N     .   27242   1
+      507   .   1   1   385   385   ILE   H     H   1    8.06    0.02   .   1   .   .   .   .   .   385   ILE   H     .   27242   1
+      508   .   1   1   385   385   ILE   N     N   15   120.8   0.3    .   1   .   .   .   .   .   385   ILE   N     .   27242   1
+      509   .   1   1   387   387   PHE   H     H   1    7.90    0.02   .   1   .   .   .   .   .   387   PHE   H     .   27242   1
+      510   .   1   1   387   387   PHE   N     N   15   121.5   0.3    .   1   .   .   .   .   .   387   PHE   N     .   27242   1
+      511   .   1   1   388   388   TYR   H     H   1    8.49    0.02   .   1   .   .   .   .   .   388   TYR   H     .   27242   1
+      512   .   1   1   388   388   TYR   N     N   15   119.4   0.3    .   1   .   .   .   .   .   388   TYR   N     .   27242   1
+      513   .   1   1   391   391   ASN   H     H   1    7.35    0.02   .   1   .   .   .   .   .   391   ASN   H     .   27242   1
+      514   .   1   1   391   391   ASN   N     N   15   121.9   0.3    .   1   .   .   .   .   .   391   ASN   N     .   27242   1
+      515   .   1   1   400   400   ASN   H     H   1    7.59    0.02   .   1   .   .   .   .   .   400   ASN   H     .   27242   1
+      516   .   1   1   400   400   ASN   N     N   15   117.8   0.3    .   1   .   .   .   .   .   400   ASN   N     .   27242   1
+      517   .   1   1   407   407   ALA   H     H   1    8.74    0.02   .   1   .   .   .   .   .   407   ALA   H     .   27242   1
+      518   .   1   1   407   407   ALA   N     N   15   125.1   0.3    .   1   .   .   .   .   .   407   ALA   N     .   27242   1
+      519   .   1   1   411   411   VAL   H     H   1    7.67    0.02   .   1   .   .   .   .   .   411   VAL   H     .   27242   1
+      520   .   1   1   411   411   VAL   N     N   15   120.5   0.3    .   1   .   .   .   .   .   411   VAL   N     .   27242   1
+      521   .   1   1   415   415   ALA   H     H   1    7.03    0.02   .   1   .   .   .   .   .   415   ALA   H     .   27242   1
+      522   .   1   1   415   415   ALA   N     N   15   121.5   0.3    .   1   .   .   .   .   .   415   ALA   N     .   27242   1
+      523   .   1   1   416   416   LYS   CA    C   13   55.0    0.3    .   1   .   .   .   .   .   416   LYS   CA    .   27242   1
+      524   .   1   1   416   416   LYS   CB    C   13   30.8    0.3    .   1   .   .   .   .   .   416   LYS   CB    .   27242   1
+      525   .   1   1   417   417   VAL   H     H   1    8.28    0.02   .   1   .   .   .   .   .   417   VAL   H     .   27242   1
+      526   .   1   1   417   417   VAL   CA    C   13   60.8    0.3    .   1   .   .   .   .   .   417   VAL   CA    .   27242   1
+      527   .   1   1   417   417   VAL   CB    C   13   31.8    0.3    .   1   .   .   .   .   .   417   VAL   CB    .   27242   1
+      528   .   1   1   417   417   VAL   N     N   15   129.3   0.3    .   1   .   .   .   .   .   417   VAL   N     .   27242   1
+      529   .   1   1   418   418   THR   H     H   1    8.79    0.02   .   1   .   .   .   .   .   418   THR   H     .   27242   1
+      530   .   1   1   418   418   THR   N     N   15   123.6   0.3    .   1   .   .   .   .   .   418   THR   N     .   27242   1
+      531   .   1   1   419   419   GLU   H     H   1    8.62    0.02   .   1   .   .   .   .   .   419   GLU   H     .   27242   1
+      532   .   1   1   419   419   GLU   N     N   15   124.1   0.3    .   1   .   .   .   .   .   419   GLU   N     .   27242   1
+      533   .   1   1   420   420   LYS   H     H   1    8.17    0.02   .   1   .   .   .   .   .   420   LYS   H     .   27242   1
+      534   .   1   1   420   420   LYS   CA    C   13   54.2    0.3    .   1   .   .   .   .   .   420   LYS   CA    .   27242   1
+      535   .   1   1   420   420   LYS   CB    C   13   34.7    0.3    .   1   .   .   .   .   .   420   LYS   CB    .   27242   1
+      536   .   1   1   420   420   LYS   N     N   15   124.3   0.3    .   1   .   .   .   .   .   420   LYS   N     .   27242   1
+      537   .   1   1   421   421   GLU   H     H   1    9.04    0.02   .   1   .   .   .   .   .   421   GLU   H     .   27242   1
+      538   .   1   1   421   421   GLU   CA    C   13   56.9    0.3    .   1   .   .   .   .   .   421   GLU   CA    .   27242   1
+      539   .   1   1   421   421   GLU   CB    C   13   28.4    0.3    .   1   .   .   .   .   .   421   GLU   CB    .   27242   1
+      540   .   1   1   421   421   GLU   N     N   15   130.7   0.3    .   1   .   .   .   .   .   421   GLU   N     .   27242   1
+      541   .   1   1   422   422   THR   H     H   1    8.35    0.02   .   1   .   .   .   .   .   422   THR   H     .   27242   1
+      542   .   1   1   422   422   THR   CA    C   13   59.3    0.3    .   1   .   .   .   .   .   422   THR   CA    .   27242   1
+      543   .   1   1   422   422   THR   CB    C   13   69.6    0.3    .   1   .   .   .   .   .   422   THR   CB    .   27242   1
+      544   .   1   1   422   422   THR   N     N   15   120.9   0.3    .   1   .   .   .   .   .   422   THR   N     .   27242   1
+      545   .   1   1   423   423   THR   H     H   1    8.39    0.02   .   1   .   .   .   .   .   423   THR   H     .   27242   1
+      546   .   1   1   423   423   THR   CA    C   13   59.4    0.3    .   1   .   .   .   .   .   423   THR   CA    .   27242   1
+      547   .   1   1   423   423   THR   CB    C   13   71.3    0.3    .   1   .   .   .   .   .   423   THR   CB    .   27242   1
+      548   .   1   1   423   423   THR   N     N   15   113.0   0.3    .   1   .   .   .   .   .   423   THR   N     .   27242   1
+      549   .   1   1   424   424   PHE   H     H   1    9.77    0.02   .   1   .   .   .   .   .   424   PHE   H     .   27242   1
+      550   .   1   1   424   424   PHE   N     N   15   124.8   0.3    .   1   .   .   .   .   .   424   PHE   N     .   27242   1
+      551   .   1   1   425   425   ASN   H     H   1    9.30    0.02   .   1   .   .   .   .   .   425   ASN   H     .   27242   1
+      552   .   1   1   425   425   ASN   N     N   15   116.3   0.3    .   1   .   .   .   .   .   425   ASN   N     .   27242   1
+      553   .   1   1   429   429   ASN   H     H   1    7.50    0.02   .   1   .   .   .   .   .   429   ASN   H     .   27242   1
+      554   .   1   1   429   429   ASN   N     N   15   117.3   0.3    .   1   .   .   .   .   .   429   ASN   N     .   27242   1
+      555   .   1   1   430   430   GLN   CA    C   13   55.5    0.3    .   1   .   .   .   .   .   430   GLN   CA    .   27242   1
+      556   .   1   1   430   430   GLN   CB    C   13   28.0    0.3    .   1   .   .   .   .   .   430   GLN   CB    .   27242   1
+      557   .   1   1   431   431   GLN   H     H   1    8.22    0.02   .   1   .   .   .   .   .   431   GLN   H     .   27242   1
+      558   .   1   1   431   431   GLN   CA    C   13   55.2    0.3    .   1   .   .   .   .   .   431   GLN   CA    .   27242   1
+      559   .   1   1   431   431   GLN   CB    C   13   28.4    0.3    .   1   .   .   .   .   .   431   GLN   CB    .   27242   1
+      560   .   1   1   431   431   GLN   N     N   15   122.3   0.3    .   1   .   .   .   .   .   431   GLN   N     .   27242   1
+      561   .   1   1   432   432   ALA   H     H   1    7.77    0.02   .   1   .   .   .   .   .   432   ALA   H     .   27242   1
+      562   .   1   1   432   432   ALA   CA    C   13   53.3    0.3    .   1   .   .   .   .   .   432   ALA   CA    .   27242   1
+      563   .   1   1   432   432   ALA   CB    C   13   19.1    0.3    .   1   .   .   .   .   .   432   ALA   CB    .   27242   1
+      564   .   1   1   432   432   ALA   N     N   15   131.0   0.3    .   1   .   .   .   .   .   432   ALA   N     .   27242   1
+   stop_
+save_
+

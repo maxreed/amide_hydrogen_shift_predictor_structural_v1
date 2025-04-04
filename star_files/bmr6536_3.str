@@ -1,0 +1,1768 @@
+data_6536
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             6536
+   _Entry.Title
+;
+1H,15N,13C backbone and sidechain assignment for human ADAP hSH3-1 domain in reduced form
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2005-03-07
+   _Entry.Accession_date                 2005-03-07
+   _Entry.Last_release_date              2015-05-08
+   _Entry.Original_release_date          2015-05-08
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.77
+   _Entry.Original_NMR_STAR_version      3.1.1.77
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1   Juergen     Zimmermann   .   .   .   6536
+      2   Christian   Freund       .   .   .   6536
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   na   FMP   .   6536
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   6536
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   239   6536
+      '15N chemical shifts'   85    6536
+      '1H chemical shifts'    479   6536
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2015-05-08   .   original   BMRB   .   6536
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB   2GTJ   'BMRB Entry Tracking System'   6536
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     6536
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+NMR assignment of the reduced and oxidized forms of the human ADAP hSH3-1 domain
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Biomol. NMR'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               32
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   94
+   _Citation.Page_last                    94
+   _Citation.Year                         2005
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Juergen     Zimmermann   .   .   .   6536   1
+      2   Christian   Freund       .   .   .   6536   1
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          6536
+   _Assembly.ID                                1
+   _Assembly.Name                              'hSH3-1 domain'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   no
+   _Assembly.Ambiguous_chem_comp_sites         no
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       'all free'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'hSH3-1 domain'   1   $hSH3-1_domain   .   .   yes   native   no   no   .   .   .   6536   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_hSH3-1_domain
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      hSH3-1_domain
+   _Entity.Entry_ID                          6536
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              'hSH3-1 domain'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+EKKEQKEKEKKEQEIKKKFK
+LTGPIQVIHLAKACCDVKGG
+KNELSFKQGEQIEIIRITDN
+PEGKWLGRTARGSYGYIKTT
+AVEIDYDSLKLKKDLE
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                96
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'all free'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    11861.6
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'SH3 domain'   na   6536   1
+   stop_
+
+   loop_
+      _Entity_keyword.Keyword
+      _Entity_keyword.Entry_ID
+      _Entity_keyword.Entity_ID
+
+      SH3   6536   1
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    .   GLU   .   6536   1
+      2    .   LYS   .   6536   1
+      3    .   LYS   .   6536   1
+      4    .   GLU   .   6536   1
+      5    .   GLN   .   6536   1
+      6    .   LYS   .   6536   1
+      7    .   GLU   .   6536   1
+      8    .   LYS   .   6536   1
+      9    .   GLU   .   6536   1
+      10   .   LYS   .   6536   1
+      11   .   LYS   .   6536   1
+      12   .   GLU   .   6536   1
+      13   .   GLN   .   6536   1
+      14   .   GLU   .   6536   1
+      15   .   ILE   .   6536   1
+      16   .   LYS   .   6536   1
+      17   .   LYS   .   6536   1
+      18   .   LYS   .   6536   1
+      19   .   PHE   .   6536   1
+      20   .   LYS   .   6536   1
+      21   .   LEU   .   6536   1
+      22   .   THR   .   6536   1
+      23   .   GLY   .   6536   1
+      24   .   PRO   .   6536   1
+      25   .   ILE   .   6536   1
+      26   .   GLN   .   6536   1
+      27   .   VAL   .   6536   1
+      28   .   ILE   .   6536   1
+      29   .   HIS   .   6536   1
+      30   .   LEU   .   6536   1
+      31   .   ALA   .   6536   1
+      32   .   LYS   .   6536   1
+      33   .   ALA   .   6536   1
+      34   .   CYS   .   6536   1
+      35   .   CYS   .   6536   1
+      36   .   ASP   .   6536   1
+      37   .   VAL   .   6536   1
+      38   .   LYS   .   6536   1
+      39   .   GLY   .   6536   1
+      40   .   GLY   .   6536   1
+      41   .   LYS   .   6536   1
+      42   .   ASN   .   6536   1
+      43   .   GLU   .   6536   1
+      44   .   LEU   .   6536   1
+      45   .   SER   .   6536   1
+      46   .   PHE   .   6536   1
+      47   .   LYS   .   6536   1
+      48   .   GLN   .   6536   1
+      49   .   GLY   .   6536   1
+      50   .   GLU   .   6536   1
+      51   .   GLN   .   6536   1
+      52   .   ILE   .   6536   1
+      53   .   GLU   .   6536   1
+      54   .   ILE   .   6536   1
+      55   .   ILE   .   6536   1
+      56   .   ARG   .   6536   1
+      57   .   ILE   .   6536   1
+      58   .   THR   .   6536   1
+      59   .   ASP   .   6536   1
+      60   .   ASN   .   6536   1
+      61   .   PRO   .   6536   1
+      62   .   GLU   .   6536   1
+      63   .   GLY   .   6536   1
+      64   .   LYS   .   6536   1
+      65   .   TRP   .   6536   1
+      66   .   LEU   .   6536   1
+      67   .   GLY   .   6536   1
+      68   .   ARG   .   6536   1
+      69   .   THR   .   6536   1
+      70   .   ALA   .   6536   1
+      71   .   ARG   .   6536   1
+      72   .   GLY   .   6536   1
+      73   .   SER   .   6536   1
+      74   .   TYR   .   6536   1
+      75   .   GLY   .   6536   1
+      76   .   TYR   .   6536   1
+      77   .   ILE   .   6536   1
+      78   .   LYS   .   6536   1
+      79   .   THR   .   6536   1
+      80   .   THR   .   6536   1
+      81   .   ALA   .   6536   1
+      82   .   VAL   .   6536   1
+      83   .   GLU   .   6536   1
+      84   .   ILE   .   6536   1
+      85   .   ASP   .   6536   1
+      86   .   TYR   .   6536   1
+      87   .   ASP   .   6536   1
+      88   .   SER   .   6536   1
+      89   .   LEU   .   6536   1
+      90   .   LYS   .   6536   1
+      91   .   LEU   .   6536   1
+      92   .   LYS   .   6536   1
+      93   .   LYS   .   6536   1
+      94   .   ASP   .   6536   1
+      95   .   LEU   .   6536   1
+      96   .   GLU   .   6536   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   GLU   1    1    6536   1
+      .   LYS   2    2    6536   1
+      .   LYS   3    3    6536   1
+      .   GLU   4    4    6536   1
+      .   GLN   5    5    6536   1
+      .   LYS   6    6    6536   1
+      .   GLU   7    7    6536   1
+      .   LYS   8    8    6536   1
+      .   GLU   9    9    6536   1
+      .   LYS   10   10   6536   1
+      .   LYS   11   11   6536   1
+      .   GLU   12   12   6536   1
+      .   GLN   13   13   6536   1
+      .   GLU   14   14   6536   1
+      .   ILE   15   15   6536   1
+      .   LYS   16   16   6536   1
+      .   LYS   17   17   6536   1
+      .   LYS   18   18   6536   1
+      .   PHE   19   19   6536   1
+      .   LYS   20   20   6536   1
+      .   LEU   21   21   6536   1
+      .   THR   22   22   6536   1
+      .   GLY   23   23   6536   1
+      .   PRO   24   24   6536   1
+      .   ILE   25   25   6536   1
+      .   GLN   26   26   6536   1
+      .   VAL   27   27   6536   1
+      .   ILE   28   28   6536   1
+      .   HIS   29   29   6536   1
+      .   LEU   30   30   6536   1
+      .   ALA   31   31   6536   1
+      .   LYS   32   32   6536   1
+      .   ALA   33   33   6536   1
+      .   CYS   34   34   6536   1
+      .   CYS   35   35   6536   1
+      .   ASP   36   36   6536   1
+      .   VAL   37   37   6536   1
+      .   LYS   38   38   6536   1
+      .   GLY   39   39   6536   1
+      .   GLY   40   40   6536   1
+      .   LYS   41   41   6536   1
+      .   ASN   42   42   6536   1
+      .   GLU   43   43   6536   1
+      .   LEU   44   44   6536   1
+      .   SER   45   45   6536   1
+      .   PHE   46   46   6536   1
+      .   LYS   47   47   6536   1
+      .   GLN   48   48   6536   1
+      .   GLY   49   49   6536   1
+      .   GLU   50   50   6536   1
+      .   GLN   51   51   6536   1
+      .   ILE   52   52   6536   1
+      .   GLU   53   53   6536   1
+      .   ILE   54   54   6536   1
+      .   ILE   55   55   6536   1
+      .   ARG   56   56   6536   1
+      .   ILE   57   57   6536   1
+      .   THR   58   58   6536   1
+      .   ASP   59   59   6536   1
+      .   ASN   60   60   6536   1
+      .   PRO   61   61   6536   1
+      .   GLU   62   62   6536   1
+      .   GLY   63   63   6536   1
+      .   LYS   64   64   6536   1
+      .   TRP   65   65   6536   1
+      .   LEU   66   66   6536   1
+      .   GLY   67   67   6536   1
+      .   ARG   68   68   6536   1
+      .   THR   69   69   6536   1
+      .   ALA   70   70   6536   1
+      .   ARG   71   71   6536   1
+      .   GLY   72   72   6536   1
+      .   SER   73   73   6536   1
+      .   TYR   74   74   6536   1
+      .   GLY   75   75   6536   1
+      .   TYR   76   76   6536   1
+      .   ILE   77   77   6536   1
+      .   LYS   78   78   6536   1
+      .   THR   79   79   6536   1
+      .   THR   80   80   6536   1
+      .   ALA   81   81   6536   1
+      .   VAL   82   82   6536   1
+      .   GLU   83   83   6536   1
+      .   ILE   84   84   6536   1
+      .   ASP   85   85   6536   1
+      .   TYR   86   86   6536   1
+      .   ASP   87   87   6536   1
+      .   SER   88   88   6536   1
+      .   LEU   89   89   6536   1
+      .   LYS   90   90   6536   1
+      .   LEU   91   91   6536   1
+      .   LYS   92   92   6536   1
+      .   LYS   93   93   6536   1
+      .   ASP   94   94   6536   1
+      .   LEU   95   95   6536   1
+      .   GLU   96   96   6536   1
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       6536
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $hSH3-1_domain   .   9606   organism   .   'Homo sapiens'   human   .   .   Eukaryota   Metazoa   Homo   sapiens   .   .   .   .   .   .   'T cells'   .   .   .   .   .   .   6536   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       6536
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $hSH3-1_domain   .   'recombinant technology'   .   'E. coli'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6536   1
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         6536
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'SH3 domain'                   '[U-13C; U-15N]'   .   .   1   $hSH3-1_domain   .   .   1.0   .   .   mM   0.05   .   .   .   6536   1
+      2   NaCl                           .                  .   .   .   .                .   .   20    .   .   mM   .      .   .   .   6536   1
+      3   Potassiumdihydrogenphosphate   .                  .   .   .   .                .   .   50    .   .   mM   .      .   .   .   6536   1
+      4   Dithtiothreitol                .                  .   .   .   .                .   .   10    .   .   mM   .      .   .   .   6536   1
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   conditions_1
+   _Sample_condition_list.Entry_ID       6536
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            7.0   0.05   pH   6536   1
+      temperature   300   1      K    6536   1
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       6536
+   _Software.ID             1
+   _Software.Name           AZARA
+   _Software.Version        2.0
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data processing'   6536   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       6536
+   _Software.ID             2
+   _Software.Name           ANSIG
+   _Software.Version        3.3
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      assignment   6536   2
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_600_MHz
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     600_MHz
+   _NMR_spectrometer.Entry_ID         6536
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_NMR_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   NMR_experiment_list
+   _Experiment_list.Entry_ID       6536
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   15N_NOESY   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $conditions_1   .   .   .   1   $600_MHz   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6536   1
+      2   13C_NOESY   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $conditions_1   .   .   .   1   $600_MHz   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6536   1
+      3   HNCO        no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $conditions_1   .   .   .   1   $600_MHz   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6536   1
+      4   2D_NOESY    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $conditions_1   .   .   .   1   $600_MHz   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6536   1
+      5   15N_HSQC    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $conditions_1   .   .   .   1   $600_MHz   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6536   1
+   stop_
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+
+save_chemical_shift_referencing
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_referencing
+   _Chem_shift_reference.Entry_ID       6536
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.0   .          indirect   0.251449530   .   .   .   .   .   .   .   .   .   6536   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.0   internal   direct     1.0           .   .   .   .   .   .   .   .   .   6536   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.0   .          indirect   0.101329118   .   .   .   .   .   .   .   .   .   6536   1
+   stop_
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+
+save_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      6536
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_referencing
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   15N_NOESY   1   $sample_1   isotropic   6536   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   10   10   LYS   H      H   1    8.247     0.002    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      2     .   1   1   10   10   LYS   N      N   15   121.278   0.002    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      3     .   1   1   11   11   LYS   C      C   13   171.155   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      4     .   1   1   12   12   GLU   H      H   1    8.242     0.014    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      5     .   1   1   12   12   GLU   HA     H   1    3.849     0.001    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      6     .   1   1   12   12   GLU   HB2    H   1    1.974     0.019    .   2   .   .   .   .   .   GLU   HB2    .   6536   1
+      7     .   1   1   12   12   GLU   HB3    H   1    2.128     0.002    .   2   .   .   .   .   .   GLU   HB3    .   6536   1
+      8     .   1   1   12   12   GLU   C      C   13   171.493   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      9     .   1   1   12   12   GLU   N      N   15   119.280   0.015    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      10    .   1   1   13   13   GLN   H      H   1    8.149     0.012    .   1   .   .   .   .   .   GLN   H      .   6536   1
+      11    .   1   1   13   13   GLN   HA     H   1    4.091     0.018    .   1   .   .   .   .   .   GLN   HA     .   6536   1
+      12    .   1   1   13   13   GLN   HB2    H   1    2.063     0.017    .   1   .   .   .   .   .   GLN   HB     .   6536   1
+      13    .   1   1   13   13   GLN   HB3    H   1    2.063     0.017    .   1   .   .   .   .   .   GLN   HB     .   6536   1
+      14    .   1   1   13   13   GLN   CA     C   13   58.762    0.247    .   1   .   .   .   .   .   GLN   CA     .   6536   1
+      15    .   1   1   13   13   GLN   CD     C   13   171.700   0.002    .   1   .   .   .   .   .   GLN   CD     .   6536   1
+      16    .   1   1   13   13   GLN   N      N   15   118.289   0.014    .   1   .   .   .   .   .   GLN   N      .   6536   1
+      17    .   1   1   14   14   GLU   H      H   1    8.165     0.009    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      18    .   1   1   14   14   GLU   HA     H   1    4.064     0.038    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      19    .   1   1   14   14   GLU   HB2    H   1    2.165     0.039    .   2   .   .   .   .   .   GLU   HB2    .   6536   1
+      20    .   1   1   14   14   GLU   HB3    H   1    2.158     0.023    .   2   .   .   .   .   .   GLU   HB3    .   6536   1
+      21    .   1   1   14   14   GLU   C      C   13   170.655   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      22    .   1   1   14   14   GLU   CA     C   13   58.903    0.073    .   1   .   .   .   .   .   GLU   CA     .   6536   1
+      23    .   1   1   14   14   GLU   CB     C   13   29.286    0.102    .   1   .   .   .   .   .   GLU   CB     .   6536   1
+      24    .   1   1   14   14   GLU   N      N   15   121.306   0.030    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      25    .   1   1   15   15   ILE   H      H   1    7.922     0.016    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      26    .   1   1   15   15   ILE   HA     H   1    3.689     0.028    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      27    .   1   1   15   15   ILE   HB     H   1    1.798     0.011    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      28    .   1   1   15   15   ILE   HG12   H   1    1.144     0.022    .   2   .   .   .   .   .   ILE   HG12   .   6536   1
+      29    .   1   1   15   15   ILE   HG13   H   1    1.264     0.010    .   2   .   .   .   .   .   ILE   HG13   .   6536   1
+      30    .   1   1   15   15   ILE   HG21   H   1    0.613     0.034    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      31    .   1   1   15   15   ILE   HG22   H   1    0.613     0.034    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      32    .   1   1   15   15   ILE   HG23   H   1    0.613     0.034    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      33    .   1   1   15   15   ILE   HD11   H   1    0.363     0.014    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      34    .   1   1   15   15   ILE   HD12   H   1    0.363     0.014    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      35    .   1   1   15   15   ILE   HD13   H   1    0.363     0.014    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      36    .   1   1   15   15   ILE   C      C   13   172.150   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      37    .   1   1   15   15   ILE   CA     C   13   63.599    0.179    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      38    .   1   1   15   15   ILE   CB     C   13   37.317    0.100    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      39    .   1   1   15   15   ILE   CG1    C   13   27.933    0.013    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      40    .   1   1   15   15   ILE   CG2    C   13   12.523    0.091    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      41    .   1   1   15   15   ILE   CD1    C   13   17.302    0.064    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      42    .   1   1   15   15   ILE   N      N   15   121.346   0.028    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      43    .   1   1   16   16   LYS   H      H   1    8.203     0.010    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      44    .   1   1   16   16   LYS   HA     H   1    3.824     0.022    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      45    .   1   1   16   16   LYS   HB2    H   1    1.834     0.002    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      46    .   1   1   16   16   LYS   HB3    H   1    2.013     0.021    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      47    .   1   1   16   16   LYS   HD2    H   1    1.611     0.002    .   1   .   .   .   .   .   LYS   HD     .   6536   1
+      48    .   1   1   16   16   LYS   HD3    H   1    1.611     0.002    .   1   .   .   .   .   .   LYS   HD     .   6536   1
+      49    .   1   1   16   16   LYS   HE2    H   1    2.846     0.048    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      50    .   1   1   16   16   LYS   HE3    H   1    2.846     0.048    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      51    .   1   1   16   16   LYS   C      C   13   170.788   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      52    .   1   1   16   16   LYS   CA     C   13   60.523    0.053    .   1   .   .   .   .   .   LYS   CA     .   6536   1
+      53    .   1   1   16   16   LYS   CB     C   13   31.792    0.363    .   1   .   .   .   .   .   LYS   CB     .   6536   1
+      54    .   1   1   16   16   LYS   N      N   15   118.895   0.074    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      55    .   1   1   17   17   LYS   H      H   1    7.718     0.022    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      56    .   1   1   17   17   LYS   HA     H   1    4.048     0.036    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      57    .   1   1   17   17   LYS   HB2    H   1    1.863     0.031    .   1   .   .   .   .   .   LYS   HB     .   6536   1
+      58    .   1   1   17   17   LYS   HB3    H   1    1.863     0.031    .   1   .   .   .   .   .   LYS   HB     .   6536   1
+      59    .   1   1   17   17   LYS   C      C   13   170.637   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      60    .   1   1   17   17   LYS   CB     C   13   32.561    0.212    .   1   .   .   .   .   .   LYS   CB     .   6536   1
+      61    .   1   1   17   17   LYS   N      N   15   117.452   0.098    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      62    .   1   1   18   18   LYS   H      H   1    8.007     0.010    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      63    .   1   1   18   18   LYS   HA     H   1    3.786     0.006    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      64    .   1   1   18   18   LYS   HB2    H   1    1.349     0.019    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      65    .   1   1   18   18   LYS   HB3    H   1    1.602     0.010    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      66    .   1   1   18   18   LYS   HG2    H   1    0.345     0.010    .   2   .   .   .   .   .   LYS   HG2    .   6536   1
+      67    .   1   1   18   18   LYS   HG3    H   1    0.930     0.006    .   2   .   .   .   .   .   LYS   HG3    .   6536   1
+      68    .   1   1   18   18   LYS   HE2    H   1    2.693     0.010    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      69    .   1   1   18   18   LYS   HE3    H   1    2.693     0.010    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      70    .   1   1   18   18   LYS   C      C   13   172.090   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      71    .   1   1   18   18   LYS   CA     C   13   59.334    0.176    .   1   .   .   .   .   .   LYS   CA     .   6536   1
+      72    .   1   1   18   18   LYS   CB     C   13   32.473    0.105    .   1   .   .   .   .   .   LYS   CB     .   6536   1
+      73    .   1   1   18   18   LYS   CG     C   13   24.196    0.049    .   1   .   .   .   .   .   LYS   CG     .   6536   1
+      74    .   1   1   18   18   LYS   CE     C   13   41.788    0.068    .   1   .   .   .   .   .   LYS   CE     .   6536   1
+      75    .   1   1   18   18   LYS   N      N   15   120.393   0.025    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      76    .   1   1   19   19   PHE   H      H   1    7.664     0.005    .   1   .   .   .   .   .   PHE   H      .   6536   1
+      77    .   1   1   19   19   PHE   HA     H   1    4.736     0.004    .   1   .   .   .   .   .   PHE   HA     .   6536   1
+      78    .   1   1   19   19   PHE   HB2    H   1    2.414     0.016    .   2   .   .   .   .   .   PHE   HB2    .   6536   1
+      79    .   1   1   19   19   PHE   HB3    H   1    3.416     0.013    .   2   .   .   .   .   .   PHE   HB3    .   6536   1
+      80    .   1   1   19   19   PHE   HD1    H   1    7.071     0.022    .   1   .   .   .   .   .   PHE   HD     .   6536   1
+      81    .   1   1   19   19   PHE   HE1    H   1    7.486     0.009    .   1   .   .   .   .   .   PHE   HE     .   6536   1
+      82    .   1   1   19   19   PHE   HZ     H   1    6.704     0.014    .   1   .   .   .   .   .   PHE   HZ     .   6536   1
+      83    .   1   1   19   19   PHE   C      C   13   176.630   0.002    .   1   .   .   .   .   .   PHE   C      .   6536   1
+      84    .   1   1   19   19   PHE   CB     C   13   39.139    0.092    .   1   .   .   .   .   .   PHE   CB     .   6536   1
+      85    .   1   1   19   19   PHE   CD1    C   13   124.975   0.053    .   1   .   .   .   .   .   PHE   CD     .   6536   1
+      86    .   1   1   19   19   PHE   CE1    C   13   114.754   0.144    .   1   .   .   .   .   .   PHE   CE     .   6536   1
+      87    .   1   1   19   19   PHE   CZ     C   13   121.384   0.081    .   1   .   .   .   .   .   PHE   CZ     .   6536   1
+      88    .   1   1   19   19   PHE   N      N   15   112.690   0.066    .   1   .   .   .   .   .   PHE   N      .   6536   1
+      89    .   1   1   20   20   LYS   H      H   1    7.662     0.013    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      90    .   1   1   20   20   LYS   HA     H   1    3.930     0.021    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      91    .   1   1   20   20   LYS   HB2    H   1    1.893     0.018    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      92    .   1   1   20   20   LYS   HB3    H   1    2.091     0.011    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      93    .   1   1   20   20   LYS   HG2    H   1    1.372     0.016    .   1   .   .   .   .   .   LYS   HG     .   6536   1
+      94    .   1   1   20   20   LYS   HG3    H   1    1.372     0.016    .   1   .   .   .   .   .   LYS   HG     .   6536   1
+      95    .   1   1   20   20   LYS   HE2    H   1    3.016     0.002    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      96    .   1   1   20   20   LYS   HE3    H   1    3.016     0.002    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      97    .   1   1   20   20   LYS   C      C   13   174.041   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      98    .   1   1   20   20   LYS   CA     C   13   57.174    0.098    .   1   .   .   .   .   .   LYS   CA     .   6536   1
+      99    .   1   1   20   20   LYS   CG     C   13   25.144    0.011    .   1   .   .   .   .   .   LYS   CG     .   6536   1
+      100   .   1   1   20   20   LYS   N      N   15   118.774   0.019    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      101   .   1   1   21   21   LEU   H      H   1    8.419     0.018    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      102   .   1   1   21   21   LEU   HA     H   1    4.595     0.058    .   1   .   .   .   .   .   LEU   HA     .   6536   1
+      103   .   1   1   21   21   LEU   HB2    H   1    1.525     0.004    .   1   .   .   .   .   .   LEU   HB     .   6536   1
+      104   .   1   1   21   21   LEU   HB3    H   1    1.525     0.004    .   1   .   .   .   .   .   LEU   HB     .   6536   1
+      105   .   1   1   21   21   LEU   HD11   H   1    0.815     0.034    .   2   .   .   .   .   .   LEU   HD1    .   6536   1
+      106   .   1   1   21   21   LEU   HD12   H   1    0.815     0.034    .   2   .   .   .   .   .   LEU   HD1    .   6536   1
+      107   .   1   1   21   21   LEU   HD13   H   1    0.815     0.034    .   2   .   .   .   .   .   LEU   HD1    .   6536   1
+      108   .   1   1   21   21   LEU   HD21   H   1    0.762     0.030    .   2   .   .   .   .   .   LEU   HD2    .   6536   1
+      109   .   1   1   21   21   LEU   HD22   H   1    0.762     0.030    .   2   .   .   .   .   .   LEU   HD2    .   6536   1
+      110   .   1   1   21   21   LEU   HD23   H   1    0.762     0.030    .   2   .   .   .   .   .   LEU   HD2    .   6536   1
+      111   .   1   1   21   21   LEU   CA     C   13   54.151    0.138    .   1   .   .   .   .   .   LEU   CA     .   6536   1
+      112   .   1   1   21   21   LEU   CD1    C   13   23.815    0.002    .   2   .   .   .   .   .   LEU   CD1    .   6536   1
+      113   .   1   1   21   21   LEU   CD2    C   13   25.788    0.060    .   2   .   .   .   .   .   LEU   CD2    .   6536   1
+      114   .   1   1   21   21   LEU   N      N   15   120.140   0.024    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      115   .   1   1   22   22   THR   H      H   1    8.481     0.003    .   1   .   .   .   .   .   THR   H      .   6536   1
+      116   .   1   1   22   22   THR   HA     H   1    4.396     0.007    .   1   .   .   .   .   .   THR   HA     .   6536   1
+      117   .   1   1   22   22   THR   HB     H   1    4.184     0.010    .   1   .   .   .   .   .   THR   HB     .   6536   1
+      118   .   1   1   22   22   THR   HG21   H   1    1.113     0.004    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      119   .   1   1   22   22   THR   HG22   H   1    1.113     0.004    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      120   .   1   1   22   22   THR   HG23   H   1    1.113     0.004    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      121   .   1   1   22   22   THR   C      C   13   175.475   0.002    .   1   .   .   .   .   .   THR   C      .   6536   1
+      122   .   1   1   22   22   THR   CA     C   13   61.031    0.027    .   1   .   .   .   .   .   THR   CA     .   6536   1
+      123   .   1   1   22   22   THR   CB     C   13   70.163    0.007    .   1   .   .   .   .   .   THR   CB     .   6536   1
+      124   .   1   1   22   22   THR   CG2    C   13   21.295    0.106    .   1   .   .   .   .   .   THR   CG2    .   6536   1
+      125   .   1   1   22   22   THR   N      N   15   115.696   0.044    .   1   .   .   .   .   .   THR   N      .   6536   1
+      126   .   1   1   23   23   GLY   H      H   1    8.187     0.010    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      127   .   1   1   23   23   GLY   HA2    H   1    4.758     0.003    .   1   .   .   .   .   .   GLY   HA     .   6536   1
+      128   .   1   1   23   23   GLY   HA3    H   1    4.758     0.003    .   1   .   .   .   .   .   GLY   HA     .   6536   1
+      129   .   1   1   23   23   GLY   N      N   15   111.845   0.128    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      130   .   1   1   24   24   PRO   HA     H   1    4.309     0.029    .   1   .   .   .   .   .   PRO   HA     .   6536   1
+      131   .   1   1   24   24   PRO   HB2    H   1    1.681     0.012    .   2   .   .   .   .   .   PRO   HB2    .   6536   1
+      132   .   1   1   24   24   PRO   HB3    H   1    2.207     0.012    .   2   .   .   .   .   .   PRO   HB3    .   6536   1
+      133   .   1   1   24   24   PRO   HG2    H   1    1.926     0.004    .   1   .   .   .   .   .   PRO   HG     .   6536   1
+      134   .   1   1   24   24   PRO   HG3    H   1    1.926     0.004    .   1   .   .   .   .   .   PRO   HG     .   6536   1
+      135   .   1   1   24   24   PRO   HD2    H   1    3.528     0.017    .   1   .   .   .   .   .   PRO   HD     .   6536   1
+      136   .   1   1   24   24   PRO   HD3    H   1    3.528     0.017    .   1   .   .   .   .   .   PRO   HD     .   6536   1
+      137   .   1   1   24   24   PRO   C      C   13   172.897   0.002    .   1   .   .   .   .   .   PRO   C      .   6536   1
+      138   .   1   1   24   24   PRO   CA     C   13   62.637    0.230    .   1   .   .   .   .   .   PRO   CA     .   6536   1
+      139   .   1   1   24   24   PRO   CB     C   13   31.991    0.071    .   1   .   .   .   .   .   PRO   CB     .   6536   1
+      140   .   1   1   24   24   PRO   CG     C   13   27.282    0.029    .   1   .   .   .   .   .   PRO   CG     .   6536   1
+      141   .   1   1   24   24   PRO   CD     C   13   49.424    0.019    .   1   .   .   .   .   .   PRO   CD     .   6536   1
+      142   .   1   1   25   25   ILE   H      H   1    8.564     0.011    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      143   .   1   1   25   25   ILE   HA     H   1    3.943     0.005    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      144   .   1   1   25   25   ILE   HB     H   1    1.746     0.002    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      145   .   1   1   25   25   ILE   HG12   H   1    0.830     0.019    .   1   .   .   .   .   .   ILE   HG1    .   6536   1
+      146   .   1   1   25   25   ILE   HG13   H   1    0.830     0.019    .   1   .   .   .   .   .   ILE   HG1    .   6536   1
+      147   .   1   1   25   25   ILE   HG21   H   1    0.989     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      148   .   1   1   25   25   ILE   HG22   H   1    0.989     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      149   .   1   1   25   25   ILE   HG23   H   1    0.989     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      150   .   1   1   25   25   ILE   HD11   H   1    0.817     0.002    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      151   .   1   1   25   25   ILE   HD12   H   1    0.817     0.002    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      152   .   1   1   25   25   ILE   HD13   H   1    0.817     0.002    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      153   .   1   1   25   25   ILE   C      C   13   174.249   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      154   .   1   1   25   25   ILE   CA     C   13   62.032    0.355    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      155   .   1   1   25   25   ILE   CB     C   13   37.285    0.027    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      156   .   1   1   25   25   ILE   CG1    C   13   18.085    0.050    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      157   .   1   1   25   25   ILE   CG2    C   13   28.212    0.066    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      158   .   1   1   25   25   ILE   N      N   15   123.558   0.046    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      159   .   1   1   26   26   GLN   H      H   1    9.081     0.010    .   1   .   .   .   .   .   GLN   H      .   6536   1
+      160   .   1   1   26   26   GLN   HA     H   1    4.509     0.004    .   1   .   .   .   .   .   GLN   HA     .   6536   1
+      161   .   1   1   26   26   GLN   HB2    H   1    1.799     0.004    .   2   .   .   .   .   .   GLN   HB2    .   6536   1
+      162   .   1   1   26   26   GLN   HB3    H   1    1.837     0.001    .   2   .   .   .   .   .   GLN   HB3    .   6536   1
+      163   .   1   1   26   26   GLN   HG2    H   1    2.107     0.013    .   1   .   .   .   .   .   GLN   HG     .   6536   1
+      164   .   1   1   26   26   GLN   HG3    H   1    2.107     0.013    .   1   .   .   .   .   .   GLN   HG     .   6536   1
+      165   .   1   1   26   26   GLN   C      C   13   176.735   0.002    .   1   .   .   .   .   .   GLN   C      .   6536   1
+      166   .   1   1   26   26   GLN   CA     C   13   53.785    0.074    .   1   .   .   .   .   .   GLN   CA     .   6536   1
+      167   .   1   1   26   26   GLN   CG     C   13   33.585    0.238    .   1   .   .   .   .   .   GLN   CG     .   6536   1
+      168   .   1   1   26   26   GLN   N      N   15   129.643   0.007    .   1   .   .   .   .   .   GLN   N      .   6536   1
+      169   .   1   1   27   27   VAL   H      H   1    8.288     0.020    .   1   .   .   .   .   .   VAL   H      .   6536   1
+      170   .   1   1   27   27   VAL   HA     H   1    3.691     0.010    .   1   .   .   .   .   .   VAL   HA     .   6536   1
+      171   .   1   1   27   27   VAL   HB     H   1    1.828     0.042    .   1   .   .   .   .   .   VAL   HB     .   6536   1
+      172   .   1   1   27   27   VAL   HG11   H   1    0.667     0.028    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      173   .   1   1   27   27   VAL   HG12   H   1    0.667     0.028    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      174   .   1   1   27   27   VAL   HG13   H   1    0.667     0.028    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      175   .   1   1   27   27   VAL   HG21   H   1    0.641     0.024    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      176   .   1   1   27   27   VAL   HG22   H   1    0.641     0.024    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      177   .   1   1   27   27   VAL   HG23   H   1    0.641     0.024    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      178   .   1   1   27   27   VAL   C      C   13   173.739   0.002    .   1   .   .   .   .   .   VAL   C      .   6536   1
+      179   .   1   1   27   27   VAL   CA     C   13   63.064    0.002    .   1   .   .   .   .   .   VAL   CA     .   6536   1
+      180   .   1   1   27   27   VAL   CG1    C   13   21.596    0.051    .   1   .   .   .   .   .   VAL   CG1    .   6536   1
+      181   .   1   1   27   27   VAL   N      N   15   120.760   0.022    .   1   .   .   .   .   .   VAL   N      .   6536   1
+      182   .   1   1   28   28   ILE   H      H   1    8.879     0.012    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      183   .   1   1   28   28   ILE   HA     H   1    3.705     0.017    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      184   .   1   1   28   28   ILE   HB     H   1    1.130     0.009    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      185   .   1   1   28   28   ILE   HG21   H   1    0.862     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      186   .   1   1   28   28   ILE   HG22   H   1    0.862     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      187   .   1   1   28   28   ILE   HG23   H   1    0.862     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      188   .   1   1   28   28   ILE   HD11   H   1    0.284     0.015    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      189   .   1   1   28   28   ILE   HD12   H   1    0.284     0.015    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      190   .   1   1   28   28   ILE   HD13   H   1    0.284     0.015    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      191   .   1   1   28   28   ILE   C      C   13   174.373   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      192   .   1   1   28   28   ILE   CB     C   13   38.878    0.037    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      193   .   1   1   28   28   ILE   CG2    C   13   27.228    0.131    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      194   .   1   1   28   28   ILE   CD1    C   13   16.748    0.051    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      195   .   1   1   28   28   ILE   N      N   15   128.273   0.025    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      196   .   1   1   29   29   HIS   H      H   1    7.114     0.027    .   1   .   .   .   .   .   HIS   H      .   6536   1
+      197   .   1   1   29   29   HIS   HA     H   1    4.845     0.003    .   1   .   .   .   .   .   HIS   HA     .   6536   1
+      198   .   1   1   29   29   HIS   HB2    H   1    2.247     0.024    .   2   .   .   .   .   .   HIS   HB2    .   6536   1
+      199   .   1   1   29   29   HIS   HB3    H   1    2.917     0.024    .   2   .   .   .   .   .   HIS   HB3    .   6536   1
+      200   .   1   1   29   29   HIS   HD1    H   1    5.875     0.008    .   1   .   .   .   .   .   HIS   HD1    .   6536   1
+      201   .   1   1   29   29   HIS   C      C   13   176.547   0.002    .   1   .   .   .   .   .   HIS   C      .   6536   1
+      202   .   1   1   29   29   HIS   CB     C   13   35.062    0.067    .   1   .   .   .   .   .   HIS   CB     .   6536   1
+      203   .   1   1   29   29   HIS   N      N   15   111.489   0.064    .   1   .   .   .   .   .   HIS   N      .   6536   1
+      204   .   1   1   30   30   LEU   H      H   1    8.755     0.014    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      205   .   1   1   30   30   LEU   HA     H   1    4.788     0.046    .   1   .   .   .   .   .   LEU   HA     .   6536   1
+      206   .   1   1   30   30   LEU   HB2    H   1    1.472     0.006    .   2   .   .   .   .   .   LEU   HB2    .   6536   1
+      207   .   1   1   30   30   LEU   HB3    H   1    1.649     0.036    .   2   .   .   .   .   .   LEU   HB3    .   6536   1
+      208   .   1   1   30   30   LEU   HD21   H   1    0.827     0.018    .   1   .   .   .   .   .   LEU   HD2    .   6536   1
+      209   .   1   1   30   30   LEU   HD22   H   1    0.827     0.018    .   1   .   .   .   .   .   LEU   HD2    .   6536   1
+      210   .   1   1   30   30   LEU   HD23   H   1    0.827     0.018    .   1   .   .   .   .   .   LEU   HD2    .   6536   1
+      211   .   1   1   30   30   LEU   C      C   13   174.782   0.002    .   1   .   .   .   .   .   LEU   C      .   6536   1
+      212   .   1   1   30   30   LEU   CB     C   13   43.173    0.007    .   1   .   .   .   .   .   LEU   CB     .   6536   1
+      213   .   1   1   30   30   LEU   CD2    C   13   24.681    0.259    .   1   .   .   .   .   .   LEU   CD2    .   6536   1
+      214   .   1   1   30   30   LEU   N      N   15   122.984   0.029    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      215   .   1   1   31   31   ALA   H      H   1    8.852     0.011    .   1   .   .   .   .   .   ALA   H      .   6536   1
+      216   .   1   1   31   31   ALA   HA     H   1    4.991     0.028    .   1   .   .   .   .   .   ALA   HA     .   6536   1
+      217   .   1   1   31   31   ALA   HB1    H   1    1.038     0.014    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      218   .   1   1   31   31   ALA   HB2    H   1    1.038     0.014    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      219   .   1   1   31   31   ALA   HB3    H   1    1.038     0.014    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      220   .   1   1   31   31   ALA   C      C   13   174.907   0.002    .   1   .   .   .   .   .   ALA   C      .   6536   1
+      221   .   1   1   31   31   ALA   CA     C   13   49.929    0.020    .   1   .   .   .   .   .   ALA   CA     .   6536   1
+      222   .   1   1   31   31   ALA   CB     C   13   23.213    0.111    .   1   .   .   .   .   .   ALA   CB     .   6536   1
+      223   .   1   1   31   31   ALA   N      N   15   124.629   0.043    .   1   .   .   .   .   .   ALA   N      .   6536   1
+      224   .   1   1   32   32   LYS   H      H   1    8.560     0.013    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      225   .   1   1   32   32   LYS   HA     H   1    4.970     0.046    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      226   .   1   1   32   32   LYS   HB2    H   1    1.504     0.040    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      227   .   1   1   32   32   LYS   HB3    H   1    1.514     0.052    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      228   .   1   1   32   32   LYS   HG2    H   1    1.229     0.037    .   1   .   .   .   .   .   LYS   HG     .   6536   1
+      229   .   1   1   32   32   LYS   HG3    H   1    1.229     0.037    .   1   .   .   .   .   .   LYS   HG     .   6536   1
+      230   .   1   1   32   32   LYS   HE2    H   1    2.890     0.002    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      231   .   1   1   32   32   LYS   HE3    H   1    2.890     0.002    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      232   .   1   1   32   32   LYS   C      C   13   173.518   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      233   .   1   1   32   32   LYS   N      N   15   120.066   0.051    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      234   .   1   1   33   33   ALA   H      H   1    8.765     0.015    .   1   .   .   .   .   .   ALA   H      .   6536   1
+      235   .   1   1   33   33   ALA   HA     H   1    4.497     0.030    .   1   .   .   .   .   .   ALA   HA     .   6536   1
+      236   .   1   1   33   33   ALA   HB1    H   1    1.569     0.027    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      237   .   1   1   33   33   ALA   HB2    H   1    1.569     0.027    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      238   .   1   1   33   33   ALA   HB3    H   1    1.569     0.027    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      239   .   1   1   33   33   ALA   C      C   13   169.938   0.002    .   1   .   .   .   .   .   ALA   C      .   6536   1
+      240   .   1   1   33   33   ALA   CA     C   13   52.622    0.134    .   1   .   .   .   .   .   ALA   CA     .   6536   1
+      241   .   1   1   33   33   ALA   CB     C   13   21.587    0.192    .   1   .   .   .   .   .   ALA   CB     .   6536   1
+      242   .   1   1   33   33   ALA   N      N   15   126.814   0.045    .   1   .   .   .   .   .   ALA   N      .   6536   1
+      243   .   1   1   34   34   CYS   H      H   1    9.517     0.018    .   1   .   .   .   .   .   CYS   H      .   6536   1
+      244   .   1   1   34   34   CYS   HA     H   1    4.649     0.057    .   1   .   .   .   .   .   CYS   HA     .   6536   1
+      245   .   1   1   34   34   CYS   HB2    H   1    2.888     0.057    .   2   .   .   .   .   .   CYS   HB2    .   6536   1
+      246   .   1   1   34   34   CYS   HB3    H   1    2.980     0.002    .   2   .   .   .   .   .   CYS   HB3    .   6536   1
+      247   .   1   1   34   34   CYS   C      C   13   176.820   0.002    .   1   .   .   .   .   .   CYS   C      .   6536   1
+      248   .   1   1   34   34   CYS   N      N   15   122.881   0.013    .   1   .   .   .   .   .   CYS   N      .   6536   1
+      249   .   1   1   35   35   CYS   H      H   1    7.802     0.012    .   1   .   .   .   .   .   CYS   H      .   6536   1
+      250   .   1   1   35   35   CYS   HA     H   1    4.745     0.002    .   1   .   .   .   .   .   CYS   HA     .   6536   1
+      251   .   1   1   35   35   CYS   HB2    H   1    3.053     0.006    .   1   .   .   .   .   .   CYS   HB     .   6536   1
+      252   .   1   1   35   35   CYS   HB3    H   1    3.053     0.006    .   1   .   .   .   .   .   CYS   HB     .   6536   1
+      253   .   1   1   35   35   CYS   C      C   13   179.331   0.002    .   1   .   .   .   .   .   CYS   C      .   6536   1
+      254   .   1   1   35   35   CYS   N      N   15   113.196   0.050    .   1   .   .   .   .   .   CYS   N      .   6536   1
+      255   .   1   1   36   36   ASP   H      H   1    8.417     0.016    .   1   .   .   .   .   .   ASP   H      .   6536   1
+      256   .   1   1   36   36   ASP   HA     H   1    4.882     0.027    .   1   .   .   .   .   .   ASP   HA     .   6536   1
+      257   .   1   1   36   36   ASP   HB2    H   1    1.847     0.076    .   2   .   .   .   .   .   ASP   HB2    .   6536   1
+      258   .   1   1   36   36   ASP   HB3    H   1    2.586     0.007    .   2   .   .   .   .   .   ASP   HB3    .   6536   1
+      259   .   1   1   36   36   ASP   C      C   13   173.451   0.002    .   1   .   .   .   .   .   ASP   C      .   6536   1
+      260   .   1   1   36   36   ASP   N      N   15   118.031   0.017    .   1   .   .   .   .   .   ASP   N      .   6536   1
+      261   .   1   1   37   37   VAL   H      H   1    8.476     0.013    .   1   .   .   .   .   .   VAL   H      .   6536   1
+      262   .   1   1   37   37   VAL   HA     H   1    3.883     0.006    .   1   .   .   .   .   .   VAL   HA     .   6536   1
+      263   .   1   1   37   37   VAL   HB     H   1    0.341     0.014    .   1   .   .   .   .   .   VAL   HB     .   6536   1
+      264   .   1   1   37   37   VAL   HG11   H   1    0.513     0.027    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      265   .   1   1   37   37   VAL   HG12   H   1    0.513     0.027    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      266   .   1   1   37   37   VAL   HG13   H   1    0.513     0.027    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      267   .   1   1   37   37   VAL   HG21   H   1    0.626     0.025    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      268   .   1   1   37   37   VAL   HG22   H   1    0.626     0.025    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      269   .   1   1   37   37   VAL   HG23   H   1    0.626     0.025    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      270   .   1   1   37   37   VAL   C      C   13   174.920   0.002    .   1   .   .   .   .   .   VAL   C      .   6536   1
+      271   .   1   1   37   37   VAL   CA     C   13   62.121    0.002    .   1   .   .   .   .   .   VAL   CA     .   6536   1
+      272   .   1   1   37   37   VAL   CB     C   13   35.606    0.059    .   1   .   .   .   .   .   VAL   CB     .   6536   1
+      273   .   1   1   37   37   VAL   CG1    C   13   20.423    0.162    .   2   .   .   .   .   .   VAL   CG1    .   6536   1
+      274   .   1   1   37   37   VAL   CG2    C   13   24.374    0.066    .   2   .   .   .   .   .   VAL   CG2    .   6536   1
+      275   .   1   1   37   37   VAL   N      N   15   123.235   0.046    .   1   .   .   .   .   .   VAL   N      .   6536   1
+      276   .   1   1   38   38   LYS   H      H   1    8.431     0.007    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      277   .   1   1   38   38   LYS   HA     H   1    4.352     0.021    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      278   .   1   1   38   38   LYS   HB2    H   1    1.596     0.006    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      279   .   1   1   38   38   LYS   HB3    H   1    1.717     0.006    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      280   .   1   1   38   38   LYS   HG2    H   1    1.261     0.013    .   2   .   .   .   .   .   LYS   HG2    .   6536   1
+      281   .   1   1   38   38   LYS   HG3    H   1    1.350     0.004    .   2   .   .   .   .   .   LYS   HG3    .   6536   1
+      282   .   1   1   38   38   LYS   HD2    H   1    2.017     0.002    .   1   .   .   .   .   .   LYS   HD     .   6536   1
+      283   .   1   1   38   38   LYS   HD3    H   1    2.017     0.002    .   1   .   .   .   .   .   LYS   HD     .   6536   1
+      284   .   1   1   38   38   LYS   C      C   13   173.670   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      285   .   1   1   38   38   LYS   CA     C   13   55.030    0.032    .   1   .   .   .   .   .   LYS   CA     .   6536   1
+      286   .   1   1   38   38   LYS   CG     C   13   24.580    0.008    .   1   .   .   .   .   .   LYS   CG     .   6536   1
+      287   .   1   1   38   38   LYS   N      N   15   129.455   0.020    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      288   .   1   1   39   39   GLY   H      H   1    8.747     0.016    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      289   .   1   1   39   39   GLY   HA2    H   1    3.347     0.006    .   2   .   .   .   .   .   GLY   HA2    .   6536   1
+      290   .   1   1   39   39   GLY   HA3    H   1    3.739     0.010    .   2   .   .   .   .   .   GLY   HA3    .   6536   1
+      291   .   1   1   39   39   GLY   C      C   13   175.629   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      292   .   1   1   39   39   GLY   CA     C   13   45.275    0.133    .   1   .   .   .   .   .   GLY   CA     .   6536   1
+      293   .   1   1   39   39   GLY   N      N   15   114.588   0.066    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      294   .   1   1   40   40   GLY   H      H   1    8.848     0.011    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      295   .   1   1   40   40   GLY   HA2    H   1    3.703     0.009    .   2   .   .   .   .   .   GLY   HA2    .   6536   1
+      296   .   1   1   40   40   GLY   HA3    H   1    4.265     0.028    .   2   .   .   .   .   .   GLY   HA3    .   6536   1
+      297   .   1   1   40   40   GLY   C      C   13   176.099   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      298   .   1   1   40   40   GLY   CA     C   13   43.758    0.010    .   1   .   .   .   .   .   GLY   CA     .   6536   1
+      299   .   1   1   40   40   GLY   N      N   15   111.011   0.010    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      300   .   1   1   41   41   LYS   H      H   1    8.543     0.020    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      301   .   1   1   41   41   LYS   HB2    H   1    1.797     0.002    .   1   .   .   .   .   .   LYS   HB     .   6536   1
+      302   .   1   1   41   41   LYS   HB3    H   1    1.797     0.002    .   1   .   .   .   .   .   LYS   HB     .   6536   1
+      303   .   1   1   41   41   LYS   C      C   13   172.415   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      304   .   1   1   41   41   LYS   N      N   15   122.714   0.088    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      305   .   1   1   42   42   ASN   H      H   1    9.061     0.005    .   1   .   .   .   .   .   ASN   H      .   6536   1
+      306   .   1   1   42   42   ASN   HA     H   1    4.724     0.035    .   1   .   .   .   .   .   ASN   HA     .   6536   1
+      307   .   1   1   42   42   ASN   HB2    H   1    3.296     0.030    .   1   .   .   .   .   .   ASN   HB     .   6536   1
+      308   .   1   1   42   42   ASN   HB3    H   1    3.296     0.030    .   1   .   .   .   .   .   ASN   HB     .   6536   1
+      309   .   1   1   42   42   ASN   C      C   13   176.407   0.002    .   1   .   .   .   .   .   ASN   C      .   6536   1
+      310   .   1   1   42   42   ASN   CA     C   13   54.640    0.002    .   1   .   .   .   .   .   ASN   CA     .   6536   1
+      311   .   1   1   42   42   ASN   CB     C   13   37.618    0.014    .   1   .   .   .   .   .   ASN   CB     .   6536   1
+      312   .   1   1   42   42   ASN   N      N   15   118.476   0.019    .   1   .   .   .   .   .   ASN   N      .   6536   1
+      313   .   1   1   43   43   GLU   H      H   1    7.950     0.016    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      314   .   1   1   43   43   GLU   HA     H   1    4.934     0.016    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      315   .   1   1   43   43   GLU   HB2    H   1    1.932     0.021    .   2   .   .   .   .   .   GLU   HB2    .   6536   1
+      316   .   1   1   43   43   GLU   HB3    H   1    2.076     0.040    .   2   .   .   .   .   .   GLU   HB3    .   6536   1
+      317   .   1   1   43   43   GLU   HG2    H   1    2.378     0.007    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      318   .   1   1   43   43   GLU   HG3    H   1    2.378     0.007    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      319   .   1   1   43   43   GLU   C      C   13   173.583   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      320   .   1   1   43   43   GLU   N      N   15   117.230   0.027    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      321   .   1   1   44   44   LEU   H      H   1    7.973     0.012    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      322   .   1   1   44   44   LEU   HA     H   1    4.202     0.020    .   1   .   .   .   .   .   LEU   HA     .   6536   1
+      323   .   1   1   44   44   LEU   HB2    H   1    1.218     0.030    .   2   .   .   .   .   .   LEU   HB2    .   6536   1
+      324   .   1   1   44   44   LEU   HB3    H   1    1.528     0.021    .   2   .   .   .   .   .   LEU   HB3    .   6536   1
+      325   .   1   1   44   44   LEU   HD11   H   1    0.641     0.014    .   1   .   .   .   .   .   LEU   HD     .   6536   1
+      326   .   1   1   44   44   LEU   HD12   H   1    0.641     0.014    .   1   .   .   .   .   .   LEU   HD     .   6536   1
+      327   .   1   1   44   44   LEU   HD13   H   1    0.641     0.014    .   1   .   .   .   .   .   LEU   HD     .   6536   1
+      328   .   1   1   44   44   LEU   C      C   13   174.022   0.002    .   1   .   .   .   .   .   LEU   C      .   6536   1
+      329   .   1   1   44   44   LEU   CB     C   13   44.280    0.023    .   1   .   .   .   .   .   LEU   CB     .   6536   1
+      330   .   1   1   44   44   LEU   CD1    C   13   24.393    0.057    .   1   .   .   .   .   .   LEU   CD     .   6536   1
+      331   .   1   1   44   44   LEU   N      N   15   122.786   0.066    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      332   .   1   1   45   45   SER   H      H   1    7.932     0.006    .   1   .   .   .   .   .   SER   H      .   6536   1
+      333   .   1   1   45   45   SER   HA     H   1    4.633     0.022    .   1   .   .   .   .   .   SER   HA     .   6536   1
+      334   .   1   1   45   45   SER   HB2    H   1    3.691     0.008    .   2   .   .   .   .   .   SER   HB2    .   6536   1
+      335   .   1   1   45   45   SER   HB3    H   1    3.903     0.014    .   2   .   .   .   .   .   SER   HB3    .   6536   1
+      336   .   1   1   45   45   SER   C      C   13   176.863   0.002    .   1   .   .   .   .   .   SER   C      .   6536   1
+      337   .   1   1   45   45   SER   CA     C   13   57.492    0.002    .   1   .   .   .   .   .   SER   CA     .   6536   1
+      338   .   1   1   45   45   SER   CB     C   13   64.833    0.052    .   1   .   .   .   .   .   SER   CB     .   6536   1
+      339   .   1   1   45   45   SER   N      N   15   116.637   0.011    .   1   .   .   .   .   .   SER   N      .   6536   1
+      340   .   1   1   46   46   PHE   H      H   1    8.151     0.012    .   1   .   .   .   .   .   PHE   H      .   6536   1
+      341   .   1   1   46   46   PHE   HA     H   1    4.808     0.018    .   1   .   .   .   .   .   PHE   HA     .   6536   1
+      342   .   1   1   46   46   PHE   HB2    H   1    2.947     0.020    .   2   .   .   .   .   .   PHE   HB2    .   6536   1
+      343   .   1   1   46   46   PHE   HB3    H   1    3.177     0.019    .   2   .   .   .   .   .   PHE   HB3    .   6536   1
+      344   .   1   1   46   46   PHE   HD1    H   1    6.673     0.011    .   1   .   .   .   .   .   PHE   HD     .   6536   1
+      345   .   1   1   46   46   PHE   HE1    H   1    7.249     0.032    .   1   .   .   .   .   .   PHE   HE     .   6536   1
+      346   .   1   1   46   46   PHE   HZ     H   1    7.040     0.023    .   1   .   .   .   .   .   PHE   HZ     .   6536   1
+      347   .   1   1   46   46   PHE   C      C   13   176.147   0.002    .   1   .   .   .   .   .   PHE   C      .   6536   1
+      348   .   1   1   46   46   PHE   CA     C   13   56.091    0.250    .   1   .   .   .   .   .   PHE   CA     .   6536   1
+      349   .   1   1   46   46   PHE   CB     C   13   39.564    0.070    .   1   .   .   .   .   .   PHE   CB     .   6536   1
+      350   .   1   1   46   46   PHE   CD1    C   13   132.410   0.111    .   1   .   .   .   .   .   PHE   CD     .   6536   1
+      351   .   1   1   46   46   PHE   CE1    C   13   131.208   0.057    .   1   .   .   .   .   .   PHE   CE     .   6536   1
+      352   .   1   1   46   46   PHE   CZ     C   13   129.320   0.054    .   1   .   .   .   .   .   PHE   CZ     .   6536   1
+      353   .   1   1   46   46   PHE   N      N   15   117.893   0.033    .   1   .   .   .   .   .   PHE   N      .   6536   1
+      354   .   1   1   47   47   LYS   H      H   1    8.939     0.013    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      355   .   1   1   47   47   LYS   HA     H   1    4.944     0.062    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      356   .   1   1   47   47   LYS   HB2    H   1    1.738     0.002    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      357   .   1   1   47   47   LYS   HB3    H   1    1.899     0.002    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      358   .   1   1   47   47   LYS   HG2    H   1    1.458     0.029    .   2   .   .   .   .   .   LYS   HG2    .   6536   1
+      359   .   1   1   47   47   LYS   HG3    H   1    1.631     0.002    .   2   .   .   .   .   .   LYS   HG3    .   6536   1
+      360   .   1   1   47   47   LYS   HE2    H   1    2.965     0.052    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      361   .   1   1   47   47   LYS   HE3    H   1    2.965     0.052    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      362   .   1   1   47   47   LYS   C      C   13   174.142   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      363   .   1   1   47   47   LYS   N      N   15   119.539   0.014    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      364   .   1   1   48   48   GLN   H      H   1    9.052     0.016    .   1   .   .   .   .   .   GLN   H      .   6536   1
+      365   .   1   1   48   48   GLN   HA     H   1    3.287     0.032    .   1   .   .   .   .   .   GLN   HA     .   6536   1
+      366   .   1   1   48   48   GLN   HB2    H   1    1.740     0.005    .   2   .   .   .   .   .   GLN   HB2    .   6536   1
+      367   .   1   1   48   48   GLN   HB3    H   1    1.886     0.001    .   2   .   .   .   .   .   GLN   HB3    .   6536   1
+      368   .   1   1   48   48   GLN   HG2    H   1    2.048     0.033    .   2   .   .   .   .   .   GLN   HG2    .   6536   1
+      369   .   1   1   48   48   GLN   HG3    H   1    2.153     0.011    .   2   .   .   .   .   .   GLN   HG3    .   6536   1
+      370   .   1   1   48   48   GLN   CA     C   13   58.486    0.043    .   1   .   .   .   .   .   GLN   CA     .   6536   1
+      371   .   1   1   48   48   GLN   CG     C   13   33.275    0.002    .   1   .   .   .   .   .   GLN   CG     .   6536   1
+      372   .   1   1   48   48   GLN   CD     C   13   173.502   0.002    .   1   .   .   .   .   .   GLN   CD     .   6536   1
+      373   .   1   1   48   48   GLN   N      N   15   120.404   0.019    .   1   .   .   .   .   .   GLN   N      .   6536   1
+      374   .   1   1   49   49   GLY   H      H   1    8.724     0.010    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      375   .   1   1   49   49   GLY   C      C   13   172.880   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      376   .   1   1   49   49   GLY   N      N   15   114.487   0.061    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      377   .   1   1   50   50   GLU   H      H   1    8.087     0.026    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      378   .   1   1   50   50   GLU   HA     H   1    4.151     0.008    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      379   .   1   1   50   50   GLU   HB2    H   1    1.986     0.009    .   2   .   .   .   .   .   GLU   HB2    .   6536   1
+      380   .   1   1   50   50   GLU   HB3    H   1    2.288     0.023    .   2   .   .   .   .   .   GLU   HB3    .   6536   1
+      381   .   1   1   50   50   GLU   HG2    H   1    2.440     0.002    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      382   .   1   1   50   50   GLU   HG3    H   1    2.440     0.002    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      383   .   1   1   50   50   GLU   C      C   13   174.573   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      384   .   1   1   50   50   GLU   CB     C   13   31.381    0.010    .   1   .   .   .   .   .   GLU   CB     .   6536   1
+      385   .   1   1   50   50   GLU   N      N   15   121.849   0.089    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      386   .   1   1   51   51   GLN   H      H   1    8.627     0.008    .   1   .   .   .   .   .   GLN   H      .   6536   1
+      387   .   1   1   51   51   GLN   HA     H   1    4.743     0.056    .   1   .   .   .   .   .   GLN   HA     .   6536   1
+      388   .   1   1   51   51   GLN   HB2    H   1    2.021     0.015    .   1   .   .   .   .   .   GLN   HB     .   6536   1
+      389   .   1   1   51   51   GLN   HB3    H   1    2.021     0.015    .   1   .   .   .   .   .   GLN   HB     .   6536   1
+      390   .   1   1   51   51   GLN   HG2    H   1    2.317     0.046    .   1   .   .   .   .   .   GLN   HG     .   6536   1
+      391   .   1   1   51   51   GLN   HG3    H   1    2.317     0.046    .   1   .   .   .   .   .   GLN   HG     .   6536   1
+      392   .   1   1   51   51   GLN   CB     C   13   30.256    0.002    .   1   .   .   .   .   .   GLN   CB     .   6536   1
+      393   .   1   1   51   51   GLN   CD     C   13   174.909   0.002    .   1   .   .   .   .   .   GLN   CD     .   6536   1
+      394   .   1   1   51   51   GLN   N      N   15   122.498   0.081    .   1   .   .   .   .   .   GLN   N      .   6536   1
+      395   .   1   1   52   52   ILE   H      H   1    8.929     0.017    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      396   .   1   1   52   52   ILE   HA     H   1    4.266     0.030    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      397   .   1   1   52   52   ILE   HB     H   1    1.291     0.030    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      398   .   1   1   52   52   ILE   HG12   H   1    0.651     0.041    .   2   .   .   .   .   .   ILE   HG12   .   6536   1
+      399   .   1   1   52   52   ILE   HG13   H   1    0.834     0.014    .   2   .   .   .   .   .   ILE   HG13   .   6536   1
+      400   .   1   1   52   52   ILE   HG21   H   1    0.470     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      401   .   1   1   52   52   ILE   HG22   H   1    0.470     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      402   .   1   1   52   52   ILE   HG23   H   1    0.470     0.013    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      403   .   1   1   52   52   ILE   HD11   H   1    -0.002    0.009    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      404   .   1   1   52   52   ILE   HD12   H   1    -0.002    0.009    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      405   .   1   1   52   52   ILE   HD13   H   1    -0.002    0.009    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      406   .   1   1   52   52   ILE   C      C   13   175.042   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      407   .   1   1   52   52   ILE   CA     C   13   58.317    0.031    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      408   .   1   1   52   52   ILE   CB     C   13   40.851    0.032    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      409   .   1   1   52   52   ILE   CG1    C   13   26.628    0.085    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      410   .   1   1   52   52   ILE   CG2    C   13   17.707    0.043    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      411   .   1   1   52   52   ILE   CD1    C   13   11.725    0.026    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      412   .   1   1   52   52   ILE   N      N   15   127.685   0.012    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      413   .   1   1   53   53   GLU   H      H   1    8.335     0.015    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      414   .   1   1   53   53   GLU   HA     H   1    4.462     0.022    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      415   .   1   1   53   53   GLU   HB2    H   1    1.563     0.033    .   2   .   .   .   .   .   GLU   HB2    .   6536   1
+      416   .   1   1   53   53   GLU   HB3    H   1    1.952     0.019    .   2   .   .   .   .   .   GLU   HB3    .   6536   1
+      417   .   1   1   53   53   GLU   HG2    H   1    2.266     0.030    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      418   .   1   1   53   53   GLU   HG3    H   1    2.266     0.030    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      419   .   1   1   53   53   GLU   C      C   13   174.880   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      420   .   1   1   53   53   GLU   CA     C   13   54.994    0.034    .   1   .   .   .   .   .   GLU   CA     .   6536   1
+      421   .   1   1   53   53   GLU   CB     C   13   30.982    0.134    .   1   .   .   .   .   .   GLU   CB     .   6536   1
+      422   .   1   1   53   53   GLU   CG     C   13   36.680    0.129    .   1   .   .   .   .   .   GLU   CG     .   6536   1
+      423   .   1   1   53   53   GLU   N      N   15   124.625   0.019    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      424   .   1   1   54   54   ILE   H      H   1    9.011     0.020    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      425   .   1   1   54   54   ILE   HA     H   1    4.299     0.011    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      426   .   1   1   54   54   ILE   HB     H   1    1.929     0.019    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      427   .   1   1   54   54   ILE   HG12   H   1    1.116     0.040    .   1   .   .   .   .   .   ILE   HG1    .   6536   1
+      428   .   1   1   54   54   ILE   HG13   H   1    1.116     0.040    .   1   .   .   .   .   .   ILE   HG1    .   6536   1
+      429   .   1   1   54   54   ILE   HG21   H   1    0.593     0.014    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      430   .   1   1   54   54   ILE   HG22   H   1    0.593     0.014    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      431   .   1   1   54   54   ILE   HG23   H   1    0.593     0.014    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      432   .   1   1   54   54   ILE   HD11   H   1    0.482     0.010    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      433   .   1   1   54   54   ILE   HD12   H   1    0.482     0.010    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      434   .   1   1   54   54   ILE   HD13   H   1    0.482     0.010    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      435   .   1   1   54   54   ILE   C      C   13   174.529   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      436   .   1   1   54   54   ILE   CA     C   13   58.970    0.053    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      437   .   1   1   54   54   ILE   CB     C   13   35.380    0.045    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      438   .   1   1   54   54   ILE   CG1    C   13   26.115    0.358    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      439   .   1   1   54   54   ILE   CG2    C   13   10.336    0.112    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      440   .   1   1   54   54   ILE   CD1    C   13   17.661    0.112    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      441   .   1   1   54   54   ILE   N      N   15   124.026   0.022    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      442   .   1   1   55   55   ILE   H      H   1    8.753     0.017    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      443   .   1   1   55   55   ILE   HA     H   1    5.023     0.024    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      444   .   1   1   55   55   ILE   HB     H   1    2.009     0.023    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      445   .   1   1   55   55   ILE   HG12   H   1    0.927     0.039    .   2   .   .   .   .   .   ILE   HG12   .   6536   1
+      446   .   1   1   55   55   ILE   HG13   H   1    1.094     0.018    .   2   .   .   .   .   .   ILE   HG13   .   6536   1
+      447   .   1   1   55   55   ILE   HD11   H   1    0.706     0.028    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      448   .   1   1   55   55   ILE   HD12   H   1    0.706     0.028    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      449   .   1   1   55   55   ILE   HD13   H   1    0.706     0.028    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      450   .   1   1   55   55   ILE   C      C   13   174.976   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      451   .   1   1   55   55   ILE   CA     C   13   60.059    0.021    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      452   .   1   1   55   55   ILE   CB     C   13   38.924    0.182    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      453   .   1   1   55   55   ILE   CG1    C   13   26.598    0.035    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      454   .   1   1   55   55   ILE   CD1    C   13   17.382    0.050    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      455   .   1   1   55   55   ILE   N      N   15   122.390   0.035    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      456   .   1   1   56   56   ARG   H      H   1    7.389     0.018    .   1   .   .   .   .   .   ARG   H      .   6536   1
+      457   .   1   1   56   56   ARG   HA     H   1    4.416     0.008    .   1   .   .   .   .   .   ARG   HA     .   6536   1
+      458   .   1   1   56   56   ARG   HB2    H   1    1.794     0.006    .   2   .   .   .   .   .   ARG   HB2    .   6536   1
+      459   .   1   1   56   56   ARG   HB3    H   1    2.080     0.017    .   2   .   .   .   .   .   ARG   HB3    .   6536   1
+      460   .   1   1   56   56   ARG   HG2    H   1    1.888     0.001    .   2   .   .   .   .   .   ARG   HG2    .   6536   1
+      461   .   1   1   56   56   ARG   HG3    H   1    2.234     0.023    .   2   .   .   .   .   .   ARG   HG3    .   6536   1
+      462   .   1   1   56   56   ARG   HD2    H   1    3.161     0.012    .   2   .   .   .   .   .   ARG   HD2    .   6536   1
+      463   .   1   1   56   56   ARG   HD3    H   1    3.392     0.031    .   2   .   .   .   .   .   ARG   HD3    .   6536   1
+      464   .   1   1   56   56   ARG   C      C   13   174.022   0.002    .   1   .   .   .   .   .   ARG   C      .   6536   1
+      465   .   1   1   56   56   ARG   CA     C   13   58.494    0.045    .   1   .   .   .   .   .   ARG   CA     .   6536   1
+      466   .   1   1   56   56   ARG   CB     C   13   33.898    0.071    .   1   .   .   .   .   .   ARG   CB     .   6536   1
+      467   .   1   1   56   56   ARG   CG     C   13   27.460    0.075    .   1   .   .   .   .   .   ARG   CG     .   6536   1
+      468   .   1   1   56   56   ARG   CD     C   13   44.506    0.064    .   1   .   .   .   .   .   ARG   CD     .   6536   1
+      469   .   1   1   56   56   ARG   N      N   15   118.151   0.030    .   1   .   .   .   .   .   ARG   N      .   6536   1
+      470   .   1   1   57   57   ILE   H      H   1    9.371     0.020    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      471   .   1   1   57   57   ILE   HA     H   1    4.341     0.011    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      472   .   1   1   57   57   ILE   HB     H   1    1.818     0.039    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      473   .   1   1   57   57   ILE   HG12   H   1    0.631     0.036    .   2   .   .   .   .   .   ILE   HG12   .   6536   1
+      474   .   1   1   57   57   ILE   HG13   H   1    1.151     0.024    .   2   .   .   .   .   .   ILE   HG13   .   6536   1
+      475   .   1   1   57   57   ILE   HG21   H   1    0.504     0.015    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      476   .   1   1   57   57   ILE   HG22   H   1    0.504     0.015    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      477   .   1   1   57   57   ILE   HG23   H   1    0.504     0.015    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      478   .   1   1   57   57   ILE   HD11   H   1    0.123     0.020    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      479   .   1   1   57   57   ILE   HD12   H   1    0.123     0.020    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      480   .   1   1   57   57   ILE   HD13   H   1    0.123     0.020    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      481   .   1   1   57   57   ILE   C      C   13   174.881   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      482   .   1   1   57   57   ILE   CA     C   13   61.746    0.034    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      483   .   1   1   57   57   ILE   CB     C   13   39.171    0.074    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      484   .   1   1   57   57   ILE   CG1    C   13   26.097    0.009    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      485   .   1   1   57   57   ILE   CG2    C   13   13.132    0.114    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      486   .   1   1   57   57   ILE   CD1    C   13   16.778    0.037    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      487   .   1   1   57   57   ILE   N      N   15   125.701   0.054    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      488   .   1   1   58   58   THR   H      H   1    7.332     0.016    .   1   .   .   .   .   .   THR   H      .   6536   1
+      489   .   1   1   58   58   THR   HA     H   1    4.638     0.003    .   1   .   .   .   .   .   THR   HA     .   6536   1
+      490   .   1   1   58   58   THR   HB     H   1    4.301     0.006    .   1   .   .   .   .   .   THR   HB     .   6536   1
+      491   .   1   1   58   58   THR   HG21   H   1    1.185     0.016    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      492   .   1   1   58   58   THR   HG22   H   1    1.185     0.016    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      493   .   1   1   58   58   THR   HG23   H   1    1.185     0.016    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      494   .   1   1   58   58   THR   CA     C   13   60.570    0.047    .   1   .   .   .   .   .   THR   CA     .   6536   1
+      495   .   1   1   58   58   THR   CB     C   13   70.711    0.020    .   1   .   .   .   .   .   THR   CB     .   6536   1
+      496   .   1   1   58   58   THR   CG2    C   13   21.650    0.147    .   1   .   .   .   .   .   THR   CG2    .   6536   1
+      497   .   1   1   58   58   THR   N      N   15   114.254   0.051    .   1   .   .   .   .   .   THR   N      .   6536   1
+      498   .   1   1   59   59   ASP   H      H   1    8.630     0.014    .   1   .   .   .   .   .   ASP   H      .   6536   1
+      499   .   1   1   59   59   ASP   HA     H   1    4.245     0.010    .   1   .   .   .   .   .   ASP   HA     .   6536   1
+      500   .   1   1   59   59   ASP   HB2    H   1    2.647     0.014    .   2   .   .   .   .   .   ASP   HB2    .   6536   1
+      501   .   1   1   59   59   ASP   HB3    H   1    2.857     0.006    .   2   .   .   .   .   .   ASP   HB3    .   6536   1
+      502   .   1   1   59   59   ASP   C      C   13   175.903   0.002    .   1   .   .   .   .   .   ASP   C      .   6536   1
+      503   .   1   1   59   59   ASP   CA     C   13   55.827    0.051    .   1   .   .   .   .   .   ASP   CA     .   6536   1
+      504   .   1   1   59   59   ASP   CB     C   13   39.576    0.102    .   1   .   .   .   .   .   ASP   CB     .   6536   1
+      505   .   1   1   59   59   ASP   N      N   15   111.719   0.026    .   1   .   .   .   .   .   ASP   N      .   6536   1
+      506   .   1   1   60   60   ASN   H      H   1    8.044     0.010    .   1   .   .   .   .   .   ASN   H      .   6536   1
+      507   .   1   1   60   60   ASN   HA     H   1    5.250     0.005    .   1   .   .   .   .   .   ASN   HA     .   6536   1
+      508   .   1   1   60   60   ASN   HB2    H   1    2.413     0.009    .   2   .   .   .   .   .   ASN   HB2    .   6536   1
+      509   .   1   1   60   60   ASN   HB3    H   1    2.670     0.010    .   2   .   .   .   .   .   ASN   HB3    .   6536   1
+      510   .   1   1   60   60   ASN   CA     C   13   50.556    0.051    .   1   .   .   .   .   .   ASN   CA     .   6536   1
+      511   .   1   1   60   60   ASN   CB     C   13   39.723    0.101    .   1   .   .   .   .   .   ASN   CB     .   6536   1
+      512   .   1   1   60   60   ASN   N      N   15   114.399   0.018    .   1   .   .   .   .   .   ASN   N      .   6536   1
+      513   .   1   1   62   62   GLU   H      H   1    7.881     0.006    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      514   .   1   1   62   62   GLU   HA     H   1    3.974     0.008    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      515   .   1   1   62   62   GLU   HB2    H   1    1.938     0.024    .   1   .   .   .   .   .   GLU   HB     .   6536   1
+      516   .   1   1   62   62   GLU   HB3    H   1    1.938     0.024    .   1   .   .   .   .   .   GLU   HB     .   6536   1
+      517   .   1   1   62   62   GLU   HG2    H   1    2.203     0.009    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      518   .   1   1   62   62   GLU   HG3    H   1    2.203     0.009    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      519   .   1   1   62   62   GLU   C      C   13   172.390   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      520   .   1   1   62   62   GLU   CA     C   13   57.794    0.106    .   1   .   .   .   .   .   GLU   CA     .   6536   1
+      521   .   1   1   62   62   GLU   CG     C   13   36.100    0.002    .   1   .   .   .   .   .   GLU   CG     .   6536   1
+      522   .   1   1   62   62   GLU   N      N   15   120.009   0.002    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      523   .   1   1   63   63   GLY   H      H   1    8.704     0.011    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      524   .   1   1   63   63   GLY   HA2    H   1    3.773     0.002    .   2   .   .   .   .   .   GLY   HA2    .   6536   1
+      525   .   1   1   63   63   GLY   HA3    H   1    4.024     0.002    .   2   .   .   .   .   .   GLY   HA3    .   6536   1
+      526   .   1   1   63   63   GLY   C      C   13   175.514   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      527   .   1   1   63   63   GLY   N      N   15   111.281   0.012    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      528   .   1   1   64   64   LYS   H      H   1    7.759     0.011    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      529   .   1   1   64   64   LYS   HA     H   1    5.143     0.016    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      530   .   1   1   64   64   LYS   HB2    H   1    1.521     0.014    .   2   .   .   .   .   .   LYS   HB2    .   6536   1
+      531   .   1   1   64   64   LYS   HB3    H   1    1.719     0.016    .   2   .   .   .   .   .   LYS   HB3    .   6536   1
+      532   .   1   1   64   64   LYS   HG2    H   1    1.185     0.022    .   2   .   .   .   .   .   LYS   HG2    .   6536   1
+      533   .   1   1   64   64   LYS   HG3    H   1    1.398     0.008    .   2   .   .   .   .   .   LYS   HG3    .   6536   1
+      534   .   1   1   64   64   LYS   HE2    H   1    2.778     0.018    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      535   .   1   1   64   64   LYS   HE3    H   1    2.778     0.018    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      536   .   1   1   64   64   LYS   C      C   13   174.278   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      537   .   1   1   64   64   LYS   CA     C   13   54.689    0.044    .   1   .   .   .   .   .   LYS   CA     .   6536   1
+      538   .   1   1   64   64   LYS   CB     C   13   35.682    0.249    .   1   .   .   .   .   .   LYS   CB     .   6536   1
+      539   .   1   1   64   64   LYS   CG     C   13   29.057    0.077    .   1   .   .   .   .   .   LYS   CG     .   6536   1
+      540   .   1   1   64   64   LYS   CE     C   13   42.067    0.362    .   1   .   .   .   .   .   LYS   CE     .   6536   1
+      541   .   1   1   64   64   LYS   N      N   15   117.485   0.051    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      542   .   1   1   65   65   TRP   H      H   1    9.108     0.018    .   1   .   .   .   .   .   TRP   H      .   6536   1
+      543   .   1   1   65   65   TRP   HA     H   1    5.421     0.013    .   1   .   .   .   .   .   TRP   HA     .   6536   1
+      544   .   1   1   65   65   TRP   HB2    H   1    2.925     0.019    .   2   .   .   .   .   .   TRP   HB2    .   6536   1
+      545   .   1   1   65   65   TRP   HB3    H   1    3.116     0.009    .   2   .   .   .   .   .   TRP   HB3    .   6536   1
+      546   .   1   1   65   65   TRP   HD1    H   1    7.361     0.009    .   1   .   .   .   .   .   TRP   HD1    .   6536   1
+      547   .   1   1   65   65   TRP   HE1    H   1    10.415    0.006    .   1   .   .   .   .   .   TRP   HE1    .   6536   1
+      548   .   1   1   65   65   TRP   HE3    H   1    7.065     0.028    .   1   .   .   .   .   .   TRP   HE3    .   6536   1
+      549   .   1   1   65   65   TRP   CA     C   13   53.196    0.052    .   1   .   .   .   .   .   TRP   CA     .   6536   1
+      550   .   1   1   65   65   TRP   CB     C   13   33.209    0.188    .   1   .   .   .   .   .   TRP   CB     .   6536   1
+      551   .   1   1   65   65   TRP   CD1    C   13   109.304   64.497   .   1   .   .   .   .   .   TRP   CD1    .   6536   1
+      552   .   1   1   65   65   TRP   CE3    C   13   118.956   0.144    .   1   .   .   .   .   .   TRP   CE3    .   6536   1
+      553   .   1   1   65   65   TRP   N      N   15   119.028   0.048    .   1   .   .   .   .   .   TRP   N      .   6536   1
+      554   .   1   1   65   65   TRP   NE1    N   15   130.146   0.018    .   1   .   .   .   .   .   TRP   NE1    .   6536   1
+      555   .   1   1   66   66   LEU   H      H   1    8.387     0.020    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      556   .   1   1   66   66   LEU   HA     H   1    4.818     0.013    .   1   .   .   .   .   .   LEU   HA     .   6536   1
+      557   .   1   1   66   66   LEU   HB2    H   1    1.479     0.009    .   2   .   .   .   .   .   LEU   HB2    .   6536   1
+      558   .   1   1   66   66   LEU   HB3    H   1    2.073     0.013    .   2   .   .   .   .   .   LEU   HB3    .   6536   1
+      559   .   1   1   66   66   LEU   HG     H   1    1.091     0.044    .   1   .   .   .   .   .   LEU   HG     .   6536   1
+      560   .   1   1   66   66   LEU   HD11   H   1    -0.204    0.006    .   2   .   .   .   .   .   LEU   HD1    .   6536   1
+      561   .   1   1   66   66   LEU   HD12   H   1    -0.204    0.006    .   2   .   .   .   .   .   LEU   HD1    .   6536   1
+      562   .   1   1   66   66   LEU   HD13   H   1    -0.204    0.006    .   2   .   .   .   .   .   LEU   HD1    .   6536   1
+      563   .   1   1   66   66   LEU   HD21   H   1    0.680     0.010    .   2   .   .   .   .   .   LEU   HD2    .   6536   1
+      564   .   1   1   66   66   LEU   HD22   H   1    0.680     0.010    .   2   .   .   .   .   .   LEU   HD2    .   6536   1
+      565   .   1   1   66   66   LEU   HD23   H   1    0.680     0.010    .   2   .   .   .   .   .   LEU   HD2    .   6536   1
+      566   .   1   1   66   66   LEU   CA     C   13   54.655    0.282    .   1   .   .   .   .   .   LEU   CA     .   6536   1
+      567   .   1   1   66   66   LEU   CB     C   13   43.926    0.054    .   1   .   .   .   .   .   LEU   CB     .   6536   1
+      568   .   1   1   66   66   LEU   CG     C   13   27.383    0.002    .   1   .   .   .   .   .   LEU   CG     .   6536   1
+      569   .   1   1   66   66   LEU   CD1    C   13   21.536    0.062    .   2   .   .   .   .   .   LEU   CD1    .   6536   1
+      570   .   1   1   66   66   LEU   CD2    C   13   26.863    0.083    .   2   .   .   .   .   .   LEU   CD2    .   6536   1
+      571   .   1   1   66   66   LEU   N      N   15   122.538   0.000    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      572   .   1   1   67   67   GLY   H      H   1    8.724     0.004    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      573   .   1   1   67   67   GLY   HA2    H   1    3.450     0.020    .   2   .   .   .   .   .   GLY   HA2    .   6536   1
+      574   .   1   1   67   67   GLY   HA3    H   1    5.182     0.014    .   2   .   .   .   .   .   GLY   HA3    .   6536   1
+      575   .   1   1   67   67   GLY   C      C   13   180.649   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      576   .   1   1   67   67   GLY   CA     C   13   45.088    0.160    .   1   .   .   .   .   .   GLY   CA     .   6536   1
+      577   .   1   1   67   67   GLY   N      N   15   114.888   0.028    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      578   .   1   1   68   68   ARG   H      H   1    8.783     0.011    .   1   .   .   .   .   .   ARG   H      .   6536   1
+      579   .   1   1   68   68   ARG   HA     H   1    5.581     0.014    .   1   .   .   .   .   .   ARG   HA     .   6536   1
+      580   .   1   1   68   68   ARG   HB2    H   1    0.684     0.031    .   2   .   .   .   .   .   ARG   HB2    .   6536   1
+      581   .   1   1   68   68   ARG   HB3    H   1    0.909     0.010    .   2   .   .   .   .   .   ARG   HB3    .   6536   1
+      582   .   1   1   68   68   ARG   HG2    H   1    1.332     0.043    .   1   .   .   .   .   .   ARG   HG     .   6536   1
+      583   .   1   1   68   68   ARG   HG3    H   1    1.332     0.043    .   1   .   .   .   .   .   ARG   HG     .   6536   1
+      584   .   1   1   68   68   ARG   HD2    H   1    2.423     0.020    .   2   .   .   .   .   .   ARG   HD2    .   6536   1
+      585   .   1   1   68   68   ARG   HD3    H   1    2.581     0.023    .   2   .   .   .   .   .   ARG   HD3    .   6536   1
+      586   .   1   1   68   68   ARG   C      C   13   173.532   0.002    .   1   .   .   .   .   .   ARG   C      .   6536   1
+      587   .   1   1   68   68   ARG   CA     C   13   53.552    0.142    .   1   .   .   .   .   .   ARG   CA     .   6536   1
+      588   .   1   1   68   68   ARG   CB     C   13   33.108    0.065    .   1   .   .   .   .   .   ARG   CB     .   6536   1
+      589   .   1   1   68   68   ARG   CG     C   13   22.741    0.076    .   1   .   .   .   .   .   ARG   CG     .   6536   1
+      590   .   1   1   68   68   ARG   CD     C   13   44.682    0.056    .   1   .   .   .   .   .   ARG   CD     .   6536   1
+      591   .   1   1   68   68   ARG   N      N   15   114.723   0.011    .   1   .   .   .   .   .   ARG   N      .   6536   1
+      592   .   1   1   69   69   THR   H      H   1    8.427     0.021    .   1   .   .   .   .   .   THR   H      .   6536   1
+      593   .   1   1   69   69   THR   HA     H   1    4.768     0.030    .   1   .   .   .   .   .   THR   HA     .   6536   1
+      594   .   1   1   69   69   THR   HB     H   1    1.326     0.005    .   1   .   .   .   .   .   THR   HB     .   6536   1
+      595   .   1   1   69   69   THR   C      C   13   172.693   0.002    .   1   .   .   .   .   .   THR   C      .   6536   1
+      596   .   1   1   69   69   THR   CA     C   13   59.370    0.002    .   1   .   .   .   .   .   THR   CA     .   6536   1
+      597   .   1   1   69   69   THR   N      N   15   110.758   0.025    .   1   .   .   .   .   .   THR   N      .   6536   1
+      598   .   1   1   70   70   ALA   H      H   1    9.602     0.011    .   1   .   .   .   .   .   ALA   H      .   6536   1
+      599   .   1   1   70   70   ALA   HA     H   1    4.127     0.018    .   1   .   .   .   .   .   ALA   HA     .   6536   1
+      600   .   1   1   70   70   ALA   HB1    H   1    1.476     0.005    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      601   .   1   1   70   70   ALA   HB2    H   1    1.476     0.005    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      602   .   1   1   70   70   ALA   HB3    H   1    1.476     0.005    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      603   .   1   1   70   70   ALA   C      C   13   171.092   0.002    .   1   .   .   .   .   .   ALA   C      .   6536   1
+      604   .   1   1   70   70   ALA   CA     C   13   54.363    0.002    .   1   .   .   .   .   .   ALA   CA     .   6536   1
+      605   .   1   1   70   70   ALA   CB     C   13   18.426    0.042    .   1   .   .   .   .   .   ALA   CB     .   6536   1
+      606   .   1   1   70   70   ALA   N      N   15   124.715   0.027    .   1   .   .   .   .   .   ALA   N      .   6536   1
+      607   .   1   1   71   71   ARG   H      H   1    7.467     0.022    .   1   .   .   .   .   .   ARG   H      .   6536   1
+      608   .   1   1   71   71   ARG   HA     H   1    4.334     0.022    .   1   .   .   .   .   .   ARG   HA     .   6536   1
+      609   .   1   1   71   71   ARG   HB2    H   1    1.701     0.018    .   2   .   .   .   .   .   ARG   HB2    .   6536   1
+      610   .   1   1   71   71   ARG   HB3    H   1    2.028     0.024    .   2   .   .   .   .   .   ARG   HB3    .   6536   1
+      611   .   1   1   71   71   ARG   HD2    H   1    3.228     0.033    .   2   .   .   .   .   .   ARG   HD2    .   6536   1
+      612   .   1   1   71   71   ARG   HD3    H   1    3.239     0.002    .   2   .   .   .   .   .   ARG   HD3    .   6536   1
+      613   .   1   1   71   71   ARG   C      C   13   172.967   0.002    .   1   .   .   .   .   .   ARG   C      .   6536   1
+      614   .   1   1   71   71   ARG   N      N   15   113.470   0.034    .   1   .   .   .   .   .   ARG   N      .   6536   1
+      615   .   1   1   72   72   GLY   H      H   1    8.021     0.014    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      616   .   1   1   72   72   GLY   HA2    H   1    3.490     0.024    .   2   .   .   .   .   .   GLY   HA2    .   6536   1
+      617   .   1   1   72   72   GLY   HA3    H   1    4.244     0.029    .   2   .   .   .   .   .   GLY   HA3    .   6536   1
+      618   .   1   1   72   72   GLY   C      C   13   175.963   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      619   .   1   1   72   72   GLY   N      N   15   107.442   0.002    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      620   .   1   1   73   73   SER   H      H   1    7.009     0.026    .   1   .   .   .   .   .   SER   H      .   6536   1
+      621   .   1   1   73   73   SER   HA     H   1    4.807     0.011    .   1   .   .   .   .   .   SER   HA     .   6536   1
+      622   .   1   1   73   73   SER   HB2    H   1    3.742     0.026    .   2   .   .   .   .   .   SER   HB2    .   6536   1
+      623   .   1   1   73   73   SER   HB3    H   1    3.894     0.028    .   2   .   .   .   .   .   SER   HB3    .   6536   1
+      624   .   1   1   73   73   SER   C      C   13   177.244   0.002    .   1   .   .   .   .   .   SER   C      .   6536   1
+      625   .   1   1   73   73   SER   CA     C   13   57.773    0.011    .   1   .   .   .   .   .   SER   CA     .   6536   1
+      626   .   1   1   73   73   SER   CB     C   13   63.748    0.034    .   1   .   .   .   .   .   SER   CB     .   6536   1
+      627   .   1   1   73   73   SER   N      N   15   114.920   0.040    .   1   .   .   .   .   .   SER   N      .   6536   1
+      628   .   1   1   74   74   TYR   H      H   1    8.712     0.008    .   1   .   .   .   .   .   TYR   H      .   6536   1
+      629   .   1   1   74   74   TYR   HA     H   1    5.318     0.015    .   1   .   .   .   .   .   TYR   HA     .   6536   1
+      630   .   1   1   74   74   TYR   HB2    H   1    2.169     0.014    .   1   .   .   .   .   .   TYR   HB2    .   6536   1
+      631   .   1   1   74   74   TYR   HB3    H   1    2.881     0.014    .   1   .   .   .   .   .   TYR   HB3    .   6536   1
+      632   .   1   1   74   74   TYR   HD1    H   1    6.848     0.013    .   1   .   .   .   .   .   TYR   HD     .   6536   1
+      633   .   1   1   74   74   TYR   HE1    H   1    6.534     0.008    .   1   .   .   .   .   .   TYR   HE     .   6536   1
+      634   .   1   1   74   74   TYR   C      C   13   173.486   0.002    .   1   .   .   .   .   .   TYR   C      .   6536   1
+      635   .   1   1   74   74   TYR   CA     C   13   56.546    0.053    .   1   .   .   .   .   .   TYR   CA     .   6536   1
+      636   .   1   1   74   74   TYR   CB     C   13   43.243    0.068    .   1   .   .   .   .   .   TYR   CB     .   6536   1
+      637   .   1   1   74   74   TYR   CD1    C   13   133.275   0.061    .   1   .   .   .   .   .   TYR   CD     .   6536   1
+      638   .   1   1   74   74   TYR   CE1    C   13   118.025   0.129    .   1   .   .   .   .   .   TYR   CE     .   6536   1
+      639   .   1   1   74   74   TYR   N      N   15   121.604   0.018    .   1   .   .   .   .   .   TYR   N      .   6536   1
+      640   .   1   1   75   75   GLY   H      H   1    8.359     0.012    .   1   .   .   .   .   .   GLY   H      .   6536   1
+      641   .   1   1   75   75   GLY   HA2    H   1    3.543     0.023    .   2   .   .   .   .   .   GLY   HA2    .   6536   1
+      642   .   1   1   75   75   GLY   HA3    H   1    3.814     0.024    .   2   .   .   .   .   .   GLY   HA3    .   6536   1
+      643   .   1   1   75   75   GLY   C      C   13   178.401   0.002    .   1   .   .   .   .   .   GLY   C      .   6536   1
+      644   .   1   1   75   75   GLY   CA     C   13   45.207    0.132    .   1   .   .   .   .   .   GLY   CA     .   6536   1
+      645   .   1   1   75   75   GLY   N      N   15   104.911   0.022    .   1   .   .   .   .   .   GLY   N      .   6536   1
+      646   .   1   1   76   76   TYR   H      H   1    9.219     0.008    .   1   .   .   .   .   .   TYR   H      .   6536   1
+      647   .   1   1   76   76   TYR   HA     H   1    5.562     0.020    .   1   .   .   .   .   .   TYR   HA     .   6536   1
+      648   .   1   1   76   76   TYR   HB2    H   1    2.893     0.030    .   1   .   .   .   .   .   TYR   HB2    .   6536   1
+      649   .   1   1   76   76   TYR   HB3    H   1    3.045     0.019    .   1   .   .   .   .   .   TYR   HB3    .   6536   1
+      650   .   1   1   76   76   TYR   HD1    H   1    7.208     0.036    .   1   .   .   .   .   .   TYR   HD     .   6536   1
+      651   .   1   1   76   76   TYR   HE1    H   1    6.955     0.023    .   1   .   .   .   .   .   TYR   HE     .   6536   1
+      652   .   1   1   76   76   TYR   C      C   13   172.630   0.002    .   1   .   .   .   .   .   TYR   C      .   6536   1
+      653   .   1   1   76   76   TYR   CA     C   13   58.485    0.055    .   1   .   .   .   .   .   TYR   CA     .   6536   1
+      654   .   1   1   76   76   TYR   CB     C   13   40.179    0.164    .   1   .   .   .   .   .   TYR   CB     .   6536   1
+      655   .   1   1   76   76   TYR   CD1    C   13   132.275   0.194    .   1   .   .   .   .   .   TYR   CD     .   6536   1
+      656   .   1   1   76   76   TYR   CE1    C   13   125.431   39.884   .   1   .   .   .   .   .   TYR   CE     .   6536   1
+      657   .   1   1   76   76   TYR   N      N   15   118.865   0.040    .   1   .   .   .   .   .   TYR   N      .   6536   1
+      658   .   1   1   77   77   ILE   H      H   1    9.366     0.013    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      659   .   1   1   77   77   ILE   HA     H   1    4.471     0.020    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      660   .   1   1   77   77   ILE   HB     H   1    1.619     0.018    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      661   .   1   1   77   77   ILE   HG21   H   1    0.966     0.012    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      662   .   1   1   77   77   ILE   HG22   H   1    0.966     0.012    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      663   .   1   1   77   77   ILE   HG23   H   1    0.966     0.012    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      664   .   1   1   77   77   ILE   HD11   H   1    0.553     0.016    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      665   .   1   1   77   77   ILE   HD12   H   1    0.553     0.016    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      666   .   1   1   77   77   ILE   HD13   H   1    0.553     0.016    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      667   .   1   1   77   77   ILE   C      C   13   175.363   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      668   .   1   1   77   77   ILE   CA     C   13   59.762    0.041    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      669   .   1   1   77   77   ILE   CB     C   13   43.145    0.045    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      670   .   1   1   77   77   ILE   CG2    C   13   18.274    0.043    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      671   .   1   1   77   77   ILE   CD1    C   13   16.869    0.034    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      672   .   1   1   77   77   ILE   N      N   15   119.706   0.028    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      673   .   1   1   78   78   LYS   H      H   1    9.477     0.020    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      674   .   1   1   78   78   LYS   HA     H   1    4.457     0.013    .   1   .   .   .   .   .   LYS   HA     .   6536   1
+      675   .   1   1   78   78   LYS   HB2    H   1    1.763     0.012    .   1   .   .   .   .   .   LYS   HB     .   6536   1
+      676   .   1   1   78   78   LYS   HB3    H   1    1.763     0.012    .   1   .   .   .   .   .   LYS   HB     .   6536   1
+      677   .   1   1   78   78   LYS   HG2    H   1    1.356     0.014    .   1   .   .   .   .   .   LYS   HG     .   6536   1
+      678   .   1   1   78   78   LYS   HG3    H   1    1.356     0.014    .   1   .   .   .   .   .   LYS   HG     .   6536   1
+      679   .   1   1   78   78   LYS   HD2    H   1    1.606     0.002    .   1   .   .   .   .   .   LYS   HD     .   6536   1
+      680   .   1   1   78   78   LYS   HD3    H   1    1.606     0.002    .   1   .   .   .   .   .   LYS   HD     .   6536   1
+      681   .   1   1   78   78   LYS   HE2    H   1    2.874     0.018    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      682   .   1   1   78   78   LYS   HE3    H   1    2.874     0.018    .   1   .   .   .   .   .   LYS   HE     .   6536   1
+      683   .   1   1   78   78   LYS   C      C   13   171.328   0.002    .   1   .   .   .   .   .   LYS   C      .   6536   1
+      684   .   1   1   78   78   LYS   CA     C   13   57.318    0.032    .   1   .   .   .   .   .   LYS   CA     .   6536   1
+      685   .   1   1   78   78   LYS   CB     C   13   32.841    0.002    .   1   .   .   .   .   .   LYS   CB     .   6536   1
+      686   .   1   1   78   78   LYS   CG     C   13   26.150    0.002    .   1   .   .   .   .   .   LYS   CG     .   6536   1
+      687   .   1   1   78   78   LYS   N      N   15   128.010   0.029    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      688   .   1   1   79   79   THR   H      H   1    7.897     0.010    .   1   .   .   .   .   .   THR   H      .   6536   1
+      689   .   1   1   79   79   THR   HA     H   1    2.864     0.016    .   1   .   .   .   .   .   THR   HA     .   6536   1
+      690   .   1   1   79   79   THR   HB     H   1    3.132     0.017    .   1   .   .   .   .   .   THR   HB     .   6536   1
+      691   .   1   1   79   79   THR   HG21   H   1    -0.187    0.021    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      692   .   1   1   79   79   THR   HG22   H   1    -0.187    0.021    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      693   .   1   1   79   79   THR   HG23   H   1    -0.187    0.021    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      694   .   1   1   79   79   THR   C      C   13   175.049   0.002    .   1   .   .   .   .   .   THR   C      .   6536   1
+      695   .   1   1   79   79   THR   CA     C   13   65.323    0.028    .   1   .   .   .   .   .   THR   CA     .   6536   1
+      696   .   1   1   79   79   THR   CB     C   13   67.198    0.061    .   1   .   .   .   .   .   THR   CB     .   6536   1
+      697   .   1   1   79   79   THR   CG2    C   13   19.628    0.128    .   1   .   .   .   .   .   THR   CG2    .   6536   1
+      698   .   1   1   79   79   THR   N      N   15   115.821   0.008    .   1   .   .   .   .   .   THR   N      .   6536   1
+      699   .   1   1   80   80   THR   H      H   1    6.779     0.028    .   1   .   .   .   .   .   THR   H      .   6536   1
+      700   .   1   1   80   80   THR   HA     H   1    4.125     0.012    .   1   .   .   .   .   .   THR   HA     .   6536   1
+      701   .   1   1   80   80   THR   HB     H   1    4.360     0.002    .   1   .   .   .   .   .   THR   HB     .   6536   1
+      702   .   1   1   80   80   THR   HG21   H   1    1.146     0.013    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      703   .   1   1   80   80   THR   HG22   H   1    1.146     0.013    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      704   .   1   1   80   80   THR   HG23   H   1    1.146     0.013    .   1   .   .   .   .   .   THR   HG2    .   6536   1
+      705   .   1   1   80   80   THR   C      C   13   174.649   0.002    .   1   .   .   .   .   .   THR   C      .   6536   1
+      706   .   1   1   80   80   THR   CA     C   13   61.784    0.006    .   1   .   .   .   .   .   THR   CA     .   6536   1
+      707   .   1   1   80   80   THR   CB     C   13   68.660    0.011    .   1   .   .   .   .   .   THR   CB     .   6536   1
+      708   .   1   1   80   80   THR   CG2    C   13   22.163    0.021    .   1   .   .   .   .   .   THR   CG2    .   6536   1
+      709   .   1   1   80   80   THR   N      N   15   105.365   0.032    .   1   .   .   .   .   .   THR   N      .   6536   1
+      710   .   1   1   81   81   ALA   H      H   1    7.827     0.016    .   1   .   .   .   .   .   ALA   H      .   6536   1
+      711   .   1   1   81   81   ALA   HA     H   1    4.412     0.005    .   1   .   .   .   .   .   ALA   HA     .   6536   1
+      712   .   1   1   81   81   ALA   HB1    H   1    1.594     0.012    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      713   .   1   1   81   81   ALA   HB2    H   1    1.594     0.012    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      714   .   1   1   81   81   ALA   HB3    H   1    1.594     0.012    .   1   .   .   .   .   .   ALA   HB     .   6536   1
+      715   .   1   1   81   81   ALA   C      C   13   173.600   0.002    .   1   .   .   .   .   .   ALA   C      .   6536   1
+      716   .   1   1   81   81   ALA   CA     C   13   52.879    0.049    .   1   .   .   .   .   .   ALA   CA     .   6536   1
+      717   .   1   1   81   81   ALA   CB     C   13   20.263    0.038    .   1   .   .   .   .   .   ALA   CB     .   6536   1
+      718   .   1   1   81   81   ALA   N      N   15   122.805   0.034    .   1   .   .   .   .   .   ALA   N      .   6536   1
+      719   .   1   1   82   82   VAL   H      H   1    7.098     0.025    .   1   .   .   .   .   .   VAL   H      .   6536   1
+      720   .   1   1   82   82   VAL   HA     H   1    5.116     0.013    .   1   .   .   .   .   .   VAL   HA     .   6536   1
+      721   .   1   1   82   82   VAL   HB     H   1    1.763     0.033    .   1   .   .   .   .   .   VAL   HB     .   6536   1
+      722   .   1   1   82   82   VAL   HG11   H   1    0.487     0.021    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      723   .   1   1   82   82   VAL   HG12   H   1    0.487     0.021    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      724   .   1   1   82   82   VAL   HG13   H   1    0.487     0.021    .   2   .   .   .   .   .   VAL   HG1    .   6536   1
+      725   .   1   1   82   82   VAL   HG21   H   1    0.674     0.021    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      726   .   1   1   82   82   VAL   HG22   H   1    0.674     0.021    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      727   .   1   1   82   82   VAL   HG23   H   1    0.674     0.021    .   2   .   .   .   .   .   VAL   HG2    .   6536   1
+      728   .   1   1   82   82   VAL   C      C   13   176.094   0.002    .   1   .   .   .   .   .   VAL   C      .   6536   1
+      729   .   1   1   82   82   VAL   CA     C   13   58.044    0.045    .   1   .   .   .   .   .   VAL   CA     .   6536   1
+      730   .   1   1   82   82   VAL   CB     C   13   36.155    0.051    .   1   .   .   .   .   .   VAL   CB     .   6536   1
+      731   .   1   1   82   82   VAL   CG1    C   13   22.440    0.050    .   2   .   .   .   .   .   VAL   CG1    .   6536   1
+      732   .   1   1   82   82   VAL   CG2    C   13   18.305    0.107    .   2   .   .   .   .   .   VAL   CG2    .   6536   1
+      733   .   1   1   82   82   VAL   N      N   15   107.302   0.032    .   1   .   .   .   .   .   VAL   N      .   6536   1
+      734   .   1   1   83   83   GLU   H      H   1    8.501     0.015    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      735   .   1   1   83   83   GLU   HA     H   1    4.709     0.020    .   1   .   .   .   .   .   GLU   HA     .   6536   1
+      736   .   1   1   83   83   GLU   HB2    H   1    1.817     0.035    .   2   .   .   .   .   .   GLU   HB2    .   6536   1
+      737   .   1   1   83   83   GLU   HB3    H   1    1.913     0.002    .   2   .   .   .   .   .   GLU   HB3    .   6536   1
+      738   .   1   1   83   83   GLU   HG2    H   1    2.135     0.034    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      739   .   1   1   83   83   GLU   HG3    H   1    2.135     0.034    .   1   .   .   .   .   .   GLU   HG     .   6536   1
+      740   .   1   1   83   83   GLU   C      C   13   173.725   0.002    .   1   .   .   .   .   .   GLU   C      .   6536   1
+      741   .   1   1   83   83   GLU   N      N   15   119.286   0.042    .   1   .   .   .   .   .   GLU   N      .   6536   1
+      742   .   1   1   84   84   ILE   H      H   1    8.780     0.013    .   1   .   .   .   .   .   ILE   H      .   6536   1
+      743   .   1   1   84   84   ILE   HA     H   1    3.876     0.016    .   1   .   .   .   .   .   ILE   HA     .   6536   1
+      744   .   1   1   84   84   ILE   HB     H   1    1.385     0.011    .   1   .   .   .   .   .   ILE   HB     .   6536   1
+      745   .   1   1   84   84   ILE   HG12   H   1    0.684     0.016    .   2   .   .   .   .   .   ILE   HG12   .   6536   1
+      746   .   1   1   84   84   ILE   HG13   H   1    0.687     0.018    .   2   .   .   .   .   .   ILE   HG13   .   6536   1
+      747   .   1   1   84   84   ILE   HG21   H   1    0.287     0.031    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      748   .   1   1   84   84   ILE   HG22   H   1    0.287     0.031    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      749   .   1   1   84   84   ILE   HG23   H   1    0.287     0.031    .   1   .   .   .   .   .   ILE   HG2    .   6536   1
+      750   .   1   1   84   84   ILE   HD11   H   1    0.139     0.011    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      751   .   1   1   84   84   ILE   HD12   H   1    0.139     0.011    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      752   .   1   1   84   84   ILE   HD13   H   1    0.139     0.011    .   1   .   .   .   .   .   ILE   HD1    .   6536   1
+      753   .   1   1   84   84   ILE   C      C   13   175.331   0.002    .   1   .   .   .   .   .   ILE   C      .   6536   1
+      754   .   1   1   84   84   ILE   CA     C   13   61.771    0.262    .   1   .   .   .   .   .   ILE   CA     .   6536   1
+      755   .   1   1   84   84   ILE   CB     C   13   38.687    0.043    .   1   .   .   .   .   .   ILE   CB     .   6536   1
+      756   .   1   1   84   84   ILE   CG1    C   13   28.214    0.002    .   1   .   .   .   .   .   ILE   CG1    .   6536   1
+      757   .   1   1   84   84   ILE   CG2    C   13   12.443    0.035    .   1   .   .   .   .   .   ILE   CG2    .   6536   1
+      758   .   1   1   84   84   ILE   CD1    C   13   16.879    0.002    .   1   .   .   .   .   .   ILE   CD1    .   6536   1
+      759   .   1   1   84   84   ILE   N      N   15   125.569   0.113    .   1   .   .   .   .   .   ILE   N      .   6536   1
+      760   .   1   1   85   85   ASP   H      H   1    8.492     0.013    .   1   .   .   .   .   .   ASP   H      .   6536   1
+      761   .   1   1   85   85   ASP   HA     H   1    4.671     0.005    .   1   .   .   .   .   .   ASP   HA     .   6536   1
+      762   .   1   1   85   85   ASP   HB2    H   1    2.354     0.010    .   2   .   .   .   .   .   ASP   HB2    .   6536   1
+      763   .   1   1   85   85   ASP   HB3    H   1    2.662     0.011    .   2   .   .   .   .   .   ASP   HB3    .   6536   1
+      764   .   1   1   85   85   ASP   C      C   13   173.713   0.002    .   1   .   .   .   .   .   ASP   C      .   6536   1
+      765   .   1   1   85   85   ASP   N      N   15   125.688   0.066    .   1   .   .   .   .   .   ASP   N      .   6536   1
+      766   .   1   1   86   86   TYR   H      H   1    8.329     0.011    .   1   .   .   .   .   .   TYR   H      .   6536   1
+      767   .   1   1   86   86   TYR   HA     H   1    4.286     0.042    .   1   .   .   .   .   .   TYR   HA     .   6536   1
+      768   .   1   1   86   86   TYR   HB2    H   1    2.836     0.009    .   1   .   .   .   .   .   TYR   HB2    .   6536   1
+      769   .   1   1   86   86   TYR   HB3    H   1    3.086     0.011    .   1   .   .   .   .   .   TYR   HB3    .   6536   1
+      770   .   1   1   86   86   TYR   HD1    H   1    7.090     0.018    .   1   .   .   .   .   .   TYR   HD     .   6536   1
+      771   .   1   1   86   86   TYR   HE1    H   1    6.732     0.024    .   1   .   .   .   .   .   TYR   HE     .   6536   1
+      772   .   1   1   86   86   TYR   C      C   13   173.280   0.002    .   1   .   .   .   .   .   TYR   C      .   6536   1
+      773   .   1   1   86   86   TYR   CA     C   13   59.843    0.017    .   1   .   .   .   .   .   TYR   CA     .   6536   1
+      774   .   1   1   86   86   TYR   CB     C   13   38.537    0.109    .   1   .   .   .   .   .   TYR   CB     .   6536   1
+      775   .   1   1   86   86   TYR   CD1    C   13   133.226   0.073    .   1   .   .   .   .   .   TYR   CD     .   6536   1
+      776   .   1   1   86   86   TYR   CE1    C   13   118.120   0.187    .   1   .   .   .   .   .   TYR   CE     .   6536   1
+      777   .   1   1   86   86   TYR   N      N   15   123.735   0.065    .   1   .   .   .   .   .   TYR   N      .   6536   1
+      778   .   1   1   87   87   ASP   H      H   1    8.407     0.025    .   1   .   .   .   .   .   ASP   H      .   6536   1
+      779   .   1   1   87   87   ASP   HA     H   1    4.597     0.002    .   1   .   .   .   .   .   ASP   HA     .   6536   1
+      780   .   1   1   87   87   ASP   HB2    H   1    2.708     0.002    .   1   .   .   .   .   .   ASP   HB     .   6536   1
+      781   .   1   1   87   87   ASP   HB3    H   1    2.708     0.002    .   1   .   .   .   .   .   ASP   HB     .   6536   1
+      782   .   1   1   87   87   ASP   C      C   13   172.573   0.002    .   1   .   .   .   .   .   ASP   C      .   6536   1
+      783   .   1   1   87   87   ASP   N      N   15   120.806   0.108    .   1   .   .   .   .   .   ASP   N      .   6536   1
+      784   .   1   1   88   88   SER   H      H   1    8.070     0.042    .   1   .   .   .   .   .   SER   H      .   6536   1
+      785   .   1   1   88   88   SER   C      C   13   174.544   0.002    .   1   .   .   .   .   .   SER   C      .   6536   1
+      786   .   1   1   88   88   SER   N      N   15   116.163   0.006    .   1   .   .   .   .   .   SER   N      .   6536   1
+      787   .   1   1   89   89   LEU   H      H   1    7.975     0.016    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      788   .   1   1   89   89   LEU   C      C   13   172.129   0.002    .   1   .   .   .   .   .   LEU   C      .   6536   1
+      789   .   1   1   89   89   LEU   N      N   15   122.594   0.037    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      790   .   1   1   90   90   LYS   H      H   1    7.917     0.019    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      791   .   1   1   90   90   LYS   N      N   15   120.037   0.048    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      792   .   1   1   91   91   LEU   H      H   1    7.914     0.002    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      793   .   1   1   91   91   LEU   N      N   15   121.017   0.002    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      794   .   1   1   92   92   LYS   H      H   1    8.045     0.002    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      795   .   1   1   92   92   LYS   N      N   15   121.247   0.002    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      796   .   1   1   93   93   LYS   H      H   1    8.535     0.002    .   1   .   .   .   .   .   LYS   H      .   6536   1
+      797   .   1   1   93   93   LYS   N      N   15   122.715   0.002    .   1   .   .   .   .   .   LYS   N      .   6536   1
+      798   .   1   1   94   94   ASP   H      H   1    8.308     0.015    .   1   .   .   .   .   .   ASP   H      .   6536   1
+      799   .   1   1   94   94   ASP   N      N   15   121.044   0.008    .   1   .   .   .   .   .   ASP   N      .   6536   1
+      800   .   1   1   95   95   LEU   H      H   1    8.095     0.002    .   1   .   .   .   .   .   LEU   H      .   6536   1
+      801   .   1   1   95   95   LEU   N      N   15   121.366   0.002    .   1   .   .   .   .   .   LEU   N      .   6536   1
+      802   .   1   1   96   96   GLU   H      H   1    8.164     0.003    .   1   .   .   .   .   .   GLU   H      .   6536   1
+      803   .   1   1   96   96   GLU   N      N   15   120.092   0.007    .   1   .   .   .   .   .   GLU   N      .   6536   1
+   stop_
+save_
+

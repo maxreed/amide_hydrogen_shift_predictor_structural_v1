@@ -1,0 +1,2345 @@
+data_6268
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            6268
+  _Entry.Title                         
+;
+CBP TAZ1 Domain 
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2004-07-19
+  _Entry.Accession_date                2004-07-19
+  _Entry.Last_release_date             2005-02-21
+  _Entry.Original_release_date         2005-02-21
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     2.1
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   .
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    Roberto     'De Guzman'        .   N.    .   6268    
+    2    Jonathan    Wojciak            .   M.    .   6268    
+    3    Maria       Martinez-Yamout    .   A.    .   6268    
+    4    'H. Jane'   Dyson              .   .     .   6268    
+    5    Peter       wright             .   E.    .   6268    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    assigned_chemical_shifts    1    6268    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    '13C chemical shifts'  284    6268    
+    '1H chemical shifts'   562    6268    
+    '15N chemical shifts'  95     6268    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    1    .   .   2005-02-21    2004-07-19    original    author    .   6268    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_entry_citation
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                entry_citation
+  _Citation.Entry_ID                    6268
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             .
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   15641773
+  _Citation.Full_citation               .
+  _Citation.Title                       'CBP/p300 TAZ1 domain forms a structured scaffold for ligand binding'
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              Biochemistry
+  _Citation.Journal_name_full           .
+  _Citation.Journal_volume              44
+  _Citation.Journal_issue               2
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  490
+  _Citation.Page_last                   497
+  _Citation.Year                        2005
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    Roberto     'De Guzman'        .   N.    .   6268    1    
+    2    Jonathan    Wojciak            .   M.    .   6268    1    
+    3    Maria       Martinez-Yamout    .   A.    .   6268    1    
+    4    'H. Jane'   Dyson              .   .     .   6268    1    
+    5    Peter       Wright             .   E.    .   6268    1    
+  stop_
+
+  loop_
+    _Citation_keyword.Keyword
+    _Citation_keyword.Entry_ID
+    _Citation_keyword.Citation_ID
+
+    TAZ1    6268    1    
+    CBP     6268    1    
+    p300    6268    1    
+    TAZ2    6268    1    
+    CH1     6268    1    
+    CH3     6268    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_assembly_CBP_TAZ1
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     assembly_CBP_TAZ1
+  _Assembly.Entry_ID                         6268
+  _Assembly.ID                               1
+  _Assembly.Name                             'CBP TAZ1'
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             .
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               .
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      'all other bound'
+  _Assembly.Molecular_mass                   .
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          .
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Assembly_type.Type
+    _Assembly_type.Entry_ID
+    _Assembly_type.Assembly_ID
+
+    monomer    6268    1    
+  stop_
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    'CBP TAZ1'          1    $CBP_TAZ1   .   .   .   native    .   .   .   .   .   6268    1    
+    2    'ZINC (II) ION, 1'  2    $ZN         .   .   .   native    .   .   .   .   .   6268    1    
+    3    'ZINC (II) ION, 2'  2    $ZN         .   .   .   native    .   .   .   .   .   6268    1    
+    4    'ZINC (II) ION, 3'  2    $ZN         .   .   .   native    .   .   .   .   .   6268    1    
+  stop_
+
+  loop_
+    _Bond.ID
+    _Bond.Type
+    _Bond.Value_order
+    _Bond.Assembly_atom_ID_1
+    _Bond.Entity_assembly_ID_1
+    _Bond.Entity_assembly_name_1
+    _Bond.Entity_ID_1
+    _Bond.Comp_ID_1
+    _Bond.Comp_index_ID_1
+    _Bond.Seq_ID_1
+    _Bond.Atom_ID_1
+    _Bond.Assembly_atom_ID_2
+    _Bond.Entity_assembly_ID_2
+    _Bond.Entity_assembly_name_2
+    _Bond.Entity_ID_2
+    _Bond.Comp_ID_2
+    _Bond.Comp_index_ID_2
+    _Bond.Seq_ID_2
+    _Bond.Atom_ID_2
+    _Bond.Auth_entity_assembly_ID_1
+    _Bond.Auth_entity_assembly_name_1
+    _Bond.Auth_seq_ID_1
+    _Bond.Auth_comp_ID_1
+    _Bond.Auth_atom_ID_1
+    _Bond.Auth_entity_assembly_ID_2
+    _Bond.Auth_entity_assembly_name_2
+    _Bond.Auth_seq_ID_2
+    _Bond.Auth_comp_ID_2
+    _Bond.Auth_atom_ID_2
+    _Bond.Entry_ID
+    _Bond.Assembly_ID
+
+    1     coordination    single    .   1    .   1    HIS    23    23    NE2    .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    2     coordination    single    .   1    .   1    CYS    27    27    SG     .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    3     coordination    single    .   1    .   1    CYS    40    40    SG     .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    4     coordination    single    .   1    .   1    CYS    45    45    SG     .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    5     coordination    single    .   1    .   1    HIS    54    54    NE2    .   3    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    6     coordination    single    .   1    .   1    CYS    58    58    SG     .   3    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    7     coordination    single    .   1    .   1    CYS    64    64    SG     .   3    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    8     coordination    single    .   1    .   1    CYS    69    69    SG     .   3    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    9     coordination    single    .   1    .   1    HIS    78    78    NE2    .   4    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    10    coordination    single    .   1    .   1    CYS    82    82    SG     .   4    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    11    coordination    single    .   1    .   1    CYS    87    87    SG     .   4    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+    12    coordination    single    .   1    .   1    CYS    90    90    SG     .   4    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6268    1    
+  stop_
+
+  loop_
+    _Assembly_common_name.Name
+    _Assembly_common_name.Type
+    _Assembly_common_name.Entry_ID
+    _Assembly_common_name.Assembly_ID
+
+    'CBP TAZ1'  system          6268    1    
+    'CBP TAZ1'  abbreviation    6268    1    
+  stop_
+
+  loop_
+    _Assembly_bio_function.Biological_function
+    _Assembly_bio_function.Entry_ID
+    _Assembly_bio_function.Assembly_ID
+
+    'protein-protein interaction'  6268    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_CBP_TAZ1
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     CBP_TAZ1
+  _Entity.Entry_ID                         6268
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             'CBP TAZ1 domain'
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polypeptide(L)
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      
+;
+ATGPTADPEKRKLIQQQLVL
+LLHAHKCQRREQANGEVRAC
+SLPHCRTMKNVLNHMTHCQA
+GKACQVAHCASSRQIISHWK
+NCTRHDCPVCLPLKNASDKR
+;
+
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  .
+  _Entity.Ambiguous_chem_comp_sites        .
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   .
+  _Entity.Nstd_linkage                     .
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               100
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      'all other bound'
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 1
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    2010-09-18
+  _Entity.DB_query_revised_last_date       2010-07-24
+
+  loop_
+    _Entity_db_link.Ordinal
+    _Entity_db_link.Author_supplied
+    _Entity_db_link.Database_code
+    _Entity_db_link.Accession_code
+    _Entity_db_link.Entry_mol_code
+    _Entity_db_link.Entry_mol_name
+    _Entity_db_link.Entry_experimental_method
+    _Entity_db_link.Entry_structure_resolution
+    _Entity_db_link.Entry_relation_type
+    _Entity_db_link.Entry_details
+    _Entity_db_link.Chimera_segment_ID
+    _Entity_db_link.Seq_query_to_submitted_percent
+    _Entity_db_link.Seq_subject_length
+    _Entity_db_link.Seq_identity
+    _Entity_db_link.Seq_positive
+    _Entity_db_link.Seq_homology_expectation_val
+    _Entity_db_link.Seq_align_begin
+    _Entity_db_link.Seq_align_end
+    _Entity_db_link.Seq_difference_details
+    _Entity_db_link.Seq_alignment_details
+    _Entity_db_link.Entry_ID
+    _Entity_db_link.Entity_ID
+
+    .   .   SP      Q92793          .   'RecName: Full=CREB-binding protein'                                               .   .   .   .   .   100.00    2442    100.00    100.00    6.97e-48    .   .   .   .   6268    1    
+    .   .   SP      P45481          .   'RecName: Full=CREB-binding protein'                                               .   .   .   .   .   100.00    2441    99.00     99.00     6.91e-47    .   .   .   .   6268    1    
+    .   .   REF     NP_596872       .   'CREB-binding protein [Rattus norvegicus]'                                         .   .   .   .   .   100.00    2444    100.00    100.00    6.20e-48    .   .   .   .   6268    1    
+    .   .   REF     NP_004371       .   'CREB-binding protein isoform a [Homo sapiens]'                                    .   .   .   .   .   100.00    2442    100.00    100.00    6.97e-48    .   .   .   .   6268    1    
+    .   .   REF     NP_001157494    .   'CREB-binding protein [Bos taurus]'                                                .   .   .   .   .   100.00    2435    99.00     100.00    1.79e-47    .   .   .   .   6268    1    
+    .   .   REF     NP_001073315    .   'CREB-binding protein isoform b [Homo sapiens]'                                    .   .   .   .   .   65.00     2404    100.00    100.00    7.88e-25    .   .   .   .   6268    1    
+    .   .   REF     NP_001020603    .   'CREB-binding protein [Mus musculus]'                                              .   .   .   .   .   100.00    2441    100.00    100.00    6.25e-48    .   .   .   .   6268    1    
+    .   .   PRF     1923401A        .   'protein CBP'                                                                      .   .   .   .   .   100.00    2441    99.00     99.00     5.95e-47    .   .   .   .   6268    1    
+    .   .   GB      AAH72594        .   'Crebbp protein [Mus musculus]'                                                    .   .   .   .   .   100.00    1589    100.00    100.00    2.53e-55    .   .   .   .   6268    1    
+    .   .   GB      AAC51770        .   'CREB-binding protein [Homo sapiens]'                                              .   .   .   .   .   100.00    2442    100.00    100.00    6.74e-48    .   .   .   .   6268    1    
+    .   .   GB      AAC51331        .   'CREB-binding protein [Homo sapiens]'                                              .   .   .   .   .   100.00    2442    100.00    100.00    6.97e-48    .   .   .   .   6268    1    
+    .   .   GB      AAC08447        .   'CBP [Homo sapiens]'                                                               .   .   .   .   .   100.00    555     100.00    100.00    3.54e-55    .   .   .   .   6268    1    
+    .   .   GB      AAB28651        .   'CREB-binding protein [Mus sp.]'                                                   .   .   .   .   .   100.00    2441    99.00     99.00     6.91e-47    .   .   .   .   6268    1    
+    .   .   DBJ     BAI45616        .   'CREB binding protein [synthetic construct]'                                       .   .   .   .   .   100.00    2442    100.00    100.00    6.97e-48    .   .   .   .   6268    1    
+    .   .   DBJ     BAG65526        .   'unnamed protein product [Homo sapiens]'                                           .   .   .   .   .   53.00     1198    100.00    100.00    9.79e-26    .   .   .   .   6268    1    
+    .   .   DBJ     BAE06125        .   'CREBBP variant protein [Homo sapiens]'                                            .   .   .   .   .   65.00     2472    100.00    100.00    6.96e-25    .   .   .   .   6268    1    
+    .   .   PDB     2KA4            .   'Nmr Structure Of The Cbp-Taz1STAT2-Tad Complex'                                   .   .   .   .   .   100.00    100     100.00    100.00    3.48e-51    .   .   .   .   6268    1    
+    .   .   PDB     1U2N            .   'Structure Cbp Taz1 Domain'                                                        .   .   .   .   .   99.00     100     98.99     98.99     1.48e-49    .   .   .   .   6268    1    
+    .   .   PDB     1R8U            .   'Nmr Structure Of Cbp Taz1CITED2 COMPLEX'                                          .   .   .   .   .   99.00     100     100.00    100.00    1.46e-50    .   .   .   .   6268    1    
+    .   .   PDB     1L8C            .   'Structural Basis For Hif-1alphaCBP RECOGNITION IN THE Cellular Hypoxic Response'  .   .   .   .   .   94.00     95      100.00    100.00    2.67e-47    .   .   .   .   6268    1    
+    .   .   BMRB    5987            .   'CBP TAZ1 domain'                                                                  .   .   .   .   .   100.00    100     100.00    100.00    3.48e-51    .   .   .   .   6268    1    
+    .   .   BMRB    5327            .   'CREB-binding protein'                                                             .   .   .   .   .   95.00     95      100.00    100.00    7.03e-48    .   .   .   .   6268    1    
+    .   .   BMRB    16014           .   TAZ1                                                                               .   .   .   .   .   100.00    100     100.00    100.00    3.48e-51    .   .   .   .   6268    1    
+  stop_
+
+  loop_
+    _Entity_common_name.Name
+    _Entity_common_name.Type
+    _Entity_common_name.Entry_ID
+    _Entity_common_name.Entity_ID
+
+    'CBP TAZ1 domain'  common          6268    1    
+    'CBP TAZ1 domain'  abbreviation    6268    1    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1      340    ALA    .   6268    1    
+    2      341    THR    .   6268    1    
+    3      342    GLY    .   6268    1    
+    4      343    PRO    .   6268    1    
+    5      344    THR    .   6268    1    
+    6      345    ALA    .   6268    1    
+    7      346    ASP    .   6268    1    
+    8      347    PRO    .   6268    1    
+    9      348    GLU    .   6268    1    
+    10     349    LYS    .   6268    1    
+    11     350    ARG    .   6268    1    
+    12     351    LYS    .   6268    1    
+    13     352    LEU    .   6268    1    
+    14     353    ILE    .   6268    1    
+    15     354    GLN    .   6268    1    
+    16     355    GLN    .   6268    1    
+    17     356    GLN    .   6268    1    
+    18     357    LEU    .   6268    1    
+    19     358    VAL    .   6268    1    
+    20     359    LEU    .   6268    1    
+    21     360    LEU    .   6268    1    
+    22     361    LEU    .   6268    1    
+    23     362    HIS    .   6268    1    
+    24     363    ALA    .   6268    1    
+    25     364    HIS    .   6268    1    
+    26     365    LYS    .   6268    1    
+    27     366    CYS    .   6268    1    
+    28     367    GLN    .   6268    1    
+    29     368    ARG    .   6268    1    
+    30     369    ARG    .   6268    1    
+    31     370    GLU    .   6268    1    
+    32     371    GLN    .   6268    1    
+    33     372    ALA    .   6268    1    
+    34     373    ASN    .   6268    1    
+    35     374    GLY    .   6268    1    
+    36     375    GLU    .   6268    1    
+    37     376    VAL    .   6268    1    
+    38     377    ARG    .   6268    1    
+    39     378    ALA    .   6268    1    
+    40     379    CYS    .   6268    1    
+    41     380    SER    .   6268    1    
+    42     381    LEU    .   6268    1    
+    43     382    PRO    .   6268    1    
+    44     383    HIS    .   6268    1    
+    45     384    CYS    .   6268    1    
+    46     385    ARG    .   6268    1    
+    47     386    THR    .   6268    1    
+    48     387    MET    .   6268    1    
+    49     388    LYS    .   6268    1    
+    50     389    ASN    .   6268    1    
+    51     390    VAL    .   6268    1    
+    52     391    LEU    .   6268    1    
+    53     392    ASN    .   6268    1    
+    54     393    HIS    .   6268    1    
+    55     394    MET    .   6268    1    
+    56     395    THR    .   6268    1    
+    57     396    HIS    .   6268    1    
+    58     397    CYS    .   6268    1    
+    59     398    GLN    .   6268    1    
+    60     399    ALA    .   6268    1    
+    61     400    GLY    .   6268    1    
+    62     401    LYS    .   6268    1    
+    63     402    ALA    .   6268    1    
+    64     403    CYS    .   6268    1    
+    65     404    GLN    .   6268    1    
+    66     405    VAL    .   6268    1    
+    67     406    ALA    .   6268    1    
+    68     407    HIS    .   6268    1    
+    69     408    CYS    .   6268    1    
+    70     409    ALA    .   6268    1    
+    71     410    SER    .   6268    1    
+    72     411    SER    .   6268    1    
+    73     412    ARG    .   6268    1    
+    74     413    GLN    .   6268    1    
+    75     414    ILE    .   6268    1    
+    76     415    ILE    .   6268    1    
+    77     416    SER    .   6268    1    
+    78     417    HIS    .   6268    1    
+    79     418    TRP    .   6268    1    
+    80     419    LYS    .   6268    1    
+    81     420    ASN    .   6268    1    
+    82     421    CYS    .   6268    1    
+    83     422    THR    .   6268    1    
+    84     423    ARG    .   6268    1    
+    85     424    HIS    .   6268    1    
+    86     425    ASP    .   6268    1    
+    87     426    CYS    .   6268    1    
+    88     427    PRO    .   6268    1    
+    89     428    VAL    .   6268    1    
+    90     429    CYS    .   6268    1    
+    91     430    LEU    .   6268    1    
+    92     431    PRO    .   6268    1    
+    93     432    LEU    .   6268    1    
+    94     433    LYS    .   6268    1    
+    95     434    ASN    .   6268    1    
+    96     435    ALA    .   6268    1    
+    97     436    SER    .   6268    1    
+    98     437    ASP    .   6268    1    
+    99     438    LYS    .   6268    1    
+    100    439    ARG    .   6268    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   ALA    1      1      6268    1    
+    .   THR    2      2      6268    1    
+    .   GLY    3      3      6268    1    
+    .   PRO    4      4      6268    1    
+    .   THR    5      5      6268    1    
+    .   ALA    6      6      6268    1    
+    .   ASP    7      7      6268    1    
+    .   PRO    8      8      6268    1    
+    .   GLU    9      9      6268    1    
+    .   LYS    10     10     6268    1    
+    .   ARG    11     11     6268    1    
+    .   LYS    12     12     6268    1    
+    .   LEU    13     13     6268    1    
+    .   ILE    14     14     6268    1    
+    .   GLN    15     15     6268    1    
+    .   GLN    16     16     6268    1    
+    .   GLN    17     17     6268    1    
+    .   LEU    18     18     6268    1    
+    .   VAL    19     19     6268    1    
+    .   LEU    20     20     6268    1    
+    .   LEU    21     21     6268    1    
+    .   LEU    22     22     6268    1    
+    .   HIS    23     23     6268    1    
+    .   ALA    24     24     6268    1    
+    .   HIS    25     25     6268    1    
+    .   LYS    26     26     6268    1    
+    .   CYS    27     27     6268    1    
+    .   GLN    28     28     6268    1    
+    .   ARG    29     29     6268    1    
+    .   ARG    30     30     6268    1    
+    .   GLU    31     31     6268    1    
+    .   GLN    32     32     6268    1    
+    .   ALA    33     33     6268    1    
+    .   ASN    34     34     6268    1    
+    .   GLY    35     35     6268    1    
+    .   GLU    36     36     6268    1    
+    .   VAL    37     37     6268    1    
+    .   ARG    38     38     6268    1    
+    .   ALA    39     39     6268    1    
+    .   CYS    40     40     6268    1    
+    .   SER    41     41     6268    1    
+    .   LEU    42     42     6268    1    
+    .   PRO    43     43     6268    1    
+    .   HIS    44     44     6268    1    
+    .   CYS    45     45     6268    1    
+    .   ARG    46     46     6268    1    
+    .   THR    47     47     6268    1    
+    .   MET    48     48     6268    1    
+    .   LYS    49     49     6268    1    
+    .   ASN    50     50     6268    1    
+    .   VAL    51     51     6268    1    
+    .   LEU    52     52     6268    1    
+    .   ASN    53     53     6268    1    
+    .   HIS    54     54     6268    1    
+    .   MET    55     55     6268    1    
+    .   THR    56     56     6268    1    
+    .   HIS    57     57     6268    1    
+    .   CYS    58     58     6268    1    
+    .   GLN    59     59     6268    1    
+    .   ALA    60     60     6268    1    
+    .   GLY    61     61     6268    1    
+    .   LYS    62     62     6268    1    
+    .   ALA    63     63     6268    1    
+    .   CYS    64     64     6268    1    
+    .   GLN    65     65     6268    1    
+    .   VAL    66     66     6268    1    
+    .   ALA    67     67     6268    1    
+    .   HIS    68     68     6268    1    
+    .   CYS    69     69     6268    1    
+    .   ALA    70     70     6268    1    
+    .   SER    71     71     6268    1    
+    .   SER    72     72     6268    1    
+    .   ARG    73     73     6268    1    
+    .   GLN    74     74     6268    1    
+    .   ILE    75     75     6268    1    
+    .   ILE    76     76     6268    1    
+    .   SER    77     77     6268    1    
+    .   HIS    78     78     6268    1    
+    .   TRP    79     79     6268    1    
+    .   LYS    80     80     6268    1    
+    .   ASN    81     81     6268    1    
+    .   CYS    82     82     6268    1    
+    .   THR    83     83     6268    1    
+    .   ARG    84     84     6268    1    
+    .   HIS    85     85     6268    1    
+    .   ASP    86     86     6268    1    
+    .   CYS    87     87     6268    1    
+    .   PRO    88     88     6268    1    
+    .   VAL    89     89     6268    1    
+    .   CYS    90     90     6268    1    
+    .   LEU    91     91     6268    1    
+    .   PRO    92     92     6268    1    
+    .   LEU    93     93     6268    1    
+    .   LYS    94     94     6268    1    
+    .   ASN    95     95     6268    1    
+    .   ALA    96     96     6268    1    
+    .   SER    97     97     6268    1    
+    .   ASP    98     98     6268    1    
+    .   LYS    99     99     6268    1    
+    .   ARG    100    100    6268    1    
+  stop_
+
+save_
+
+save_ZN
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     ZN
+  _Entity.Entry_ID                         6268
+  _Entity.ID                               2
+  _Entity.BMRB_code                        .
+  _Entity.Name                             ZN
+  _Entity.Type                             non-polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     .
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      .
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  no
+  _Entity.Ambiguous_chem_comp_sites        no
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   no
+  _Entity.Nstd_linkage                     no
+  _Entity.Nonpolymer_comp_ID               ZN
+  _Entity.Nonpolymer_comp_label            $chem_comp_ZN
+  _Entity.Number_of_monomers               .
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      .
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 2
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1    .   ZN    .   6268    2    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      6268
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $CBP_TAZ1   .   10090    organism    .   'Mus musculus'  Mouse    .   .   Eukaryota    Metazoa    Mus    musculus    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6268    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      6268
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $CBP_TAZ1   .   'recombinant technology'  'Escherichia coli'  'E. coli'  .   .   Escherichia    coli    BL21(DE3)    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   pET21a    .   .   .   .   .   .   6268    1    
+  stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+save_chem_comp_ZN
+  _Chem_comp.Sf_category                      chem_comp
+  _Chem_comp.Sf_framecode                     chem_comp_ZN
+  _Chem_comp.Entry_ID                         6268
+  _Chem_comp.ID                               ZN
+  _Chem_comp.Provenance                       .
+  _Chem_comp.Name                             'ZINC ION'
+  _Chem_comp.Type                             non-polymer
+  _Chem_comp.BMRB_code                        .
+  _Chem_comp.PDB_code                         ZN
+  _Chem_comp.Ambiguous_flag                   no
+  _Chem_comp.Initial_date                     1999-07-08
+  _Chem_comp.Modified_date                    2011-06-04
+  _Chem_comp.Release_status                   REL
+  _Chem_comp.Replaced_by                      .
+  _Chem_comp.Replaces                         .
+  _Chem_comp.One_letter_code                  .
+  _Chem_comp.Three_letter_code                ZN
+  _Chem_comp.Number_atoms_all                 .
+  _Chem_comp.Number_atoms_nh                  .
+  _Chem_comp.PubChem_code                     .
+  _Chem_comp.Subcomponent_list                .
+  _Chem_comp.InChI_code                       .
+  _Chem_comp.Mon_nstd_flag                    .
+  _Chem_comp.Mon_nstd_class                   .
+  _Chem_comp.Mon_nstd_details                 .
+  _Chem_comp.Mon_nstd_parent                  .
+  _Chem_comp.Mon_nstd_parent_comp_ID          .
+  _Chem_comp.Std_deriv_one_letter_code        .
+  _Chem_comp.Std_deriv_three_letter_code      .
+  _Chem_comp.Std_deriv_BMRB_code              .
+  _Chem_comp.Std_deriv_PDB_code               .
+  _Chem_comp.Std_deriv_chem_comp_name         .
+  _Chem_comp.Synonyms                         .
+  _Chem_comp.Formal_charge                    2
+  _Chem_comp.Paramagnetic                     .
+  _Chem_comp.Aromatic                         no
+  _Chem_comp.Formula                          Zn
+  _Chem_comp.Formula_weight                   65.409
+  _Chem_comp.Formula_mono_iso_wt_nat          .
+  _Chem_comp.Formula_mono_iso_wt_13C          .
+  _Chem_comp.Formula_mono_iso_wt_15N          .
+  _Chem_comp.Formula_mono_iso_wt_13C_15N      .
+  _Chem_comp.Image_file_name                  .
+  _Chem_comp.Image_file_format                .
+  _Chem_comp.Topo_file_name                   .
+  _Chem_comp.Topo_file_format                 .
+  _Chem_comp.Struct_file_name                 .
+  _Chem_comp.Struct_file_format               .
+  _Chem_comp.Stereochem_param_file_name       .
+  _Chem_comp.Stereochem_param_file_format     .
+  _Chem_comp.Model_details                    .
+  _Chem_comp.Model_erf                        .
+  _Chem_comp.Model_source                     .
+  _Chem_comp.Model_coordinates_details        .
+  _Chem_comp.Model_coordinates_missing_flag   no
+  _Chem_comp.Ideal_coordinates_details        .
+  _Chem_comp.Ideal_coordinates_missing_flag   no
+  _Chem_comp.Model_coordinates_db_code        .
+  _Chem_comp.Processing_site                  RCSB
+  _Chem_comp.Vendor                           .
+  _Chem_comp.Vendor_product_code              .
+  _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Wed Jun 15 12:20:01 2011
+;
+
+  _Chem_comp.DB_query_date                    .
+  _Chem_comp.DB_last_query_revised_last_date  .
+
+  loop_
+    _Chem_comp_descriptor.Descriptor
+    _Chem_comp_descriptor.Type
+    _Chem_comp_descriptor.Program
+    _Chem_comp_descriptor.Program_version
+    _Chem_comp_descriptor.Entry_ID
+    _Chem_comp_descriptor.Comp_ID
+
+    [Zn+2]                         SMILES              ACDLabs               10.04    6268    ZN    
+    [Zn++]                         SMILES_CANONICAL    CACTVS                3.341    6268    ZN    
+    [Zn++]                         SMILES              CACTVS                3.341    6268    ZN    
+    [Zn+2]                         SMILES_CANONICAL    'OpenEye OEToolkits'  1.5.0    6268    ZN    
+    [Zn+2]                         SMILES              'OpenEye OEToolkits'  1.5.0    6268    ZN    
+    InChI=1S/Zn/q+2                InChI               InChI                 1.03     6268    ZN    
+    PTFCDOFLOPIGGS-UHFFFAOYSA-N    InChIKey            InChI                 1.03     6268    ZN    
+  stop_
+
+  loop_
+    _Chem_comp_identifier.Identifier
+    _Chem_comp_identifier.Type
+    _Chem_comp_identifier.Program
+    _Chem_comp_identifier.Program_version
+    _Chem_comp_identifier.Entry_ID
+    _Chem_comp_identifier.Comp_ID
+
+    zinc               'SYSTEMATIC NAME'  ACDLabs               10.04    6268    ZN    
+    'zinc(+2) cation'  'SYSTEMATIC NAME'  'OpenEye OEToolkits'  1.5.0    6268    ZN    
+  stop_
+
+  loop_
+    _Chem_comp_atom.Atom_ID
+    _Chem_comp_atom.BMRB_code
+    _Chem_comp_atom.PDB_atom_ID
+    _Chem_comp_atom.Alt_atom_ID
+    _Chem_comp_atom.Auth_atom_ID
+    _Chem_comp_atom.Type_symbol
+    _Chem_comp_atom.Isotope_number
+    _Chem_comp_atom.Chirality
+    _Chem_comp_atom.Stereo_config
+    _Chem_comp_atom.Charge
+    _Chem_comp_atom.Partial_charge
+    _Chem_comp_atom.Oxidation_number
+    _Chem_comp_atom.Unpaired_electron_number
+    _Chem_comp_atom.Align
+    _Chem_comp_atom.Aromatic_flag
+    _Chem_comp_atom.Leaving_atom_flag
+    _Chem_comp_atom.Substruct_code
+    _Chem_comp_atom.Ionizable
+    _Chem_comp_atom.Drawing_2D_coord_x
+    _Chem_comp_atom.Drawing_2D_coord_y
+    _Chem_comp_atom.Model_Cartn_x
+    _Chem_comp_atom.Model_Cartn_x_esd
+    _Chem_comp_atom.Model_Cartn_y
+    _Chem_comp_atom.Model_Cartn_y_esd
+    _Chem_comp_atom.Model_Cartn_z
+    _Chem_comp_atom.Model_Cartn_z_esd
+    _Chem_comp_atom.Model_Cartn_x_ideal
+    _Chem_comp_atom.Model_Cartn_y_ideal
+    _Chem_comp_atom.Model_Cartn_z_ideal
+    _Chem_comp_atom.PDBX_ordinal
+    _Chem_comp_atom.Details
+    _Chem_comp_atom.Entry_ID
+    _Chem_comp_atom.Comp_ID
+
+    ZN    .   ZN    .   .   ZN    .   .   N    2    .   .   .   .   no    no    .   .   .   .   0.000    .   0.000    .   0.000    .   0.000    0.000    0.000    1    .   6268    ZN    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_1
+  _Sample.Entry_ID                        6268
+  _Sample.ID                              1
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         '~1 mM N15 TAZ1 10 mM Tris pH 6.9 50 mM NaCl 2 mM DTT'
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'CBP TAZ1 domain'  '[U-13C; U-15N]'  .   .   1    $CBP_TAZ1   .   .   1     .   .   mM    .   .   .   .   6268    1    
+    2    Tris               .                 .   .   .    .           .   .   10    .   .   mM    .   .   .   .   6268    1    
+    3    NaCl               .                 .   .   .    .           .   .   50    .   .   mM    .   .   .   .   6268    1    
+    4    DTT                .                 .   .   .    .           .   .   2     .   .   mM    .   .   .   .   6268    1    
+  stop_
+
+save_
+
+save_sample_2
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_2
+  _Sample.Entry_ID                        6268
+  _Sample.ID                              2
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         '~1 mM N15 TAZ1 10 mM Tris pH 6.9 50 mM NaCl 2 mM DTT'
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'CBP TAZ1 domain'  [U-15N]    .   .   1    $CBP_TAZ1   .   .   1     .   .   mM    .   .   .   .   6268    2    
+    2    Tris               .          .   .   .    .           .   .   10    .   .   mM    .   .   .   .   6268    2    
+    3    NaCl               .          .   .   .    .           .   .   50    .   .   mM    .   .   .   .   6268    2    
+    4    DTT                .          .   .   .    .           .   .   2     .   .   mM    .   .   .   .   6268    2    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_Ex-cond_1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  Ex-cond_1
+  _Sample_condition_list.Entry_ID      6268
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH             6.9    0.2    pH    6268    1    
+    temperature    298    1      K     6268    1    
+  stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_NMR_spectrometer_1
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_1
+  _NMR_spectrometer.Entry_ID        6268
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Bruker
+  _NMR_spectrometer.Model           DRX
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  600
+
+save_
+
+save_NMR_spectrometer_2
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_2
+  _NMR_spectrometer.Entry_ID        6268
+  _NMR_spectrometer.ID              2
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Bruker
+  _NMR_spectrometer.Model           DRX
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  800
+
+save_
+
+save_NMR_spectrometer_3
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_3
+  _NMR_spectrometer.Entry_ID        6268
+  _NMR_spectrometer.ID              3
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Bruker
+  _NMR_spectrometer.Model           Avance
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  900
+
+save_
+
+save_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      6268
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    NMR_spectrometer_1    Bruker    DRX       .   600    .   .   .   6268    1    
+    2    NMR_spectrometer_2    Bruker    DRX       .   800    .   .   .   6268    1    
+    3    NMR_spectrometer_3    Bruker    Avance    .   900    .   .   .   6268    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      6268
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1    1H15N_HSQC    .   1    $NMR_applied_experiment   .   .   .   .   .   .   .   .   .   .   .   .   .   1    $Ex-cond_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6268    1    
+  stop_
+
+save_
+
+save_NMR_applied_experiment
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_applied_experiment
+  _NMR_spec_expt.Entry_ID                       6268
+  _NMR_spec_expt.ID                             1
+  _NMR_spec_expt.Name                           1H15N_HSQC
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+save_chemical_shift_referencing
+  _Chem_shift_reference.Sf_category   chem_shift_reference
+  _Chem_shift_reference.Sf_framecode  chemical_shift_referencing
+  _Chem_shift_reference.Entry_ID      6268
+  _Chem_shift_reference.ID            1
+  _Chem_shift_reference.Details       .
+
+  loop_
+    _Chem_shift_ref.Atom_type
+    _Chem_shift_ref.Atom_isotope_number
+    _Chem_shift_ref.Mol_common_name
+    _Chem_shift_ref.Atom_group
+    _Chem_shift_ref.Concentration_val
+    _Chem_shift_ref.Concentration_units
+    _Chem_shift_ref.Solvent
+    _Chem_shift_ref.Rank
+    _Chem_shift_ref.Chem_shift_units
+    _Chem_shift_ref.Chem_shift_val
+    _Chem_shift_ref.Ref_method
+    _Chem_shift_ref.Ref_type
+    _Chem_shift_ref.Indirect_shift_ratio
+    _Chem_shift_ref.External_ref_loc
+    _Chem_shift_ref.External_ref_sample_geometry
+    _Chem_shift_ref.External_ref_axis
+    _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+    _Chem_shift_ref.Indirect_shift_ratio_cit_label
+    _Chem_shift_ref.Ref_correction_type
+    _Chem_shift_ref.Correction_val
+    _Chem_shift_ref.Correction_val_cit_ID
+    _Chem_shift_ref.Correction_val_cit_label
+    _Chem_shift_ref.Entry_ID
+    _Chem_shift_ref.Chem_shift_reference_ID
+
+    H    1     DSS    'methyl protons'  .   .   .   .   ppm    0.0    external    indirect    1.0            'outside sample'  cylindrical    parallel    1    $entry_citation   .   .   1    $entry_citation   6268    1    
+    C    13    DSS    'methyl protons'  .   .   .   .   ppm    0.0    external    indirect    0.251449530    'outside sample'  cylindrical    parallel    1    $entry_citation   .   .   1    $entry_citation   6268    1    
+    N    15    DSS    'methyl protons'  .   .   .   .   ppm    0.0    external    indirect    0.101329118    'outside sample'  cylindrical    parallel    1    $entry_citation   .   .   1    $entry_citation   6268    1    
+  stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_chem_shift_list_1
+  _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_framecode                 chem_shift_list_1
+  _Assigned_chem_shift_list.Entry_ID                     6268
+  _Assigned_chem_shift_list.ID                           1
+  _Assigned_chem_shift_list.Sample_condition_list_ID     1
+  _Assigned_chem_shift_list.Sample_condition_list_label  $Ex-cond_1
+  _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+  _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_referencing
+  _Assigned_chem_shift_list.Chem_shift_1H_err            .
+  _Assigned_chem_shift_list.Chem_shift_13C_err           .
+  _Assigned_chem_shift_list.Chem_shift_15N_err           .
+  _Assigned_chem_shift_list.Chem_shift_31P_err           .
+  _Assigned_chem_shift_list.Chem_shift_2H_err            .
+  _Assigned_chem_shift_list.Chem_shift_19F_err           .
+  _Assigned_chem_shift_list.Error_derivation_method      .
+  _Assigned_chem_shift_list.Details                      .
+  _Assigned_chem_shift_list.Text_data_format             .
+  _Assigned_chem_shift_list.Text_data                    .
+
+  loop_
+    _Chem_shift_experiment.Experiment_ID
+    _Chem_shift_experiment.Experiment_name
+    _Chem_shift_experiment.Sample_ID
+    _Chem_shift_experiment.Sample_label
+    _Chem_shift_experiment.Sample_state
+    _Chem_shift_experiment.Entry_ID
+    _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+    .   .   1    $sample_1   .   6268    1    
+  stop_
+
+  loop_
+    _Atom_chem_shift.ID
+    _Atom_chem_shift.Assembly_atom_ID
+    _Atom_chem_shift.Entity_assembly_ID
+    _Atom_chem_shift.Entity_ID
+    _Atom_chem_shift.Comp_index_ID
+    _Atom_chem_shift.Seq_ID
+    _Atom_chem_shift.Comp_ID
+    _Atom_chem_shift.Atom_ID
+    _Atom_chem_shift.Atom_type
+    _Atom_chem_shift.Atom_isotope_number
+    _Atom_chem_shift.Val
+    _Atom_chem_shift.Val_err
+    _Atom_chem_shift.Assign_fig_of_merit
+    _Atom_chem_shift.Ambiguity_code
+    _Atom_chem_shift.Occupancy
+    _Atom_chem_shift.Resonance_ID
+    _Atom_chem_shift.Auth_entity_assembly_ID
+    _Atom_chem_shift.Auth_asym_ID
+    _Atom_chem_shift.Auth_seq_ID
+    _Atom_chem_shift.Auth_comp_ID
+    _Atom_chem_shift.Auth_atom_ID
+    _Atom_chem_shift.Details
+    _Atom_chem_shift.Entry_ID
+    _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+    1      .   1    1    1      1      ALA    CA      C    13    51.732     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    2      .   1    1    1      1      ALA    HA      H    1     4.156      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    3      .   1    1    1      1      ALA    CB      C    13    19.421     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    4      .   1    1    1      1      ALA    HB1     H    1     1.523      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    5      .   1    1    1      1      ALA    HB2     H    1     1.523      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    6      .   1    1    1      1      ALA    HB3     H    1     1.523      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    7      .   1    1    2      2      THR    N       N    15    111.392    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    8      .   1    1    2      2      THR    H       H    1     8.292      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    9      .   1    1    2      2      THR    CA      C    13    61.810     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    10     .   1    1    2      2      THR    HA      H    1     4.400      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    11     .   1    1    2      2      THR    CB      C    13    69.909     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    12     .   1    1    2      2      THR    HB      H    1     4.186      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    13     .   1    1    2      2      THR    CG2     C    13    21.485     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    14     .   1    1    2      2      THR    HG21    H    1     1.210      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    15     .   1    1    2      2      THR    HG22    H    1     1.210      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    16     .   1    1    2      2      THR    HG23    H    1     1.210      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    17     .   1    1    3      3      GLY    N       N    15    111.627    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    18     .   1    1    3      3      GLY    H       H    1     8.340      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    19     .   1    1    3      3      GLY    CA      C    13    44.533     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    20     .   1    1    3      3      GLY    HA3     H    1     4.089      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    21     .   1    1    3      3      GLY    HA2     H    1     4.164      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    22     .   1    1    4      4      PRO    CA      C    13    63.404     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    23     .   1    1    4      4      PRO    HA      H    1     4.465      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    24     .   1    1    4      4      PRO    CB      C    13    32.257     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    25     .   1    1    4      4      PRO    HB2     H    1     2.272      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    26     .   1    1    4      4      PRO    HB3     H    1     1.917      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    27     .   1    1    4      4      PRO    CG      C    13    27.181     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    28     .   1    1    4      4      PRO    HG2     H    1     1.999      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    29     .   1    1    4      4      PRO    CD      C    13    49.843     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    30     .   1    1    4      4      PRO    HD2     H    1     3.638      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    31     .   1    1    5      5      THR    N       N    15    113.295    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    32     .   1    1    5      5      THR    H       H    1     8.173      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    33     .   1    1    5      5      THR    CA      C    13    61.902     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    34     .   1    1    5      5      THR    HA      H    1     4.237      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    35     .   1    1    5      5      THR    CB      C    13    69.498     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    36     .   1    1    5      5      THR    HB      H    1     4.172      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    37     .   1    1    5      5      THR    CG2     C    13    21.518     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    38     .   1    1    5      5      THR    HG21    H    1     1.154      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    39     .   1    1    5      5      THR    HG22    H    1     1.154      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    40     .   1    1    5      5      THR    HG23    H    1     1.154      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    41     .   1    1    6      6      ALA    N       N    15    126.292    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    42     .   1    1    6      6      ALA    H       H    1     8.169      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    43     .   1    1    6      6      ALA    CA      C    13    52.192     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    44     .   1    1    6      6      ALA    HA      H    1     4.308      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    45     .   1    1    6      6      ALA    CB      C    13    19.428     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    46     .   1    1    6      6      ALA    HB1     H    1     1.348      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    47     .   1    1    6      6      ALA    HB2     H    1     1.348      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    48     .   1    1    6      6      ALA    HB3     H    1     1.348      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    49     .   1    1    7      7      ASP    N       N    15    121.232    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    50     .   1    1    7      7      ASP    H       H    1     8.165      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    51     .   1    1    7      7      ASP    CA      C    13    52.685     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    52     .   1    1    7      7      ASP    HA      H    1     4.815      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    53     .   1    1    7      7      ASP    CB      C    13    41.317     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    54     .   1    1    7      7      ASP    HB2     H    1     2.759      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    55     .   1    1    7      7      ASP    HB3     H    1     2.633      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    56     .   1    1    8      8      PRO    CA      C    13    64.935     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    57     .   1    1    8      8      PRO    HA      H    1     4.225      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    58     .   1    1    8      8      PRO    CB      C    13    32.137     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    59     .   1    1    8      8      PRO    HB2     H    1     2.337      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    60     .   1    1    8      8      PRO    HB3     H    1     1.990      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    61     .   1    1    8      8      PRO    CG      C    13    27.556     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    62     .   1    1    8      8      PRO    HG2     H    1     2.111      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    63     .   1    1    8      8      PRO    HG3     H    1     2.038      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    64     .   1    1    8      8      PRO    CD      C    13    50.987     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    65     .   1    1    8      8      PRO    HD3     H    1     3.873      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    66     .   1    1    9      9      GLU    N       N    15    118.339    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    67     .   1    1    9      9      GLU    H       H    1     8.231      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    68     .   1    1    9      9      GLU    CA      C    13    58.246     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    69     .   1    1    9      9      GLU    HA      H    1     4.134      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    70     .   1    1    9      9      GLU    CB      C    13    29.233     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    71     .   1    1    9      9      GLU    HB2     H    1     2.071      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    72     .   1    1    9      9      GLU    CG      C    13    36.349     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    73     .   1    1    9      9      GLU    HG2     H    1     2.327      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    74     .   1    1    9      9      GLU    HG3     H    1     2.244      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    75     .   1    1    10     10     LYS    N       N    15    120.560    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    76     .   1    1    10     10     LYS    H       H    1     7.837      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    77     .   1    1    10     10     LYS    CA      C    13    58.151     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    78     .   1    1    10     10     LYS    HA      H    1     4.083      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    79     .   1    1    10     10     LYS    CB      C    13    32.115     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    80     .   1    1    10     10     LYS    HB2     H    1     1.858      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    81     .   1    1    10     10     LYS    CE      C    13    41.874     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    82     .   1    1    10     10     LYS    HE2     H    1     2.931      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    83     .   1    1    11     11     ARG    N       N    15    118.415    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    84     .   1    1    11     11     ARG    H       H    1     8.089      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    85     .   1    1    11     11     ARG    CA      C    13    58.681     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    86     .   1    1    11     11     ARG    HA      H    1     3.944      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    87     .   1    1    11     11     ARG    CB      C    13    30.160     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    88     .   1    1    11     11     ARG    HB2     H    1     1.824      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    89     .   1    1    11     11     ARG    CG      C    13    27.331     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    90     .   1    1    11     11     ARG    HG2     H    1     1.646      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    91     .   1    1    11     11     ARG    CD      C    13    43.490     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    92     .   1    1    11     11     ARG    HD2     H    1     3.100      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    93     .   1    1    12     12     LYS    N       N    15    118.614    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    94     .   1    1    12     12     LYS    H       H    1     7.679      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    95     .   1    1    12     12     LYS    CA      C    13    58.584     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    96     .   1    1    12     12     LYS    HA      H    1     4.111      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    97     .   1    1    12     12     LYS    CB      C    13    32.121     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    98     .   1    1    12     12     LYS    HB2     H    1     1.828      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    99     .   1    1    12     12     LYS    CG      C    13    25.115     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    100    .   1    1    12     12     LYS    HG2     H    1     1.540      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    101    .   1    1    12     12     LYS    HG3     H    1     1.381      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    102    .   1    1    12     12     LYS    CD      C    13    29.206     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    103    .   1    1    12     12     LYS    HD2     H    1     1.690      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    104    .   1    1    12     12     LYS    CE      C    13    41.765     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    105    .   1    1    12     12     LYS    HE2     H    1     2.944      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    106    .   1    1    13     13     LEU    N       N    15    119.796    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    107    .   1    1    13     13     LEU    H       H    1     7.542      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    108    .   1    1    13     13     LEU    CA      C    13    57.959     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    109    .   1    1    13     13     LEU    HA      H    1     4.056      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    110    .   1    1    13     13     LEU    CD1     C    13    23.396     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    111    .   1    1    13     13     LEU    HD11    H    1     0.857      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    112    .   1    1    13     13     LEU    HD12    H    1     0.857      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    113    .   1    1    13     13     LEU    HD13    H    1     0.857      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    114    .   1    1    13     13     LEU    CD2     C    13    24.958     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    115    .   1    1    13     13     LEU    HD21    H    1     0.897      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    116    .   1    1    13     13     LEU    HD22    H    1     0.897      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    117    .   1    1    13     13     LEU    HD23    H    1     0.897      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    118    .   1    1    14     14     ILE    N       N    15    120.847    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    119    .   1    1    14     14     ILE    H       H    1     7.968      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    120    .   1    1    14     14     ILE    CA      C    13    64.150     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    121    .   1    1    14     14     ILE    HA      H    1     3.786      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    122    .   1    1    14     14     ILE    CB      C    13    37.805     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    123    .   1    1    14     14     ILE    HB      H    1     1.904      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    124    .   1    1    14     14     ILE    CG1     C    13    28.636     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    125    .   1    1    14     14     ILE    HG12    H    1     1.611      0.1    .   9    .   .   .   .   .   .   .   .   6268    1    
+    126    .   1    1    14     14     ILE    HG13    H    1     1.155      0.1    .   9    .   .   .   .   .   .   .   .   6268    1    
+    127    .   1    1    14     14     ILE    CD1     C    13    12.989     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    128    .   1    1    14     14     ILE    HD11    H    1     0.773      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    129    .   1    1    14     14     ILE    HD12    H    1     0.773      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    130    .   1    1    14     14     ILE    HD13    H    1     0.773      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    131    .   1    1    14     14     ILE    CG2     C    13    17.483     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    132    .   1    1    14     14     ILE    HG21    H    1     0.864      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    133    .   1    1    14     14     ILE    HG22    H    1     0.864      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    134    .   1    1    14     14     ILE    HG23    H    1     0.864      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    135    .   1    1    15     15     GLN    N       N    15    118.669    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    136    .   1    1    15     15     GLN    H       H    1     8.210      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    137    .   1    1    15     15     GLN    CA      C    13    59.326     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    138    .   1    1    15     15     GLN    HA      H    1     3.907      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    139    .   1    1    15     15     GLN    CB      C    13    28.667     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    140    .   1    1    15     15     GLN    HB2     H    1     2.267      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    141    .   1    1    15     15     GLN    HB3     H    1     2.116      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    142    .   1    1    15     15     GLN    CG      C    13    34.178     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    143    .   1    1    15     15     GLN    HG2     H    1     2.546      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    144    .   1    1    15     15     GLN    HG3     H    1     2.432      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    145    .   1    1    16     16     GLN    N       N    15    116.849    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    146    .   1    1    16     16     GLN    H       H    1     8.158      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    147    .   1    1    16     16     GLN    CA      C    13    58.975     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    148    .   1    1    16     16     GLN    HA      H    1     3.968      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    149    .   1    1    16     16     GLN    CB      C    13    28.432     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    150    .   1    1    16     16     GLN    HB2     H    1     2.175      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    151    .   1    1    16     16     GLN    HB3     H    1     2.079      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    152    .   1    1    17     17     GLN    N       N    15    120.578    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    153    .   1    1    17     17     GLN    H       H    1     7.936      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    154    .   1    1    17     17     GLN    CB      C    13    28.201     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    155    .   1    1    17     17     GLN    HB2     H    1     2.197      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    156    .   1    1    17     17     GLN    HB3     H    1     1.995      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    157    .   1    1    17     17     GLN    CG      C    13    33.609     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    158    .   1    1    17     17     GLN    HG2     H    1     2.343      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    159    .   1    1    17     17     GLN    HG3     H    1     2.212      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    160    .   1    1    18     18     LEU    N       N    15    120.589    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    161    .   1    1    18     18     LEU    H       H    1     8.442      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    162    .   1    1    18     18     LEU    CA      C    13    58.365     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    163    .   1    1    18     18     LEU    HA      H    1     3.968      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    164    .   1    1    18     18     LEU    CD1     C    13    23.697     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    165    .   1    1    18     18     LEU    HD11    H    1     0.815      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    166    .   1    1    18     18     LEU    HD12    H    1     0.815      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    167    .   1    1    18     18     LEU    HD13    H    1     0.815      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    168    .   1    1    18     18     LEU    CD2     C    13    23.038     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    169    .   1    1    18     18     LEU    HD21    H    1     0.704      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    170    .   1    1    18     18     LEU    HD22    H    1     0.704      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    171    .   1    1    18     18     LEU    HD23    H    1     0.704      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    172    .   1    1    19     19     VAL    N       N    15    117.353    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    173    .   1    1    19     19     VAL    H       H    1     8.152      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    174    .   1    1    19     19     VAL    CA      C    13    66.779     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    175    .   1    1    19     19     VAL    HA      H    1     3.471      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    176    .   1    1    19     19     VAL    CB      C    13    31.849     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    177    .   1    1    19     19     VAL    HB      H    1     2.124      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    178    .   1    1    19     19     VAL    CG2     C    13    23.243     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    179    .   1    1    19     19     VAL    HG21    H    1     1.070      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    180    .   1    1    19     19     VAL    HG22    H    1     1.070      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    181    .   1    1    19     19     VAL    HG23    H    1     1.070      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    182    .   1    1    19     19     VAL    CG1     C    13    21.105     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    183    .   1    1    19     19     VAL    HG11    H    1     0.920      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    184    .   1    1    19     19     VAL    HG12    H    1     0.920      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    185    .   1    1    19     19     VAL    HG13    H    1     0.920      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    186    .   1    1    20     20     LEU    N       N    15    120.905    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    187    .   1    1    20     20     LEU    H       H    1     7.536      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    188    .   1    1    21     21     LEU    N       N    15    122.011    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    189    .   1    1    21     21     LEU    H       H    1     8.532      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    190    .   1    1    21     21     LEU    CA      C    13    57.599     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    191    .   1    1    21     21     LEU    HA      H    1     4.110      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    192    .   1    1    21     21     LEU    CB      C    13    41.673     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    193    .   1    1    21     21     LEU    HB2     H    1     1.800      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    194    .   1    1    21     21     LEU    HB3     H    1     1.617      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    195    .   1    1    21     21     LEU    CD1     C    13    23.436     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    196    .   1    1    21     21     LEU    HD11    H    1     0.834      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    197    .   1    1    21     21     LEU    HD12    H    1     0.834      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    198    .   1    1    21     21     LEU    HD13    H    1     0.834      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    199    .   1    1    21     21     LEU    CD2     C    13    23.996     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    200    .   1    1    21     21     LEU    HD21    H    1     0.870      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    201    .   1    1    21     21     LEU    HD22    H    1     0.870      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    202    .   1    1    21     21     LEU    HD23    H    1     0.870      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    203    .   1    1    22     22     LEU    N       N    15    118.365    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    204    .   1    1    22     22     LEU    H       H    1     8.440      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    205    .   1    1    22     22     LEU    CA      C    13    57.580     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    206    .   1    1    22     22     LEU    HA      H    1     3.950      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    207    .   1    1    22     22     LEU    CB      C    13    40.635     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    208    .   1    1    22     22     LEU    HB2     H    1     1.657      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    209    .   1    1    22     22     LEU    HB3     H    1     1.365      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    210    .   1    1    22     22     LEU    CG      C    13    26.547     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    211    .   1    1    22     22     LEU    HG      H    1     1.424      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    212    .   1    1    22     22     LEU    CD1     C    13    24.563     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    213    .   1    1    22     22     LEU    HD11    H    1     0.767      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    214    .   1    1    22     22     LEU    HD12    H    1     0.767      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    215    .   1    1    22     22     LEU    HD13    H    1     0.767      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    216    .   1    1    22     22     LEU    CD2     C    13    22.111     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    217    .   1    1    22     22     LEU    HD21    H    1     0.246      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    218    .   1    1    22     22     LEU    HD22    H    1     0.246      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    219    .   1    1    22     22     LEU    HD23    H    1     0.246      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    220    .   1    1    23     23     HIS    N       N    15    117.937    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    221    .   1    1    23     23     HIS    H       H    1     8.103      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    222    .   1    1    24     24     ALA    N       N    15    122.037    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    223    .   1    1    24     24     ALA    H       H    1     8.968      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    224    .   1    1    24     24     ALA    CA      C    13    55.303     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    225    .   1    1    24     24     ALA    HA      H    1     3.998      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    226    .   1    1    24     24     ALA    CB      C    13    18.883     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    227    .   1    1    24     24     ALA    HB1     H    1     1.503      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    228    .   1    1    24     24     ALA    HB2     H    1     1.503      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    229    .   1    1    24     24     ALA    HB3     H    1     1.503      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    230    .   1    1    25     25     HIS    N       N    15    115.939    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    231    .   1    1    25     25     HIS    H       H    1     8.137      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    232    .   1    1    25     25     HIS    CA      C    13    59.671     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    233    .   1    1    25     25     HIS    HA      H    1     4.143      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    234    .   1    1    25     25     HIS    CB      C    13    30.742     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    235    .   1    1    25     25     HIS    HB2     H    1     3.155      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    236    .   1    1    26     26     LYS    N       N    15    117.524    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    237    .   1    1    26     26     LYS    H       H    1     7.142      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    238    .   1    1    26     26     LYS    CB      C    13    32.890     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    239    .   1    1    26     26     LYS    HB2     H    1     1.797      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    240    .   1    1    26     26     LYS    CD      C    13    29.175     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    241    .   1    1    26     26     LYS    HD2     H    1     1.635      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    242    .   1    1    26     26     LYS    CE      C    13    41.748     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    243    .   1    1    26     26     LYS    HE2     H    1     2.906      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    244    .   1    1    27     27     CYS    N       N    15    124.318    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    245    .   1    1    27     27     CYS    H       H    1     8.413      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    246    .   1    1    27     27     CYS    CA      C    13    62.340     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    247    .   1    1    27     27     CYS    HA      H    1     3.725      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    248    .   1    1    27     27     CYS    CB      C    13    29.171     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    249    .   1    1    27     27     CYS    HB2     H    1     2.477      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    250    .   1    1    27     27     CYS    HB3     H    1     2.063      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    251    .   1    1    28     28     GLN    N       N    15    120.773    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    252    .   1    1    28     28     GLN    H       H    1     8.298      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    253    .   1    1    29     29     ARG    N       N    15    119.737    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    254    .   1    1    29     29     ARG    H       H    1     7.683      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    255    .   1    1    29     29     ARG    CA      C    13    57.604     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    256    .   1    1    29     29     ARG    HA      H    1     4.121      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    257    .   1    1    29     29     ARG    CB      C    13    30.006     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    258    .   1    1    29     29     ARG    HB2     H    1     1.843      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    259    .   1    1    29     29     ARG    HB3     H    1     1.758      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    260    .   1    1    29     29     ARG    CG      C    13    27.403     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    261    .   1    1    29     29     ARG    HG2     H    1     1.662      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    262    .   1    1    29     29     ARG    HG3     H    1     1.580      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    263    .   1    1    29     29     ARG    CD      C    13    43.164     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    264    .   1    1    29     29     ARG    HD2     H    1     3.118      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    265    .   1    1    30     30     ARG    N       N    15    120.876    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    266    .   1    1    30     30     ARG    H       H    1     8.020      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    267    .   1    1    30     30     ARG    CA      C    13    57.183     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    268    .   1    1    30     30     ARG    HA      H    1     4.238      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    269    .   1    1    30     30     ARG    CB      C    13    30.671     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    270    .   1    1    30     30     ARG    HB2     H    1     1.886      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    271    .   1    1    30     30     ARG    HB3     H    1     1.819      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    272    .   1    1    30     30     ARG    CG      C    13    26.982     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    273    .   1    1    30     30     ARG    HG2     H    1     1.690      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    274    .   1    1    30     30     ARG    HG3     H    1     1.595      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    275    .   1    1    30     30     ARG    CD      C    13    43.375     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    276    .   1    1    30     30     ARG    HD2     H    1     3.196      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    277    .   1    1    31     31     GLU    N       N    15    120.751    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    278    .   1    1    31     31     GLU    H       H    1     8.229      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    279    .   1    1    31     31     GLU    CA      C    13    57.576     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    280    .   1    1    31     31     GLU    HA      H    1     4.200      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    281    .   1    1    31     31     GLU    CB      C    13    30.001     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    282    .   1    1    31     31     GLU    HB2     H    1     2.042      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    283    .   1    1    31     31     GLU    CG      C    13    36.525     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    284    .   1    1    31     31     GLU    HG2     H    1     2.341      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    285    .   1    1    31     31     GLU    HG3     H    1     2.275      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    286    .   1    1    32     32     GLN    N       N    15    119.343    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    287    .   1    1    32     32     GLN    H       H    1     8.163      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    288    .   1    1    33     33     ALA    N       N    15    123.207    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    289    .   1    1    33     33     ALA    H       H    1     8.104      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    290    .   1    1    33     33     ALA    CA      C    13    53.186     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    291    .   1    1    33     33     ALA    HA      H    1     4.264      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    292    .   1    1    33     33     ALA    CB      C    13    19.051     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    293    .   1    1    33     33     ALA    HB1     H    1     1.393      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    294    .   1    1    33     33     ALA    HB2     H    1     1.393      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    295    .   1    1    33     33     ALA    HB3     H    1     1.393      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    296    .   1    1    34     34     ASN    N       N    15    115.748    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    297    .   1    1    34     34     ASN    H       H    1     8.170      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    298    .   1    1    34     34     ASN    CA      C    13    53.190     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    299    .   1    1    34     34     ASN    HA      H    1     4.665      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    300    .   1    1    34     34     ASN    CB      C    13    38.713     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    301    .   1    1    34     34     ASN    HB2     H    1     2.855      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    302    .   1    1    35     35     GLY    N       N    15    108.778    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    303    .   1    1    35     35     GLY    H       H    1     8.243      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    304    .   1    1    35     35     GLY    CA      C    13    45.512     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    305    .   1    1    35     35     GLY    HA3     H    1     3.871      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    306    .   1    1    35     35     GLY    HA2     H    1     4.000      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    307    .   1    1    36     36     GLU    N       N    15    120.196    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    308    .   1    1    36     36     GLU    H       H    1     8.076      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    309    .   1    1    36     36     GLU    CA      C    13    56.255     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    310    .   1    1    36     36     GLU    HA      H    1     4.270      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    311    .   1    1    36     36     GLU    CB      C    13    30.424     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    312    .   1    1    36     36     GLU    HB2     H    1     2.000      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    313    .   1    1    36     36     GLU    HB3     H    1     1.908      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    314    .   1    1    36     36     GLU    CG      C    13    36.284     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    315    .   1    1    36     36     GLU    HG2     H    1     2.212      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    316    .   1    1    36     36     GLU    HG3     H    1     2.153      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    317    .   1    1    37     37     VAL    N       N    15    121.673    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    318    .   1    1    37     37     VAL    H       H    1     8.136      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    319    .   1    1    37     37     VAL    CA      C    13    62.299     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    320    .   1    1    37     37     VAL    HA      H    1     4.088      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    321    .   1    1    37     37     VAL    CB      C    13    32.689     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    322    .   1    1    37     37     VAL    HB      H    1     2.022      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    323    .   1    1    37     37     VAL    CG2     C    13    21.277     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    324    .   1    1    37     37     VAL    HG21    H    1     0.874      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    325    .   1    1    37     37     VAL    HG22    H    1     0.874      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    326    .   1    1    37     37     VAL    HG23    H    1     0.874      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    327    .   1    1    37     37     VAL    CG1     C    13    20.760     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    328    .   1    1    37     37     VAL    HG11    H    1     0.908      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    329    .   1    1    37     37     VAL    HG12    H    1     0.908      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    330    .   1    1    37     37     VAL    HG13    H    1     0.908      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    331    .   1    1    38     38     ARG    N       N    15    125.488    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    332    .   1    1    38     38     ARG    H       H    1     8.448      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    333    .   1    1    38     38     ARG    CA      C    13    55.362     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    334    .   1    1    38     38     ARG    HA      H    1     4.347      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    335    .   1    1    38     38     ARG    CB      C    13    31.030     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    336    .   1    1    38     38     ARG    HB2     H    1     1.795      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    337    .   1    1    38     38     ARG    HB3     H    1     1.703      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    338    .   1    1    38     38     ARG    CG      C    13    27.126     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    339    .   1    1    38     38     ARG    HG2     H    1     1.593      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    340    .   1    1    38     38     ARG    CD      C    13    43.185     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    341    .   1    1    38     38     ARG    HD2     H    1     3.166      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    342    .   1    1    39     39     ALA    N       N    15    126.139    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    343    .   1    1    39     39     ALA    H       H    1     8.370      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    344    .   1    1    39     39     ALA    CA      C    13    52.120     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    345    .   1    1    39     39     ALA    HA      H    1     4.228      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    346    .   1    1    39     39     ALA    CB      C    13    19.372     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    347    .   1    1    39     39     ALA    HB1     H    1     1.306      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    348    .   1    1    39     39     ALA    HB2     H    1     1.306      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    349    .   1    1    39     39     ALA    HB3     H    1     1.306      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    350    .   1    1    40     40     CYS    N       N    15    123.983    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    351    .   1    1    40     40     CYS    H       H    1     8.457      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    352    .   1    1    40     40     CYS    CA      C    13    60.060     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    353    .   1    1    40     40     CYS    HA      H    1     4.292      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    354    .   1    1    40     40     CYS    CB      C    13    30.091     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    355    .   1    1    40     40     CYS    HB2     H    1     2.800      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    356    .   1    1    41     41     SER    N       N    15    123.967    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    357    .   1    1    41     41     SER    H       H    1     8.734      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    358    .   1    1    41     41     SER    CA      C    13    57.764     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    359    .   1    1    41     41     SER    HA      H    1     4.528      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    360    .   1    1    41     41     SER    CB      C    13    63.755     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    361    .   1    1    41     41     SER    HB2     H    1     4.006      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    362    .   1    1    41     41     SER    HB3     H    1     3.814      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    363    .   1    1    42     42     LEU    N       N    15    130.137    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    364    .   1    1    42     42     LEU    H       H    1     8.667      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    365    .   1    1    42     42     LEU    CA      C    13    54.056     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    366    .   1    1    42     42     LEU    HA      H    1     4.419      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    367    .   1    1    42     42     LEU    CB      C    13    41.465     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    368    .   1    1    42     42     LEU    HB2     H    1     1.342      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    369    .   1    1    42     42     LEU    HB3     H    1     1.311      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    370    .   1    1    42     42     LEU    CG      C    13    27.024     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    371    .   1    1    42     42     LEU    HG      H    1     1.439      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    372    .   1    1    42     42     LEU    CD1     C    13    24.132     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    373    .   1    1    42     42     LEU    HD11    H    1     0.524      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    374    .   1    1    42     42     LEU    HD12    H    1     0.524      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    375    .   1    1    42     42     LEU    HD13    H    1     0.524      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    376    .   1    1    42     42     LEU    CD2     C    13    23.560     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    377    .   1    1    42     42     LEU    HD21    H    1     0.382      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    378    .   1    1    42     42     LEU    HD22    H    1     0.382      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    379    .   1    1    42     42     LEU    HD23    H    1     0.382      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    380    .   1    1    43     43     PRO    CA      C    13    62.477     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    381    .   1    1    43     43     PRO    HA      H    1     4.669      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    382    .   1    1    43     43     PRO    CB      C    13    34.776     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    383    .   1    1    43     43     PRO    HB2     H    1     2.378      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    384    .   1    1    43     43     PRO    HB3     H    1     2.101      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    385    .   1    1    43     43     PRO    CD      C    13    50.321     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    386    .   1    1    43     43     PRO    HD2     H    1     3.552      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    387    .   1    1    43     43     PRO    HD3     H    1     3.511      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    388    .   1    1    44     44     HIS    N       N    15    112.946    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    389    .   1    1    44     44     HIS    H       H    1     8.345      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    390    .   1    1    45     45     CYS    N       N    15    123.980    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    391    .   1    1    45     45     CYS    H       H    1     7.565      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    392    .   1    1    45     45     CYS    CA      C    13    64.298     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    393    .   1    1    45     45     CYS    HA      H    1     3.976      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    394    .   1    1    45     45     CYS    CB      C    13    28.987     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    395    .   1    1    45     45     CYS    HB2     H    1     3.074      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    396    .   1    1    45     45     CYS    HB3     H    1     2.699      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    397    .   1    1    46     46     ARG    N       N    15    117.210    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    398    .   1    1    46     46     ARG    H       H    1     8.285      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    399    .   1    1    46     46     ARG    CA      C    13    59.558     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    400    .   1    1    46     46     ARG    HA      H    1     3.915      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    401    .   1    1    46     46     ARG    CB      C    13    29.078     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    402    .   1    1    46     46     ARG    HB2     H    1     1.927      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    403    .   1    1    46     46     ARG    CG      C    13    26.537     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    404    .   1    1    46     46     ARG    HG2     H    1     1.700      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    405    .   1    1    46     46     ARG    CD      C    13    42.912     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    406    .   1    1    46     46     ARG    HD2     H    1     3.243      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    407    .   1    1    47     47     THR    N       N    15    114.408    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    408    .   1    1    47     47     THR    H       H    1     7.732      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    409    .   1    1    47     47     THR    CA      C    13    66.109     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    410    .   1    1    47     47     THR    HA      H    1     3.966      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    411    .   1    1    47     47     THR    CB      C    13    68.667     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    412    .   1    1    47     47     THR    HB      H    1     4.225      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    413    .   1    1    47     47     THR    CG2     C    13    21.935     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    414    .   1    1    47     47     THR    HG21    H    1     1.254      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    415    .   1    1    47     47     THR    HG22    H    1     1.254      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    416    .   1    1    47     47     THR    HG23    H    1     1.254      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    417    .   1    1    48     48     MET    N       N    15    120.370    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    418    .   1    1    48     48     MET    H       H    1     8.125      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    419    .   1    1    48     48     MET    CA      C    13    56.530     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    420    .   1    1    48     48     MET    HA      H    1     4.570      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    421    .   1    1    48     48     MET    CB      C    13    31.100     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    422    .   1    1    48     48     MET    HB2     H    1     2.234      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    423    .   1    1    48     48     MET    HB3     H    1     1.874      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    424    .   1    1    48     48     MET    CG      C    13    33.504     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    425    .   1    1    48     48     MET    HG2     H    1     2.719      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    426    .   1    1    48     48     MET    HG3     H    1     2.522      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    427    .   1    1    48     48     MET    CE      C    13    17.632     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    428    .   1    1    48     48     MET    HE1     H    1     1.760      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    429    .   1    1    48     48     MET    HE2     H    1     1.760      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    430    .   1    1    48     48     MET    HE3     H    1     1.760      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    431    .   1    1    49     49     LYS    N       N    15    122.154    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    432    .   1    1    49     49     LYS    H       H    1     9.228      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    433    .   1    1    49     49     LYS    CA      C    13    61.117     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    434    .   1    1    49     49     LYS    HA      H    1     3.889      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    435    .   1    1    49     49     LYS    CB      C    13    32.471     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    436    .   1    1    49     49     LYS    HB2     H    1     2.068      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    437    .   1    1    49     49     LYS    HB3     H    1     1.840      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    438    .   1    1    49     49     LYS    CG      C    13    27.306     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    439    .   1    1    49     49     LYS    HG2     H    1     2.022      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    440    .   1    1    49     49     LYS    HG3     H    1     1.285      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    441    .   1    1    49     49     LYS    CD      C    13    30.063     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    442    .   1    1    49     49     LYS    HD2     H    1     1.669      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    443    .   1    1    49     49     LYS    CE      C    13    42.086     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    444    .   1    1    49     49     LYS    HE2     H    1     3.177      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    445    .   1    1    49     49     LYS    HE3     H    1     2.887      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    446    .   1    1    50     50     ASN    N       N    15    117.619    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    447    .   1    1    50     50     ASN    H       H    1     7.925      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    448    .   1    1    50     50     ASN    CA      C    13    56.088     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    449    .   1    1    50     50     ASN    HA      H    1     4.586      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    450    .   1    1    50     50     ASN    CB      C    13    37.433     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    451    .   1    1    50     50     ASN    HB2     H    1     3.165      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    452    .   1    1    50     50     ASN    HB3     H    1     2.938      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    453    .   1    1    51     51     VAL    N       N    15    123.997    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    454    .   1    1    51     51     VAL    H       H    1     8.047      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    455    .   1    1    51     51     VAL    CA      C    13    67.111     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    456    .   1    1    51     51     VAL    HA      H    1     3.759      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    457    .   1    1    51     51     VAL    CB      C    13    31.605     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    458    .   1    1    51     51     VAL    HB      H    1     2.435      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    459    .   1    1    51     51     VAL    CG2     C    13    23.434     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    460    .   1    1    51     51     VAL    HG21    H    1     1.208      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    461    .   1    1    51     51     VAL    HG22    H    1     1.208      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    462    .   1    1    51     51     VAL    HG23    H    1     1.208      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    463    .   1    1    51     51     VAL    CG1     C    13    21.118     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    464    .   1    1    51     51     VAL    HG11    H    1     0.981      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    465    .   1    1    51     51     VAL    HG12    H    1     0.981      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    466    .   1    1    51     51     VAL    HG13    H    1     0.981      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    467    .   1    1    52     52     LEU    N       N    15    121.088    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    468    .   1    1    52     52     LEU    H       H    1     8.590      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    469    .   1    1    52     52     LEU    CA      C    13    58.684     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    470    .   1    1    52     52     LEU    HA      H    1     4.093      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    471    .   1    1    52     52     LEU    CB      C    13    41.299     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    472    .   1    1    52     52     LEU    HB2     H    1     1.969      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    473    .   1    1    52     52     LEU    HB3     H    1     1.534      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    474    .   1    1    52     52     LEU    CG      C    13    26.955     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    475    .   1    1    52     52     LEU    HG      H    1     1.817      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    476    .   1    1    52     52     LEU    CD1     C    13    25.517     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    477    .   1    1    52     52     LEU    HD11    H    1     0.823      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    478    .   1    1    52     52     LEU    HD12    H    1     0.823      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    479    .   1    1    52     52     LEU    HD13    H    1     0.823      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    480    .   1    1    52     52     LEU    CD2     C    13    23.080     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    481    .   1    1    52     52     LEU    HD21    H    1     0.852      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    482    .   1    1    52     52     LEU    HD22    H    1     0.852      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    483    .   1    1    52     52     LEU    HD23    H    1     0.852      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    484    .   1    1    53     53     ASN    N       N    15    117.262    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    485    .   1    1    53     53     ASN    H       H    1     8.200      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    486    .   1    1    53     53     ASN    CA      C    13    56.085     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    487    .   1    1    53     53     ASN    HA      H    1     4.519      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    488    .   1    1    53     53     ASN    CB      C    13    38.291     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    489    .   1    1    53     53     ASN    HB2     H    1     2.942      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    490    .   1    1    54     54     HIS    N       N    15    120.410    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    491    .   1    1    54     54     HIS    H       H    1     8.037      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    492    .   1    1    54     54     HIS    CA      C    13    59.406     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    493    .   1    1    54     54     HIS    HA      H    1     4.321      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    494    .   1    1    54     54     HIS    CB      C    13    27.317     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    495    .   1    1    54     54     HIS    HB2     H    1     3.628      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    496    .   1    1    54     54     HIS    HB3     H    1     3.376      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    497    .   1    1    55     55     MET    N       N    15    119.354    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    498    .   1    1    55     55     MET    H       H    1     9.010      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    499    .   1    1    55     55     MET    CA      C    13    59.385     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    500    .   1    1    55     55     MET    HA      H    1     3.711      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    501    .   1    1    55     55     MET    CB      C    13    33.890     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    502    .   1    1    55     55     MET    HB2     H    1     2.155      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    503    .   1    1    55     55     MET    HB3     H    1     2.390      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    504    .   1    1    55     55     MET    CG      C    13    31.867     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    505    .   1    1    55     55     MET    HG2     H    1     2.933      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    506    .   1    1    55     55     MET    HG3     H    1     2.848      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    507    .   1    1    55     55     MET    CE      C    13    16.820     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    508    .   1    1    55     55     MET    HE1     H    1     1.997      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    509    .   1    1    55     55     MET    HE2     H    1     1.997      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    510    .   1    1    55     55     MET    HE3     H    1     1.997      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    511    .   1    1    56     56     THR    N       N    15    110.505    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    512    .   1    1    56     56     THR    H       H    1     7.523      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    513    .   1    1    56     56     THR    CA      C    13    65.201     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    514    .   1    1    56     56     THR    HA      H    1     3.867      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    515    .   1    1    56     56     THR    CB      C    13    69.214     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    516    .   1    1    56     56     THR    HB      H    1     3.985      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    517    .   1    1    56     56     THR    CG2     C    13    21.440     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    518    .   1    1    56     56     THR    HG21    H    1     1.064      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    519    .   1    1    56     56     THR    HG22    H    1     1.064      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    520    .   1    1    56     56     THR    HG23    H    1     1.064      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    521    .   1    1    57     57     HIS    N       N    15    115.546    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    522    .   1    1    57     57     HIS    H       H    1     7.054      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    523    .   1    1    57     57     HIS    CA      C    13    54.745     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    524    .   1    1    57     57     HIS    HA      H    1     4.811      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    525    .   1    1    57     57     HIS    CB      C    13    29.910     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    526    .   1    1    57     57     HIS    HB2     H    1     3.357      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    527    .   1    1    57     57     HIS    HB3     H    1     3.003      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    528    .   1    1    58     58     CYS    N       N    15    123.908    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    529    .   1    1    58     58     CYS    H       H    1     7.066      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    530    .   1    1    58     58     CYS    CA      C    13    60.698     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    531    .   1    1    58     58     CYS    HA      H    1     3.987      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    532    .   1    1    58     58     CYS    CB      C    13    29.665     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    533    .   1    1    58     58     CYS    HB2     H    1     2.477      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    534    .   1    1    58     58     CYS    HB3     H    1     1.942      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    535    .   1    1    59     59     GLN    N       N    15    128.850    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    536    .   1    1    59     59     GLN    H       H    1     9.089      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    537    .   1    1    59     59     GLN    CA      C    13    54.956     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    538    .   1    1    59     59     GLN    HA      H    1     4.651      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    539    .   1    1    59     59     GLN    CB      C    13    29.489     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    540    .   1    1    59     59     GLN    HB2     H    1     2.413      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    541    .   1    1    59     59     GLN    HB3     H    1     1.835      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    542    .   1    1    59     59     GLN    CG      C    13    33.645     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    543    .   1    1    59     59     GLN    HG2     H    1     2.399      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    544    .   1    1    59     59     GLN    HG3     H    1     2.347      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    545    .   1    1    60     60     ALA    N       N    15    125.076    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    546    .   1    1    60     60     ALA    H       H    1     8.627      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    547    .   1    1    60     60     ALA    CA      C    13    53.111     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    548    .   1    1    60     60     ALA    HA      H    1     4.345      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    549    .   1    1    60     60     ALA    CB      C    13    19.733     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    550    .   1    1    60     60     ALA    HB1     H    1     1.403      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    551    .   1    1    60     60     ALA    HB2     H    1     1.403      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    552    .   1    1    60     60     ALA    HB3     H    1     1.403      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    553    .   1    1    61     61     GLY    N       N    15    108.318    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    554    .   1    1    61     61     GLY    H       H    1     8.129      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    555    .   1    1    61     61     GLY    CA      C    13    46.064     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    556    .   1    1    61     61     GLY    HA3     H    1     3.573      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    557    .   1    1    61     61     GLY    HA2     H    1     3.911      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    558    .   1    1    62     62     LYS    N       N    15    125.701    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    559    .   1    1    62     62     LYS    H       H    1     8.927      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    560    .   1    1    62     62     LYS    CA      C    13    58.217     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    561    .   1    1    62     62     LYS    HA      H    1     4.070      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    562    .   1    1    62     62     LYS    CB      C    13    32.090     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    563    .   1    1    62     62     LYS    HB2     H    1     1.871      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    564    .   1    1    62     62     LYS    HB3     H    1     1.845      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    565    .   1    1    62     62     LYS    CG      C    13    24.768     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    566    .   1    1    62     62     LYS    HG2     H    1     1.472      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    567    .   1    1    62     62     LYS    CD      C    13    29.360     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    568    .   1    1    62     62     LYS    HD2     H    1     1.627      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    569    .   1    1    62     62     LYS    CE      C    13    41.998     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    570    .   1    1    62     62     LYS    HE2     H    1     2.929      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    571    .   1    1    63     63     ALA    N       N    15    119.549    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    572    .   1    1    63     63     ALA    H       H    1     7.615      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    573    .   1    1    63     63     ALA    CA      C    13    51.458     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    574    .   1    1    63     63     ALA    HA      H    1     4.368      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    575    .   1    1    63     63     ALA    CB      C    13    18.899     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    576    .   1    1    63     63     ALA    HB1     H    1     1.438      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    577    .   1    1    63     63     ALA    HB2     H    1     1.438      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    578    .   1    1    63     63     ALA    HB3     H    1     1.438      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    579    .   1    1    64     64     CYS    N       N    15    122.138    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    580    .   1    1    64     64     CYS    H       H    1     7.440      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    581    .   1    1    64     64     CYS    CA      C    13    62.222     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    582    .   1    1    64     64     CYS    HA      H    1     3.802      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    583    .   1    1    64     64     CYS    CB      C    13    29.619     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    584    .   1    1    64     64     CYS    HB2     H    1     2.801      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    585    .   1    1    65     65     GLN    N       N    15    128.879    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    586    .   1    1    65     65     GLN    H       H    1     8.975      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    587    .   1    1    65     65     GLN    CA      C    13    55.535     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    588    .   1    1    65     65     GLN    HA      H    1     4.374      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    589    .   1    1    65     65     GLN    CB      C    13    29.259     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    590    .   1    1    65     65     GLN    HB2     H    1     2.366      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    591    .   1    1    65     65     GLN    HB3     H    1     1.865      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    592    .   1    1    65     65     GLN    CG      C    13    33.943     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    593    .   1    1    65     65     GLN    HG2     H    1     2.424      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    594    .   1    1    65     65     GLN    HG3     H    1     2.357      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    595    .   1    1    66     66     VAL    N       N    15    127.935    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    596    .   1    1    66     66     VAL    H       H    1     9.252      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    597    .   1    1    66     66     VAL    CA      C    13    64.219     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    598    .   1    1    66     66     VAL    HA      H    1     3.584      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    599    .   1    1    66     66     VAL    CB      C    13    30.809     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    600    .   1    1    66     66     VAL    HB      H    1     1.877      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    601    .   1    1    66     66     VAL    CG2     C    13    22.469     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    602    .   1    1    66     66     VAL    HG21    H    1     0.521      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    603    .   1    1    66     66     VAL    HG22    H    1     0.521      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    604    .   1    1    66     66     VAL    HG23    H    1     0.521      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    605    .   1    1    66     66     VAL    CG1     C    13    20.236     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    606    .   1    1    66     66     VAL    HG11    H    1     0.439      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    607    .   1    1    66     66     VAL    HG12    H    1     0.439      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    608    .   1    1    66     66     VAL    HG13    H    1     0.439      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    609    .   1    1    67     67     ALA    N       N    15    134.232    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    610    .   1    1    67     67     ALA    H       H    1     8.587      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    611    .   1    1    67     67     ALA    CA      C    13    54.074     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    612    .   1    1    67     67     ALA    HA      H    1     3.768      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    613    .   1    1    67     67     ALA    CB      C    13    17.370     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    614    .   1    1    67     67     ALA    HB1     H    1     0.964      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    615    .   1    1    67     67     ALA    HB2     H    1     0.964      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    616    .   1    1    67     67     ALA    HB3     H    1     0.964      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    617    .   1    1    68     68     HIS    N       N    15    110.693    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    618    .   1    1    68     68     HIS    H       H    1     8.177      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    619    .   1    1    68     68     HIS    CA      C    13    57.602     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    620    .   1    1    68     68     HIS    HA      H    1     4.297      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    621    .   1    1    68     68     HIS    CB      C    13    28.917     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    622    .   1    1    68     68     HIS    HB2     H    1     3.644      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    623    .   1    1    68     68     HIS    HB3     H    1     2.922      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    624    .   1    1    69     69     CYS    N       N    15    126.516    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    625    .   1    1    69     69     CYS    H       H    1     7.977      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    626    .   1    1    69     69     CYS    CA      C    13    64.301     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    627    .   1    1    69     69     CYS    HA      H    1     4.038      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    628    .   1    1    69     69     CYS    CB      C    13    29.935     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    629    .   1    1    69     69     CYS    HB2     H    1     3.259      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    630    .   1    1    69     69     CYS    HB3     H    1     2.539      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    631    .   1    1    70     70     ALA    N       N    15    118.941    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    632    .   1    1    70     70     ALA    H       H    1     8.657      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    633    .   1    1    70     70     ALA    CA      C    13    55.481     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    634    .   1    1    70     70     ALA    HA      H    1     4.214      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    635    .   1    1    70     70     ALA    CB      C    13    17.708     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    636    .   1    1    70     70     ALA    HB1     H    1     1.435      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    637    .   1    1    70     70     ALA    HB2     H    1     1.435      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    638    .   1    1    70     70     ALA    HB3     H    1     1.435      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    639    .   1    1    71     71     SER    N       N    15    114.121    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    640    .   1    1    71     71     SER    H       H    1     8.871      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    641    .   1    1    71     71     SER    CA      C    13    60.542     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    642    .   1    1    71     71     SER    HA      H    1     4.193      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    643    .   1    1    71     71     SER    CB      C    13    61.885     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    644    .   1    1    71     71     SER    HB2     H    1     3.921      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    645    .   1    1    71     71     SER    HB3     H    1     3.869      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    646    .   1    1    72     72     SER    N       N    15    120.039    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    647    .   1    1    72     72     SER    H       H    1     7.766      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    648    .   1    1    72     72     SER    CA      C    13    62.612     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    649    .   1    1    72     72     SER    HA      H    1     3.636      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    650    .   1    1    72     72     SER    CB      C    13    62.451     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    651    .   1    1    72     72     SER    HB2     H    1     4.269      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    652    .   1    1    72     72     SER    HB3     H    1     4.191      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    653    .   1    1    73     73     ARG    N       N    15    122.834    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    654    .   1    1    73     73     ARG    H       H    1     8.767      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    655    .   1    1    73     73     ARG    CA      C    13    60.157     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    656    .   1    1    73     73     ARG    HA      H    1     3.845      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    657    .   1    1    73     73     ARG    CB      C    13    30.257     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    658    .   1    1    73     73     ARG    HB2     H    1     2.086      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    659    .   1    1    73     73     ARG    HB3     H    1     1.890      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    660    .   1    1    73     73     ARG    CG      C    13    27.494     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    661    .   1    1    73     73     ARG    HG2     H    1     1.822      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    662    .   1    1    73     73     ARG    HG3     H    1     1.547      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    663    .   1    1    73     73     ARG    CD      C    13    43.293     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    664    .   1    1    73     73     ARG    HD2     H    1     3.306      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    665    .   1    1    73     73     ARG    HD3     H    1     3.148      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    666    .   1    1    74     74     GLN    N       N    15    118.519    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    667    .   1    1    74     74     GLN    H       H    1     7.763      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    668    .   1    1    74     74     GLN    CA      C    13    58.913     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    669    .   1    1    74     74     GLN    HA      H    1     4.105      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    670    .   1    1    74     74     GLN    CB      C    13    28.571     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    671    .   1    1    74     74     GLN    HB2     H    1     2.197      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    672    .   1    1    74     74     GLN    CG      C    13    33.887     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    673    .   1    1    74     74     GLN    HG2     H    1     2.503      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    674    .   1    1    74     74     GLN    HG3     H    1     2.391      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    675    .   1    1    75     75     ILE    N       N    15    121.537    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    676    .   1    1    75     75     ILE    H       H    1     8.040      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    677    .   1    1    75     75     ILE    CA      C    13    64.150     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    678    .   1    1    75     75     ILE    HA      H    1     3.795      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    679    .   1    1    75     75     ILE    CB      C    13    38.131     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    680    .   1    1    75     75     ILE    HB      H    1     1.730      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    681    .   1    1    75     75     ILE    CG1     C    13    29.491     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    682    .   1    1    75     75     ILE    HG12    H    1     1.679      0.1    .   9    .   .   .   .   .   .   .   .   6268    1    
+    683    .   1    1    75     75     ILE    HG13    H    1     1.034      0.1    .   9    .   .   .   .   .   .   .   .   6268    1    
+    684    .   1    1    75     75     ILE    CD1     C    13    13.738     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    685    .   1    1    75     75     ILE    HD11    H    1     0.780      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    686    .   1    1    75     75     ILE    HD12    H    1     0.780      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    687    .   1    1    75     75     ILE    HD13    H    1     0.780      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    688    .   1    1    75     75     ILE    CG2     C    13    17.481     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    689    .   1    1    75     75     ILE    HG21    H    1     0.859      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    690    .   1    1    75     75     ILE    HG22    H    1     0.859      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    691    .   1    1    75     75     ILE    HG23    H    1     0.859      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    692    .   1    1    76     76     ILE    N       N    15    120.911    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    693    .   1    1    76     76     ILE    H       H    1     8.591      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    694    .   1    1    76     76     ILE    CA      C    13    64.156     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    695    .   1    1    76     76     ILE    HA      H    1     3.785      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    696    .   1    1    76     76     ILE    CB      C    13    37.184     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    697    .   1    1    76     76     ILE    HB      H    1     1.877      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    698    .   1    1    76     76     ILE    CG1     C    13    29.264     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    699    .   1    1    76     76     ILE    HG12    H    1     1.543      0.1    .   9    .   .   .   .   .   .   .   .   6268    1    
+    700    .   1    1    76     76     ILE    HG13    H    1     1.204      0.1    .   9    .   .   .   .   .   .   .   .   6268    1    
+    701    .   1    1    76     76     ILE    CD1     C    13    12.432     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    702    .   1    1    76     76     ILE    HD11    H    1     0.705      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    703    .   1    1    76     76     ILE    HD12    H    1     0.705      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    704    .   1    1    76     76     ILE    HD13    H    1     0.705      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    705    .   1    1    76     76     ILE    CG2     C    13    17.627     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    706    .   1    1    76     76     ILE    HG21    H    1     0.935      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    707    .   1    1    76     76     ILE    HG22    H    1     0.935      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    708    .   1    1    76     76     ILE    HG23    H    1     0.935      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    709    .   1    1    77     77     SER    N       N    15    114.094    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    710    .   1    1    77     77     SER    H       H    1     8.014      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    711    .   1    1    77     77     SER    CA      C    13    61.822     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    712    .   1    1    77     77     SER    HA      H    1     4.127      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    713    .   1    1    77     77     SER    CB      C    13    62.617     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    714    .   1    1    77     77     SER    HB2     H    1     3.986      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    715    .   1    1    77     77     SER    HB3     H    1     3.950      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    716    .   1    1    78     78     HIS    N       N    15    119.288    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    717    .   1    1    78     78     HIS    H       H    1     7.919      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    718    .   1    1    78     78     HIS    CA      C    13    60.339     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    719    .   1    1    78     78     HIS    HA      H    1     4.130      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    720    .   1    1    78     78     HIS    CB      C    13    27.177     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    721    .   1    1    78     78     HIS    HB2     H    1     3.509      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    722    .   1    1    78     78     HIS    HB3     H    1     3.227      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    723    .   1    1    78     78     HIS    HD2     H    1     6.663      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    724    .   1    1    79     79     TRP    N       N    15    119.718    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    725    .   1    1    79     79     TRP    H       H    1     8.494      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    726    .   1    1    79     79     TRP    CA      C    13    44.685     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    727    .   1    1    79     79     TRP    HA      H    1     4.409      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    728    .   1    1    79     79     TRP    CB      C    13    29.656     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    729    .   1    1    79     79     TRP    HB2     H    1     3.438      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    730    .   1    1    79     79     TRP    HB3     H    1     3.361      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    731    .   1    1    79     79     TRP    HD1     H    1     7.169      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    732    .   1    1    79     79     TRP    NE1     N    15    128.901    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    733    .   1    1    79     79     TRP    HE1     H    1     10.024     0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    734    .   1    1    79     79     TRP    HZ2     H    1     7.343      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    735    .   1    1    79     79     TRP    HH2     H    1     6.955      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    736    .   1    1    80     80     LYS    N       N    15    115.270    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    737    .   1    1    80     80     LYS    H       H    1     8.407      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    738    .   1    1    80     80     LYS    CA      C    13    58.599     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    739    .   1    1    80     80     LYS    HA      H    1     3.698      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    740    .   1    1    80     80     LYS    CB      C    13    32.667     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    741    .   1    1    80     80     LYS    HB2     H    1     1.828      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    742    .   1    1    80     80     LYS    HB3     H    1     1.772      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    743    .   1    1    80     80     LYS    CG      C    13    25.433     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    744    .   1    1    80     80     LYS    HG2     H    1     1.636      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    745    .   1    1    80     80     LYS    HG3     H    1     1.427      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    746    .   1    1    80     80     LYS    CD      C    13    29.203     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    747    .   1    1    80     80     LYS    HD2     H    1     1.625      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    748    .   1    1    80     80     LYS    CE      C    13    41.608     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    749    .   1    1    80     80     LYS    HE2     H    1     2.909      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    750    .   1    1    81     81     ASN    N       N    15    113.938    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    751    .   1    1    81     81     ASN    H       H    1     7.231      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    752    .   1    1    81     81     ASN    CA      C    13    53.191     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    753    .   1    1    81     81     ASN    HA      H    1     4.732      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    754    .   1    1    81     81     ASN    CB      C    13    40.805     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    755    .   1    1    81     81     ASN    HB2     H    1     2.580      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    756    .   1    1    81     81     ASN    HB3     H    1     2.730      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    757    .   1    1    82     82     CYS    N       N    15    124.551    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    758    .   1    1    82     82     CYS    H       H    1     7.479      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    759    .   1    1    82     82     CYS    CA      C    13    61.244     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    760    .   1    1    82     82     CYS    HA      H    1     3.975      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    761    .   1    1    82     82     CYS    CB      C    13    28.630     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    762    .   1    1    82     82     CYS    HB2     H    1     2.709      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    763    .   1    1    83     83     THR    N       N    15    118.665    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    764    .   1    1    83     83     THR    H       H    1     8.478      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    765    .   1    1    83     83     THR    CA      C    13    60.744     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    766    .   1    1    83     83     THR    HA      H    1     4.473      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    767    .   1    1    83     83     THR    CB      C    13    69.316     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    768    .   1    1    83     83     THR    HB      H    1     4.505      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    769    .   1    1    83     83     THR    CG2     C    13    21.176     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    770    .   1    1    83     83     THR    HG21    H    1     1.094      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    771    .   1    1    83     83     THR    HG22    H    1     1.094      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    772    .   1    1    83     83     THR    HG23    H    1     1.094      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    773    .   1    1    84     84     ARG    N       N    15    119.223    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    774    .   1    1    84     84     ARG    H       H    1     8.048      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    775    .   1    1    84     84     ARG    CA      C    13    57.410     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    776    .   1    1    84     84     ARG    HA      H    1     4.238      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    777    .   1    1    84     84     ARG    CB      C    13    31.282     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    778    .   1    1    84     84     ARG    HB2     H    1     1.875      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    779    .   1    1    84     84     ARG    HB3     H    1     1.826      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    780    .   1    1    84     84     ARG    CD      C    13    43.826     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    781    .   1    1    84     84     ARG    HD2     H    1     3.321      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    782    .   1    1    84     84     ARG    HD3     H    1     3.133      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    783    .   1    1    85     85     HIS    N       N    15    115.188    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    784    .   1    1    85     85     HIS    H       H    1     7.161      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    785    .   1    1    85     85     HIS    CA      C    13    57.810     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    786    .   1    1    85     85     HIS    HA      H    1     4.388      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    787    .   1    1    85     85     HIS    CB      C    13    29.383     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    788    .   1    1    85     85     HIS    HB2     H    1     3.167      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    789    .   1    1    86     86     ASP    N       N    15    117.172    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    790    .   1    1    86     86     ASP    H       H    1     8.136      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    791    .   1    1    86     86     ASP    CA      C    13    52.174     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    792    .   1    1    86     86     ASP    HA      H    1     4.460      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    793    .   1    1    86     86     ASP    CB      C    13    39.353     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    794    .   1    1    86     86     ASP    HB2     H    1     2.745      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    795    .   1    1    86     86     ASP    HB3     H    1     2.298      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    796    .   1    1    87     87     CYS    N       N    15    122.501    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    797    .   1    1    87     87     CYS    H       H    1     7.039      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    798    .   1    1    87     87     CYS    CA      C    13    57.059     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    799    .   1    1    87     87     CYS    HA      H    1     4.320      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    800    .   1    1    87     87     CYS    CB      C    13    30.797     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    801    .   1    1    87     87     CYS    HB2     H    1     2.984      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    802    .   1    1    87     87     CYS    HB3     H    1     2.939      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    803    .   1    1    88     88     PRO    CA      C    13    64.396     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    804    .   1    1    88     88     PRO    HA      H    1     4.429      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    805    .   1    1    88     88     PRO    CB      C    13    32.374     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    806    .   1    1    88     88     PRO    HB2     H    1     2.320      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    807    .   1    1    88     88     PRO    HB3     H    1     1.903      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    808    .   1    1    88     88     PRO    CG      C    13    27.664     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    809    .   1    1    88     88     PRO    HG2     H    1     1.996      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    810    .   1    1    88     88     PRO    HG3     H    1     1.905      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    811    .   1    1    88     88     PRO    CD      C    13    51.097     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    812    .   1    1    88     88     PRO    HD2     H    1     3.986      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    813    .   1    1    89     89     VAL    N       N    15    120.700    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    814    .   1    1    89     89     VAL    H       H    1     8.382      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    815    .   1    1    89     89     VAL    CA      C    13    65.489     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    816    .   1    1    89     89     VAL    HA      H    1     3.784      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    817    .   1    1    89     89     VAL    CB      C    13    32.904     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    818    .   1    1    89     89     VAL    HB      H    1     2.010      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    819    .   1    1    89     89     VAL    CG2     C    13    21.701     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    820    .   1    1    89     89     VAL    HG21    H    1     0.770      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    821    .   1    1    89     89     VAL    HG22    H    1     0.770      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    822    .   1    1    89     89     VAL    HG23    H    1     0.770      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    823    .   1    1    89     89     VAL    CG1     C    13    22.050     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    824    .   1    1    89     89     VAL    HG11    H    1     0.769      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    825    .   1    1    89     89     VAL    HG12    H    1     0.769      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    826    .   1    1    89     89     VAL    HG13    H    1     0.769      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    827    .   1    1    90     90     CYS    N       N    15    118.842    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    828    .   1    1    90     90     CYS    H       H    1     8.327      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    829    .   1    1    90     90     CYS    CA      C    13    62.899     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    830    .   1    1    90     90     CYS    HA      H    1     4.314      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    831    .   1    1    90     90     CYS    CB      C    13    31.017     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    832    .   1    1    90     90     CYS    HB2     H    1     3.086      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    833    .   1    1    90     90     CYS    HB3     H    1     2.895      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    834    .   1    1    91     91     LEU    N       N    15    119.983    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    835    .   1    1    91     91     LEU    H       H    1     7.879      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    836    .   1    1    91     91     LEU    CA      C    13    59.548     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    837    .   1    1    91     91     LEU    HA      H    1     4.202      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    838    .   1    1    91     91     LEU    CB      C    13    39.715     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    839    .   1    1    91     91     LEU    HB2     H    1     1.782      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    840    .   1    1    91     91     LEU    HB3     H    1     1.682      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    841    .   1    1    91     91     LEU    CG      C    13    27.255     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    842    .   1    1    91     91     LEU    HG      H    1     1.610      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    843    .   1    1    91     91     LEU    CD1     C    13    24.818     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    844    .   1    1    91     91     LEU    HD11    H    1     0.854      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    845    .   1    1    91     91     LEU    HD12    H    1     0.854      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    846    .   1    1    91     91     LEU    HD13    H    1     0.854      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    847    .   1    1    91     91     LEU    CD2     C    13    24.209     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    848    .   1    1    91     91     LEU    HD21    H    1     0.866      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    849    .   1    1    91     91     LEU    HD22    H    1     0.866      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    850    .   1    1    91     91     LEU    HD23    H    1     0.866      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    851    .   1    1    92     92     PRO    CA      C    13    65.239     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    852    .   1    1    92     92     PRO    HA      H    1     4.371      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    853    .   1    1    92     92     PRO    CB      C    13    31.332     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    854    .   1    1    92     92     PRO    HB2     H    1     2.329      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    855    .   1    1    92     92     PRO    HB3     H    1     1.649      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    856    .   1    1    92     92     PRO    CG      C    13    28.302     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    857    .   1    1    92     92     PRO    HG2     H    1     1.937      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    858    .   1    1    92     92     PRO    CD      C    13    50.375     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    859    .   1    1    92     92     PRO    HD2     H    1     3.597      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    860    .   1    1    92     92     PRO    HD3     H    1     3.485      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    861    .   1    1    93     93     LEU    N       N    15    116.527    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    862    .   1    1    93     93     LEU    H       H    1     7.493      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    863    .   1    1    93     93     LEU    CA      C    13    55.740     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    864    .   1    1    93     93     LEU    HA      H    1     4.208      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    865    .   1    1    93     93     LEU    CB      C    13    41.955     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    866    .   1    1    93     93     LEU    HB2     H    1     1.843      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    867    .   1    1    93     93     LEU    HB3     H    1     1.557      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    868    .   1    1    93     93     LEU    CG      C    13    27.418     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    869    .   1    1    93     93     LEU    HG      H    1     1.540      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    870    .   1    1    93     93     LEU    CD1     C    13    23.700     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    871    .   1    1    93     93     LEU    HD11    H    1     0.612      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    872    .   1    1    93     93     LEU    HD12    H    1     0.612      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    873    .   1    1    93     93     LEU    HD13    H    1     0.612      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    874    .   1    1    93     93     LEU    CD2     C    13    25.333     0.2    .   2    .   .   .   .   .   .   .   .   6268    1    
+    875    .   1    1    93     93     LEU    HD21    H    1     0.761      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    876    .   1    1    93     93     LEU    HD22    H    1     0.761      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    877    .   1    1    93     93     LEU    HD23    H    1     0.761      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    878    .   1    1    94     94     LYS    N       N    15    120.361    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    879    .   1    1    94     94     LYS    H       H    1     7.966      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    880    .   1    1    94     94     LYS    CA      C    13    57.787     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    881    .   1    1    94     94     LYS    HA      H    1     3.983      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    882    .   1    1    94     94     LYS    CB      C    13    32.818     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    883    .   1    1    94     94     LYS    HB2     H    1     1.922      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    884    .   1    1    94     94     LYS    CG      C    13    25.309     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    885    .   1    1    94     94     LYS    HG2     H    1     1.502      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    886    .   1    1    94     94     LYS    CD      C    13    29.123     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    887    .   1    1    94     94     LYS    HD2     H    1     1.613      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    888    .   1    1    94     94     LYS    CE      C    13    42.100     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    889    .   1    1    94     94     LYS    HE2     H    1     2.825      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    890    .   1    1    94     94     LYS    HE3     H    1     2.778      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    891    .   1    1    95     95     ASN    N       N    15    118.034    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    892    .   1    1    95     95     ASN    H       H    1     8.269      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    893    .   1    1    95     95     ASN    CA      C    13    53.410     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    894    .   1    1    95     95     ASN    HA      H    1     4.679      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    895    .   1    1    95     95     ASN    CB      C    13    38.722     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    896    .   1    1    95     95     ASN    HB2     H    1     2.838      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    897    .   1    1    95     95     ASN    HB3     H    1     2.732      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    898    .   1    1    96     96     ALA    N       N    15    123.791    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    899    .   1    1    96     96     ALA    H       H    1     8.009      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    900    .   1    1    96     96     ALA    CA      C    13    52.995     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    901    .   1    1    96     96     ALA    HA      H    1     4.313      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    902    .   1    1    96     96     ALA    CB      C    13    19.131     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    903    .   1    1    96     96     ALA    HB1     H    1     1.430      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    904    .   1    1    96     96     ALA    HB2     H    1     1.430      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    905    .   1    1    96     96     ALA    HB3     H    1     1.430      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    906    .   1    1    97     97     SER    N       N    15    114.178    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    907    .   1    1    97     97     SER    H       H    1     8.178      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    908    .   1    1    97     97     SER    CA      C    13    58.712     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    909    .   1    1    97     97     SER    HA      H    1     4.393      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    910    .   1    1    97     97     SER    CB      C    13    63.756     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    911    .   1    1    97     97     SER    HB2     H    1     3.921      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    912    .   1    1    97     97     SER    HB3     H    1     3.856      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    913    .   1    1    98     98     ASP    N       N    15    122.000    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    914    .   1    1    98     98     ASP    H       H    1     8.222      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    915    .   1    1    98     98     ASP    CA      C    13    54.332     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    916    .   1    1    98     98     ASP    HA      H    1     4.603      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    917    .   1    1    98     98     ASP    CB      C    13    41.071     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    918    .   1    1    98     98     ASP    HB3     H    1     2.666      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    919    .   1    1    99     99     LYS    N       N    15    121.537    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    920    .   1    1    99     99     LYS    H       H    1     8.057      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    921    .   1    1    99     99     LYS    CA      C    13    56.158     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    922    .   1    1    99     99     LYS    HA      H    1     4.304      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    923    .   1    1    99     99     LYS    CB      C    13    32.752     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    924    .   1    1    99     99     LYS    HB2     H    1     1.852      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    925    .   1    1    99     99     LYS    HB3     H    1     1.730      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    926    .   1    1    99     99     LYS    CG      C    13    24.638     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    927    .   1    1    99     99     LYS    HG2     H    1     1.426      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    928    .   1    1    99     99     LYS    HG3     H    1     1.389      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    929    .   1    1    99     99     LYS    CD      C    13    28.956     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    930    .   1    1    99     99     LYS    HD2     H    1     1.680      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    931    .   1    1    99     99     LYS    CE      C    13    42.273     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    932    .   1    1    99     99     LYS    HE2     H    1     2.980      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    933    .   1    1    100    100    ARG    N       N    15    127.794    0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    934    .   1    1    100    100    ARG    H       H    1     7.930      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    935    .   1    1    100    100    ARG    CA      C    13    57.419     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    936    .   1    1    100    100    ARG    HA      H    1     4.142      0.1    .   1    .   .   .   .   .   .   .   .   6268    1    
+    937    .   1    1    100    100    ARG    CB      C    13    31.479     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    938    .   1    1    100    100    ARG    HB2     H    1     1.823      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    939    .   1    1    100    100    ARG    HB3     H    1     1.695      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+    940    .   1    1    100    100    ARG    CD      C    13    43.343     0.2    .   1    .   .   .   .   .   .   .   .   6268    1    
+    941    .   1    1    100    100    ARG    HD2     H    1     3.148      0.1    .   2    .   .   .   .   .   .   .   .   6268    1    
+  stop_
+
+save_
+

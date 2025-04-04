@@ -1,0 +1,2440 @@
+data_5620
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             5620
+   _Entry.Title                         
+;
+Assignment for ribosomal protein S28E 
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2002-12-10
+   _Entry.Accession_date                 2002-12-10
+   _Entry.Last_release_date              2002-12-27
+   _Entry.Original_release_date          2002-12-27
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Bin      Wu         . . . 5620 
+      2 Adelinda Yee        . . . 5620 
+      3 Cheryl   Arrowsmith . . . 5620 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 5620 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '1H chemical shifts'  483 5620 
+      '13C chemical shifts' 281 5620 
+      '15N chemical shifts'  58 5620 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2002-12-27 2002-12-10 original author . 5620 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     5620
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Solution structure of ribosomal protein S28E from Methanobacterium 
+Thermoautotrophicum 
+;
+   _Citation.Status                       published
+   _Citation.Type                        'BMRB only'
+   _Citation.Journal_abbrev               .
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         .
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Bin      Wu         . . . 5620 1 
+      2 Adelinda Yee        . . . 5620 1 
+      3 Cheryl   Arrowsmith . . . 5620 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'ribosomal protein S28E' 5620 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_RS28_METTH
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_RS28_METTH
+   _Assembly.Entry_ID                          5620
+   _Assembly.ID                                1
+   _Assembly.Name                             'ribosomal protein S28E'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'all other bound'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      monomer 5620 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 mth0256 1 $mth0256 . . . native . . . . . 5620 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'ribosomal protein S28E' system       5620 1 
+       RS28_METTH              abbreviation 5620 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      'ribosomal protein S28E' 5620 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_mth0256
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      mth0256
+   _Entity.Entry_ID                          5620
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'ribosomal protein S28E'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MDDATPAEVIEVLKRTGMTG
+EVMQVKCRILDGRDKGRILT
+RNVMGPIREGDILMLLDTIR
+EAKEIRTP
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                68
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'all other bound'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    7666
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1 no PDB 1NE3         . "Solution Structure Of Ribosomal Protein S28e From Methanobacterium Thermoautotrophicum. Ontario Centre For Structural Proteomic" . . . . . 100.00 68 100.00 100.00 3.33e-38 . . . . 5620 1 
+      2 no DBJ BAM69468     . "30S ribosomal protein S28e [Methanothermobacter thermautotrophicus CaT2]"                                                        . . . . . 100.00 68  97.06 100.00 3.56e-37 . . . . 5620 1 
+      3 no GB  AAB84762     . "ribosomal protein S28 [Methanothermobacter thermautotrophicus str. Delta H]"                                                     . . . . . 100.00 68 100.00 100.00 3.33e-38 . . . . 5620 1 
+      4 no GB  ADL58301     . "30S ribosomal protein S28e [Methanothermobacter marburgensis str. Marburg]"                                                      . . . . . 100.00 68  97.06 100.00 3.56e-37 . . . . 5620 1 
+      5 no REF NP_275399    . "30S ribosomal protein S28 [Methanothermobacter thermautotrophicus str. Delta H]"                                                 . . . . . 100.00 68 100.00 100.00 3.33e-38 . . . . 5620 1 
+      6 no REF WP_010875895 . "30S ribosomal protein S28e [Methanothermobacter thermautotrophicus]"                                                             . . . . . 100.00 68 100.00 100.00 3.33e-38 . . . . 5620 1 
+      7 no REF WP_013295525 . "30S ribosomal protein S28e [Methanothermobacter marburgensis]"                                                                   . . . . . 100.00 68  97.06 100.00 3.56e-37 . . . . 5620 1 
+      8 no REF YP_003849614 . "30S ribosomal protein S28e [Methanothermobacter marburgensis str. Marburg]"                                                      . . . . . 100.00 68  97.06 100.00 3.56e-37 . . . . 5620 1 
+      9 no SP  O26356       . "RecName: Full=30S ribosomal protein S28e [Methanothermobacter thermautotrophicus str. Delta H]"                                  . . . . . 100.00 68 100.00 100.00 3.33e-38 . . . . 5620 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'ribosomal protein S28E' common       5620 1 
+       S28E                    abbreviation 5620 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . MET . 5620 1 
+       2 . ASP . 5620 1 
+       3 . ASP . 5620 1 
+       4 . ALA . 5620 1 
+       5 . THR . 5620 1 
+       6 . PRO . 5620 1 
+       7 . ALA . 5620 1 
+       8 . GLU . 5620 1 
+       9 . VAL . 5620 1 
+      10 . ILE . 5620 1 
+      11 . GLU . 5620 1 
+      12 . VAL . 5620 1 
+      13 . LEU . 5620 1 
+      14 . LYS . 5620 1 
+      15 . ARG . 5620 1 
+      16 . THR . 5620 1 
+      17 . GLY . 5620 1 
+      18 . MET . 5620 1 
+      19 . THR . 5620 1 
+      20 . GLY . 5620 1 
+      21 . GLU . 5620 1 
+      22 . VAL . 5620 1 
+      23 . MET . 5620 1 
+      24 . GLN . 5620 1 
+      25 . VAL . 5620 1 
+      26 . LYS . 5620 1 
+      27 . CYS . 5620 1 
+      28 . ARG . 5620 1 
+      29 . ILE . 5620 1 
+      30 . LEU . 5620 1 
+      31 . ASP . 5620 1 
+      32 . GLY . 5620 1 
+      33 . ARG . 5620 1 
+      34 . ASP . 5620 1 
+      35 . LYS . 5620 1 
+      36 . GLY . 5620 1 
+      37 . ARG . 5620 1 
+      38 . ILE . 5620 1 
+      39 . LEU . 5620 1 
+      40 . THR . 5620 1 
+      41 . ARG . 5620 1 
+      42 . ASN . 5620 1 
+      43 . VAL . 5620 1 
+      44 . MET . 5620 1 
+      45 . GLY . 5620 1 
+      46 . PRO . 5620 1 
+      47 . ILE . 5620 1 
+      48 . ARG . 5620 1 
+      49 . GLU . 5620 1 
+      50 . GLY . 5620 1 
+      51 . ASP . 5620 1 
+      52 . ILE . 5620 1 
+      53 . LEU . 5620 1 
+      54 . MET . 5620 1 
+      55 . LEU . 5620 1 
+      56 . LEU . 5620 1 
+      57 . ASP . 5620 1 
+      58 . THR . 5620 1 
+      59 . ILE . 5620 1 
+      60 . ARG . 5620 1 
+      61 . GLU . 5620 1 
+      62 . ALA . 5620 1 
+      63 . LYS . 5620 1 
+      64 . GLU . 5620 1 
+      65 . ILE . 5620 1 
+      66 . ARG . 5620 1 
+      67 . THR . 5620 1 
+      68 . PRO . 5620 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 5620 1 
+      . ASP  2  2 5620 1 
+      . ASP  3  3 5620 1 
+      . ALA  4  4 5620 1 
+      . THR  5  5 5620 1 
+      . PRO  6  6 5620 1 
+      . ALA  7  7 5620 1 
+      . GLU  8  8 5620 1 
+      . VAL  9  9 5620 1 
+      . ILE 10 10 5620 1 
+      . GLU 11 11 5620 1 
+      . VAL 12 12 5620 1 
+      . LEU 13 13 5620 1 
+      . LYS 14 14 5620 1 
+      . ARG 15 15 5620 1 
+      . THR 16 16 5620 1 
+      . GLY 17 17 5620 1 
+      . MET 18 18 5620 1 
+      . THR 19 19 5620 1 
+      . GLY 20 20 5620 1 
+      . GLU 21 21 5620 1 
+      . VAL 22 22 5620 1 
+      . MET 23 23 5620 1 
+      . GLN 24 24 5620 1 
+      . VAL 25 25 5620 1 
+      . LYS 26 26 5620 1 
+      . CYS 27 27 5620 1 
+      . ARG 28 28 5620 1 
+      . ILE 29 29 5620 1 
+      . LEU 30 30 5620 1 
+      . ASP 31 31 5620 1 
+      . GLY 32 32 5620 1 
+      . ARG 33 33 5620 1 
+      . ASP 34 34 5620 1 
+      . LYS 35 35 5620 1 
+      . GLY 36 36 5620 1 
+      . ARG 37 37 5620 1 
+      . ILE 38 38 5620 1 
+      . LEU 39 39 5620 1 
+      . THR 40 40 5620 1 
+      . ARG 41 41 5620 1 
+      . ASN 42 42 5620 1 
+      . VAL 43 43 5620 1 
+      . MET 44 44 5620 1 
+      . GLY 45 45 5620 1 
+      . PRO 46 46 5620 1 
+      . ILE 47 47 5620 1 
+      . ARG 48 48 5620 1 
+      . GLU 49 49 5620 1 
+      . GLY 50 50 5620 1 
+      . ASP 51 51 5620 1 
+      . ILE 52 52 5620 1 
+      . LEU 53 53 5620 1 
+      . MET 54 54 5620 1 
+      . LEU 55 55 5620 1 
+      . LEU 56 56 5620 1 
+      . ASP 57 57 5620 1 
+      . THR 58 58 5620 1 
+      . ILE 59 59 5620 1 
+      . ARG 60 60 5620 1 
+      . GLU 61 61 5620 1 
+      . ALA 62 62 5620 1 
+      . LYS 63 63 5620 1 
+      . GLU 64 64 5620 1 
+      . ILE 65 65 5620 1 
+      . ARG 66 66 5620 1 
+      . THR 67 67 5620 1 
+      . PRO 68 68 5620 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       5620
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $mth0256 . 145262 organism . 'Methanobacterium thermoautotrophicum' 'Methanothermobacter thermoautotrophicus' . . Archaea Euryarchaeota Methanobacterium thermoautotrophicum . . . . . . . . . . . . . . . . . . . . . 5620 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       5620
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $mth0256 . 'recombinant technology' 'Escherichia coli' 'E. coli' . . Escherichia coli 'BL21 (DE3)' . . . . . . . . . . . . plasmid . . PET15B . . . . . . 5620 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         5620
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'ribosomal protein S28E' '[U-13C; U-15N]' . . 1 $mth0256 . .   1 . . MM . . . . 5620 1 
+      2  NaCl                     .               . .  .  .       . . 450 . . mM . . . . 5620 1 
+      3  Na2PO4                   .               . .  .  .       . .  25 . . mM . . . . 5620 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_cond_set1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   cond_set1
+   _Sample_condition_list.Entry_ID       5620
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+       pH                6.5  0.2 na 5620 1 
+       temperature     298    1   K  5620 1 
+      'ionic strength'   0.45  .  M  5620 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_XEASY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   XEASY
+   _Software.Entry_ID       5620
+   _Software.ID             1
+   _Software.Name           XEASY
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'peak assignment' 5620 1 
+
+   stop_
+
+save_
+
+
+save_SPARKY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SPARKY
+   _Software.Entry_ID       5620
+   _Software.ID             2
+   _Software.Name           SPARKY
+   _Software.Version        3.95
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'peak assignment' 5620 2 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer
+   _NMR_spectrometer.Entry_ID         5620
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     VARIAN
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       5620
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer VARIAN INOVA . 600 . . . 5620 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       5620
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '13C-edited NOESY and 15N-edited NOESY were calibrated to obtain accurate' . . . . . . . . . . . 1 $sample_1 . . . 1 $cond_set1 . . . 1 $NMR_spectrometer . . . . . . . . . . . . . . . . 5620 1 
+      2 'peakposition for structure calculation.'                                  . . . . . . . . . . . 1 $sample_1 . . . 1 $cond_set1 . . . 1 $NMR_spectrometer . . . . . . . . . . . . . . . . 5620 1 
+
+   stop_
+
+save_
+
+
+save_NMR_spec_expt__0_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__1_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__1_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              3
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__1_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__1_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              4
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__2_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__2_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              5
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__2_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__2_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              6
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__3_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__3_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              7
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__3_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__3_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              8
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__4_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__4_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              9
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__4_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__4_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              10
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__5_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__5_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              11
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__5_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__5_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              12
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__6_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__6_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              13
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__6_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__6_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              14
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__7_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__7_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              15
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__7_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__7_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              16
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__8_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__8_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              17
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__8_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__8_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              18
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__9_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__9_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              19
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__9_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__9_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              20
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__10_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__10_1
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              21
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__10_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__10_2
+   _NMR_spec_expt.Entry_ID                        5620
+   _NMR_spec_expt.ID                              22
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference
+   _Chem_shift_reference.Entry_ID       5620
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      H  1 DSS 'methyl protons' . . . . ppm 0.0 internal direct   1.000000000 . . . 1 $entry_citation . . 1 $entry_citation 5620 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.0 .        indirect 0.101329118 . . . 1 $entry_citation . . 1 $entry_citation 5620 1 
+      C 13 DSS 'methyl protons' . . . . ppm 0.0 .        indirect 0.251449530 . . . 1 $entry_citation . . 1 $entry_citation 5620 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_chemical_shift_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chemical_shift_1
+   _Assigned_chem_shift_list.Entry_ID                      5620
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $cond_set1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '13C-edited NOESY and 15N-edited NOESY were calibrated to obtain accurate' 1 $sample_1 . 5620 1 
+      2 'peakposition for structure calculation.'                                  1 $sample_1 . 5620 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 MET CA   C 13  55.9   0.5  . 1 . . . . . . . . 5620 1 
+        2 . 1 1  1  1 MET HA   H  1   4.43  0.05 . 1 . . . . . . . . 5620 1 
+        3 . 1 1  1  1 MET CB   C 13  32.2   0.5  . 1 . . . . . . . . 5620 1 
+        4 . 1 1  1  1 MET HB2  H  1   2.48  0.05 . 2 . . . . . . . . 5620 1 
+        5 . 1 1  1  1 MET HB3  H  1   2.39  0.05 . 2 . . . . . . . . 5620 1 
+        6 . 1 1  1  1 MET CG   C 13  33.1   0.5  . 1 . . . . . . . . 5620 1 
+        7 . 1 1  1  1 MET HG2  H  1   2.04  0.05 . 2 . . . . . . . . 5620 1 
+        8 . 1 1  1  1 MET HG3  H  1   1.92  0.05 . 2 . . . . . . . . 5620 1 
+        9 . 1 1  1  1 MET HE1  H  1   2.00  0.05 . 1 . . . . . . . . 5620 1 
+       10 . 1 1  1  1 MET HE2  H  1   2.00  0.05 . 1 . . . . . . . . 5620 1 
+       11 . 1 1  1  1 MET HE3  H  1   2.00  0.05 . 1 . . . . . . . . 5620 1 
+       12 . 1 1  1  1 MET CE   C 13  17.2   0.5  . 1 . . . . . . . . 5620 1 
+       13 . 1 1  2  2 ASP H    H  1   8.27  0.05 . 1 . . . . . . . . 5620 1 
+       14 . 1 1  2  2 ASP CA   C 13  55.5   0.5  . 1 . . . . . . . . 5620 1 
+       15 . 1 1  2  2 ASP HA   H  1   4.54  0.05 . 1 . . . . . . . . 5620 1 
+       16 . 1 1  2  2 ASP CB   C 13  41.5   0.5  . 1 . . . . . . . . 5620 1 
+       17 . 1 1  2  2 ASP HB2  H  1   2.70  0.05 . 2 . . . . . . . . 5620 1 
+       18 . 1 1  2  2 ASP HB3  H  1   2.59  0.05 . 2 . . . . . . . . 5620 1 
+       19 . 1 1  2  2 ASP C    C 13 176.1   0.5  . 1 . . . . . . . . 5620 1 
+       20 . 1 1  3  3 ASP N    N 15 118.8   0.5  . 1 . . . . . . . . 5620 1 
+       21 . 1 1  3  3 ASP H    H  1   8.26  0.05 . 1 . . . . . . . . 5620 1 
+       22 . 1 1  3  3 ASP CA   C 13  54.6   0.5  . 1 . . . . . . . . 5620 1 
+       23 . 1 1  3  3 ASP HA   H  1   4.63  0.05 . 1 . . . . . . . . 5620 1 
+       24 . 1 1  3  3 ASP CB   C 13  41.4   0.5  . 1 . . . . . . . . 5620 1 
+       25 . 1 1  3  3 ASP HB2  H  1   2.75  0.05 . 2 . . . . . . . . 5620 1 
+       26 . 1 1  3  3 ASP HB3  H  1   2.64  0.05 . 2 . . . . . . . . 5620 1 
+       27 . 1 1  3  3 ASP C    C 13 175.5   0.5  . 1 . . . . . . . . 5620 1 
+       28 . 1 1  4  4 ALA N    N 15 123.1   0.5  . 1 . . . . . . . . 5620 1 
+       29 . 1 1  4  4 ALA H    H  1   7.88  0.05 . 1 . . . . . . . . 5620 1 
+       30 . 1 1  4  4 ALA CA   C 13  52.0   0.5  . 1 . . . . . . . . 5620 1 
+       31 . 1 1  4  4 ALA HA   H  1   4.59  0.05 . 1 . . . . . . . . 5620 1 
+       32 . 1 1  4  4 ALA HB1  H  1   1.22  0.05 . 1 . . . . . . . . 5620 1 
+       33 . 1 1  4  4 ALA HB2  H  1   1.22  0.05 . 1 . . . . . . . . 5620 1 
+       34 . 1 1  4  4 ALA HB3  H  1   1.22  0.05 . 1 . . . . . . . . 5620 1 
+       35 . 1 1  4  4 ALA CB   C 13  21.2   0.5  . 1 . . . . . . . . 5620 1 
+       36 . 1 1  4  4 ALA C    C 13 176.9   0.5  . 1 . . . . . . . . 5620 1 
+       37 . 1 1  5  5 THR N    N 15 119.0   0.5  . 1 . . . . . . . . 5620 1 
+       38 . 1 1  5  5 THR H    H  1   8.78  0.05 . 1 . . . . . . . . 5620 1 
+       39 . 1 1  5  5 THR CA   C 13  59.9   0.5  . 1 . . . . . . . . 5620 1 
+       40 . 1 1  5  5 THR HA   H  1   4.76  0.05 . 1 . . . . . . . . 5620 1 
+       41 . 1 1  5  5 THR CB   C 13  72.2   0.5  . 1 . . . . . . . . 5620 1 
+       42 . 1 1  5  5 THR HB   H  1   3.94  0.05 . 1 . . . . . . . . 5620 1 
+       43 . 1 1  5  5 THR HG21 H  1   1.32  0.05 . 1 . . . . . . . . 5620 1 
+       44 . 1 1  5  5 THR HG22 H  1   1.32  0.05 . 1 . . . . . . . . 5620 1 
+       45 . 1 1  5  5 THR HG23 H  1   1.32  0.05 . 1 . . . . . . . . 5620 1 
+       46 . 1 1  5  5 THR CG2  C 13  22.1   0.5  . 1 . . . . . . . . 5620 1 
+       47 . 1 1  6  6 PRO CD   C 13  50.5   0.5  . 1 . . . . . . . . 5620 1 
+       48 . 1 1  6  6 PRO CA   C 13  63.0   0.5  . 1 . . . . . . . . 5620 1 
+       49 . 1 1  6  6 PRO HA   H  1   4.83  0.05 . 1 . . . . . . . . 5620 1 
+       50 . 1 1  6  6 PRO CB   C 13  34.9   0.5  . 1 . . . . . . . . 5620 1 
+       51 . 1 1  6  6 PRO HB2  H  1   2.42  0.05 . 2 . . . . . . . . 5620 1 
+       52 . 1 1  6  6 PRO HB3  H  1   2.17  0.05 . 2 . . . . . . . . 5620 1 
+       53 . 1 1  6  6 PRO CG   C 13  25.3   0.5  . 1 . . . . . . . . 5620 1 
+       54 . 1 1  6  6 PRO HG2  H  1   1.95  0.05 . 1 . . . . . . . . 5620 1 
+       55 . 1 1  6  6 PRO HG3  H  1   1.95  0.05 . 1 . . . . . . . . 5620 1 
+       56 . 1 1  6  6 PRO HD2  H  1   3.59  0.05 . 2 . . . . . . . . 5620 1 
+       57 . 1 1  6  6 PRO HD3  H  1   3.52  0.05 . 2 . . . . . . . . 5620 1 
+       58 . 1 1  6  6 PRO C    C 13 176.6   0.5  . 1 . . . . . . . . 5620 1 
+       59 . 1 1  7  7 ALA N    N 15 124.5   0.5  . 1 . . . . . . . . 5620 1 
+       60 . 1 1  7  7 ALA H    H  1   9.18  0.05 . 1 . . . . . . . . 5620 1 
+       61 . 1 1  7  7 ALA CA   C 13  51.1   0.5  . 1 . . . . . . . . 5620 1 
+       62 . 1 1  7  7 ALA HA   H  1   5.10  0.05 . 1 . . . . . . . . 5620 1 
+       63 . 1 1  7  7 ALA HB1  H  1   1.07  0.05 . 1 . . . . . . . . 5620 1 
+       64 . 1 1  7  7 ALA HB2  H  1   1.07  0.05 . 1 . . . . . . . . 5620 1 
+       65 . 1 1  7  7 ALA HB3  H  1   1.07  0.05 . 1 . . . . . . . . 5620 1 
+       66 . 1 1  7  7 ALA CB   C 13  23.4   0.5  . 1 . . . . . . . . 5620 1 
+       67 . 1 1  7  7 ALA C    C 13 174.6   0.5  . 1 . . . . . . . . 5620 1 
+       68 . 1 1  8  8 GLU N    N 15 122.0   0.5  . 1 . . . . . . . . 5620 1 
+       69 . 1 1  8  8 GLU H    H  1   8.73  0.05 . 1 . . . . . . . . 5620 1 
+       70 . 1 1  8  8 GLU CA   C 13  54.2   0.5  . 1 . . . . . . . . 5620 1 
+       71 . 1 1  8  8 GLU HA   H  1   4.98  0.05 . 1 . . . . . . . . 5620 1 
+       72 . 1 1  8  8 GLU CB   C 13  33.3   0.5  . 1 . . . . . . . . 5620 1 
+       73 . 1 1  8  8 GLU HB2  H  1   1.94  0.05 . 1 . . . . . . . . 5620 1 
+       74 . 1 1  8  8 GLU HB3  H  1   1.94  0.05 . 1 . . . . . . . . 5620 1 
+       75 . 1 1  8  8 GLU CG   C 13  36.1   0.5  . 1 . . . . . . . . 5620 1 
+       76 . 1 1  8  8 GLU HG2  H  1   2.05  0.05 . 1 . . . . . . . . 5620 1 
+       77 . 1 1  8  8 GLU HG3  H  1   2.05  0.05 . 1 . . . . . . . . 5620 1 
+       78 . 1 1  8  8 GLU C    C 13 177.1   0.5  . 1 . . . . . . . . 5620 1 
+       79 . 1 1  9  9 VAL N    N 15 126.9   0.5  . 1 . . . . . . . . 5620 1 
+       80 . 1 1  9  9 VAL H    H  1   9.34  0.05 . 1 . . . . . . . . 5620 1 
+       81 . 1 1  9  9 VAL CA   C 13  64.6   0.5  . 1 . . . . . . . . 5620 1 
+       82 . 1 1  9  9 VAL HA   H  1   3.94  0.05 . 1 . . . . . . . . 5620 1 
+       83 . 1 1  9  9 VAL CB   C 13  31.6   0.5  . 1 . . . . . . . . 5620 1 
+       84 . 1 1  9  9 VAL HB   H  1   2.31  0.05 . 1 . . . . . . . . 5620 1 
+       85 . 1 1  9  9 VAL HG11 H  1   0.90  0.05 . 2 . . . . . . . . 5620 1 
+       86 . 1 1  9  9 VAL HG12 H  1   0.90  0.05 . 2 . . . . . . . . 5620 1 
+       87 . 1 1  9  9 VAL HG13 H  1   0.90  0.05 . 2 . . . . . . . . 5620 1 
+       88 . 1 1  9  9 VAL HG21 H  1   0.71  0.05 . 2 . . . . . . . . 5620 1 
+       89 . 1 1  9  9 VAL HG22 H  1   0.71  0.05 . 2 . . . . . . . . 5620 1 
+       90 . 1 1  9  9 VAL HG23 H  1   0.71  0.05 . 2 . . . . . . . . 5620 1 
+       91 . 1 1  9  9 VAL CG1  C 13  22.5   0.5  . 1 . . . . . . . . 5620 1 
+       92 . 1 1  9  9 VAL CG2  C 13  22.2   0.5  . 1 . . . . . . . . 5620 1 
+       93 . 1 1  9  9 VAL C    C 13 176.9   0.5  . 1 . . . . . . . . 5620 1 
+       94 . 1 1 10 10 ILE N    N 15 125.6   0.5  . 1 . . . . . . . . 5620 1 
+       95 . 1 1 10 10 ILE H    H  1   9.17  0.05 . 1 . . . . . . . . 5620 1 
+       96 . 1 1 10 10 ILE CA   C 13  61.5   0.5  . 1 . . . . . . . . 5620 1 
+       97 . 1 1 10 10 ILE HA   H  1   4.63  0.05 . 1 . . . . . . . . 5620 1 
+       98 . 1 1 10 10 ILE CB   C 13  39.7   0.5  . 1 . . . . . . . . 5620 1 
+       99 . 1 1 10 10 ILE HB   H  1   2.00  0.05 . 1 . . . . . . . . 5620 1 
+      100 . 1 1 10 10 ILE HG21 H  1   0.91  0.05 . 1 . . . . . . . . 5620 1 
+      101 . 1 1 10 10 ILE HG22 H  1   0.91  0.05 . 1 . . . . . . . . 5620 1 
+      102 . 1 1 10 10 ILE HG23 H  1   0.91  0.05 . 1 . . . . . . . . 5620 1 
+      103 . 1 1 10 10 ILE CG2  C 13  18.2   0.5  . 1 . . . . . . . . 5620 1 
+      104 . 1 1 10 10 ILE CG1  C 13  27.0   0.5  . 1 . . . . . . . . 5620 1 
+      105 . 1 1 10 10 ILE HG12 H  1   1.29  0.05 . 2 . . . . . . . . 5620 1 
+      106 . 1 1 10 10 ILE HG13 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      107 . 1 1 10 10 ILE HD11 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      108 . 1 1 10 10 ILE HD12 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      109 . 1 1 10 10 ILE HD13 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      110 . 1 1 10 10 ILE CD1  C 13  14.3   0.5  . 1 . . . . . . . . 5620 1 
+      111 . 1 1 10 10 ILE C    C 13 175.6   0.5  . 1 . . . . . . . . 5620 1 
+      112 . 1 1 11 11 GLU N    N 15 120.5   0.5  . 1 . . . . . . . . 5620 1 
+      113 . 1 1 11 11 GLU H    H  1   7.56  0.05 . 1 . . . . . . . . 5620 1 
+      114 . 1 1 11 11 GLU CA   C 13  56.8   0.5  . 1 . . . . . . . . 5620 1 
+      115 . 1 1 11 11 GLU HA   H  1   4.56  0.05 . 1 . . . . . . . . 5620 1 
+      116 . 1 1 11 11 GLU CB   C 13  34.4   0.5  . 1 . . . . . . . . 5620 1 
+      117 . 1 1 11 11 GLU HB2  H  1   2.04  0.05 . 2 . . . . . . . . 5620 1 
+      118 . 1 1 11 11 GLU HB3  H  1   1.78  0.05 . 2 . . . . . . . . 5620 1 
+      119 . 1 1 11 11 GLU CG   C 13  36.7   0.5  . 1 . . . . . . . . 5620 1 
+      120 . 1 1 11 11 GLU HG2  H  1   2.28  0.05 . 2 . . . . . . . . 5620 1 
+      121 . 1 1 11 11 GLU HG3  H  1   1.98  0.05 . 2 . . . . . . . . 5620 1 
+      122 . 1 1 11 11 GLU C    C 13 174.4   0.5  . 1 . . . . . . . . 5620 1 
+      123 . 1 1 12 12 VAL N    N 15 127.4   0.5  . 1 . . . . . . . . 5620 1 
+      124 . 1 1 12 12 VAL H    H  1   9.17  0.05 . 1 . . . . . . . . 5620 1 
+      125 . 1 1 12 12 VAL CA   C 13  62.6   0.5  . 1 . . . . . . . . 5620 1 
+      126 . 1 1 12 12 VAL HA   H  1   4.27  0.05 . 1 . . . . . . . . 5620 1 
+      127 . 1 1 12 12 VAL CB   C 13  32.8   0.5  . 1 . . . . . . . . 5620 1 
+      128 . 1 1 12 12 VAL HB   H  1   2.06  0.05 . 1 . . . . . . . . 5620 1 
+      129 . 1 1 12 12 VAL HG11 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      130 . 1 1 12 12 VAL HG12 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      131 . 1 1 12 12 VAL HG13 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      132 . 1 1 12 12 VAL HG21 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      133 . 1 1 12 12 VAL HG22 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      134 . 1 1 12 12 VAL HG23 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      135 . 1 1 12 12 VAL CG1  C 13  22.0   0.5  . 1 . . . . . . . . 5620 1 
+      136 . 1 1 12 12 VAL CG2  C 13  21.2   0.5  . 1 . . . . . . . . 5620 1 
+      137 . 1 1 12 12 VAL C    C 13 175.5   0.5  . 1 . . . . . . . . 5620 1 
+      138 . 1 1 13 13 LEU N    N 15 129.0   0.5  . 1 . . . . . . . . 5620 1 
+      139 . 1 1 13 13 LEU H    H  1   8.83  0.05 . 1 . . . . . . . . 5620 1 
+      140 . 1 1 13 13 LEU CA   C 13  55.8   0.5  . 1 . . . . . . . . 5620 1 
+      141 . 1 1 13 13 LEU HA   H  1   4.47  0.05 . 1 . . . . . . . . 5620 1 
+      142 . 1 1 13 13 LEU CB   C 13  42.8   0.5  . 1 . . . . . . . . 5620 1 
+      143 . 1 1 13 13 LEU HB2  H  1   1.65  0.05 . 2 . . . . . . . . 5620 1 
+      144 . 1 1 13 13 LEU HB3  H  1   1.56  0.05 . 2 . . . . . . . . 5620 1 
+      145 . 1 1 13 13 LEU CG   C 13  28.0   0.5  . 1 . . . . . . . . 5620 1 
+      146 . 1 1 13 13 LEU HG   H  1   1.50  0.05 . 1 . . . . . . . . 5620 1 
+      147 . 1 1 13 13 LEU HD11 H  1   0.81  0.05 . 2 . . . . . . . . 5620 1 
+      148 . 1 1 13 13 LEU HD12 H  1   0.81  0.05 . 2 . . . . . . . . 5620 1 
+      149 . 1 1 13 13 LEU HD13 H  1   0.81  0.05 . 2 . . . . . . . . 5620 1 
+      150 . 1 1 13 13 LEU HD21 H  1   0.79  0.05 . 2 . . . . . . . . 5620 1 
+      151 . 1 1 13 13 LEU HD22 H  1   0.79  0.05 . 2 . . . . . . . . 5620 1 
+      152 . 1 1 13 13 LEU HD23 H  1   0.79  0.05 . 2 . . . . . . . . 5620 1 
+      153 . 1 1 13 13 LEU CD1  C 13  25.7   0.5  . 1 . . . . . . . . 5620 1 
+      154 . 1 1 13 13 LEU CD2  C 13  23.9   0.5  . 1 . . . . . . . . 5620 1 
+      155 . 1 1 13 13 LEU C    C 13 176.8   0.5  . 1 . . . . . . . . 5620 1 
+      156 . 1 1 14 14 LYS N    N 15 119.6   0.5  . 1 . . . . . . . . 5620 1 
+      157 . 1 1 14 14 LYS H    H  1   8.07  0.05 . 1 . . . . . . . . 5620 1 
+      158 . 1 1 14 14 LYS CA   C 13  56.4   0.5  . 1 . . . . . . . . 5620 1 
+      159 . 1 1 14 14 LYS HA   H  1   4.52  0.05 . 1 . . . . . . . . 5620 1 
+      160 . 1 1 14 14 LYS CB   C 13  34.2   0.5  . 1 . . . . . . . . 5620 1 
+      161 . 1 1 14 14 LYS HB2  H  1   1.89  0.05 . 2 . . . . . . . . 5620 1 
+      162 . 1 1 14 14 LYS HB3  H  1   1.74  0.05 . 2 . . . . . . . . 5620 1 
+      163 . 1 1 14 14 LYS CG   C 13  25.0   0.5  . 1 . . . . . . . . 5620 1 
+      164 . 1 1 14 14 LYS HG2  H  1   1.37  0.05 . 1 . . . . . . . . 5620 1 
+      165 . 1 1 14 14 LYS HG3  H  1   1.37  0.05 . 1 . . . . . . . . 5620 1 
+      166 . 1 1 14 14 LYS CD   C 13  29.7   0.5  . 1 . . . . . . . . 5620 1 
+      167 . 1 1 14 14 LYS HD2  H  1   1.67  0.05 . 1 . . . . . . . . 5620 1 
+      168 . 1 1 14 14 LYS HD3  H  1   1.67  0.05 . 1 . . . . . . . . 5620 1 
+      169 . 1 1 14 14 LYS CE   C 13  42.3   0.5  . 1 . . . . . . . . 5620 1 
+      170 . 1 1 14 14 LYS HE2  H  1   2.97  0.05 . 1 . . . . . . . . 5620 1 
+      171 . 1 1 14 14 LYS HE3  H  1   2.97  0.05 . 1 . . . . . . . . 5620 1 
+      172 . 1 1 14 14 LYS C    C 13 175.7   0.5  . 1 . . . . . . . . 5620 1 
+      173 . 1 1 15 15 ARG N    N 15 123.4   0.5  . 1 . . . . . . . . 5620 1 
+      174 . 1 1 15 15 ARG H    H  1   8.55  0.05 . 1 . . . . . . . . 5620 1 
+      175 . 1 1 15 15 ARG CA   C 13  55.9   0.5  . 1 . . . . . . . . 5620 1 
+      176 . 1 1 15 15 ARG HA   H  1   4.46  0.05 . 1 . . . . . . . . 5620 1 
+      177 . 1 1 15 15 ARG CB   C 13  31.3   0.5  . 1 . . . . . . . . 5620 1 
+      178 . 1 1 15 15 ARG HB2  H  1   1.84  0.05 . 2 . . . . . . . . 5620 1 
+      179 . 1 1 15 15 ARG HB3  H  1   1.75  0.05 . 2 . . . . . . . . 5620 1 
+      180 . 1 1 15 15 ARG CG   C 13  27.6   0.5  . 1 . . . . . . . . 5620 1 
+      181 . 1 1 15 15 ARG HG2  H  1   1.62  0.05 . 2 . . . . . . . . 5620 1 
+      182 . 1 1 15 15 ARG HG3  H  1   1.58  0.05 . 2 . . . . . . . . 5620 1 
+      183 . 1 1 15 15 ARG CD   C 13  43.8   0.5  . 1 . . . . . . . . 5620 1 
+      184 . 1 1 15 15 ARG HD2  H  1   3.19  0.05 . 1 . . . . . . . . 5620 1 
+      185 . 1 1 15 15 ARG HD3  H  1   3.19  0.05 . 1 . . . . . . . . 5620 1 
+      186 . 1 1 15 15 ARG C    C 13 175.2   0.5  . 1 . . . . . . . . 5620 1 
+      187 . 1 1 16 16 THR N    N 15 116.0   0.5  . 1 . . . . . . . . 5620 1 
+      188 . 1 1 16 16 THR H    H  1   8.02  0.05 . 1 . . . . . . . . 5620 1 
+      189 . 1 1 16 16 THR CA   C 13  59.0   0.5  . 1 . . . . . . . . 5620 1 
+      190 . 1 1 16 16 THR HA   H  1   4.44  0.05 . 1 . . . . . . . . 5620 1 
+      191 . 1 1 16 16 THR CB   C 13  71.0   0.5  . 1 . . . . . . . . 5620 1 
+      192 . 1 1 16 16 THR HB   H  1   4.08  0.05 . 1 . . . . . . . . 5620 1 
+      193 . 1 1 16 16 THR HG21 H  1   1.17  0.05 . 1 . . . . . . . . 5620 1 
+      194 . 1 1 16 16 THR HG22 H  1   1.17  0.05 . 1 . . . . . . . . 5620 1 
+      195 . 1 1 16 16 THR HG23 H  1   1.17  0.05 . 1 . . . . . . . . 5620 1 
+      196 . 1 1 16 16 THR CG2  C 13  21.4   0.5  . 1 . . . . . . . . 5620 1 
+      197 . 1 1 18 18 MET CA   C 13  56.4   0.5  . 1 . . . . . . . . 5620 1 
+      198 . 1 1 18 18 MET HA   H  1   4.51  0.05 . 1 . . . . . . . . 5620 1 
+      199 . 1 1 18 18 MET CB   C 13  32.6   0.5  . 1 . . . . . . . . 5620 1 
+      200 . 1 1 18 18 MET HB2  H  1   2.62  0.05 . 2 . . . . . . . . 5620 1 
+      201 . 1 1 18 18 MET HB3  H  1   2.54  0.05 . 2 . . . . . . . . 5620 1 
+      202 . 1 1 18 18 MET CG   C 13  33.4   0.5  . 1 . . . . . . . . 5620 1 
+      203 . 1 1 18 18 MET HG2  H  1   2.13  0.05 . 2 . . . . . . . . 5620 1 
+      204 . 1 1 18 18 MET HG3  H  1   2.05  0.05 . 2 . . . . . . . . 5620 1 
+      205 . 1 1 18 18 MET HE1  H  1   2.09  0.05 . 1 . . . . . . . . 5620 1 
+      206 . 1 1 18 18 MET HE2  H  1   2.09  0.05 . 1 . . . . . . . . 5620 1 
+      207 . 1 1 18 18 MET HE3  H  1   2.09  0.05 . 1 . . . . . . . . 5620 1 
+      208 . 1 1 18 18 MET CE   C 13  17.2   0.5  . 1 . . . . . . . . 5620 1 
+      209 . 1 1 21 21 GLU CA   C 13  57.0   0.5  . 1 . . . . . . . . 5620 1 
+      210 . 1 1 21 21 GLU HA   H  1   4.31  0.05 . 1 . . . . . . . . 5620 1 
+      211 . 1 1 21 21 GLU CB   C 13  30.5   0.5  . 1 . . . . . . . . 5620 1 
+      212 . 1 1 21 21 GLU HB2  H  1   2.11  0.05 . 2 . . . . . . . . 5620 1 
+      213 . 1 1 21 21 GLU HB3  H  1   1.93  0.05 . 2 . . . . . . . . 5620 1 
+      214 . 1 1 21 21 GLU CG   C 13  36.5   0.5  . 1 . . . . . . . . 5620 1 
+      215 . 1 1 21 21 GLU HG2  H  1   2.25  0.05 . 2 . . . . . . . . 5620 1 
+      216 . 1 1 21 21 GLU HG3  H  1   2.20  0.05 . 2 . . . . . . . . 5620 1 
+      217 . 1 1 21 21 GLU C    C 13 176.2   0.5  . 1 . . . . . . . . 5620 1 
+      218 . 1 1 22 22 VAL N    N 15 121.5   0.5  . 1 . . . . . . . . 5620 1 
+      219 . 1 1 22 22 VAL H    H  1   7.97  0.05 . 1 . . . . . . . . 5620 1 
+      220 . 1 1 22 22 VAL CA   C 13  62.9   0.5  . 1 . . . . . . . . 5620 1 
+      221 . 1 1 22 22 VAL HA   H  1   4.23  0.05 . 1 . . . . . . . . 5620 1 
+      222 . 1 1 22 22 VAL CB   C 13  32.6   0.5  . 1 . . . . . . . . 5620 1 
+      223 . 1 1 22 22 VAL HB   H  1   1.94  0.05 . 1 . . . . . . . . 5620 1 
+      224 . 1 1 22 22 VAL HG11 H  1   0.90  0.05 . 2 . . . . . . . . 5620 1 
+      225 . 1 1 22 22 VAL HG12 H  1   0.90  0.05 . 2 . . . . . . . . 5620 1 
+      226 . 1 1 22 22 VAL HG13 H  1   0.90  0.05 . 2 . . . . . . . . 5620 1 
+      227 . 1 1 22 22 VAL HG21 H  1   0.79  0.05 . 2 . . . . . . . . 5620 1 
+      228 . 1 1 22 22 VAL HG22 H  1   0.79  0.05 . 2 . . . . . . . . 5620 1 
+      229 . 1 1 22 22 VAL HG23 H  1   0.79  0.05 . 2 . . . . . . . . 5620 1 
+      230 . 1 1 22 22 VAL CG1  C 13  21.8   0.5  . 1 . . . . . . . . 5620 1 
+      231 . 1 1 22 22 VAL CG2  C 13  22.0   0.5  . 1 . . . . . . . . 5620 1 
+      232 . 1 1 22 22 VAL C    C 13 175.4   0.5  . 1 . . . . . . . . 5620 1 
+      233 . 1 1 23 23 MET N    N 15 125.4   0.5  . 1 . . . . . . . . 5620 1 
+      234 . 1 1 23 23 MET H    H  1   9.04  0.05 . 1 . . . . . . . . 5620 1 
+      235 . 1 1 23 23 MET CA   C 13  54.1   0.5  . 1 . . . . . . . . 5620 1 
+      236 . 1 1 23 23 MET HA   H  1   4.92  0.05 . 1 . . . . . . . . 5620 1 
+      237 . 1 1 23 23 MET CB   C 13  34.8   0.5  . 1 . . . . . . . . 5620 1 
+      238 . 1 1 23 23 MET HB2  H  1   1.82  0.05 . 1 . . . . . . . . 5620 1 
+      239 . 1 1 23 23 MET HB3  H  1   1.82  0.05 . 1 . . . . . . . . 5620 1 
+      240 . 1 1 23 23 MET CG   C 13  32.6   0.5  . 1 . . . . . . . . 5620 1 
+      241 . 1 1 23 23 MET HG2  H  1   2.51  0.05 . 1 . . . . . . . . 5620 1 
+      242 . 1 1 23 23 MET HG3  H  1   2.51  0.05 . 1 . . . . . . . . 5620 1 
+      243 . 1 1 23 23 MET HE1  H  1   2.07  0.05 . 1 . . . . . . . . 5620 1 
+      244 . 1 1 23 23 MET HE2  H  1   2.07  0.05 . 1 . . . . . . . . 5620 1 
+      245 . 1 1 23 23 MET HE3  H  1   2.07  0.05 . 1 . . . . . . . . 5620 1 
+      246 . 1 1 23 23 MET CE   C 13  17.9   0.5  . 1 . . . . . . . . 5620 1 
+      247 . 1 1 23 23 MET C    C 13 174.5   0.5  . 1 . . . . . . . . 5620 1 
+      248 . 1 1 24 24 GLN N    N 15 122.7   0.5  . 1 . . . . . . . . 5620 1 
+      249 . 1 1 24 24 GLN H    H  1   8.78  0.05 . 1 . . . . . . . . 5620 1 
+      250 . 1 1 24 24 GLN CA   C 13  55.7   0.5  . 1 . . . . . . . . 5620 1 
+      251 . 1 1 24 24 GLN HA   H  1   5.21  0.05 . 1 . . . . . . . . 5620 1 
+      252 . 1 1 24 24 GLN CB   C 13  32.0   0.5  . 1 . . . . . . . . 5620 1 
+      253 . 1 1 24 24 GLN HB2  H  1   2.00  0.05 . 2 . . . . . . . . 5620 1 
+      254 . 1 1 24 24 GLN HB3  H  1   1.91  0.05 . 2 . . . . . . . . 5620 1 
+      255 . 1 1 24 24 GLN CG   C 13  35.4   0.5  . 1 . . . . . . . . 5620 1 
+      256 . 1 1 24 24 GLN HG2  H  1   2.27  0.05 . 2 . . . . . . . . 5620 1 
+      257 . 1 1 24 24 GLN HG3  H  1   2.02  0.05 . 2 . . . . . . . . 5620 1 
+      258 . 1 1 24 24 GLN NE2  N 15 111.5   0.5  . 1 . . . . . . . . 5620 1 
+      259 . 1 1 24 24 GLN HE21 H  1   7.59  0.05 . 2 . . . . . . . . 5620 1 
+      260 . 1 1 24 24 GLN HE22 H  1   6.71  0.05 . 2 . . . . . . . . 5620 1 
+      261 . 1 1 24 24 GLN C    C 13 175.6   0.5  . 1 . . . . . . . . 5620 1 
+      262 . 1 1 25 25 VAL N    N 15 118.2   0.5  . 1 . . . . . . . . 5620 1 
+      263 . 1 1 25 25 VAL H    H  1   9.25  0.05 . 1 . . . . . . . . 5620 1 
+      264 . 1 1 25 25 VAL CA   C 13  58.5   0.5  . 1 . . . . . . . . 5620 1 
+      265 . 1 1 25 25 VAL HA   H  1   5.23  0.05 . 1 . . . . . . . . 5620 1 
+      266 . 1 1 25 25 VAL CB   C 13  35.4   0.5  . 1 . . . . . . . . 5620 1 
+      267 . 1 1 25 25 VAL HB   H  1   2.26  0.05 . 1 . . . . . . . . 5620 1 
+      268 . 1 1 25 25 VAL HG11 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      269 . 1 1 25 25 VAL HG12 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      270 . 1 1 25 25 VAL HG13 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      271 . 1 1 25 25 VAL HG21 H  1   0.70  0.05 . 2 . . . . . . . . 5620 1 
+      272 . 1 1 25 25 VAL HG22 H  1   0.70  0.05 . 2 . . . . . . . . 5620 1 
+      273 . 1 1 25 25 VAL HG23 H  1   0.70  0.05 . 2 . . . . . . . . 5620 1 
+      274 . 1 1 25 25 VAL CG1  C 13  23.5   0.5  . 1 . . . . . . . . 5620 1 
+      275 . 1 1 25 25 VAL CG2  C 13  19.6   0.5  . 1 . . . . . . . . 5620 1 
+      276 . 1 1 25 25 VAL C    C 13 174.7   0.5  . 1 . . . . . . . . 5620 1 
+      277 . 1 1 26 26 LYS N    N 15 120.1   0.5  . 1 . . . . . . . . 5620 1 
+      278 . 1 1 26 26 LYS H    H  1   8.70  0.05 . 1 . . . . . . . . 5620 1 
+      279 . 1 1 26 26 LYS CA   C 13  55.1   0.5  . 1 . . . . . . . . 5620 1 
+      280 . 1 1 26 26 LYS HA   H  1   5.33  0.05 . 1 . . . . . . . . 5620 1 
+      281 . 1 1 26 26 LYS CB   C 13  35.2   0.5  . 1 . . . . . . . . 5620 1 
+      282 . 1 1 26 26 LYS HB2  H  1   1.64  0.05 . 2 . . . . . . . . 5620 1 
+      283 . 1 1 26 26 LYS HB3  H  1   1.58  0.05 . 2 . . . . . . . . 5620 1 
+      284 . 1 1 26 26 LYS CG   C 13  25.7   0.5  . 1 . . . . . . . . 5620 1 
+      285 . 1 1 26 26 LYS HG2  H  1   1.44  0.05 . 2 . . . . . . . . 5620 1 
+      286 . 1 1 26 26 LYS HG3  H  1   1.35  0.05 . 2 . . . . . . . . 5620 1 
+      287 . 1 1 26 26 LYS CD   C 13  29.6   0.5  . 1 . . . . . . . . 5620 1 
+      288 . 1 1 26 26 LYS HD2  H  1   1.60  0.05 . 1 . . . . . . . . 5620 1 
+      289 . 1 1 26 26 LYS HD3  H  1   1.60  0.05 . 1 . . . . . . . . 5620 1 
+      290 . 1 1 26 26 LYS CE   C 13  42.3   0.5  . 1 . . . . . . . . 5620 1 
+      291 . 1 1 26 26 LYS HE2  H  1   2.82  0.05 . 1 . . . . . . . . 5620 1 
+      292 . 1 1 26 26 LYS HE3  H  1   2.82  0.05 . 1 . . . . . . . . 5620 1 
+      293 . 1 1 26 26 LYS C    C 13 176.9   0.5  . 1 . . . . . . . . 5620 1 
+      294 . 1 1 27 27 CYS N    N 15 121.1   0.5  . 1 . . . . . . . . 5620 1 
+      295 . 1 1 27 27 CYS H    H  1   9.59  0.05 . 1 . . . . . . . . 5620 1 
+      296 . 1 1 27 27 CYS CA   C 13  55.2   0.5  . 1 . . . . . . . . 5620 1 
+      297 . 1 1 27 27 CYS HA   H  1   5.70  0.05 . 1 . . . . . . . . 5620 1 
+      298 . 1 1 27 27 CYS CB   C 13  32.2   0.5  . 1 . . . . . . . . 5620 1 
+      299 . 1 1 27 27 CYS HB2  H  1   2.44  0.05 . 1 . . . . . . . . 5620 1 
+      300 . 1 1 27 27 CYS HB3  H  1   2.44  0.05 . 1 . . . . . . . . 5620 1 
+      301 . 1 1 27 27 CYS C    C 13 171.3   0.5  . 1 . . . . . . . . 5620 1 
+      302 . 1 1 28 28 ARG N    N 15 123.0   0.5  . 1 . . . . . . . . 5620 1 
+      303 . 1 1 28 28 ARG H    H  1   9.22  0.05 . 1 . . . . . . . . 5620 1 
+      304 . 1 1 28 28 ARG CA   C 13  54.0   0.5  . 1 . . . . . . . . 5620 1 
+      305 . 1 1 28 28 ARG HA   H  1   5.22  0.05 . 1 . . . . . . . . 5620 1 
+      306 . 1 1 28 28 ARG CB   C 13  34.1   0.5  . 1 . . . . . . . . 5620 1 
+      307 . 1 1 28 28 ARG HB2  H  1   1.85  0.05 . 2 . . . . . . . . 5620 1 
+      308 . 1 1 28 28 ARG HB3  H  1   1.44  0.05 . 2 . . . . . . . . 5620 1 
+      309 . 1 1 28 28 ARG CG   C 13  27.4   0.5  . 1 . . . . . . . . 5620 1 
+      310 . 1 1 28 28 ARG HG2  H  1   1.37  0.05 . 1 . . . . . . . . 5620 1 
+      311 . 1 1 28 28 ARG HG3  H  1   1.37  0.05 . 1 . . . . . . . . 5620 1 
+      312 . 1 1 28 28 ARG CD   C 13  43.8   0.5  . 1 . . . . . . . . 5620 1 
+      313 . 1 1 28 28 ARG HD2  H  1   3.24  0.05 . 2 . . . . . . . . 5620 1 
+      314 . 1 1 28 28 ARG HD3  H  1   3.19  0.05 . 2 . . . . . . . . 5620 1 
+      315 . 1 1 28 28 ARG C    C 13 175.9   0.5  . 1 . . . . . . . . 5620 1 
+      316 . 1 1 29 29 ILE N    N 15 128.5   0.5  . 1 . . . . . . . . 5620 1 
+      317 . 1 1 29 29 ILE H    H  1   8.90  0.05 . 1 . . . . . . . . 5620 1 
+      318 . 1 1 29 29 ILE CA   C 13  63.3   0.5  . 1 . . . . . . . . 5620 1 
+      319 . 1 1 29 29 ILE HA   H  1   3.92  0.05 . 1 . . . . . . . . 5620 1 
+      320 . 1 1 29 29 ILE CB   C 13  36.7   0.5  . 1 . . . . . . . . 5620 1 
+      321 . 1 1 29 29 ILE HB   H  1   2.07  0.05 . 1 . . . . . . . . 5620 1 
+      322 . 1 1 29 29 ILE HG21 H  1   0.99  0.05 . 1 . . . . . . . . 5620 1 
+      323 . 1 1 29 29 ILE HG22 H  1   0.99  0.05 . 1 . . . . . . . . 5620 1 
+      324 . 1 1 29 29 ILE HG23 H  1   0.99  0.05 . 1 . . . . . . . . 5620 1 
+      325 . 1 1 29 29 ILE CG2  C 13  19.4   0.5  . 1 . . . . . . . . 5620 1 
+      326 . 1 1 29 29 ILE CG1  C 13  28.7   0.5  . 1 . . . . . . . . 5620 1 
+      327 . 1 1 29 29 ILE HG12 H  1   1.57  0.05 . 2 . . . . . . . . 5620 1 
+      328 . 1 1 29 29 ILE HG13 H  1   1.12  0.05 . 2 . . . . . . . . 5620 1 
+      329 . 1 1 29 29 ILE HD11 H  1   0.84  0.05 . 1 . . . . . . . . 5620 1 
+      330 . 1 1 29 29 ILE HD12 H  1   0.84  0.05 . 1 . . . . . . . . 5620 1 
+      331 . 1 1 29 29 ILE HD13 H  1   0.84  0.05 . 1 . . . . . . . . 5620 1 
+      332 . 1 1 29 29 ILE CD1  C 13  12.8   0.5  . 1 . . . . . . . . 5620 1 
+      333 . 1 1 29 29 ILE C    C 13 178.7   0.5  . 1 . . . . . . . . 5620 1 
+      334 . 1 1 30 30 LEU N    N 15 128.0   0.5  . 1 . . . . . . . . 5620 1 
+      335 . 1 1 30 30 LEU H    H  1   8.72  0.05 . 1 . . . . . . . . 5620 1 
+      336 . 1 1 30 30 LEU CA   C 13  56.3   0.5  . 1 . . . . . . . . 5620 1 
+      337 . 1 1 30 30 LEU HA   H  1   4.37  0.05 . 1 . . . . . . . . 5620 1 
+      338 . 1 1 30 30 LEU CB   C 13  44.3   0.5  . 1 . . . . . . . . 5620 1 
+      339 . 1 1 30 30 LEU HB2  H  1   1.61  0.05 . 2 . . . . . . . . 5620 1 
+      340 . 1 1 30 30 LEU HB3  H  1   1.55  0.05 . 2 . . . . . . . . 5620 1 
+      341 . 1 1 30 30 LEU CG   C 13  27.0   0.5  . 1 . . . . . . . . 5620 1 
+      342 . 1 1 30 30 LEU HG   H  1   1.76  0.05 . 1 . . . . . . . . 5620 1 
+      343 . 1 1 30 30 LEU HD11 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      344 . 1 1 30 30 LEU HD12 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      345 . 1 1 30 30 LEU HD13 H  1   0.85  0.05 . 2 . . . . . . . . 5620 1 
+      346 . 1 1 30 30 LEU HD21 H  1   0.88  0.05 . 2 . . . . . . . . 5620 1 
+      347 . 1 1 30 30 LEU HD22 H  1   0.88  0.05 . 2 . . . . . . . . 5620 1 
+      348 . 1 1 30 30 LEU HD23 H  1   0.88  0.05 . 2 . . . . . . . . 5620 1 
+      349 . 1 1 30 30 LEU CD1  C 13  26.3   0.5  . 1 . . . . . . . . 5620 1 
+      350 . 1 1 30 30 LEU CD2  C 13  22.9   0.5  . 1 . . . . . . . . 5620 1 
+      351 . 1 1 30 30 LEU C    C 13 176.3   0.5  . 1 . . . . . . . . 5620 1 
+      352 . 1 1 31 31 ASP N    N 15 116.5   0.5  . 1 . . . . . . . . 5620 1 
+      353 . 1 1 31 31 ASP H    H  1   7.48  0.05 . 1 . . . . . . . . 5620 1 
+      354 . 1 1 31 31 ASP CA   C 13  53.3   0.5  . 1 . . . . . . . . 5620 1 
+      355 . 1 1 31 31 ASP HA   H  1   4.88  0.05 . 1 . . . . . . . . 5620 1 
+      356 . 1 1 31 31 ASP CB   C 13  45.5   0.5  . 1 . . . . . . . . 5620 1 
+      357 . 1 1 31 31 ASP HB2  H  1   2.57  0.05 . 1 . . . . . . . . 5620 1 
+      358 . 1 1 31 31 ASP HB3  H  1   2.57  0.05 . 1 . . . . . . . . 5620 1 
+      359 . 1 1 31 31 ASP C    C 13 174.8   0.5  . 1 . . . . . . . . 5620 1 
+      360 . 1 1 32 32 GLY N    N 15 106.3   0.5  . 1 . . . . . . . . 5620 1 
+      361 . 1 1 32 32 GLY H    H  1   8.51  0.05 . 1 . . . . . . . . 5620 1 
+      362 . 1 1 32 32 GLY CA   C 13  44.9   0.5  . 1 . . . . . . . . 5620 1 
+      363 . 1 1 32 32 GLY HA2  H  1   4.37  0.05 . 2 . . . . . . . . 5620 1 
+      364 . 1 1 32 32 GLY HA3  H  1   3.86  0.05 . 2 . . . . . . . . 5620 1 
+      365 . 1 1 33 33 ARG CA   C 13  58.9   0.5  . 1 . . . . . . . . 5620 1 
+      366 . 1 1 33 33 ARG HA   H  1   4.02  0.05 . 1 . . . . . . . . 5620 1 
+      367 . 1 1 33 33 ARG CB   C 13  30.4   0.5  . 1 . . . . . . . . 5620 1 
+      368 . 1 1 33 33 ARG HB2  H  1   1.87  0.05 . 2 . . . . . . . . 5620 1 
+      369 . 1 1 33 33 ARG HB3  H  1   1.76  0.05 . 2 . . . . . . . . 5620 1 
+      370 . 1 1 33 33 ARG CG   C 13  26.8   0.5  . 1 . . . . . . . . 5620 1 
+      371 . 1 1 33 33 ARG HG2  H  1   1.64  0.05 . 1 . . . . . . . . 5620 1 
+      372 . 1 1 33 33 ARG HG3  H  1   1.64  0.05 . 1 . . . . . . . . 5620 1 
+      373 . 1 1 33 33 ARG CD   C 13  43.6   0.5  . 1 . . . . . . . . 5620 1 
+      374 . 1 1 33 33 ARG HD2  H  1   3.18  0.05 . 1 . . . . . . . . 5620 1 
+      375 . 1 1 33 33 ARG HD3  H  1   3.18  0.05 . 1 . . . . . . . . 5620 1 
+      376 . 1 1 33 33 ARG C    C 13 177.6   0.5  . 1 . . . . . . . . 5620 1 
+      377 . 1 1 34 34 ASP N    N 15 118.5   0.5  . 1 . . . . . . . . 5620 1 
+      378 . 1 1 34 34 ASP H    H  1   9.14  0.05 . 1 . . . . . . . . 5620 1 
+      379 . 1 1 34 34 ASP CA   C 13  53.9   0.5  . 1 . . . . . . . . 5620 1 
+      380 . 1 1 34 34 ASP HA   H  1   4.92  0.05 . 1 . . . . . . . . 5620 1 
+      381 . 1 1 34 34 ASP CB   C 13  41.4   0.5  . 1 . . . . . . . . 5620 1 
+      382 . 1 1 34 34 ASP HB2  H  1   2.90  0.05 . 2 . . . . . . . . 5620 1 
+      383 . 1 1 34 34 ASP HB3  H  1   2.64  0.05 . 2 . . . . . . . . 5620 1 
+      384 . 1 1 34 34 ASP C    C 13 174.4   0.5  . 1 . . . . . . . . 5620 1 
+      385 . 1 1 35 35 LYS N    N 15 119.3   0.5  . 1 . . . . . . . . 5620 1 
+      386 . 1 1 35 35 LYS H    H  1   7.14  0.05 . 1 . . . . . . . . 5620 1 
+      387 . 1 1 35 35 LYS CA   C 13  59.3   0.5  . 1 . . . . . . . . 5620 1 
+      388 . 1 1 35 35 LYS HA   H  1   3.34  0.05 . 1 . . . . . . . . 5620 1 
+      389 . 1 1 35 35 LYS CB   C 13  32.6   0.5  . 1 . . . . . . . . 5620 1 
+      390 . 1 1 35 35 LYS HB2  H  1   1.72  0.05 . 2 . . . . . . . . 5620 1 
+      391 . 1 1 35 35 LYS HB3  H  1   1.66  0.05 . 2 . . . . . . . . 5620 1 
+      392 . 1 1 35 35 LYS CG   C 13  24.8   0.5  . 1 . . . . . . . . 5620 1 
+      393 . 1 1 35 35 LYS HG2  H  1   1.24  0.05 . 2 . . . . . . . . 5620 1 
+      394 . 1 1 35 35 LYS HG3  H  1   1.14  0.05 . 2 . . . . . . . . 5620 1 
+      395 . 1 1 35 35 LYS CD   C 13  30.4   0.5  . 1 . . . . . . . . 5620 1 
+      396 . 1 1 35 35 LYS HD2  H  1   1.73  0.05 . 1 . . . . . . . . 5620 1 
+      397 . 1 1 35 35 LYS HD3  H  1   1.73  0.05 . 1 . . . . . . . . 5620 1 
+      398 . 1 1 35 35 LYS CE   C 13  42.3   0.5  . 1 . . . . . . . . 5620 1 
+      399 . 1 1 35 35 LYS HE2  H  1   3.02  0.05 . 1 . . . . . . . . 5620 1 
+      400 . 1 1 35 35 LYS HE3  H  1   3.02  0.05 . 1 . . . . . . . . 5620 1 
+      401 . 1 1 35 35 LYS C    C 13 177.3   0.5  . 1 . . . . . . . . 5620 1 
+      402 . 1 1 36 36 GLY N    N 15 115.5   0.5  . 1 . . . . . . . . 5620 1 
+      403 . 1 1 36 36 GLY H    H  1   8.95  0.05 . 1 . . . . . . . . 5620 1 
+      404 . 1 1 36 36 GLY CA   C 13  45.1   0.5  . 1 . . . . . . . . 5620 1 
+      405 . 1 1 36 36 GLY HA2  H  1   4.47  0.05 . 2 . . . . . . . . 5620 1 
+      406 . 1 1 36 36 GLY HA3  H  1   3.45  0.05 . 2 . . . . . . . . 5620 1 
+      407 . 1 1 36 36 GLY C    C 13 174.2   0.5  . 1 . . . . . . . . 5620 1 
+      408 . 1 1 37 37 ARG N    N 15 122.6   0.5  . 1 . . . . . . . . 5620 1 
+      409 . 1 1 37 37 ARG H    H  1   8.30  0.05 . 1 . . . . . . . . 5620 1 
+      410 . 1 1 37 37 ARG CA   C 13  57.4   0.5  . 1 . . . . . . . . 5620 1 
+      411 . 1 1 37 37 ARG HA   H  1   4.21  0.05 . 1 . . . . . . . . 5620 1 
+      412 . 1 1 37 37 ARG CB   C 13  31.2   0.5  . 1 . . . . . . . . 5620 1 
+      413 . 1 1 37 37 ARG HB2  H  1   1.95  0.05 . 2 . . . . . . . . 5620 1 
+      414 . 1 1 37 37 ARG HB3  H  1   1.82  0.05 . 2 . . . . . . . . 5620 1 
+      415 . 1 1 37 37 ARG CG   C 13  28.0   0.5  . 1 . . . . . . . . 5620 1 
+      416 . 1 1 37 37 ARG HG2  H  1   1.73  0.05 . 2 . . . . . . . . 5620 1 
+      417 . 1 1 37 37 ARG HG3  H  1   1.51  0.05 . 2 . . . . . . . . 5620 1 
+      418 . 1 1 37 37 ARG CD   C 13  44.0   0.5  . 1 . . . . . . . . 5620 1 
+      419 . 1 1 37 37 ARG HD2  H  1   3.18  0.05 . 2 . . . . . . . . 5620 1 
+      420 . 1 1 37 37 ARG HD3  H  1   3.13  0.05 . 2 . . . . . . . . 5620 1 
+      421 . 1 1 37 37 ARG C    C 13 175.0   0.5  . 1 . . . . . . . . 5620 1 
+      422 . 1 1 38 38 ILE N    N 15 123.9   0.5  . 1 . . . . . . . . 5620 1 
+      423 . 1 1 38 38 ILE H    H  1   8.34  0.05 . 1 . . . . . . . . 5620 1 
+      424 . 1 1 38 38 ILE CA   C 13  59.2   0.5  . 1 . . . . . . . . 5620 1 
+      425 . 1 1 38 38 ILE HA   H  1   5.17  0.05 . 1 . . . . . . . . 5620 1 
+      426 . 1 1 38 38 ILE CB   C 13  38.5   0.5  . 1 . . . . . . . . 5620 1 
+      427 . 1 1 38 38 ILE HB   H  1   1.80  0.05 . 1 . . . . . . . . 5620 1 
+      428 . 1 1 38 38 ILE HG21 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      429 . 1 1 38 38 ILE HG22 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      430 . 1 1 38 38 ILE HG23 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      431 . 1 1 38 38 ILE CG2  C 13  18.1   0.5  . 1 . . . . . . . . 5620 1 
+      432 . 1 1 38 38 ILE CG1  C 13  27.8   0.5  . 1 . . . . . . . . 5620 1 
+      433 . 1 1 38 38 ILE HG12 H  1   1.65  0.05 . 2 . . . . . . . . 5620 1 
+      434 . 1 1 38 38 ILE HG13 H  1   1.10  0.05 . 2 . . . . . . . . 5620 1 
+      435 . 1 1 38 38 ILE HD11 H  1   0.82  0.05 . 1 . . . . . . . . 5620 1 
+      436 . 1 1 38 38 ILE HD12 H  1   0.82  0.05 . 1 . . . . . . . . 5620 1 
+      437 . 1 1 38 38 ILE HD13 H  1   0.82  0.05 . 1 . . . . . . . . 5620 1 
+      438 . 1 1 38 38 ILE CD1  C 13  12.6   0.5  . 1 . . . . . . . . 5620 1 
+      439 . 1 1 38 38 ILE C    C 13 176.3   0.5  . 1 . . . . . . . . 5620 1 
+      440 . 1 1 39 39 LEU N    N 15 127.7   0.5  . 1 . . . . . . . . 5620 1 
+      441 . 1 1 39 39 LEU H    H  1   9.03  0.05 . 1 . . . . . . . . 5620 1 
+      442 . 1 1 39 39 LEU CA   C 13  53.7   0.5  . 1 . . . . . . . . 5620 1 
+      443 . 1 1 39 39 LEU HA   H  1   4.88  0.05 . 1 . . . . . . . . 5620 1 
+      444 . 1 1 39 39 LEU CB   C 13  45.6   0.5  . 1 . . . . . . . . 5620 1 
+      445 . 1 1 39 39 LEU HB2  H  1   1.49  0.05 . 1 . . . . . . . . 5620 1 
+      446 . 1 1 39 39 LEU HB3  H  1   1.49  0.05 . 1 . . . . . . . . 5620 1 
+      447 . 1 1 39 39 LEU CG   C 13  27.4   0.5  . 1 . . . . . . . . 5620 1 
+      448 . 1 1 39 39 LEU HG   H  1   1.47  0.05 . 1 . . . . . . . . 5620 1 
+      449 . 1 1 39 39 LEU HD11 H  1   0.73  0.05 . 2 . . . . . . . . 5620 1 
+      450 . 1 1 39 39 LEU HD12 H  1   0.73  0.05 . 2 . . . . . . . . 5620 1 
+      451 . 1 1 39 39 LEU HD13 H  1   0.73  0.05 . 2 . . . . . . . . 5620 1 
+      452 . 1 1 39 39 LEU HD21 H  1   0.80  0.05 . 2 . . . . . . . . 5620 1 
+      453 . 1 1 39 39 LEU HD22 H  1   0.80  0.05 . 2 . . . . . . . . 5620 1 
+      454 . 1 1 39 39 LEU HD23 H  1   0.80  0.05 . 2 . . . . . . . . 5620 1 
+      455 . 1 1 39 39 LEU CD1  C 13  26.3   0.5  . 1 . . . . . . . . 5620 1 
+      456 . 1 1 39 39 LEU CD2  C 13  24.6   0.5  . 1 . . . . . . . . 5620 1 
+      457 . 1 1 39 39 LEU C    C 13 175.9   0.5  . 1 . . . . . . . . 5620 1 
+      458 . 1 1 40 40 THR N    N 15 117.8   0.5  . 1 . . . . . . . . 5620 1 
+      459 . 1 1 40 40 THR H    H  1   8.60  0.05 . 1 . . . . . . . . 5620 1 
+      460 . 1 1 40 40 THR CA   C 13  61.8   0.5  . 1 . . . . . . . . 5620 1 
+      461 . 1 1 40 40 THR HA   H  1   5.42  0.05 . 1 . . . . . . . . 5620 1 
+      462 . 1 1 40 40 THR CB   C 13  69.9   0.5  . 1 . . . . . . . . 5620 1 
+      463 . 1 1 40 40 THR HB   H  1   3.94  0.05 . 1 . . . . . . . . 5620 1 
+      464 . 1 1 40 40 THR HG21 H  1   1.05  0.05 . 1 . . . . . . . . 5620 1 
+      465 . 1 1 40 40 THR HG22 H  1   1.05  0.05 . 1 . . . . . . . . 5620 1 
+      466 . 1 1 40 40 THR HG23 H  1   1.05  0.05 . 1 . . . . . . . . 5620 1 
+      467 . 1 1 40 40 THR CG2  C 13  21.8   0.5  . 1 . . . . . . . . 5620 1 
+      468 . 1 1 40 40 THR C    C 13 175.2   0.5  . 1 . . . . . . . . 5620 1 
+      469 . 1 1 41 41 ARG N    N 15 125.6   0.5  . 1 . . . . . . . . 5620 1 
+      470 . 1 1 41 41 ARG H    H  1   9.07  0.05 . 1 . . . . . . . . 5620 1 
+      471 . 1 1 41 41 ARG HA   H  1   4.77  0.05 . 1 . . . . . . . . 5620 1 
+      472 . 1 1 41 41 ARG HB2  H  1   1.75  0.05 . 1 . . . . . . . . 5620 1 
+      473 . 1 1 41 41 ARG HB3  H  1   1.75  0.05 . 1 . . . . . . . . 5620 1 
+      474 . 1 1 41 41 ARG HG2  H  1   1.35  0.05 . 1 . . . . . . . . 5620 1 
+      475 . 1 1 41 41 ARG HG3  H  1   1.35  0.05 . 1 . . . . . . . . 5620 1 
+      476 . 1 1 41 41 ARG CD   C 13  43.8   0.5  . 1 . . . . . . . . 5620 1 
+      477 . 1 1 41 41 ARG HD2  H  1   3.19  0.05 . 1 . . . . . . . . 5620 1 
+      478 . 1 1 41 41 ARG HD3  H  1   3.19  0.05 . 1 . . . . . . . . 5620 1 
+      479 . 1 1 41 41 ARG C    C 13 173.9   0.5  . 1 . . . . . . . . 5620 1 
+      480 . 1 1 42 42 ASN N    N 15 121.2   0.5  . 1 . . . . . . . . 5620 1 
+      481 . 1 1 42 42 ASN H    H  1   8.75  0.05 . 1 . . . . . . . . 5620 1 
+      482 . 1 1 42 42 ASN CA   C 13  52.4   0.5  . 1 . . . . . . . . 5620 1 
+      483 . 1 1 42 42 ASN HA   H  1   5.66  0.05 . 1 . . . . . . . . 5620 1 
+      484 . 1 1 42 42 ASN CB   C 13  39.5   0.5  . 1 . . . . . . . . 5620 1 
+      485 . 1 1 42 42 ASN HB2  H  1   2.74  0.05 . 2 . . . . . . . . 5620 1 
+      486 . 1 1 42 42 ASN HB3  H  1   2.35  0.05 . 2 . . . . . . . . 5620 1 
+      487 . 1 1 42 42 ASN ND2  N 15 112.2   0.5  . 1 . . . . . . . . 5620 1 
+      488 . 1 1 42 42 ASN HD21 H  1   7.38  0.05 . 2 . . . . . . . . 5620 1 
+      489 . 1 1 42 42 ASN HD22 H  1   6.82  0.05 . 2 . . . . . . . . 5620 1 
+      490 . 1 1 42 42 ASN C    C 13 175.3   0.5  . 1 . . . . . . . . 5620 1 
+      491 . 1 1 43 43 VAL N    N 15 119.3   0.5  . 1 . . . . . . . . 5620 1 
+      492 . 1 1 43 43 VAL H    H  1   9.17  0.05 . 1 . . . . . . . . 5620 1 
+      493 . 1 1 43 43 VAL CA   C 13  59.4   0.5  . 1 . . . . . . . . 5620 1 
+      494 . 1 1 43 43 VAL HA   H  1   4.66  0.05 . 1 . . . . . . . . 5620 1 
+      495 . 1 1 43 43 VAL CB   C 13  36.1   0.5  . 1 . . . . . . . . 5620 1 
+      496 . 1 1 43 43 VAL HB   H  1   2.06  0.05 . 1 . . . . . . . . 5620 1 
+      497 . 1 1 43 43 VAL HG11 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      498 . 1 1 43 43 VAL HG12 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      499 . 1 1 43 43 VAL HG13 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      500 . 1 1 43 43 VAL HG21 H  1   0.71  0.05 . 2 . . . . . . . . 5620 1 
+      501 . 1 1 43 43 VAL HG22 H  1   0.71  0.05 . 2 . . . . . . . . 5620 1 
+      502 . 1 1 43 43 VAL HG23 H  1   0.71  0.05 . 2 . . . . . . . . 5620 1 
+      503 . 1 1 43 43 VAL CG1  C 13  22.0   0.5  . 1 . . . . . . . . 5620 1 
+      504 . 1 1 43 43 VAL CG2  C 13  20.3   0.5  . 1 . . . . . . . . 5620 1 
+      505 . 1 1 43 43 VAL C    C 13 174.0   0.5  . 1 . . . . . . . . 5620 1 
+      506 . 1 1 44 44 MET N    N 15 122.5   0.5  . 1 . . . . . . . . 5620 1 
+      507 . 1 1 44 44 MET H    H  1   8.52  0.05 . 1 . . . . . . . . 5620 1 
+      508 . 1 1 44 44 MET CA   C 13  55.5   0.5  . 1 . . . . . . . . 5620 1 
+      509 . 1 1 44 44 MET HA   H  1   4.67  0.05 . 1 . . . . . . . . 5620 1 
+      510 . 1 1 44 44 MET CB   C 13  32.4   0.5  . 1 . . . . . . . . 5620 1 
+      511 . 1 1 44 44 MET HB2  H  1   2.75  0.05 . 2 . . . . . . . . 5620 1 
+      512 . 1 1 44 44 MET HB3  H  1   2.67  0.05 . 2 . . . . . . . . 5620 1 
+      513 . 1 1 44 44 MET CG   C 13  32.2   0.5  . 1 . . . . . . . . 5620 1 
+      514 . 1 1 44 44 MET HG2  H  1   2.03  0.05 . 2 . . . . . . . . 5620 1 
+      515 . 1 1 44 44 MET HG3  H  1   2.00  0.05 . 2 . . . . . . . . 5620 1 
+      516 . 1 1 44 44 MET C    C 13 176.7   0.5  . 1 . . . . . . . . 5620 1 
+      517 . 1 1 45 45 GLY N    N 15 110.9   0.5  . 1 . . . . . . . . 5620 1 
+      518 . 1 1 45 45 GLY H    H  1   8.45  0.05 . 1 . . . . . . . . 5620 1 
+      519 . 1 1 45 45 GLY CA   C 13  44.4   0.5  . 1 . . . . . . . . 5620 1 
+      520 . 1 1 45 45 GLY HA2  H  1   3.95  0.05 . 2 . . . . . . . . 5620 1 
+      521 . 1 1 45 45 GLY HA3  H  1   3.84  0.05 . 2 . . . . . . . . 5620 1 
+      522 . 1 1 46 46 PRO CD   C 13  50.7   0.5  . 1 . . . . . . . . 5620 1 
+      523 . 1 1 46 46 PRO CA   C 13  62.6   0.5  . 1 . . . . . . . . 5620 1 
+      524 . 1 1 46 46 PRO HA   H  1   4.55  0.05 . 1 . . . . . . . . 5620 1 
+      525 . 1 1 46 46 PRO CB   C 13  35.0   0.5  . 1 . . . . . . . . 5620 1 
+      526 . 1 1 46 46 PRO HB2  H  1   2.37  0.05 . 2 . . . . . . . . 5620 1 
+      527 . 1 1 46 46 PRO HB3  H  1   2.04  0.05 . 2 . . . . . . . . 5620 1 
+      528 . 1 1 46 46 PRO CG   C 13  25.3   0.5  . 1 . . . . . . . . 5620 1 
+      529 . 1 1 46 46 PRO HG2  H  1   1.95  0.05 . 1 . . . . . . . . 5620 1 
+      530 . 1 1 46 46 PRO HG3  H  1   1.95  0.05 . 1 . . . . . . . . 5620 1 
+      531 . 1 1 46 46 PRO HD2  H  1   3.56  0.05 . 1 . . . . . . . . 5620 1 
+      532 . 1 1 46 46 PRO HD3  H  1   3.56  0.05 . 1 . . . . . . . . 5620 1 
+      533 . 1 1 46 46 PRO C    C 13 175.5   0.5  . 1 . . . . . . . . 5620 1 
+      534 . 1 1 47 47 ILE N    N 15 122.2   0.5  . 1 . . . . . . . . 5620 1 
+      535 . 1 1 47 47 ILE H    H  1   8.14  0.05 . 1 . . . . . . . . 5620 1 
+      536 . 1 1 47 47 ILE CA   C 13  59.0   0.5  . 1 . . . . . . . . 5620 1 
+      537 . 1 1 47 47 ILE HA   H  1   4.60  0.05 . 1 . . . . . . . . 5620 1 
+      538 . 1 1 47 47 ILE CB   C 13  42.5   0.5  . 1 . . . . . . . . 5620 1 
+      539 . 1 1 47 47 ILE HB   H  1   1.74  0.05 . 1 . . . . . . . . 5620 1 
+      540 . 1 1 47 47 ILE HG21 H  1   0.76  0.05 . 1 . . . . . . . . 5620 1 
+      541 . 1 1 47 47 ILE HG22 H  1   0.76  0.05 . 1 . . . . . . . . 5620 1 
+      542 . 1 1 47 47 ILE HG23 H  1   0.76  0.05 . 1 . . . . . . . . 5620 1 
+      543 . 1 1 47 47 ILE CG2  C 13  18.8   0.5  . 1 . . . . . . . . 5620 1 
+      544 . 1 1 47 47 ILE CG1  C 13  29.6   0.5  . 1 . . . . . . . . 5620 1 
+      545 . 1 1 47 47 ILE HG12 H  1   1.58  0.05 . 2 . . . . . . . . 5620 1 
+      546 . 1 1 47 47 ILE HG13 H  1   1.18  0.05 . 2 . . . . . . . . 5620 1 
+      547 . 1 1 47 47 ILE HD11 H  1   0.95  0.05 . 1 . . . . . . . . 5620 1 
+      548 . 1 1 47 47 ILE HD12 H  1   0.95  0.05 . 1 . . . . . . . . 5620 1 
+      549 . 1 1 47 47 ILE HD13 H  1   0.95  0.05 . 1 . . . . . . . . 5620 1 
+      550 . 1 1 47 47 ILE CD1  C 13  15.1   0.5  . 1 . . . . . . . . 5620 1 
+      551 . 1 1 47 47 ILE C    C 13 171.8   0.5  . 1 . . . . . . . . 5620 1 
+      552 . 1 1 48 48 ARG N    N 15 124.6   0.5  . 1 . . . . . . . . 5620 1 
+      553 . 1 1 48 48 ARG H    H  1   8.68  0.05 . 1 . . . . . . . . 5620 1 
+      554 . 1 1 48 48 ARG CA   C 13  54.4   0.5  . 1 . . . . . . . . 5620 1 
+      555 . 1 1 48 48 ARG HA   H  1   4.57  0.05 . 1 . . . . . . . . 5620 1 
+      556 . 1 1 48 48 ARG CB   C 13  34.1   0.5  . 1 . . . . . . . . 5620 1 
+      557 . 1 1 48 48 ARG HB2  H  1   1.83  0.05 . 2 . . . . . . . . 5620 1 
+      558 . 1 1 48 48 ARG HB3  H  1   1.70  0.05 . 2 . . . . . . . . 5620 1 
+      559 . 1 1 48 48 ARG CG   C 13  26.7   0.5  . 1 . . . . . . . . 5620 1 
+      560 . 1 1 48 48 ARG HG2  H  1   1.70  0.05 . 2 . . . . . . . . 5620 1 
+      561 . 1 1 48 48 ARG HG3  H  1   1.52  0.05 . 2 . . . . . . . . 5620 1 
+      562 . 1 1 48 48 ARG CD   C 13  43.8   0.5  . 1 . . . . . . . . 5620 1 
+      563 . 1 1 48 48 ARG HD2  H  1   3.18  0.05 . 1 . . . . . . . . 5620 1 
+      564 . 1 1 48 48 ARG HD3  H  1   3.18  0.05 . 1 . . . . . . . . 5620 1 
+      565 . 1 1 48 48 ARG C    C 13 175.2   0.5  . 1 . . . . . . . . 5620 1 
+      566 . 1 1 49 49 GLU N    N 15 120.9   0.5  . 1 . . . . . . . . 5620 1 
+      567 . 1 1 49 49 GLU H    H  1   9.09  0.05 . 1 . . . . . . . . 5620 1 
+      568 . 1 1 49 49 GLU CA   C 13  59.4   0.5  . 1 . . . . . . . . 5620 1 
+      569 . 1 1 49 49 GLU HA   H  1   3.59  0.05 . 1 . . . . . . . . 5620 1 
+      570 . 1 1 49 49 GLU CB   C 13  28.9   0.5  . 1 . . . . . . . . 5620 1 
+      571 . 1 1 49 49 GLU HB2  H  1   1.93  0.05 . 2 . . . . . . . . 5620 1 
+      572 . 1 1 49 49 GLU HB3  H  1   1.87  0.05 . 2 . . . . . . . . 5620 1 
+      573 . 1 1 49 49 GLU CG   C 13  37.2   0.5  . 1 . . . . . . . . 5620 1 
+      574 . 1 1 49 49 GLU HG2  H  1   2.29  0.05 . 2 . . . . . . . . 5620 1 
+      575 . 1 1 49 49 GLU HG3  H  1   2.10  0.05 . 2 . . . . . . . . 5620 1 
+      576 . 1 1 49 49 GLU C    C 13 177.4   0.5  . 1 . . . . . . . . 5620 1 
+      577 . 1 1 50 50 GLY N    N 15 114.2   0.5  . 1 . . . . . . . . 5620 1 
+      578 . 1 1 50 50 GLY H    H  1   9.20  0.05 . 1 . . . . . . . . 5620 1 
+      579 . 1 1 50 50 GLY CA   C 13  45.1   0.5  . 1 . . . . . . . . 5620 1 
+      580 . 1 1 50 50 GLY HA2  H  1   4.46  0.05 . 2 . . . . . . . . 5620 1 
+      581 . 1 1 50 50 GLY HA3  H  1   3.75  0.05 . 2 . . . . . . . . 5620 1 
+      582 . 1 1 50 50 GLY C    C 13 174.8   0.5  . 1 . . . . . . . . 5620 1 
+      583 . 1 1 51 51 ASP N    N 15 121.7   0.5  . 1 . . . . . . . . 5620 1 
+      584 . 1 1 51 51 ASP H    H  1   7.94  0.05 . 1 . . . . . . . . 5620 1 
+      585 . 1 1 51 51 ASP CA   C 13  55.5   0.5  . 1 . . . . . . . . 5620 1 
+      586 . 1 1 51 51 ASP HA   H  1   4.63  0.05 . 1 . . . . . . . . 5620 1 
+      587 . 1 1 51 51 ASP CB   C 13  41.6   0.5  . 1 . . . . . . . . 5620 1 
+      588 . 1 1 51 51 ASP HB2  H  1   2.85  0.05 . 2 . . . . . . . . 5620 1 
+      589 . 1 1 51 51 ASP HB3  H  1   2.55  0.05 . 2 . . . . . . . . 5620 1 
+      590 . 1 1 51 51 ASP C    C 13 174.8   0.5  . 1 . . . . . . . . 5620 1 
+      591 . 1 1 52 52 ILE N    N 15 119.9   0.5  . 1 . . . . . . . . 5620 1 
+      592 . 1 1 52 52 ILE H    H  1   8.41  0.05 . 1 . . . . . . . . 5620 1 
+      593 . 1 1 52 52 ILE CA   C 13  59.2   0.5  . 1 . . . . . . . . 5620 1 
+      594 . 1 1 52 52 ILE HA   H  1   4.85  0.05 . 1 . . . . . . . . 5620 1 
+      595 . 1 1 52 52 ILE CB   C 13  38.4   0.5  . 1 . . . . . . . . 5620 1 
+      596 . 1 1 52 52 ILE HB   H  1   1.81  0.05 . 1 . . . . . . . . 5620 1 
+      597 . 1 1 52 52 ILE HG21 H  1   0.74  0.05 . 1 . . . . . . . . 5620 1 
+      598 . 1 1 52 52 ILE HG22 H  1   0.74  0.05 . 1 . . . . . . . . 5620 1 
+      599 . 1 1 52 52 ILE HG23 H  1   0.74  0.05 . 1 . . . . . . . . 5620 1 
+      600 . 1 1 52 52 ILE CG2  C 13  17.9   0.5  . 1 . . . . . . . . 5620 1 
+      601 . 1 1 52 52 ILE CG1  C 13  27.8   0.5  . 1 . . . . . . . . 5620 1 
+      602 . 1 1 52 52 ILE HG12 H  1   1.51  0.05 . 2 . . . . . . . . 5620 1 
+      603 . 1 1 52 52 ILE HG13 H  1   1.26  0.05 . 2 . . . . . . . . 5620 1 
+      604 . 1 1 52 52 ILE HD11 H  1   0.75  0.05 . 1 . . . . . . . . 5620 1 
+      605 . 1 1 52 52 ILE HD12 H  1   0.75  0.05 . 1 . . . . . . . . 5620 1 
+      606 . 1 1 52 52 ILE HD13 H  1   0.75  0.05 . 1 . . . . . . . . 5620 1 
+      607 . 1 1 52 52 ILE CD1  C 13  11.5   0.5  . 1 . . . . . . . . 5620 1 
+      608 . 1 1 52 52 ILE C    C 13 176.3   0.5  . 1 . . . . . . . . 5620 1 
+      609 . 1 1 53 53 LEU N    N 15 128.1   0.5  . 1 . . . . . . . . 5620 1 
+      610 . 1 1 53 53 LEU H    H  1   9.29  0.05 . 1 . . . . . . . . 5620 1 
+      611 . 1 1 53 53 LEU CA   C 13  53.1   0.5  . 1 . . . . . . . . 5620 1 
+      612 . 1 1 53 53 LEU HA   H  1   4.66  0.05 . 1 . . . . . . . . 5620 1 
+      613 . 1 1 53 53 LEU CB   C 13  45.3   0.5  . 1 . . . . . . . . 5620 1 
+      614 . 1 1 53 53 LEU HB2  H  1   1.47  0.05 . 2 . . . . . . . . 5620 1 
+      615 . 1 1 53 53 LEU HB3  H  1   1.40  0.05 . 2 . . . . . . . . 5620 1 
+      616 . 1 1 53 53 LEU CG   C 13  27.4   0.5  . 1 . . . . . . . . 5620 1 
+      617 . 1 1 53 53 LEU HG   H  1   1.47  0.05 . 1 . . . . . . . . 5620 1 
+      618 . 1 1 53 53 LEU HD11 H  1   0.68  0.05 . 2 . . . . . . . . 5620 1 
+      619 . 1 1 53 53 LEU HD12 H  1   0.68  0.05 . 2 . . . . . . . . 5620 1 
+      620 . 1 1 53 53 LEU HD13 H  1   0.68  0.05 . 2 . . . . . . . . 5620 1 
+      621 . 1 1 53 53 LEU HD21 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      622 . 1 1 53 53 LEU HD22 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      623 . 1 1 53 53 LEU HD23 H  1   0.76  0.05 . 2 . . . . . . . . 5620 1 
+      624 . 1 1 53 53 LEU CD1  C 13  26.5   0.5  . 1 . . . . . . . . 5620 1 
+      625 . 1 1 53 53 LEU CD2  C 13  24.2   0.5  . 1 . . . . . . . . 5620 1 
+      626 . 1 1 53 53 LEU C    C 13 175.4   0.5  . 1 . . . . . . . . 5620 1 
+      627 . 1 1 54 54 MET N    N 15 120.0   0.5  . 1 . . . . . . . . 5620 1 
+      628 . 1 1 54 54 MET H    H  1   8.44  0.05 . 1 . . . . . . . . 5620 1 
+      629 . 1 1 54 54 MET CA   C 13  52.9   0.5  . 1 . . . . . . . . 5620 1 
+      630 . 1 1 54 54 MET HA   H  1   4.86  0.05 . 1 . . . . . . . . 5620 1 
+      631 . 1 1 54 54 MET CB   C 13  31.6   0.5  . 1 . . . . . . . . 5620 1 
+      632 . 1 1 54 54 MET HB2  H  1   1.97  0.05 . 2 . . . . . . . . 5620 1 
+      633 . 1 1 54 54 MET HB3  H  1   1.86  0.05 . 2 . . . . . . . . 5620 1 
+      634 . 1 1 54 54 MET CG   C 13  32.4   0.5  . 1 . . . . . . . . 5620 1 
+      635 . 1 1 54 54 MET HG2  H  1   2.54  0.05 . 2 . . . . . . . . 5620 1 
+      636 . 1 1 54 54 MET HG3  H  1   2.37  0.05 . 2 . . . . . . . . 5620 1 
+      637 . 1 1 54 54 MET HE1  H  1   1.87  0.05 . 1 . . . . . . . . 5620 1 
+      638 . 1 1 54 54 MET HE2  H  1   1.87  0.05 . 1 . . . . . . . . 5620 1 
+      639 . 1 1 54 54 MET HE3  H  1   1.87  0.05 . 1 . . . . . . . . 5620 1 
+      640 . 1 1 54 54 MET CE   C 13  17.2   0.5  . 1 . . . . . . . . 5620 1 
+      641 . 1 1 54 54 MET C    C 13 175.8   0.5  . 1 . . . . . . . . 5620 1 
+      642 . 1 1 55 55 LEU N    N 15 124.7   0.5  . 1 . . . . . . . . 5620 1 
+      643 . 1 1 55 55 LEU H    H  1   8.88  0.05 . 1 . . . . . . . . 5620 1 
+      644 . 1 1 55 55 LEU CA   C 13  54.6   0.5  . 1 . . . . . . . . 5620 1 
+      645 . 1 1 55 55 LEU HA   H  1   4.48  0.05 . 1 . . . . . . . . 5620 1 
+      646 . 1 1 55 55 LEU CB   C 13  42.7   0.5  . 1 . . . . . . . . 5620 1 
+      647 . 1 1 55 55 LEU HB2  H  1   1.82  0.05 . 2 . . . . . . . . 5620 1 
+      648 . 1 1 55 55 LEU HB3  H  1   1.40  0.05 . 2 . . . . . . . . 5620 1 
+      649 . 1 1 55 55 LEU CG   C 13  26.8   0.5  . 1 . . . . . . . . 5620 1 
+      650 . 1 1 55 55 LEU HG   H  1   1.65  0.05 . 1 . . . . . . . . 5620 1 
+      651 . 1 1 55 55 LEU HD11 H  1   0.68  0.05 . 2 . . . . . . . . 5620 1 
+      652 . 1 1 55 55 LEU HD12 H  1   0.68  0.05 . 2 . . . . . . . . 5620 1 
+      653 . 1 1 55 55 LEU HD13 H  1   0.68  0.05 . 2 . . . . . . . . 5620 1 
+      654 . 1 1 55 55 LEU HD21 H  1   0.69  0.05 . 2 . . . . . . . . 5620 1 
+      655 . 1 1 55 55 LEU HD22 H  1   0.69  0.05 . 2 . . . . . . . . 5620 1 
+      656 . 1 1 55 55 LEU HD23 H  1   0.69  0.05 . 2 . . . . . . . . 5620 1 
+      657 . 1 1 55 55 LEU CD1  C 13  26.8   0.5  . 1 . . . . . . . . 5620 1 
+      658 . 1 1 55 55 LEU CD2  C 13  23.3   0.5  . 1 . . . . . . . . 5620 1 
+      659 . 1 1 56 56 LEU CA   C 13  54.9   0.5  . 1 . . . . . . . . 5620 1 
+      660 . 1 1 56 56 LEU HA   H  1   4.54  0.05 . 1 . . . . . . . . 5620 1 
+      661 . 1 1 56 56 LEU CB   C 13  43.2   0.5  . 1 . . . . . . . . 5620 1 
+      662 . 1 1 56 56 LEU HB2  H  1   1.62  0.05 . 1 . . . . . . . . 5620 1 
+      663 . 1 1 56 56 LEU HB3  H  1   1.62  0.05 . 1 . . . . . . . . 5620 1 
+      664 . 1 1 56 56 LEU CG   C 13  27.8   0.5  . 1 . . . . . . . . 5620 1 
+      665 . 1 1 56 56 LEU HG   H  1   1.63  0.05 . 1 . . . . . . . . 5620 1 
+      666 . 1 1 56 56 LEU HD11 H  1   0.87  0.05 . 2 . . . . . . . . 5620 1 
+      667 . 1 1 56 56 LEU HD12 H  1   0.87  0.05 . 2 . . . . . . . . 5620 1 
+      668 . 1 1 56 56 LEU HD13 H  1   0.87  0.05 . 2 . . . . . . . . 5620 1 
+      669 . 1 1 56 56 LEU HD21 H  1   0.81  0.05 . 2 . . . . . . . . 5620 1 
+      670 . 1 1 56 56 LEU HD22 H  1   0.81  0.05 . 2 . . . . . . . . 5620 1 
+      671 . 1 1 56 56 LEU HD23 H  1   0.81  0.05 . 2 . . . . . . . . 5620 1 
+      672 . 1 1 56 56 LEU CD1  C 13  25.2   0.5  . 1 . . . . . . . . 5620 1 
+      673 . 1 1 56 56 LEU CD2  C 13  24.0   0.5  . 1 . . . . . . . . 5620 1 
+      674 . 1 1 56 56 LEU C    C 13 176.9   0.5  . 1 . . . . . . . . 5620 1 
+      675 . 1 1 57 57 ASP N    N 15 120.8   0.5  . 1 . . . . . . . . 5620 1 
+      676 . 1 1 57 57 ASP H    H  1   8.40  0.05 . 1 . . . . . . . . 5620 1 
+      677 . 1 1 57 57 ASP CA   C 13  55.1   0.5  . 1 . . . . . . . . 5620 1 
+      678 . 1 1 57 57 ASP HA   H  1   4.54  0.05 . 1 . . . . . . . . 5620 1 
+      679 . 1 1 57 57 ASP HB2  H  1   2.71  0.05 . 2 . . . . . . . . 5620 1 
+      680 . 1 1 57 57 ASP HB3  H  1   2.62  0.05 . 2 . . . . . . . . 5620 1 
+      681 . 1 1 57 57 ASP C    C 13 176.5   0.5  . 1 . . . . . . . . 5620 1 
+      682 . 1 1 58 58 THR N    N 15 113.1   0.5  . 1 . . . . . . . . 5620 1 
+      683 . 1 1 58 58 THR H    H  1   8.19  0.05 . 1 . . . . . . . . 5620 1 
+      684 . 1 1 58 58 THR CA   C 13  62.1   0.5  . 1 . . . . . . . . 5620 1 
+      685 . 1 1 58 58 THR HA   H  1   4.29  0.05 . 1 . . . . . . . . 5620 1 
+      686 . 1 1 58 58 THR CB   C 13  69.4   0.5  . 1 . . . . . . . . 5620 1 
+      687 . 1 1 58 58 THR HB   H  1   4.27  0.05 . 1 . . . . . . . . 5620 1 
+      688 . 1 1 58 58 THR HG21 H  1   1.14  0.05 . 1 . . . . . . . . 5620 1 
+      689 . 1 1 58 58 THR HG22 H  1   1.14  0.05 . 1 . . . . . . . . 5620 1 
+      690 . 1 1 58 58 THR HG23 H  1   1.14  0.05 . 1 . . . . . . . . 5620 1 
+      691 . 1 1 58 58 THR CG2  C 13  21.9   0.5  . 1 . . . . . . . . 5620 1 
+      692 . 1 1 58 58 THR C    C 13 174.6   0.5  . 1 . . . . . . . . 5620 1 
+      693 . 1 1 59 59 ILE N    N 15 122.5   0.5  . 1 . . . . . . . . 5620 1 
+      694 . 1 1 59 59 ILE H    H  1   8.17  0.05 . 1 . . . . . . . . 5620 1 
+      695 . 1 1 59 59 ILE CA   C 13  61.8   0.5  . 1 . . . . . . . . 5620 1 
+      696 . 1 1 59 59 ILE HA   H  1   4.15  0.05 . 1 . . . . . . . . 5620 1 
+      697 . 1 1 59 59 ILE CB   C 13  38.9   0.5  . 1 . . . . . . . . 5620 1 
+      698 . 1 1 59 59 ILE HB   H  1   1.88  0.05 . 1 . . . . . . . . 5620 1 
+      699 . 1 1 59 59 ILE HG21 H  1   0.88  0.05 . 1 . . . . . . . . 5620 1 
+      700 . 1 1 59 59 ILE HG22 H  1   0.88  0.05 . 1 . . . . . . . . 5620 1 
+      701 . 1 1 59 59 ILE HG23 H  1   0.88  0.05 . 1 . . . . . . . . 5620 1 
+      702 . 1 1 59 59 ILE CG2  C 13  17.9   0.5  . 1 . . . . . . . . 5620 1 
+      703 . 1 1 59 59 ILE CG1  C 13  28.0   0.5  . 1 . . . . . . . . 5620 1 
+      704 . 1 1 59 59 ILE HG12 H  1   1.47  0.05 . 2 . . . . . . . . 5620 1 
+      705 . 1 1 59 59 ILE HG13 H  1   1.17  0.05 . 2 . . . . . . . . 5620 1 
+      706 . 1 1 59 59 ILE HD11 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      707 . 1 1 59 59 ILE HD12 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      708 . 1 1 59 59 ILE HD13 H  1   0.83  0.05 . 1 . . . . . . . . 5620 1 
+      709 . 1 1 59 59 ILE CD1  C 13  13.2   0.5  . 1 . . . . . . . . 5620 1 
+      710 . 1 1 59 59 ILE C    C 13 176.5   0.5  . 1 . . . . . . . . 5620 1 
+      711 . 1 1 60 60 ARG N    N 15 124.8   0.5  . 1 . . . . . . . . 5620 1 
+      712 . 1 1 60 60 ARG H    H  1   8.39  0.05 . 1 . . . . . . . . 5620 1 
+      713 . 1 1 60 60 ARG CA   C 13  56.7   0.5  . 1 . . . . . . . . 5620 1 
+      714 . 1 1 60 60 ARG HA   H  1   4.30  0.05 . 1 . . . . . . . . 5620 1 
+      715 . 1 1 60 60 ARG CB   C 13  30.9   0.5  . 1 . . . . . . . . 5620 1 
+      716 . 1 1 60 60 ARG HB2  H  1   1.87  0.05 . 2 . . . . . . . . 5620 1 
+      717 . 1 1 60 60 ARG HB3  H  1   1.74  0.05 . 2 . . . . . . . . 5620 1 
+      718 . 1 1 60 60 ARG CG   C 13  27.4   0.5  . 1 . . . . . . . . 5620 1 
+      719 . 1 1 60 60 ARG HG2  H  1   1.59  0.05 . 1 . . . . . . . . 5620 1 
+      720 . 1 1 60 60 ARG HG3  H  1   1.59  0.05 . 1 . . . . . . . . 5620 1 
+      721 . 1 1 60 60 ARG CD   C 13  43.6   0.5  . 1 . . . . . . . . 5620 1 
+      722 . 1 1 60 60 ARG HD2  H  1   3.16  0.05 . 1 . . . . . . . . 5620 1 
+      723 . 1 1 60 60 ARG HD3  H  1   3.16  0.05 . 1 . . . . . . . . 5620 1 
+      724 . 1 1 60 60 ARG C    C 13 176.5   0.5  . 1 . . . . . . . . 5620 1 
+      725 . 1 1 61 61 GLU N    N 15 122.1   0.5  . 1 . . . . . . . . 5620 1 
+      726 . 1 1 61 61 GLU H    H  1   8.39  0.05 . 1 . . . . . . . . 5620 1 
+      727 . 1 1 61 61 GLU CA   C 13  57.2   0.5  . 1 . . . . . . . . 5620 1 
+      728 . 1 1 61 61 GLU HA   H  1   4.34  0.05 . 1 . . . . . . . . 5620 1 
+      729 . 1 1 61 61 GLU CB   C 13  31.2   0.5  . 1 . . . . . . . . 5620 1 
+      730 . 1 1 61 61 GLU HB2  H  1   1.78  0.05 . 1 . . . . . . . . 5620 1 
+      731 . 1 1 61 61 GLU HB3  H  1   1.78  0.05 . 1 . . . . . . . . 5620 1 
+      732 . 1 1 61 61 GLU CG   C 13  36.6   0.5  . 1 . . . . . . . . 5620 1 
+      733 . 1 1 61 61 GLU HG2  H  1   2.26  0.05 . 1 . . . . . . . . 5620 1 
+      734 . 1 1 61 61 GLU HG3  H  1   2.26  0.05 . 1 . . . . . . . . 5620 1 
+      735 . 1 1 61 61 GLU C    C 13 176.2   0.5  . 1 . . . . . . . . 5620 1 
+      736 . 1 1 62 62 ALA N    N 15 125.6   0.5  . 1 . . . . . . . . 5620 1 
+      737 . 1 1 62 62 ALA H    H  1   8.34  0.05 . 1 . . . . . . . . 5620 1 
+      738 . 1 1 62 62 ALA CA   C 13  52.7   0.5  . 1 . . . . . . . . 5620 1 
+      739 . 1 1 62 62 ALA HA   H  1   4.32  0.05 . 1 . . . . . . . . 5620 1 
+      740 . 1 1 62 62 ALA HB1  H  1   1.38  0.05 . 1 . . . . . . . . 5620 1 
+      741 . 1 1 62 62 ALA HB2  H  1   1.38  0.05 . 1 . . . . . . . . 5620 1 
+      742 . 1 1 62 62 ALA HB3  H  1   1.38  0.05 . 1 . . . . . . . . 5620 1 
+      743 . 1 1 62 62 ALA CB   C 13  19.4   0.5  . 1 . . . . . . . . 5620 1 
+      744 . 1 1 62 62 ALA C    C 13 177.8   0.5  . 1 . . . . . . . . 5620 1 
+      745 . 1 1 63 63 LYS N    N 15 120.6   0.5  . 1 . . . . . . . . 5620 1 
+      746 . 1 1 63 63 LYS H    H  1   8.26  0.05 . 1 . . . . . . . . 5620 1 
+      747 . 1 1 63 63 LYS CA   C 13  56.6   0.5  . 1 . . . . . . . . 5620 1 
+      748 . 1 1 63 63 LYS HA   H  1   4.29  0.05 . 1 . . . . . . . . 5620 1 
+      749 . 1 1 63 63 LYS CB   C 13  33.5   0.5  . 1 . . . . . . . . 5620 1 
+      750 . 1 1 63 63 LYS HB2  H  1   1.82  0.05 . 2 . . . . . . . . 5620 1 
+      751 . 1 1 63 63 LYS HB3  H  1   1.76  0.05 . 2 . . . . . . . . 5620 1 
+      752 . 1 1 63 63 LYS CG   C 13  25.2   0.5  . 1 . . . . . . . . 5620 1 
+      753 . 1 1 63 63 LYS HG2  H  1   1.43  0.05 . 1 . . . . . . . . 5620 1 
+      754 . 1 1 63 63 LYS HG3  H  1   1.43  0.05 . 1 . . . . . . . . 5620 1 
+      755 . 1 1 63 63 LYS CD   C 13  29.3   0.5  . 1 . . . . . . . . 5620 1 
+      756 . 1 1 63 63 LYS HD2  H  1   1.68  0.05 . 1 . . . . . . . . 5620 1 
+      757 . 1 1 63 63 LYS HD3  H  1   1.68  0.05 . 1 . . . . . . . . 5620 1 
+      758 . 1 1 63 63 LYS CE   C 13  42.5   0.5  . 1 . . . . . . . . 5620 1 
+      759 . 1 1 63 63 LYS HE2  H  1   2.99  0.05 . 1 . . . . . . . . 5620 1 
+      760 . 1 1 63 63 LYS HE3  H  1   2.99  0.05 . 1 . . . . . . . . 5620 1 
+      761 . 1 1 63 63 LYS C    C 13 176.6   0.5  . 1 . . . . . . . . 5620 1 
+      762 . 1 1 64 64 GLU N    N 15 121.9   0.5  . 1 . . . . . . . . 5620 1 
+      763 . 1 1 64 64 GLU H    H  1   8.38  0.05 . 1 . . . . . . . . 5620 1 
+      764 . 1 1 64 64 GLU CA   C 13  57.2   0.5  . 1 . . . . . . . . 5620 1 
+      765 . 1 1 64 64 GLU HA   H  1   4.36  0.05 . 1 . . . . . . . . 5620 1 
+      766 . 1 1 64 64 GLU CB   C 13  31.2   0.5  . 1 . . . . . . . . 5620 1 
+      767 . 1 1 64 64 GLU HB2  H  1   1.92  0.05 . 1 . . . . . . . . 5620 1 
+      768 . 1 1 64 64 GLU HB3  H  1   1.92  0.05 . 1 . . . . . . . . 5620 1 
+      769 . 1 1 64 64 GLU CG   C 13  36.4   0.5  . 1 . . . . . . . . 5620 1 
+      770 . 1 1 64 64 GLU C    C 13 176.4   0.5  . 1 . . . . . . . . 5620 1 
+      771 . 1 1 65 65 ILE N    N 15 122.9   0.5  . 1 . . . . . . . . 5620 1 
+      772 . 1 1 65 65 ILE H    H  1   8.24  0.05 . 1 . . . . . . . . 5620 1 
+      773 . 1 1 65 65 ILE CA   C 13  61.3   0.5  . 1 . . . . . . . . 5620 1 
+      774 . 1 1 65 65 ILE HA   H  1   4.18  0.05 . 1 . . . . . . . . 5620 1 
+      775 . 1 1 65 65 ILE CB   C 13  38.7   0.5  . 1 . . . . . . . . 5620 1 
+      776 . 1 1 65 65 ILE HB   H  1   1.86  0.05 . 1 . . . . . . . . 5620 1 
+      777 . 1 1 65 65 ILE HG21 H  1   0.88  0.05 . 1 . . . . . . . . 5620 1 
+      778 . 1 1 65 65 ILE HG22 H  1   0.88  0.05 . 1 . . . . . . . . 5620 1 
+      779 . 1 1 65 65 ILE HG23 H  1   0.88  0.05 . 1 . . . . . . . . 5620 1 
+      780 . 1 1 65 65 ILE CG2  C 13  17.7   0.5  . 1 . . . . . . . . 5620 1 
+      781 . 1 1 65 65 ILE CG1  C 13  27.6   0.5  . 1 . . . . . . . . 5620 1 
+      782 . 1 1 65 65 ILE HG12 H  1   1.47  0.05 . 2 . . . . . . . . 5620 1 
+      783 . 1 1 65 65 ILE HG13 H  1   1.17  0.05 . 2 . . . . . . . . 5620 1 
+      784 . 1 1 65 65 ILE HD11 H  1   0.85  0.05 . 1 . . . . . . . . 5620 1 
+      785 . 1 1 65 65 ILE HD12 H  1   0.85  0.05 . 1 . . . . . . . . 5620 1 
+      786 . 1 1 65 65 ILE HD13 H  1   0.85  0.05 . 1 . . . . . . . . 5620 1 
+      787 . 1 1 65 65 ILE CD1  C 13  13.2   0.5  . 1 . . . . . . . . 5620 1 
+      788 . 1 1 65 65 ILE C    C 13 176.3   0.5  . 1 . . . . . . . . 5620 1 
+      789 . 1 1 66 66 ARG N    N 15 125.8   0.5  . 1 . . . . . . . . 5620 1 
+      790 . 1 1 66 66 ARG H    H  1   8.45  0.05 . 1 . . . . . . . . 5620 1 
+      791 . 1 1 66 66 ARG CA   C 13  56.5   0.5  . 1 . . . . . . . . 5620 1 
+      792 . 1 1 66 66 ARG HA   H  1   4.37  0.05 . 1 . . . . . . . . 5620 1 
+      793 . 1 1 66 66 ARG CB   C 13  31.1   0.5  . 1 . . . . . . . . 5620 1 
+      794 . 1 1 66 66 ARG HB2  H  1   1.92  0.05 . 2 . . . . . . . . 5620 1 
+      795 . 1 1 66 66 ARG HB3  H  1   1.78  0.05 . 2 . . . . . . . . 5620 1 
+      796 . 1 1 66 66 ARG CG   C 13  27.4   0.5  . 1 . . . . . . . . 5620 1 
+      797 . 1 1 66 66 ARG HG2  H  1   1.69  0.05 . 1 . . . . . . . . 5620 1 
+      798 . 1 1 66 66 ARG HG3  H  1   1.69  0.05 . 1 . . . . . . . . 5620 1 
+      799 . 1 1 66 66 ARG CD   C 13  43.6   0.5  . 1 . . . . . . . . 5620 1 
+      800 . 1 1 66 66 ARG HD2  H  1   3.21  0.05 . 1 . . . . . . . . 5620 1 
+      801 . 1 1 66 66 ARG HD3  H  1   3.21  0.05 . 1 . . . . . . . . 5620 1 
+      802 . 1 1 67 67 THR N    N 15 119.058 0.5  . 1 . . . . . . . . 5620 1 
+      803 . 1 1 67 67 THR H    H  1   8.23  0.05 . 1 . . . . . . . . 5620 1 
+      804 . 1 1 67 67 THR CA   C 13  60.1   0.5  . 1 . . . . . . . . 5620 1 
+      805 . 1 1 67 67 THR HA   H  1   4.59  0.05 . 1 . . . . . . . . 5620 1 
+      806 . 1 1 67 67 THR CB   C 13  69.9   0.5  . 1 . . . . . . . . 5620 1 
+      807 . 1 1 67 67 THR HB   H  1   4.15  0.05 . 1 . . . . . . . . 5620 1 
+      808 . 1 1 67 67 THR HG21 H  1   1.25  0.05 . 1 . . . . . . . . 5620 1 
+      809 . 1 1 67 67 THR HG22 H  1   1.25  0.05 . 1 . . . . . . . . 5620 1 
+      810 . 1 1 67 67 THR HG23 H  1   1.25  0.05 . 1 . . . . . . . . 5620 1 
+      811 . 1 1 67 67 THR CG2  C 13  21.8   0.5  . 1 . . . . . . . . 5620 1 
+      812 . 1 1 68 68 PRO CD   C 13  51.4   0.5  . 1 . . . . . . . . 5620 1 
+      813 . 1 1 68 68 PRO CA   C 13  63.5   0.5  . 1 . . . . . . . . 5620 1 
+      814 . 1 1 68 68 PRO HA   H  1   4.44  0.05 . 1 . . . . . . . . 5620 1 
+      815 . 1 1 68 68 PRO CB   C 13  32.4   0.5  . 1 . . . . . . . . 5620 1 
+      816 . 1 1 68 68 PRO HB2  H  1   2.32  0.05 . 2 . . . . . . . . 5620 1 
+      817 . 1 1 68 68 PRO HB3  H  1   1.94  0.05 . 2 . . . . . . . . 5620 1 
+      818 . 1 1 68 68 PRO CG   C 13  27.8   0.5  . 1 . . . . . . . . 5620 1 
+      819 . 1 1 68 68 PRO HG2  H  1   2.06  0.05 . 2 . . . . . . . . 5620 1 
+      820 . 1 1 68 68 PRO HG3  H  1   1.98  0.05 . 2 . . . . . . . . 5620 1 
+      821 . 1 1 68 68 PRO HD2  H  1   3.85  0.05 . 2 . . . . . . . . 5620 1 
+      822 . 1 1 68 68 PRO HD3  H  1   3.72  0.05 . 2 . . . . . . . . 5620 1 
+
+   stop_
+
+save_
+

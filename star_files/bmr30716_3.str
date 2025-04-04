@@ -1,0 +1,1311 @@
+data_30716
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             30716
+   _Entry.Title
+;
+Stigmurin
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2020-01-22
+   _Entry.Accession_date                 2020-01-22
+   _Entry.Last_release_date              2020-01-28
+   _Entry.Original_release_date          2020-01-28
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.14.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLUTION
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_experimental_methods.ID
+      _Entry_experimental_methods.Method
+      _Entry_experimental_methods.Subtype
+      _Entry_experimental_methods.Entry_ID
+
+      1   'SOLUTION NMR'   'SOLUTION NMR'   30716
+   stop_
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   S.   Rodrigues   S.   C.S.   .   .   30716
+      2   J.   Resende     J.   M.     .   .   30716
+      3   R.   Araujo      R.   M.     .   .   30716
+      4   M.   Pedrosa     M.   F.F.   .   .   30716
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'ANTIMICROBIAL PROTEIN'           .   30716
+      'Amphipathic peptide'             .   30716
+      'Antimicrobial Peptide'           .   30716
+      'Non-disulfide-bridged peptide'   .   30716
+      'Scorpion venom'                  .   30716
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   30716
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   32   30716
+      '15N chemical shifts'   15   30716
+      '1H chemical shifts'    18   30716
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2022-07-01   2020-01-22   update     BMRB     'update entry citation'   30716
+      1   .   .   2021-01-24   2020-01-22   original   author   'original release'        30716
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB   6VL2   .   30716
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     30716
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'reference citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    25805002
+   _Citation.DOI                          10.1016/j.peptides.2015.03.003
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Structural characterization of a novel peptide with antimicrobial activity from the venom gland of the scorpion Tityus stigmurus: Stigmurin.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Peptides
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               68
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 1873-5169
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   3
+   _Citation.Page_last                    10
+   _Citation.Year                         2015
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1    E.   'de Melo'   E.   T.     .   .   30716   1
+      2    A.   Estrela     A.   B.     .   .   30716   1
+      3    E.   Santos      E.   C.     .   .   30716   1
+      4    P.   Machado     P.   R.     .   .   30716   1
+      5    K.   Farias      K.   J.     .   .   30716   1
+      6    T.   Torres      T.   M.     .   .   30716   1
+      7    E.   Carvalho    E.   .      .   .   30716   1
+      8    J.   Lima        J.   P.     .   .   30716   1
+      9    A.   Silva       A.   A.J.   .   .   30716   1
+      10   E.   Barbosa     E.   G.     .   .   30716   1
+      11   M.   Pedrosa     M.   F.F.   .   .   30716   1
+   stop_
+save_
+
+save_citation_2
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_2
+   _Citation.Entry_ID                     30716
+   _Citation.ID                           2
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    33359395
+   _Citation.DOI                          .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+NMR three-dimensional structure of the cationic peptide Stigmurin from Tityus stigmurus scorpion venom: In vitro antioxidant and in vivo antibacterial and healing activity
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Peptides
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               137
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  0353
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   170478
+   _Citation.Page_last                    170478
+   _Citation.Year                         2021
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   A.   Silva          A.   D.     .   .   30716   2
+      2   S.   Rodrigues      S.   C.S.   .   .   30716   2
+      3   E.   Santos         E.   C.G.   .   .   30716   2
+      4   M.   Neto           M.   F.Q.   .   .   30716   2
+      5   H.   Rocha          H.   .      .   .   30716   2
+      6   A.   Silva-Junior   A.   D.     .   .   30716   2
+      7   J.   Resende        J.   M.     .   .   30716   2
+      8   R.   Araujo         R.   M.     .   .   30716   2
+      9   M.   Pedrosa        M.   F.F.   .   .   30716   2
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          30716
+   _Assembly.ID                                1
+   _Assembly.Name                              Stigmurin
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   entity_1   1   $entity_1   A   A   yes   .   .   .   .   .   .   30716   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          30716
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+FFSLIPSLVGGLISAFKX
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                18
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        syn
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    1795.173
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           'amidated C-terminal portion'
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    .   PHE   .   30716   1
+      2    .   PHE   .   30716   1
+      3    .   SER   .   30716   1
+      4    .   LEU   .   30716   1
+      5    .   ILE   .   30716   1
+      6    .   PRO   .   30716   1
+      7    .   SER   .   30716   1
+      8    .   LEU   .   30716   1
+      9    .   VAL   .   30716   1
+      10   .   GLY   .   30716   1
+      11   .   GLY   .   30716   1
+      12   .   LEU   .   30716   1
+      13   .   ILE   .   30716   1
+      14   .   SER   .   30716   1
+      15   .   ALA   .   30716   1
+      16   .   PHE   .   30716   1
+      17   .   LYS   .   30716   1
+      18   .   NH2   .   30716   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   PHE   1    1    30716   1
+      .   PHE   2    2    30716   1
+      .   SER   3    3    30716   1
+      .   LEU   4    4    30716   1
+      .   ILE   5    5    30716   1
+      .   PRO   6    6    30716   1
+      .   SER   7    7    30716   1
+      .   LEU   8    8    30716   1
+      .   VAL   9    9    30716   1
+      .   GLY   10   10   30716   1
+      .   GLY   11   11   30716   1
+      .   LEU   12   12   30716   1
+      .   ILE   13   13   30716   1
+      .   SER   14   14   30716   1
+      .   ALA   15   15   30716   1
+      .   PHE   16   16   30716   1
+      .   LYS   17   17   30716   1
+      .   NH2   18   18   30716   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       30716
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   50344   organism   .   'Tityus stigmurus'   scorpions   .   .   Eukaryota   Metazoa   Tityus   stigmurus   .   .   .   .   .   .   .   .   .   .   .   .   .   30716   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       30716
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'chemical synthesis'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30716   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+save_chem_comp_NH2
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_NH2
+   _Chem_comp.Entry_ID                          30716
+   _Chem_comp.ID                                NH2
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              'AMINO GROUP'
+   _Chem_comp.Type                              NON-POLYMER
+   _Chem_comp.BMRB_code                         NH2
+   _Chem_comp.PDB_code                          NH2
+   _Chem_comp.Ambiguous_flag                    yes
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 NH2
+   _Chem_comp.Number_atoms_all                  3
+   _Chem_comp.Number_atoms_nh                   1
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1/H3N/h1H3
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'H2 N'
+   _Chem_comp.Formula_weight                    16.023
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         'OpenEye OEToolkits'
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         2FLY
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      InChI=1/H3N/h1H3            InChI              InChI                  1.02b   30716   NH2
+      N                           SMILES             ACDLabs                10.04   30716   NH2
+      QGZKDVFQNNGYKY-UHFFFAOYAF   InChIKey           InChI                  1.02b   30716   NH2
+      [NH2]                       SMILES             CACTVS                 3.341   30716   NH2
+      [NH2]                       SMILES             'OpenEye OEToolkits'   1.5.0   30716   NH2
+      [NH2]                       SMILES_CANONICAL   CACTVS                 3.341   30716   NH2
+      [NH2]                       SMILES_CANONICAL   'OpenEye OEToolkits'   1.5.0   30716   NH2
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      ammonia       'SYSTEMATIC NAME'   ACDLabs                10.04   30716   NH2
+      l^{2}-azane   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.5.0   30716   NH2
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      N     N     N     N     .   N   .   .   N   0   .   .   .   1   no   no   .   .   .   .   10.091   .   8.978   .   -7.810   .   0.000    0.000    0.000    1   .   30716   NH2
+      HN1   HN1   HN1   1HN   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   9.517    .   8.769   .   -7.044   .   -0.385   -0.545   -0.771   2   .   30716   NH2
+      HN2   HN2   HN2   2HN   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   10.323   .   9.890   .   -8.082   .   1.020    0.000    0.000    3   .   30716   NH2
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1   .   SING   N   HN1   no   N   1   .   30716   NH2
+      2   .   SING   N   HN2   no   N   2   .   30716   NH2
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         30716
+   _Sample.ID                               1
+   _Sample.Name                             .
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          '2.0 mM Stigmurin, 1.0 mM DSS, trifluoroethanol/water'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   trifluoroethanol/water
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   Stigmurin   'natural abundance'   1   $assembly   1   $entity_1   .   .   2.0   .   .   mM   .   .   .   .   30716   1
+      2   DSS         'natural abundance'   .   .           .   .           .   .   1.0   .   .   mM   .   .   .   .   30716   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       30716
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           .
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            7.0   .   pH    30716   1
+      pressure      1     .   atm   30716   1
+      temperature   298   .   K     30716   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       30716
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           NMRView
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Johnson, One Moon Scientific'   .   .   30716   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   .   30716   1
+      'data analysis'               .   30716   1
+      'peak picking'                .   30716   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       30716
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           TopSpin
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin'   .   .   30716   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection   .   30716   2
+   stop_
+save_
+
+save_software_3
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_3
+   _Software.Entry_ID       30716
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           'PROCHECK / PROCHECK-NMR'
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Laskowski, MacArthur, Smith, Jones, Hutchinson, Morris, Moss and Thornton'   .   .   30716   3
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   .   30716   3
+   stop_
+save_
+
+save_software_4
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_4
+   _Software.Entry_ID       30716
+   _Software.ID             4
+   _Software.Type           .
+   _Software.Name           MOLMOL
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Koradi, Billeter and Wuthrich'   .   .   30716   4
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   .   30716   4
+   stop_
+save_
+
+save_software_5
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_5
+   _Software.Entry_ID       30716
+   _Software.ID             5
+   _Software.Type           .
+   _Software.Name           'X-PLOR NIH'
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Schwieters, Kuszewski, Tjandra and Clore'   .   .   30716   5
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'geometry optimization'   .   30716   5
+      refinement                .   30716   5
+      'structure calculation'   .   30716   5
+   stop_
+save_
+
+save_software_6
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_6
+   _Software.Entry_ID       30716
+   _Software.ID             6
+   _Software.Type           .
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'   .   .   30716   6
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   .   30716   6
+   stop_
+save_
+
+save_software_7
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_7
+   _Software.Entry_ID       30716
+   _Software.ID             7
+   _Software.Type           .
+   _Software.Name           TALOS
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Cornilescu, Delaglio and Bax'   .   .   30716   7
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure calculation'   .   30716   7
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         30716
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             .
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       30716
+   _NMR_spectrometer_list.ID             1
+   _NMR_spectrometer_list.Name           .
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   NMR_spectrometer_1   Bruker   'AVANCE III'   .   800   .   .   .   30716   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       30716
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NUS_flag
+      _Experiment.Interleaved_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Details
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D 1H-1H NOESY'   no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   anisotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30716   1
+      2   '2D 1H-1H TOCSY'   no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   anisotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30716   1
+      3   '2D 1H-15N HSQC'   no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   anisotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30716   1
+      4   '2D 1H-13C HSQC'   no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   anisotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30716   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       30716
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           .
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.000   internal   indirect   0.25144953   .   .   .   .   .   30716   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.000   internal   direct     1.0          .   .   .   .   .   30716   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.000   internal   indirect   0.10132912   .   .   .   .   .   30716   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      30716
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          .
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D 1H-1H NOESY'   .   .   .   30716   1
+      2   '2D 1H-1H TOCSY'   .   .   .   30716   1
+      3   '2D 1H-15N HSQC'   .   .   .   30716   1
+      4   '2D 1H-13C HSQC'   .   .   .   30716   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_assembly_asym_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   1   .   1   1    1    PHE   HA    H   1    4.098     .   .   .   .   .   .   .   A   1    PHE   HA    .   30716   1
+      2    .   1   .   1   1    1    PHE   CA    C   13   56.059    .   .   .   .   .   .   .   A   1    PHE   CA    .   30716   1
+      3    .   1   .   1   1    1    PHE   CB    C   13   40.011    .   .   .   .   .   .   .   A   1    PHE   CB    .   30716   1
+      4    .   1   .   1   2    2    PHE   HA    H   1    4.499     .   .   .   .   .   .   .   A   2    PHE   HA    .   30716   1
+      5    .   1   .   1   2    2    PHE   CA    C   13   57.861    .   .   .   .   .   .   .   A   2    PHE   CA    .   30716   1
+      6    .   1   .   1   2    2    PHE   CB    C   13   39.903    .   .   .   .   .   .   .   A   2    PHE   CB    .   30716   1
+      7    .   1   .   1   2    2    PHE   N     N   15   120.039   .   .   .   .   .   .   .   A   2    PHE   N     .   30716   1
+      8    .   1   .   1   3    3    SER   HA    H   1    4.248     .   .   .   .   .   .   .   A   3    SER   HA    .   30716   1
+      9    .   1   .   1   3    3    SER   CA    C   13   57.497    .   .   .   .   .   .   .   A   3    SER   CA    .   30716   1
+      10   .   1   .   1   3    3    SER   CB    C   13   64.109    .   .   .   .   .   .   .   A   3    SER   CB    .   30716   1
+      11   .   1   .   1   3    3    SER   N     N   15   117.022   .   .   .   .   .   .   .   A   3    SER   N     .   30716   1
+      12   .   1   .   1   4    4    LEU   HA    H   1    4.164     .   .   .   .   .   .   .   A   4    LEU   HA    .   30716   1
+      13   .   1   .   1   4    4    LEU   CA    C   13   55.732    .   .   .   .   .   .   .   A   4    LEU   CA    .   30716   1
+      14   .   1   .   1   4    4    LEU   CB    C   13   42.674    .   .   .   .   .   .   .   A   4    LEU   CB    .   30716   1
+      15   .   1   .   1   4    4    LEU   N     N   15   124.030   .   .   .   .   .   .   .   A   4    LEU   N     .   30716   1
+      16   .   1   .   1   5    5    ILE   HA    H   1    3.974     .   .   .   .   .   .   .   A   5    ILE   HA    .   30716   1
+      17   .   1   .   1   5    5    ILE   CA    C   13   63.943    .   .   .   .   .   .   .   A   5    ILE   CA    .   30716   1
+      18   .   1   .   1   5    5    ILE   CB    C   13   36.332    .   .   .   .   .   .   .   A   5    ILE   CB    .   30716   1
+      19   .   1   .   1   5    5    ILE   N     N   15   118.891   .   .   .   .   .   .   .   A   5    ILE   N     .   30716   1
+      20   .   1   .   1   6    6    PRO   HA    H   1    4.108     .   .   .   .   .   .   .   A   6    PRO   HA    .   30716   1
+      21   .   1   .   1   6    6    PRO   CA    C   13   57.557    .   .   .   .   .   .   .   A   6    PRO   CA    .   30716   1
+      22   .   1   .   1   6    6    PRO   CB    C   13   30.982    .   .   .   .   .   .   .   A   6    PRO   CB    .   30716   1
+      23   .   1   .   1   7    7    SER   HA    H   1    4.180     .   .   .   .   .   .   .   A   7    SER   HA    .   30716   1
+      24   .   1   .   1   7    7    SER   CA    C   13   61.117    .   .   .   .   .   .   .   A   7    SER   CA    .   30716   1
+      25   .   1   .   1   7    7    SER   CB    C   13   63.407    .   .   .   .   .   .   .   A   7    SER   CB    .   30716   1
+      26   .   1   .   1   7    7    SER   N     N   15   112.482   .   .   .   .   .   .   .   A   7    SER   N     .   30716   1
+      27   .   1   .   1   8    8    LEU   HA    H   1    4.126     .   .   .   .   .   .   .   A   8    LEU   HA    .   30716   1
+      28   .   1   .   1   8    8    LEU   CA    C   13   65.702    .   .   .   .   .   .   .   A   8    LEU   CA    .   30716   1
+      29   .   1   .   1   8    8    LEU   CB    C   13   42.254    .   .   .   .   .   .   .   A   8    LEU   CB    .   30716   1
+      30   .   1   .   1   8    8    LEU   N     N   15   124.380   .   .   .   .   .   .   .   A   8    LEU   N     .   30716   1
+      31   .   1   .   1   9    9    VAL   HA    H   1    3.576     .   .   .   .   .   .   .   A   9    VAL   HA    .   30716   1
+      32   .   1   .   1   9    9    VAL   CA    C   13   66.242    .   .   .   .   .   .   .   A   9    VAL   CA    .   30716   1
+      33   .   1   .   1   9    9    VAL   CB    C   13   31.694    .   .   .   .   .   .   .   A   9    VAL   CB    .   30716   1
+      34   .   1   .   1   9    9    VAL   N     N   15   118.418   .   .   .   .   .   .   .   A   9    VAL   N     .   30716   1
+      35   .   1   .   1   10   10   GLY   HA2   H   1    3.745     .   .   .   .   .   .   .   A   10   GLY   HA2   .   30716   1
+      36   .   1   .   1   10   10   GLY   HA3   H   1    3.686     .   .   .   .   .   .   .   A   10   GLY   HA3   .   30716   1
+      37   .   1   .   1   10   10   GLY   CA    C   13   47.137    .   .   .   .   .   .   .   A   10   GLY   CA    .   30716   1
+      38   .   1   .   1   10   10   GLY   N     N   15   105.560   .   .   .   .   .   .   .   A   10   GLY   N     .   30716   1
+      39   .   1   .   1   11   11   GLY   HA3   H   1    3.776     .   .   .   .   .   .   .   A   11   GLY   HA3   .   30716   1
+      40   .   1   .   1   11   11   GLY   CA    C   13   46.515    .   .   .   .   .   .   .   A   11   GLY   CA    .   30716   1
+      41   .   1   .   1   11   11   GLY   N     N   15   109.267   .   .   .   .   .   .   .   A   11   GLY   N     .   30716   1
+      42   .   1   .   1   12   12   LEU   HA    H   1    4.039     .   .   .   .   .   .   .   A   12   LEU   HA    .   30716   1
+      43   .   1   .   1   12   12   LEU   CA    C   13   57.698    .   .   .   .   .   .   .   A   12   LEU   CA    .   30716   1
+      44   .   1   .   1   12   12   LEU   CB    C   13   41.868    .   .   .   .   .   .   .   A   12   LEU   CB    .   30716   1
+      45   .   1   .   1   12   12   LEU   N     N   15   123.974   .   .   .   .   .   .   .   A   12   LEU   N     .   30716   1
+      46   .   1   .   1   13   13   ILE   HA    H   1    3.661     .   .   .   .   .   .   .   A   13   ILE   HA    .   30716   1
+      47   .   1   .   1   13   13   ILE   CA    C   13   64.665    .   .   .   .   .   .   .   A   13   ILE   CA    .   30716   1
+      48   .   1   .   1   13   13   ILE   CB    C   13   38.033    .   .   .   .   .   .   .   A   13   ILE   CB    .   30716   1
+      49   .   1   .   1   13   13   ILE   N     N   15   117.855   .   .   .   .   .   .   .   A   13   ILE   N     .   30716   1
+      50   .   1   .   1   14   14   SER   HA    H   1    4.081     .   .   .   .   .   .   .   A   14   SER   HA    .   30716   1
+      51   .   1   .   1   14   14   SER   CA    C   13   61.219    .   .   .   .   .   .   .   A   14   SER   CA    .   30716   1
+      52   .   1   .   1   14   14   SER   CB    C   13   62.771    .   .   .   .   .   .   .   A   14   SER   CB    .   30716   1
+      53   .   1   .   1   14   14   SER   N     N   15   113.798   .   .   .   .   .   .   .   A   14   SER   N     .   30716   1
+      54   .   1   .   1   15   15   ALA   HA    H   1    4.058     .   .   .   .   .   .   .   A   15   ALA   HA    .   30716   1
+      55   .   1   .   1   15   15   ALA   CA    C   13   54.036    .   .   .   .   .   .   .   A   15   ALA   CA    .   30716   1
+      56   .   1   .   1   15   15   ALA   CB    C   13   18.037    .   .   .   .   .   .   .   A   15   ALA   CB    .   30716   1
+      57   .   1   .   1   15   15   ALA   N     N   15   124.041   .   .   .   .   .   .   .   A   15   ALA   N     .   30716   1
+      58   .   1   .   1   16   16   PHE   HA    H   1    4.410     .   .   .   .   .   .   .   A   16   PHE   HA    .   30716   1
+      59   .   1   .   1   16   16   PHE   CA    C   13   58.792    .   .   .   .   .   .   .   A   16   PHE   CA    .   30716   1
+      60   .   1   .   1   16   16   PHE   CB    C   13   39.278    .   .   .   .   .   .   .   A   16   PHE   CB    .   30716   1
+      61   .   1   .   1   16   16   PHE   N     N   15   116.971   .   .   .   .   .   .   .   A   16   PHE   N     .   30716   1
+      62   .   1   .   1   17   17   LYS   HA    H   1    4.093     .   .   .   .   .   .   .   A   17   LYS   HA    .   30716   1
+      63   .   1   .   1   17   17   LYS   CA    C   13   56.531    .   .   .   .   .   .   .   A   17   LYS   CA    .   30716   1
+      64   .   1   .   1   17   17   LYS   CB    C   13   32.630    .   .   .   .   .   .   .   A   17   LYS   CB    .   30716   1
+      65   .   1   .   1   17   17   LYS   N     N   15   122.904   .   .   .   .   .   .   .   A   17   LYS   N     .   30716   1
+   stop_
+save_
+

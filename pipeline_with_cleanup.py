@@ -2,7 +2,7 @@ import os
 import subprocess
 import shutil
 
-def run_pipeline_clean(bmrb_id):
+def run_pipeline_clean(bmrb_id,pdb_folder):
     bmrb_id_str = f"bmr{bmrb_id}_3"
 
     # 1. Extract H shifts
@@ -13,7 +13,8 @@ def run_pipeline_clean(bmrb_id):
     ], check=True)
 
     # 2. Add hydrogens to PDB
-    os.chdir("pdb_files")
+    os.chdir(pdb_folder)
+    os.makedirs("split_models_h", exist_ok=True)
     subprocess.run([
         "python", "../scripts/add_h_with_cleaning.py",
         f"{bmrb_id_str}.str.pdb", "split_models_h"
@@ -30,7 +31,7 @@ def run_pipeline_clean(bmrb_id):
         model_str = f"model{i}"
         base = f"{bmrb_id_str}_{model_str}_h"
 
-        pdb_path = f"pdb_files/split_models_h/{base}.pdb"
+        pdb_path = f"{pdb_folder}/split_models_h/{base}.pdb"
         out_csv = f"cvs_files/{bmrb_id_str}/{base}_output.csv"
         rotated_csv = f"cvs_files/{bmrb_id_str}_rotated/{base}_output_rotated.csv"
 
@@ -70,7 +71,7 @@ def run_pipeline_clean(bmrb_id):
 
     # 8. Cleanup
     for i in range(1, 11):
-        model_path = f"pdb_files/split_models_h/{bmrb_id_str}_model{i}_h.pdb"
+        model_path = f"{pdb_folder}/split_models_h/{bmrb_id_str}_model{i}_h.pdb"
         if os.path.exists(model_path):
             os.remove(model_path)
 
@@ -88,8 +89,13 @@ def run_pipeline_clean(bmrb_id):
     print(f"Cleanup complete. Only {training_csv_final} remains.")
 
 if __name__ == "__main__":
-    run_these = [26010,17434,18673,10299,30408,16298,30332,11423,34607,
-        5038,6072,16396,5060,34535,30870,6365,15785,30807,16386,15211,19938,25449,31170,
-        5461,5599,19955,4892]
+    pdb_folder = "BMRB_test2"
+    files = os.listdir(pdb_folder)
+    run_these = []
+    for star_file in files:
+        if star_file[-8:]==".str.pdb":
+            run_these.append(int(star_file[3:-10]))
+    print("Files to extract features from:")
+    print(run_these)
     for bmrb_number in run_these:
-        run_pipeline_clean(bmrb_number)
+        run_pipeline_clean(bmrb_number,pdb_folder)

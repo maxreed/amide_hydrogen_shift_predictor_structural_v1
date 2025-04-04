@@ -1,0 +1,2171 @@
+data_6690
+
+save_study_list
+   _Study_list.Sf_category    study_list
+   _Study_list.Sf_framecode   study_list
+   _Study_list.Entry_ID       6690
+   _Study_list.ID             1
+
+   loop_
+      _Study.ID
+      _Study.Name
+      _Study.Type
+      _Study.Details
+      _Study.Entry_ID
+      _Study.Study_list_ID
+
+      1 'PSI AB box' 'Structure analysis' 'PSI AB box complex with U1-70k protein proline-rich peptide' 6690 1 
+
+   stop_
+
+   loop_
+      _Study_keyword.Study_ID
+      _Study_keyword.Keyword
+      _Study_keyword.Entry_ID
+      _Study_keyword.Study_list_ID
+
+      . 'NMR structure' 6690 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             6690
+   _Entry.Title                         
+;
+Partial 1H, 13C, and 15N Chemical Shift Assignments for PSI AB box region in
+complex with U1-70k protein proline-rich peptide
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2005-06-15
+   _Entry.Accession_date                 2005-06-15
+   _Entry.Last_release_date              2007-01-26
+   _Entry.Original_release_date          2007-01-26
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      .
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Tijana   Ignjatovic . . . 6690 
+      2 Ji-Chun  Yang       . . . 6690 
+      3 Jonathan Butler     . . . 6690 
+      4 David    Neuhaus    . . . 6690 
+      5 Kiyoshi  Nagai      . . . 6690 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 6690 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 128 6690 
+      '15N chemical shifts'  59 6690 
+      '1H chemical shifts'  264 6690 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2007-01-26 2005-06-15 original author . 6690 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB 2BN5 'BMRB Entry Tracking System' 6690 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     6690
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    15990112
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Structural Basis of the Interaction Between P-element Somatic Inhibitor and U1-70k
+Essential for the Alternative Splicing of P-element Transposase
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Mol. Biol.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               351
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   52
+   _Citation.Page_last                    65
+   _Citation.Year                         2005
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Tijana   Ignjatovic . . . 6690 1 
+      2 Ji-Chun  Yang       . . . 6690 1 
+      3 Jonathan Butler     . . . 6690 1 
+      4 David    Neuhaus    . . . 6690 1 
+      5 Kiyoshi  Nagai      . . . 6690 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          6690
+   _Assembly.ID                                1
+   _Assembly.Name                             'PSI AB complex with U1-70k proline-rich peptide'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   no
+   _Assembly.Ambiguous_chem_comp_sites         no
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'not present'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      'protein-protein complex' 6690 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'PSI AB box'                  1 $PSI_AB_box     . . yes native no no 1 . . 6690 1 
+      2 'U1-70k proline-rich peptide' 2 $U1-70k_peptide . . yes native no no 2 . . 6690 1 
+
+   stop_
+
+   loop_
+      _Assembly_interaction.ID
+      _Assembly_interaction.Entity_assembly_ID_1
+      _Assembly_interaction.Entity_assembly_ID_2
+      _Assembly_interaction.Mol_interaction_type
+      _Assembly_interaction.Entry_ID
+      _Assembly_interaction.Assembly_ID
+
+      1 1 2 'Intermediate exchange' 6690 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_PSI_AB_box
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      PSI_AB_box
+   _Entity.Entry_ID                          6690
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'PSI AB box'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+SDYSAQWIEYYKQMGSHREA
+EMIEQQMKAKQAGGSSGPVQ
+QQQPQQQQQSQQQTGGAGAG
+GADYSAQWAEYYRSVGKIEE
+AEAIEKTLKNKQN
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                93
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no PDB 2BN5         . "P-Element Somatic Inhibitor Protein Complex With U1-70k Proline-Rich Peptide"                                                    . . . . . 100.00  21 100.00 100.00 2.14e-04 . . . . 6690 1 
+       2 no GB  AAA28859     . "U1 70K small nuclear ribonucleoprotein, (first expressed exon) [Drosophila melanogaster]"                                        . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       3 no GB  AAF52471     . "small ribonucleoprotein particle U1 subunit 70K, isoform A [Drosophila melanogaster]"                                            . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       4 no GB  AAL29049     . "LD46049p [Drosophila melanogaster]"                                                                                              . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       5 no GB  AAL90360     . "RE35772p [Drosophila melanogaster]"                                                                                              . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       6 no GB  ACL85981     . "snRNP70K-PA, partial [synthetic construct]"                                                                                      . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       7 no REF NP_001260173 . "small ribonucleoprotein particle U1 subunit 70K, isoform C [Drosophila melanogaster]"                                            . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       8 no REF NP_477205    . "small ribonucleoprotein particle U1 subunit 70K, isoform A [Drosophila melanogaster]"                                            . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+       9 no REF XP_001962392 . "GF14460 [Drosophila ananassae]"                                                                                                  . . . . . 100.00 453 100.00 100.00 7.65e-05 . . . . 6690 1 
+      10 no REF XP_001970105 . "GG23559 [Drosophila erecta]"                                                                                                     . . . . . 100.00 448 100.00 100.00 3.96e-05 . . . . 6690 1 
+      11 no REF XP_002036020 . "GM13669 [Drosophila sechellia]"                                                                                                  . . . . . 100.00 448 100.00 100.00 8.61e-05 . . . . 6690 1 
+      12 no SP  P17133       . "RecName: Full=U1 small nuclear ribonucleoprotein 70 kDa; Short=U1 snRNP 70 kDa; Short=U1-70K; Short=snRNP70 [Drosophila melanog" . . . . . 100.00 448 100.00 100.00 8.78e-05 . . . . 6690 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'PSI protein AB box' . 6690 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . SER . 6690 1 
+       2 . ASP . 6690 1 
+       3 . TYR . 6690 1 
+       4 . SER . 6690 1 
+       5 . ALA . 6690 1 
+       6 . GLN . 6690 1 
+       7 . TRP . 6690 1 
+       8 . ILE . 6690 1 
+       9 . GLU . 6690 1 
+      10 . TYR . 6690 1 
+      11 . TYR . 6690 1 
+      12 . LYS . 6690 1 
+      13 . GLN . 6690 1 
+      14 . MET . 6690 1 
+      15 . GLY . 6690 1 
+      16 . SER . 6690 1 
+      17 . HIS . 6690 1 
+      18 . ARG . 6690 1 
+      19 . GLU . 6690 1 
+      20 . ALA . 6690 1 
+      21 . GLU . 6690 1 
+      22 . MET . 6690 1 
+      23 . ILE . 6690 1 
+      24 . GLU . 6690 1 
+      25 . GLN . 6690 1 
+      26 . GLN . 6690 1 
+      27 . MET . 6690 1 
+      28 . LYS . 6690 1 
+      29 . ALA . 6690 1 
+      30 . LYS . 6690 1 
+      31 . GLN . 6690 1 
+      32 . ALA . 6690 1 
+      33 . GLY . 6690 1 
+      34 . GLY . 6690 1 
+      35 . SER . 6690 1 
+      36 . SER . 6690 1 
+      37 . GLY . 6690 1 
+      38 . PRO . 6690 1 
+      39 . VAL . 6690 1 
+      40 . GLN . 6690 1 
+      41 . GLN . 6690 1 
+      42 . GLN . 6690 1 
+      43 . GLN . 6690 1 
+      44 . PRO . 6690 1 
+      45 . GLN . 6690 1 
+      46 . GLN . 6690 1 
+      47 . GLN . 6690 1 
+      48 . GLN . 6690 1 
+      49 . GLN . 6690 1 
+      50 . SER . 6690 1 
+      51 . GLN . 6690 1 
+      52 . GLN . 6690 1 
+      53 . GLN . 6690 1 
+      54 . THR . 6690 1 
+      55 . GLY . 6690 1 
+      56 . GLY . 6690 1 
+      57 . ALA . 6690 1 
+      58 . GLY . 6690 1 
+      59 . ALA . 6690 1 
+      60 . GLY . 6690 1 
+      61 . GLY . 6690 1 
+      62 . ALA . 6690 1 
+      63 . ASP . 6690 1 
+      64 . TYR . 6690 1 
+      65 . SER . 6690 1 
+      66 . ALA . 6690 1 
+      67 . GLN . 6690 1 
+      68 . TRP . 6690 1 
+      69 . ALA . 6690 1 
+      70 . GLU . 6690 1 
+      71 . TYR . 6690 1 
+      72 . TYR . 6690 1 
+      73 . ARG . 6690 1 
+      74 . SER . 6690 1 
+      75 . VAL . 6690 1 
+      76 . GLY . 6690 1 
+      77 . LYS . 6690 1 
+      78 . ILE . 6690 1 
+      79 . GLU . 6690 1 
+      80 . GLU . 6690 1 
+      81 . ALA . 6690 1 
+      82 . GLU . 6690 1 
+      83 . ALA . 6690 1 
+      84 . ILE . 6690 1 
+      85 . GLU . 6690 1 
+      86 . LYS . 6690 1 
+      87 . THR . 6690 1 
+      88 . LEU . 6690 1 
+      89 . LYS . 6690 1 
+      90 . ASN . 6690 1 
+      91 . LYS . 6690 1 
+      92 . GLN . 6690 1 
+      93 . ASN . 6690 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . SER  1  1 6690 1 
+      . ASP  2  2 6690 1 
+      . TYR  3  3 6690 1 
+      . SER  4  4 6690 1 
+      . ALA  5  5 6690 1 
+      . GLN  6  6 6690 1 
+      . TRP  7  7 6690 1 
+      . ILE  8  8 6690 1 
+      . GLU  9  9 6690 1 
+      . TYR 10 10 6690 1 
+      . TYR 11 11 6690 1 
+      . LYS 12 12 6690 1 
+      . GLN 13 13 6690 1 
+      . MET 14 14 6690 1 
+      . GLY 15 15 6690 1 
+      . SER 16 16 6690 1 
+      . HIS 17 17 6690 1 
+      . ARG 18 18 6690 1 
+      . GLU 19 19 6690 1 
+      . ALA 20 20 6690 1 
+      . GLU 21 21 6690 1 
+      . MET 22 22 6690 1 
+      . ILE 23 23 6690 1 
+      . GLU 24 24 6690 1 
+      . GLN 25 25 6690 1 
+      . GLN 26 26 6690 1 
+      . MET 27 27 6690 1 
+      . LYS 28 28 6690 1 
+      . ALA 29 29 6690 1 
+      . LYS 30 30 6690 1 
+      . GLN 31 31 6690 1 
+      . ALA 32 32 6690 1 
+      . GLY 33 33 6690 1 
+      . GLY 34 34 6690 1 
+      . SER 35 35 6690 1 
+      . SER 36 36 6690 1 
+      . GLY 37 37 6690 1 
+      . PRO 38 38 6690 1 
+      . VAL 39 39 6690 1 
+      . GLN 40 40 6690 1 
+      . GLN 41 41 6690 1 
+      . GLN 42 42 6690 1 
+      . GLN 43 43 6690 1 
+      . PRO 44 44 6690 1 
+      . GLN 45 45 6690 1 
+      . GLN 46 46 6690 1 
+      . GLN 47 47 6690 1 
+      . GLN 48 48 6690 1 
+      . GLN 49 49 6690 1 
+      . SER 50 50 6690 1 
+      . GLN 51 51 6690 1 
+      . GLN 52 52 6690 1 
+      . GLN 53 53 6690 1 
+      . THR 54 54 6690 1 
+      . GLY 55 55 6690 1 
+      . GLY 56 56 6690 1 
+      . ALA 57 57 6690 1 
+      . GLY 58 58 6690 1 
+      . ALA 59 59 6690 1 
+      . GLY 60 60 6690 1 
+      . GLY 61 61 6690 1 
+      . ALA 62 62 6690 1 
+      . ASP 63 63 6690 1 
+      . TYR 64 64 6690 1 
+      . SER 65 65 6690 1 
+      . ALA 66 66 6690 1 
+      . GLN 67 67 6690 1 
+      . TRP 68 68 6690 1 
+      . ALA 69 69 6690 1 
+      . GLU 70 70 6690 1 
+      . TYR 71 71 6690 1 
+      . TYR 72 72 6690 1 
+      . ARG 73 73 6690 1 
+      . SER 74 74 6690 1 
+      . VAL 75 75 6690 1 
+      . GLY 76 76 6690 1 
+      . LYS 77 77 6690 1 
+      . ILE 78 78 6690 1 
+      . GLU 79 79 6690 1 
+      . GLU 80 80 6690 1 
+      . ALA 81 81 6690 1 
+      . GLU 82 82 6690 1 
+      . ALA 83 83 6690 1 
+      . ILE 84 84 6690 1 
+      . GLU 85 85 6690 1 
+      . LYS 86 86 6690 1 
+      . THR 87 87 6690 1 
+      . LEU 88 88 6690 1 
+      . LYS 89 89 6690 1 
+      . ASN 90 90 6690 1 
+      . LYS 91 91 6690 1 
+      . GLN 92 92 6690 1 
+      . ASN 93 93 6690 1 
+
+   stop_
+
+save_
+
+
+save_U1-70k_peptide
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      U1-70k_peptide
+   _Entity.Entry_ID                          6690
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'U1-70k peptide'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+RPPPAHHNMFSVPPPPILGR
+G
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                21
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'U1-70k peptide' . 6690 2 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . ARG . 6690 2 
+       2 . PRO . 6690 2 
+       3 . PRO . 6690 2 
+       4 . PRO . 6690 2 
+       5 . ALA . 6690 2 
+       6 . HIS . 6690 2 
+       7 . HIS . 6690 2 
+       8 . ASN . 6690 2 
+       9 . MET . 6690 2 
+      10 . PHE . 6690 2 
+      11 . SER . 6690 2 
+      12 . VAL . 6690 2 
+      13 . PRO . 6690 2 
+      14 . PRO . 6690 2 
+      15 . PRO . 6690 2 
+      16 . PRO . 6690 2 
+      17 . ILE . 6690 2 
+      18 . LEU . 6690 2 
+      19 . GLY . 6690 2 
+      20 . ARG . 6690 2 
+      21 . GLY . 6690 2 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . ARG  1  1 6690 2 
+      . PRO  2  2 6690 2 
+      . PRO  3  3 6690 2 
+      . PRO  4  4 6690 2 
+      . ALA  5  5 6690 2 
+      . HIS  6  6 6690 2 
+      . HIS  7  7 6690 2 
+      . ASN  8  8 6690 2 
+      . MET  9  9 6690 2 
+      . PHE 10 10 6690 2 
+      . SER 11 11 6690 2 
+      . VAL 12 12 6690 2 
+      . PRO 13 13 6690 2 
+      . PRO 14 14 6690 2 
+      . PRO 15 15 6690 2 
+      . PRO 16 16 6690 2 
+      . ILE 17 17 6690 2 
+      . LEU 18 18 6690 2 
+      . GLY 19 19 6690 2 
+      . ARG 20 20 6690 2 
+      . GLY 21 21 6690 2 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       6690
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $PSI_AB_box     . 7227 organism . 'Drosophila melanogaster' 'fruit fly' . . Eukaryota Protista Drosophila melanogaster . . . . . . . . . . . . . . . . . . . . . 6690 1 
+      2 2 $U1-70k_peptide . 7227 organism . 'Drosophila melanogaster' 'fruit fly' . . Eukaryota Protista Drosophila melanogaster . . . . . . . . . . . . . . . . . . . . . 6690 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       6690
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $PSI_AB_box     . 'recombinant technology' . 'Escherischia coli' . . . . . . . . . . . . . . . . . . . . . . . . . . . 6690 1 
+      2 2 $U1-70k_peptide . 'chemical synthesis'     .  .                  . . . . . . . . . . . . . . . . . . . . . . . . . . . 6690 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         6690
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                         '15N labelled complex'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'PSI AB box'       [U-15N] 1 $assembly 1 $PSI_AB_box     . .    . 0.4 0.42 mM . . . . 6690 1 
+      2 'U1-70k peptide'   .       1 $assembly 2 $U1-70k_peptide . .    . 0.4 0.42 mM . . . . 6690 1 
+      3 'sodium phosphate' .        .  .         .  .              . .  10  .   .   mM . . . . 6690 1 
+      4 'sodium chloride'  .        .  .         .  .              . . 150  .   .   mM . . . . 6690 1 
+      5  DTT               .        .  .         .  .              . .   5  .   .   mM . . . . 6690 1 
+
+   stop_
+
+save_
+
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         6690
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                         '15N, 13C labelled complex'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'PSI AB box'       '[U-13C; U-15N]' 1 $assembly 1 $PSI_AB_box     . .    . 0.4 0.45 mM . . . . 6690 2 
+      2 'U1-70k peptide'    .               1 $assembly 2 $U1-70k_peptide . .    . 0.4 0.45 mM . . . . 6690 2 
+      3 'sodium phosphate'  .                .  .         .  .              . .  10  .   .   mM . . . . 6690 2 
+      4 'sodium chloride'   .                .  .         .  .              . . 150  .   .   mM . . . . 6690 2 
+      5  DTT                .                .  .         .  .              . .   5  .   .   mM . . . . 6690 2 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   conditions_1
+   _Sample_condition_list.Entry_ID       6690
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5 0.1 pH 6690 1 
+      temperature 290   0.5 K  6690 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       6690
+   _Software.ID             1
+   _Software.Name           xwinnmr
+   _Software.Version        3.1
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Bruker . . 6690 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      analysis 6690 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_800
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     800
+   _NMR_spectrometer.Entry_ID         6690
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+
+save_
+
+
+save_500
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     500
+   _NMR_spectrometer.Entry_ID         6690
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            DRX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_NMR_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   NMR_experiment_list
+   _Experiment_list.Entry_ID       6690
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+       1 '2D NOESY'                              no . . . . . . . . . . 1 $sample_1 . . . 1 $conditions_1 . . . 1 $800 . . . . . . . . . . . . . . . . 6690 1 
+       2 '2D TOCSY'                              no . . . . . . . . . . 1 $sample_1 . . . 1 $conditions_1 . . . 1 $800 . . . . . . . . . . . . . . . . 6690 1 
+       3 '2D 15N HSQC'                           no . . . . . . . . . . 1 $sample_1 . . . 1 $conditions_1 . . . 1 $800 . . . . . . . . . . . . . . . . 6690 1 
+       4 '2D 13C HSQC'                           no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 1 $800 . . . . . . . . . . . . . . . . 6690 1 
+       5 '3D HNCA'                               no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+       6 '3D HN(CO)CA'                           no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+       7 '3D CBCA(CO)NH'                         no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+       8 '3D CBCANH'                             no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+       9 '3D HBHA(CO)NH'                         no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      10 '3D HBHANH'                             no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      11 '3D HCCH COSY'                          no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      12 '3D HCCH TOCSY'                         no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      13 '3D 15N NOESY-HSQC'                     no . . . . . . . . . . 1 $sample_1 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      14 '3D 13C NOESY-HSQC'                     no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      15 '2D (13C, 15N) Filtered NOESY'          no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+      16 '3D (13C, 15N) Filtered 13C HSQC NOESY' no . . . . . . . . . . 2 $sample_2 . . . 1 $conditions_1 . . . 2 $500 . . . . . . . . . . . . . . . . 6690 1 
+
+   stop_
+
+save_
+
+
+save_2D_NOESY
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_NOESY
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                           '2D NOESY'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $800
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_2D_TOCSY
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_TOCSY
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                           '2D TOCSY'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $800
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_2D_15N_HSQC
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_15N_HSQC
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              3
+   _NMR_spec_expt.Name                           '2D 15N HSQC'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $800
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_2D_13C_HSQC
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_13C_HSQC
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              4
+   _NMR_spec_expt.Name                           '2D 13C HSQC'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $800
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_HNCA
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_HNCA
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              5
+   _NMR_spec_expt.Name                           '3D HNCA'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_HN(CO)CA
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_HN(CO)CA
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              6
+   _NMR_spec_expt.Name                           '3D HN(CO)CA'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_CBCA(CO)NH
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_CBCA(CO)NH
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              7
+   _NMR_spec_expt.Name                           '3D CBCA(CO)NH'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_CBCANH
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_CBCANH
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              8
+   _NMR_spec_expt.Name                           '3D CBCANH'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_HBHA(CO)NH
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_HBHA(CO)NH
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              9
+   _NMR_spec_expt.Name                           '3D HBHA(CO)NH'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_HBHANH
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_HBHANH
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              10
+   _NMR_spec_expt.Name                           '3D HBHANH'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_HCCH_COSY
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_HCCH_COSY
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              11
+   _NMR_spec_expt.Name                           '3D HCCH COSY'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_HCCH_TOCSY
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_HCCH_TOCSY
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              12
+   _NMR_spec_expt.Name                           '3D HCCH TOCSY'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_15N_NOESY-HSQC
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_15N_NOESY-HSQC
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              13
+   _NMR_spec_expt.Name                           '3D 15N NOESY-HSQC'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_13C_NOESY-HSQC
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_13C_NOESY-HSQC
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              14
+   _NMR_spec_expt.Name                           '3D 13C NOESY-HSQC'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_2D_(13C_15N)_Filtered_NOESY
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_(13C_15N)_Filtered_NOESY
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              15
+   _NMR_spec_expt.Name                           '2D (13C, 15N) Filtered NOESY'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_3D_(13C_15N)_Filtered_13C_HSQC_NOESY
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    3D_(13C_15N)_Filtered_13C_HSQC_NOESY
+   _NMR_spec_expt.Entry_ID                        6690
+   _NMR_spec_expt.ID                              16
+   _NMR_spec_expt.Name                           '3D (13C, 15N) Filtered 13C HSQC NOESY'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $500
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $software_2
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_referencing
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_referencing
+   _Chem_shift_reference.Entry_ID       6690
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.0 .        indirect 0.251449530 . . . 1 $entry_citation . . 1 $entry_citation 6690 1 
+      H  1 DSS 'methyl protons' . . . . ppm 0.0 internal direct   1.0         . . . 1 $entry_citation . . 1 $entry_citation 6690 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.0 .        indirect 0.101329118 . . . 1 $entry_citation . . 1 $entry_citation 6690 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      6690
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_referencing
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      . . 2 $sample_2 isotropic 6690 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  8  8 ILE H    H  1   7.860 0.01 . 1 . . . .  18 ILE H    . 6690 1 
+        2 . 1 1  8  8 ILE CA   C 13  63.969 0.2  . 1 . . . .  18 ILE CA   . 6690 1 
+        3 . 1 1  8  8 ILE N    N 15 120.235 0.2  . 1 . . . .  18 ILE N    . 6690 1 
+        4 . 1 1  9  9 GLU HA   H  1   3.998 0.01 . 1 . . . .  19 GLU HA   . 6690 1 
+        5 . 1 1  9  9 GLU HB2  H  1   1.975 0.01 . 2 . . . .  19 GLU HB2  . 6690 1 
+        6 . 1 1 10 10 TYR H    H  1   7.938 0.01 . 1 . . . .  20 TYR H    . 6690 1 
+        7 . 1 1 10 10 TYR CA   C 13  60.889 0.2  . 1 . . . .  20 TYR CA   . 6690 1 
+        8 . 1 1 10 10 TYR CB   C 13  38.301 0.2  . 1 . . . .  20 TYR CB   . 6690 1 
+        9 . 1 1 10 10 TYR N    N 15 120.884 0.2  . 1 . . . .  20 TYR N    . 6690 1 
+       10 . 1 1 11 11 TYR H    H  1   8.151 0.01 . 1 . . . .  21 TYR H    . 6690 1 
+       11 . 1 1 11 11 TYR CA   C 13  60.486 0.2  . 1 . . . .  21 TYR CA   . 6690 1 
+       12 . 1 1 11 11 TYR N    N 15 118.875 0.2  . 1 . . . .  21 TYR N    . 6690 1 
+       13 . 1 1 12 12 LYS H    H  1   8.028 0.01 . 1 . . . .  22 LYS H    . 6690 1 
+       14 . 1 1 12 12 LYS CA   C 13  58.731 0.2  . 1 . . . .  22 LYS CA   . 6690 1 
+       15 . 1 1 12 12 LYS N    N 15 120.763 0.2  . 1 . . . .  22 LYS N    . 6690 1 
+       16 . 1 1 13 13 GLN H    H  1   8.098 0.01 . 1 . . . .  23 GLN H    . 6690 1 
+       17 . 1 1 13 13 GLN HA   H  1   4.052 0.01 . 1 . . . .  23 GLN HA   . 6690 1 
+       18 . 1 1 13 13 GLN HB2  H  1   1.995 0.01 . 2 . . . .  23 GLN HB2  . 6690 1 
+       19 . 1 1 13 13 GLN CA   C 13  57.718 0.2  . 1 . . . .  23 GLN CA   . 6690 1 
+       20 . 1 1 13 13 GLN CB   C 13  32.488 0.2  . 1 . . . .  23 GLN CB   . 6690 1 
+       21 . 1 1 13 13 GLN N    N 15 119.116 0.2  . 1 . . . .  23 GLN N    . 6690 1 
+       22 . 1 1 14 14 MET H    H  1   7.856 0.01 . 1 . . . .  24 MET H    . 6690 1 
+       23 . 1 1 14 14 MET CA   C 13  56.026 0.2  . 1 . . . .  24 MET CA   . 6690 1 
+       24 . 1 1 14 14 MET N    N 15 117.606 0.2  . 1 . . . .  24 MET N    . 6690 1 
+       25 . 1 1 15 15 GLY H    H  1   8.011 0.01 . 1 . . . .  25 GLY H    . 6690 1 
+       26 . 1 1 15 15 GLY CA   C 13  45.698 0.2  . 1 . . . .  25 GLY CA   . 6690 1 
+       27 . 1 1 15 15 GLY N    N 15 108.578 0.2  . 1 . . . .  25 GLY N    . 6690 1 
+       28 . 1 1 16 16 SER H    H  1   8.105 0.01 . 1 . . . .  26 SER H    . 6690 1 
+       29 . 1 1 16 16 SER CA   C 13  58.575 0.2  . 1 . . . .  26 SER CA   . 6690 1 
+       30 . 1 1 16 16 SER N    N 15 115.843 0.2  . 1 . . . .  26 SER N    . 6690 1 
+       31 . 1 1 17 17 HIS H    H  1   8.154 0.01 . 1 . . . .  27 HIS H    . 6690 1 
+       32 . 1 1 17 17 HIS N    N 15 120.044 0.2  . 1 . . . .  27 HIS N    . 6690 1 
+       33 . 1 1 18 18 ARG H    H  1   8.241 0.01 . 1 . . . .  28 ARG H    . 6690 1 
+       34 . 1 1 18 18 ARG CA   C 13  57.123 0.2  . 1 . . . .  28 ARG CA   . 6690 1 
+       35 . 1 1 18 18 ARG N    N 15 121.096 0.2  . 1 . . . .  28 ARG N    . 6690 1 
+       36 . 1 1 19 19 GLU H    H  1   8.323 0.01 . 1 . . . .  29 GLU H    . 6690 1 
+       37 . 1 1 19 19 GLU CA   C 13  58.544 0.2  . 1 . . . .  29 GLU CA   . 6690 1 
+       38 . 1 1 19 19 GLU N    N 15 121.122 0.2  . 1 . . . .  29 GLU N    . 6690 1 
+       39 . 1 1 20 20 ALA H    H  1   8.097 0.01 . 1 . . . .  30 ALA H    . 6690 1 
+       40 . 1 1 20 20 ALA CA   C 13  54.368 0.2  . 1 . . . .  30 ALA CA   . 6690 1 
+       41 . 1 1 20 20 ALA N    N 15 122.303 0.2  . 1 . . . .  30 ALA N    . 6690 1 
+       42 . 1 1 21 21 GLU H    H  1   8.153 0.01 . 1 . . . .  31 GLU H    . 6690 1 
+       43 . 1 1 21 21 GLU CA   C 13  58.271 0.2  . 1 . . . .  31 GLU CA   . 6690 1 
+       44 . 1 1 21 21 GLU N    N 15 118.611 0.2  . 1 . . . .  31 GLU N    . 6690 1 
+       45 . 1 1 22 22 MET H    H  1   8.025 0.01 . 1 . . . .  32 MET H    . 6690 1 
+       46 . 1 1 22 22 MET CA   C 13  57.438 0.2  . 1 . . . .  32 MET CA   . 6690 1 
+       47 . 1 1 22 22 MET N    N 15 119.820 0.2  . 1 . . . .  32 MET N    . 6690 1 
+       48 . 1 1 23 23 ILE H    H  1   7.948 0.01 . 1 . . . .  33 ILE H    . 6690 1 
+       49 . 1 1 23 23 ILE CA   C 13  63.386 0.2  . 1 . . . .  33 ILE CA   . 6690 1 
+       50 . 1 1 23 23 ILE N    N 15 121.205 0.2  . 1 . . . .  33 ILE N    . 6690 1 
+       51 . 1 1 24 24 GLU H    H  1   8.179 0.01 . 1 . . . .  34 GLU H    . 6690 1 
+       52 . 1 1 24 24 GLU CA   C 13  54.252 0.2  . 1 . . . .  34 GLU CA   . 6690 1 
+       53 . 1 1 24 24 GLU N    N 15 121.818 0.2  . 1 . . . .  34 GLU N    . 6690 1 
+       54 . 1 1 25 25 GLN H    H  1   8.209 0.01 . 1 . . . .  35 GLN H    . 6690 1 
+       55 . 1 1 25 25 GLN CA   C 13  57.994 0.2  . 1 . . . .  35 GLN CA   . 6690 1 
+       56 . 1 1 25 25 GLN N    N 15 118.662 0.2  . 1 . . . .  35 GLN N    . 6690 1 
+       57 . 1 1 26 26 GLN H    H  1   8.113 0.01 . 1 . . . .  36 GLN H    . 6690 1 
+       58 . 1 1 26 26 GLN CA   C 13  57.817 0.2  . 1 . . . .  36 GLN CA   . 6690 1 
+       59 . 1 1 26 26 GLN N    N 15 120.023 0.2  . 1 . . . .  36 GLN N    . 6690 1 
+       60 . 1 1 27 27 MET H    H  1   8.215 0.01 . 1 . . . .  37 MET H    . 6690 1 
+       61 . 1 1 27 27 MET CA   C 13  57.176 0.2  . 1 . . . .  37 MET CA   . 6690 1 
+       62 . 1 1 27 27 MET N    N 15 119.690 0.2  . 1 . . . .  37 MET N    . 6690 1 
+       63 . 1 1 28 28 LYS H    H  1   8.005 0.01 . 1 . . . .  38 LYS H    . 6690 1 
+       64 . 1 1 28 28 LYS CA   C 13  57.878 0.2  . 1 . . . .  38 LYS CA   . 6690 1 
+       65 . 1 1 28 28 LYS CB   C 13  32.422 0.2  . 1 . . . .  38 LYS CB   . 6690 1 
+       66 . 1 1 28 28 LYS N    N 15 120.609 0.2  . 1 . . . .  38 LYS N    . 6690 1 
+       67 . 1 1 29 29 ALA H    H  1   7.919 0.01 . 1 . . . .  39 ALA H    . 6690 1 
+       68 . 1 1 29 29 ALA CA   C 13  53.412 0.2  . 1 . . . .  39 ALA CA   . 6690 1 
+       69 . 1 1 29 29 ALA CB   C 13  18.574 0.2  . 1 . . . .  39 ALA CB   . 6690 1 
+       70 . 1 1 29 29 ALA N    N 15 122.784 0.2  . 1 . . . .  39 ALA N    . 6690 1 
+       71 . 1 1 30 30 LYS H    H  1   7.940 0.01 . 1 . . . .  40 LYS H    . 6690 1 
+       72 . 1 1 30 30 LYS CA   C 13  57.088 0.2  . 1 . . . .  40 LYS CA   . 6690 1 
+       73 . 1 1 30 30 LYS CB   C 13  32.683 0.2  . 1 . . . .  40 LYS CB   . 6690 1 
+       74 . 1 1 30 30 LYS N    N 15 119.239 0.2  . 1 . . . .  40 LYS N    . 6690 1 
+       75 . 1 1 31 31 GLN H    H  1   8.074 0.01 . 1 . . . .  41 GLN H    . 6690 1 
+       76 . 1 1 31 31 GLN CA   C 13  56.154 0.2  . 1 . . . .  41 GLN CA   . 6690 1 
+       77 . 1 1 31 31 GLN CB   C 13  29.040 0.2  . 1 . . . .  41 GLN CB   . 6690 1 
+       78 . 1 1 31 31 GLN N    N 15 120.191 0.2  . 1 . . . .  41 GLN N    . 6690 1 
+       79 . 1 1 32 32 ALA H    H  1   8.193 0.01 . 1 . . . .  42 ALA H    . 6690 1 
+       80 . 1 1 32 32 ALA CA   C 13  52.837 0.2  . 1 . . . .  42 ALA CA   . 6690 1 
+       81 . 1 1 32 32 ALA CB   C 13  18.972 0.2  . 1 . . . .  42 ALA CB   . 6690 1 
+       82 . 1 1 32 32 ALA N    N 15 124.505 0.2  . 1 . . . .  42 ALA N    . 6690 1 
+       83 . 1 1 33 33 GLY H    H  1   8.273 0.01 . 1 . . . .  43 GLY H    . 6690 1 
+       84 . 1 1 33 33 GLY N    N 15 107.968 0.2  . 1 . . . .  43 GLY N    . 6690 1 
+       85 . 1 1 34 34 GLY H    H  1   8.215 0.01 . 1 . . . .  44 GLY H    . 6690 1 
+       86 . 1 1 34 34 GLY N    N 15 108.751 0.2  . 1 . . . .  44 GLY N    . 6690 1 
+       87 . 1 1 61 61 GLY H    H  1   8.147 0.01 . 1 . . . .  71 GLY H    . 6690 1 
+       88 . 1 1 61 61 GLY HA2  H  1   3.903 0.01 . 1 . . . .  71 GLY HA   . 6690 1 
+       89 . 1 1 61 61 GLY HA3  H  1   3.903 0.01 . 1 . . . .  71 GLY HA   . 6690 1 
+       90 . 1 1 61 61 GLY CA   C 13  44.956 0.2  . 1 . . . .  71 GLY CA   . 6690 1 
+       91 . 1 1 61 61 GLY N    N 15 123.800 0.2  . 1 . . . .  71 GLY N    . 6690 1 
+       92 . 1 1 62 62 ALA H    H  1   8.160 0.01 . 1 . . . .  72 ALA H    . 6690 1 
+       93 . 1 1 62 62 ALA HA   H  1   4.155 0.01 . 1 . . . .  72 ALA HA   . 6690 1 
+       94 . 1 1 62 62 ALA HB1  H  1   1.194 0.01 . 1 . . . .  72 ALA HB   . 6690 1 
+       95 . 1 1 62 62 ALA HB2  H  1   1.194 0.01 . 1 . . . .  72 ALA HB   . 6690 1 
+       96 . 1 1 62 62 ALA HB3  H  1   1.194 0.01 . 1 . . . .  72 ALA HB   . 6690 1 
+       97 . 1 1 62 62 ALA CA   C 13  52.199 0.2  . 1 . . . .  72 ALA CA   . 6690 1 
+       98 . 1 1 62 62 ALA CB   C 13  19.955 0.2  . 1 . . . .  72 ALA CB   . 6690 1 
+       99 . 1 1 62 62 ALA N    N 15 123.737 0.2  . 1 . . . .  72 ALA N    . 6690 1 
+      100 . 1 1 63 63 ASP H    H  1   8.042 0.01 . 1 . . . .  73 ASP H    . 6690 1 
+      101 . 1 1 63 63 ASP HA   H  1   4.641 0.01 . 1 . . . .  73 ASP HA   . 6690 1 
+      102 . 1 1 63 63 ASP HB2  H  1   2.569 0.01 . 2 . . . .  73 ASP HB2  . 6690 1 
+      103 . 1 1 63 63 ASP HB3  H  1   2.673 0.01 . 2 . . . .  73 ASP HB3  . 6690 1 
+      104 . 1 1 63 63 ASP CA   C 13  53.800 0.2  . 1 . . . .  73 ASP CA   . 6690 1 
+      105 . 1 1 63 63 ASP CB   C 13  42.491 0.2  . 1 . . . .  73 ASP CB   . 6690 1 
+      106 . 1 1 63 63 ASP N    N 15 118.695 0.2  . 1 . . . .  73 ASP N    . 6690 1 
+      107 . 1 1 64 64 TYR H    H  1   8.904 0.01 . 1 . . . .  74 TYR H    . 6690 1 
+      108 . 1 1 64 64 TYR HA   H  1   5.065 0.01 . 1 . . . .  74 TYR HA   . 6690 1 
+      109 . 1 1 64 64 TYR HB2  H  1   2.899 0.01 . 2 . . . .  74 TYR HB2  . 6690 1 
+      110 . 1 1 64 64 TYR HB3  H  1   3.494 0.01 . 2 . . . .  74 TYR HB3  . 6690 1 
+      111 . 1 1 64 64 TYR HD1  H  1   6.901 0.01 . 1 . . . .  74 TYR HD1  . 6690 1 
+      112 . 1 1 64 64 TYR HD2  H  1   6.901 0.01 . 1 . . . .  74 TYR HD2  . 6690 1 
+      113 . 1 1 64 64 TYR HE1  H  1   6.712 0.01 . 1 . . . .  74 TYR HE1  . 6690 1 
+      114 . 1 1 64 64 TYR CA   C 13  58.000 0.2  . 1 . . . .  74 TYR CA   . 6690 1 
+      115 . 1 1 64 64 TYR CB   C 13  38.202 0.2  . 1 . . . .  74 TYR CB   . 6690 1 
+      116 . 1 1 64 64 TYR CD1  C 13 133.047 0.2  . 1 . . . .  74 TYR CD1  . 6690 1 
+      117 . 1 1 64 64 TYR CD2  C 13 133.047 0.2  . 1 . . . .  74 TYR CD2  . 6690 1 
+      118 . 1 1 64 64 TYR CE1  C 13 118.149 0.2  . 1 . . . .  74 TYR CE1  . 6690 1 
+      119 . 1 1 64 64 TYR CE2  C 13 118.149 0.2  . 1 . . . .  74 TYR CE2  . 6690 1 
+      120 . 1 1 64 64 TYR N    N 15 122.600 0.2  . 1 . . . .  74 TYR N    . 6690 1 
+      121 . 1 1 65 65 SER H    H  1   8.784 0.01 . 1 . . . .  75 SER H    . 6690 1 
+      122 . 1 1 65 65 SER HA   H  1   3.752 0.01 . 1 . . . .  75 SER HA   . 6690 1 
+      123 . 1 1 65 65 SER HB2  H  1   3.556 0.01 . 2 . . . .  75 SER HB2  . 6690 1 
+      124 . 1 1 65 65 SER HB3  H  1   3.758 0.01 . 2 . . . .  75 SER HB3  . 6690 1 
+      125 . 1 1 65 65 SER CA   C 13  64.858 0.2  . 1 . . . .  75 SER CA   . 6690 1 
+      126 . 1 1 65 65 SER CB   C 13  62.778 0.2  . 1 . . . .  75 SER CB   . 6690 1 
+      127 . 1 1 65 65 SER N    N 15 120.113 0.2  . 1 . . . .  75 SER N    . 6690 1 
+      128 . 1 1 66 66 ALA H    H  1   8.889 0.01 . 1 . . . .  76 ALA H    . 6690 1 
+      129 . 1 1 66 66 ALA HA   H  1   3.894 0.01 . 1 . . . .  76 ALA HA   . 6690 1 
+      130 . 1 1 66 66 ALA HB1  H  1   1.346 0.01 . 1 . . . .  76 ALA HB   . 6690 1 
+      131 . 1 1 66 66 ALA HB2  H  1   1.346 0.01 . 1 . . . .  76 ALA HB   . 6690 1 
+      132 . 1 1 66 66 ALA HB3  H  1   1.346 0.01 . 1 . . . .  76 ALA HB   . 6690 1 
+      133 . 1 1 66 66 ALA CA   C 13  55.700 0.2  . 1 . . . .  76 ALA CA   . 6690 1 
+      134 . 1 1 66 66 ALA CB   C 13  17.700 0.2  . 1 . . . .  76 ALA CB   . 6690 1 
+      135 . 1 1 66 66 ALA N    N 15 123.000 0.2  . 1 . . . .  76 ALA N    . 6690 1 
+      136 . 1 1 67 67 GLN H    H  1   8.245 0.01 . 1 . . . .  77 GLN H    . 6690 1 
+      137 . 1 1 67 67 GLN HA   H  1   4.070 0.01 . 1 . . . .  77 GLN HA   . 6690 1 
+      138 . 1 1 67 67 GLN HB2  H  1   1.897 0.01 . 2 . . . .  77 GLN HB2  . 6690 1 
+      139 . 1 1 67 67 GLN HB3  H  1   2.265 0.01 . 2 . . . .  77 GLN HB3  . 6690 1 
+      140 . 1 1 67 67 GLN HG2  H  1   2.463 0.01 . 2 . . . .  77 GLN HG2  . 6690 1 
+      141 . 1 1 67 67 GLN HG3  H  1   2.629 0.01 . 2 . . . .  77 GLN HG3  . 6690 1 
+      142 . 1 1 67 67 GLN CA   C 13  60.000 0.2  . 1 . . . .  77 GLN CA   . 6690 1 
+      143 . 1 1 67 67 GLN CB   C 13  27.295 0.2  . 1 . . . .  77 GLN CB   . 6690 1 
+      144 . 1 1 67 67 GLN CG   C 13  35.198 0.2  . 1 . . . .  77 GLN CG   . 6690 1 
+      145 . 1 1 67 67 GLN N    N 15 118.805 0.2  . 1 . . . .  77 GLN N    . 6690 1 
+      146 . 1 1 68 68 TRP H    H  1   8.801 0.01 . 1 . . . .  78 TRP H    . 6690 1 
+      147 . 1 1 68 68 TRP HA   H  1   3.795 0.01 . 1 . . . .  78 TRP HA   . 6690 1 
+      148 . 1 1 68 68 TRP HB2  H  1   2.704 0.01 . 2 . . . .  78 TRP HB2  . 6690 1 
+      149 . 1 1 68 68 TRP HB3  H  1   2.925 0.01 . 2 . . . .  78 TRP HB3  . 6690 1 
+      150 . 1 1 68 68 TRP HE3  H  1   6.849 0.01 . 1 . . . .  78 TRP HE3  . 6690 1 
+      151 . 1 1 68 68 TRP HZ2  H  1   7.098 0.01 . 1 . . . .  78 TRP HZ2  . 6690 1 
+      152 . 1 1 68 68 TRP HZ3  H  1   6.898 0.01 . 1 . . . .  78 TRP HZ3  . 6690 1 
+      153 . 1 1 68 68 TRP HH2  H  1   7.026 0.01 . 1 . . . .  78 TRP HH2  . 6690 1 
+      154 . 1 1 68 68 TRP CA   C 13  62.230 0.2  . 1 . . . .  78 TRP CA   . 6690 1 
+      155 . 1 1 68 68 TRP CB   C 13  27.803 0.2  . 1 . . . .  78 TRP CB   . 6690 1 
+      156 . 1 1 68 68 TRP CE3  C 13 120.280 0.2  . 1 . . . .  78 TRP CE3  . 6690 1 
+      157 . 1 1 68 68 TRP CZ2  C 13 114.530 0.2  . 1 . . . .  78 TRP CZ2  . 6690 1 
+      158 . 1 1 68 68 TRP CZ3  C 13 122.590 0.2  . 1 . . . .  78 TRP CZ3  . 6690 1 
+      159 . 1 1 68 68 TRP CH2  C 13 124.287 0.2  . 1 . . . .  78 TRP CH2  . 6690 1 
+      160 . 1 1 68 68 TRP N    N 15 123.302 0.2  . 1 . . . .  78 TRP N    . 6690 1 
+      161 . 1 1 69 69 ALA H    H  1   8.278 0.01 . 1 . . . .  79 ALA H    . 6690 1 
+      162 . 1 1 69 69 ALA HA   H  1   4.177 0.01 . 1 . . . .  79 ALA HA   . 6690 1 
+      163 . 1 1 69 69 ALA HB1  H  1   1.637 0.01 . 1 . . . .  79 ALA HB   . 6690 1 
+      164 . 1 1 69 69 ALA HB2  H  1   1.637 0.01 . 1 . . . .  79 ALA HB   . 6690 1 
+      165 . 1 1 69 69 ALA HB3  H  1   1.637 0.01 . 1 . . . .  79 ALA HB   . 6690 1 
+      166 . 1 1 69 69 ALA CA   C 13  56.900 0.2  . 1 . . . .  79 ALA CA   . 6690 1 
+      167 . 1 1 69 69 ALA CB   C 13  17.380 0.2  . 1 . . . .  79 ALA CB   . 6690 1 
+      168 . 1 1 69 69 ALA N    N 15 121.927 0.2  . 1 . . . .  79 ALA N    . 6690 1 
+      169 . 1 1 70 70 GLU H    H  1   7.409 0.01 . 1 . . . .  80 GLU H    . 6690 1 
+      170 . 1 1 70 70 GLU HA   H  1   3.921 0.01 . 1 . . . .  80 GLU HA   . 6690 1 
+      171 . 1 1 70 70 GLU HB2  H  1   2.045 0.01 . 2 . . . .  80 GLU HB2  . 6690 1 
+      172 . 1 1 70 70 GLU HG2  H  1   2.159 0.01 . 2 . . . .  80 GLU HG2  . 6690 1 
+      173 . 1 1 70 70 GLU HG3  H  1   2.346 0.01 . 2 . . . .  80 GLU HG3  . 6690 1 
+      174 . 1 1 70 70 GLU CA   C 13  59.407 0.2  . 1 . . . .  80 GLU CA   . 6690 1 
+      175 . 1 1 70 70 GLU CG   C 13  36.252 0.2  . 1 . . . .  80 GLU CG   . 6690 1 
+      176 . 1 1 70 70 GLU N    N 15 116.630 0.2  . 1 . . . .  80 GLU N    . 6690 1 
+      177 . 1 1 71 71 TYR H    H  1   8.273 0.01 . 1 . . . .  81 TYR H    . 6690 1 
+      178 . 1 1 71 71 TYR HA   H  1   3.940 0.01 . 1 . . . .  81 TYR HA   . 6690 1 
+      179 . 1 1 71 71 TYR HB2  H  1   2.657 0.01 . 2 . . . .  81 TYR HB2  . 6690 1 
+      180 . 1 1 71 71 TYR HD1  H  1   6.511 0.01 . 1 . . . .  81 TYR HD1  . 6690 1 
+      181 . 1 1 71 71 TYR HD2  H  1   6.511 0.01 . 1 . . . .  81 TYR HD2  . 6690 1 
+      182 . 1 1 71 71 TYR HE1  H  1   6.576 0.01 . 1 . . . .  81 TYR HE1  . 6690 1 
+      183 . 1 1 71 71 TYR HE2  H  1   6.576 0.01 . 1 . . . .  81 TYR HE2  . 6690 1 
+      184 . 1 1 71 71 TYR CA   C 13  61.340 0.2  . 1 . . . .  81 TYR CA   . 6690 1 
+      185 . 1 1 71 71 TYR CB   C 13  37.779 0.2  . 1 . . . .  81 TYR CB   . 6690 1 
+      186 . 1 1 71 71 TYR CD1  C 13 133.228 0.2  . 1 . . . .  81 TYR CD1  . 6690 1 
+      187 . 1 1 71 71 TYR CD2  C 13 133.228 0.2  . 1 . . . .  81 TYR CD2  . 6690 1 
+      188 . 1 1 71 71 TYR CE1  C 13 117.838 0.2  . 1 . . . .  81 TYR CE1  . 6690 1 
+      189 . 1 1 71 71 TYR CE2  C 13 117.838 0.2  . 1 . . . .  81 TYR CE2  . 6690 1 
+      190 . 1 1 71 71 TYR N    N 15 122.306 0.2  . 1 . . . .  81 TYR N    . 6690 1 
+      191 . 1 1 72 72 TYR H    H  1   9.309 0.01 . 1 . . . .  82 TYR H    . 6690 1 
+      192 . 1 1 72 72 TYR HA   H  1   4.288 0.01 . 1 . . . .  82 TYR HA   . 6690 1 
+      193 . 1 1 72 72 TYR HB2  H  1   2.968 0.01 . 2 . . . .  82 TYR HB2  . 6690 1 
+      194 . 1 1 72 72 TYR HB3  H  1   3.774 0.01 . 2 . . . .  82 TYR HB3  . 6690 1 
+      195 . 1 1 72 72 TYR HD1  H  1   6.935 0.01 . 1 . . . .  82 TYR HD1  . 6690 1 
+      196 . 1 1 72 72 TYR HD2  H  1   6.935 0.01 . 1 . . . .  82 TYR HD2  . 6690 1 
+      197 . 1 1 72 72 TYR HE1  H  1   7.061 0.01 . 1 . . . .  82 TYR HE1  . 6690 1 
+      198 . 1 1 72 72 TYR CA   C 13  59.458 0.2  . 1 . . . .  82 TYR CA   . 6690 1 
+      199 . 1 1 72 72 TYR CB   C 13  36.100 0.2  . 1 . . . .  82 TYR CB   . 6690 1 
+      200 . 1 1 72 72 TYR CD1  C 13 132.258 0.2  . 1 . . . .  82 TYR CD1  . 6690 1 
+      201 . 1 1 72 72 TYR CD2  C 13 132.258 0.2  . 1 . . . .  82 TYR CD2  . 6690 1 
+      202 . 1 1 72 72 TYR CE1  C 13 118.314 0.2  . 1 . . . .  82 TYR CE1  . 6690 1 
+      203 . 1 1 72 72 TYR CE2  C 13 118.314 0.2  . 1 . . . .  82 TYR CE2  . 6690 1 
+      204 . 1 1 72 72 TYR N    N 15 121.100 0.2  . 1 . . . .  82 TYR N    . 6690 1 
+      205 . 1 1 73 73 ARG H    H  1   8.318 0.01 . 1 . . . .  83 ARG H    . 6690 1 
+      206 . 1 1 73 73 ARG HA   H  1   3.648 0.01 . 1 . . . .  83 ARG HA   . 6690 1 
+      207 . 1 1 73 73 ARG HB2  H  1   1.749 0.01 . 1 . . . .  83 ARG HB2  . 6690 1 
+      208 . 1 1 73 73 ARG HD2  H  1   2.989 0.01 . 2 . . . .  83 ARG HD2  . 6690 1 
+      209 . 1 1 73 73 ARG HD3  H  1   3.125 0.01 . 2 . . . .  83 ARG HD3  . 6690 1 
+      210 . 1 1 73 73 ARG CA   C 13  61.160 0.2  . 1 . . . .  83 ARG CA   . 6690 1 
+      211 . 1 1 73 73 ARG CB   C 13  29.591 0.2  . 1 . . . .  83 ARG CB   . 6690 1 
+      212 . 1 1 73 73 ARG CD   C 13  42.598 0.2  . 1 . . . .  83 ARG CD   . 6690 1 
+      213 . 1 1 73 73 ARG N    N 15 119.002 0.2  . 1 . . . .  83 ARG N    . 6690 1 
+      214 . 1 1 74 74 SER H    H  1   7.975 0.01 . 1 . . . .  84 SER H    . 6690 1 
+      215 . 1 1 74 74 SER HA   H  1   4.225 0.01 . 1 . . . .  84 SER HA   . 6690 1 
+      216 . 1 1 74 74 SER HB2  H  1   3.869 0.01 . 2 . . . .  84 SER HB2  . 6690 1 
+      217 . 1 1 74 74 SER HB3  H  1   3.986 0.01 . 2 . . . .  84 SER HB3  . 6690 1 
+      218 . 1 1 74 74 SER CA   C 13  61.700 0.2  . 1 . . . .  84 SER CA   . 6690 1 
+      219 . 1 1 74 74 SER CB   C 13  62.998 0.2  . 1 . . . .  84 SER CB   . 6690 1 
+      220 . 1 1 74 74 SER N    N 15 117.799 0.2  . 1 . . . .  84 SER N    . 6690 1 
+      221 . 1 1 75 75 VAL H    H  1   7.127 0.01 . 1 . . . .  85 VAL H    . 6690 1 
+      222 . 1 1 75 75 VAL HA   H  1   4.566 0.01 . 1 . . . .  85 VAL HA   . 6690 1 
+      223 . 1 1 75 75 VAL HB   H  1   2.451 0.01 . 1 . . . .  85 VAL HB   . 6690 1 
+      224 . 1 1 75 75 VAL HG11 H  1   0.602 0.01 . 2 . . . .  85 VAL HG1  . 6690 1 
+      225 . 1 1 75 75 VAL HG12 H  1   0.602 0.01 . 2 . . . .  85 VAL HG1  . 6690 1 
+      226 . 1 1 75 75 VAL HG13 H  1   0.602 0.01 . 2 . . . .  85 VAL HG1  . 6690 1 
+      227 . 1 1 75 75 VAL HG21 H  1   0.731 0.01 . 2 . . . .  85 VAL HG2  . 6690 1 
+      228 . 1 1 75 75 VAL HG22 H  1   0.731 0.01 . 2 . . . .  85 VAL HG2  . 6690 1 
+      229 . 1 1 75 75 VAL HG23 H  1   0.731 0.01 . 2 . . . .  85 VAL HG2  . 6690 1 
+      230 . 1 1 75 75 VAL CA   C 13  60.703 0.2  . 1 . . . .  85 VAL CA   . 6690 1 
+      231 . 1 1 75 75 VAL CB   C 13  31.093 0.2  . 1 . . . .  85 VAL CB   . 6690 1 
+      232 . 1 1 75 75 VAL CG1  C 13  21.000 0.2  . 2 . . . .  85 VAL CG1  . 6690 1 
+      233 . 1 1 75 75 VAL CG2  C 13  18.213 0.2  . 2 . . . .  85 VAL CG2  . 6690 1 
+      234 . 1 1 75 75 VAL N    N 15 112.200 0.2  . 1 . . . .  85 VAL N    . 6690 1 
+      235 . 1 1 76 76 GLY H    H  1   7.598 0.01 . 1 . . . .  86 GLY H    . 6690 1 
+      236 . 1 1 76 76 GLY HA2  H  1   3.655 0.01 . 2 . . . .  86 GLY HA2  . 6690 1 
+      237 . 1 1 76 76 GLY HA3  H  1   4.189 0.01 . 2 . . . .  86 GLY HA3  . 6690 1 
+      238 . 1 1 76 76 GLY CA   C 13  46.200 0.2  . 1 . . . .  86 GLY CA   . 6690 1 
+      239 . 1 1 76 76 GLY N    N 15 109.206 0.2  . 1 . . . .  86 GLY N    . 6690 1 
+      240 . 1 1 77 77 LYS H    H  1   8.442 0.01 . 1 . . . .  87 LYS H    . 6690 1 
+      241 . 1 1 77 77 LYS HA   H  1   4.508 0.01 . 1 . . . .  87 LYS HA   . 6690 1 
+      242 . 1 1 77 77 LYS HB2  H  1   1.464 0.01 . 2 . . . .  87 LYS HB2  . 6690 1 
+      243 . 1 1 77 77 LYS HB3  H  1   1.798 0.01 . 2 . . . .  87 LYS HB3  . 6690 1 
+      244 . 1 1 77 77 LYS CA   C 13  54.992 0.2  . 1 . . . .  87 LYS CA   . 6690 1 
+      245 . 1 1 77 77 LYS CB   C 13  30.634 0.2  . 1 . . . .  87 LYS CB   . 6690 1 
+      246 . 1 1 77 77 LYS N    N 15 126.021 0.2  . 1 . . . .  87 LYS N    . 6690 1 
+      247 . 1 1 78 78 ILE H    H  1   7.396 0.01 . 1 . . . .  88 ILE H    . 6690 1 
+      248 . 1 1 78 78 ILE HA   H  1   3.403 0.01 . 1 . . . .  88 ILE HA   . 6690 1 
+      249 . 1 1 78 78 ILE HB   H  1   1.875 0.01 . 1 . . . .  88 ILE HB   . 6690 1 
+      250 . 1 1 78 78 ILE HG12 H  1   1.312 0.01 . 2 . . . .  88 ILE HG12 . 6690 1 
+      251 . 1 1 78 78 ILE HG13 H  1   1.419 0.01 . 2 . . . .  88 ILE HG13 . 6690 1 
+      252 . 1 1 78 78 ILE HG21 H  1   0.827 0.01 . 1 . . . .  88 ILE HG2  . 6690 1 
+      253 . 1 1 78 78 ILE HG22 H  1   0.827 0.01 . 1 . . . .  88 ILE HG2  . 6690 1 
+      254 . 1 1 78 78 ILE HG23 H  1   0.827 0.01 . 1 . . . .  88 ILE HG2  . 6690 1 
+      255 . 1 1 78 78 ILE HD11 H  1   0.797 0.01 . 1 . . . .  88 ILE HD1  . 6690 1 
+      256 . 1 1 78 78 ILE HD12 H  1   0.797 0.01 . 1 . . . .  88 ILE HD1  . 6690 1 
+      257 . 1 1 78 78 ILE HD13 H  1   0.797 0.01 . 1 . . . .  88 ILE HD1  . 6690 1 
+      258 . 1 1 78 78 ILE CA   C 13  63.900 0.2  . 1 . . . .  88 ILE CA   . 6690 1 
+      259 . 1 1 78 78 ILE CB   C 13  36.629 0.2  . 1 . . . .  88 ILE CB   . 6690 1 
+      260 . 1 1 78 78 ILE CG1  C 13  28.432 0.2  . 1 . . . .  88 ILE CG1  . 6690 1 
+      261 . 1 1 78 78 ILE CG2  C 13  17.858 0.2  . 1 . . . .  88 ILE CG2  . 6690 1 
+      262 . 1 1 78 78 ILE CD1  C 13  11.250 0.2  . 1 . . . .  88 ILE CD1  . 6690 1 
+      263 . 1 1 78 78 ILE N    N 15 120.600 0.2  . 1 . . . .  88 ILE N    . 6690 1 
+      264 . 1 1 79 79 GLU H    H  1   8.714 0.01 . 1 . . . .  89 GLU H    . 6690 1 
+      265 . 1 1 79 79 GLU HA   H  1   3.921 0.01 . 1 . . . .  89 GLU HA   . 6690 1 
+      266 . 1 1 79 79 GLU HB2  H  1   1.828 0.01 . 2 . . . .  89 GLU HB2  . 6690 1 
+      267 . 1 1 79 79 GLU HB3  H  1   1.879 0.01 . 2 . . . .  89 GLU HB3  . 6690 1 
+      268 . 1 1 79 79 GLU HG2  H  1   2.208 0.01 . 2 . . . .  89 GLU HG2  . 6690 1 
+      269 . 1 1 79 79 GLU CA   C 13  60.165 0.2  . 1 . . . .  89 GLU CA   . 6690 1 
+      270 . 1 1 79 79 GLU CB   C 13  28.648 0.2  . 1 . . . .  89 GLU CB   . 6690 1 
+      271 . 1 1 79 79 GLU CG   C 13  36.629 0.2  . 1 . . . .  89 GLU CG   . 6690 1 
+      272 . 1 1 79 79 GLU N    N 15 120.800 0.2  . 1 . . . .  89 GLU N    . 6690 1 
+      273 . 1 1 80 80 GLU H    H  1   9.037 0.01 . 1 . . . .  90 GLU H    . 6690 1 
+      274 . 1 1 80 80 GLU HA   H  1   3.747 0.01 . 1 . . . .  90 GLU HA   . 6690 1 
+      275 . 1 1 80 80 GLU HB2  H  1   0.968 0.01 . 2 . . . .  90 GLU HB2  . 6690 1 
+      276 . 1 1 80 80 GLU HB3  H  1   1.373 0.01 . 2 . . . .  90 GLU HB3  . 6690 1 
+      277 . 1 1 80 80 GLU HG2  H  1   1.967 0.01 . 2 . . . .  90 GLU HG2  . 6690 1 
+      278 . 1 1 80 80 GLU CA   C 13  60.299 0.2  . 1 . . . .  90 GLU CA   . 6690 1 
+      279 . 1 1 80 80 GLU CB   C 13  27.500 0.2  . 1 . . . .  90 GLU CB   . 6690 1 
+      280 . 1 1 80 80 GLU CG   C 13  37.770 0.2  . 1 . . . .  90 GLU CG   . 6690 1 
+      281 . 1 1 80 80 GLU N    N 15 121.500 0.2  . 1 . . . .  90 GLU N    . 6690 1 
+      282 . 1 1 81 81 ALA H    H  1   7.709 0.01 . 1 . . . .  91 ALA H    . 6690 1 
+      283 . 1 1 81 81 ALA HA   H  1   4.128 0.01 . 1 . . . .  91 ALA HA   . 6690 1 
+      284 . 1 1 81 81 ALA HB1  H  1   1.641 0.01 . 1 . . . .  91 ALA HB   . 6690 1 
+      285 . 1 1 81 81 ALA HB2  H  1   1.641 0.01 . 1 . . . .  91 ALA HB   . 6690 1 
+      286 . 1 1 81 81 ALA HB3  H  1   1.641 0.01 . 1 . . . .  91 ALA HB   . 6690 1 
+      287 . 1 1 81 81 ALA CA   C 13  55.958 0.2  . 1 . . . .  91 ALA CA   . 6690 1 
+      288 . 1 1 81 81 ALA CB   C 13  20.058 0.2  . 1 . . . .  91 ALA CB   . 6690 1 
+      289 . 1 1 81 81 ALA N    N 15 121.295 0.2  . 1 . . . .  91 ALA N    . 6690 1 
+      290 . 1 1 82 82 GLU H    H  1   8.911 0.01 . 1 . . . .  92 GLU H    . 6690 1 
+      291 . 1 1 82 82 GLU HA   H  1   3.904 0.01 . 1 . . . .  92 GLU HA   . 6690 1 
+      292 . 1 1 82 82 GLU HB2  H  1   1.854 0.01 . 2 . . . .  92 GLU HB2  . 6690 1 
+      293 . 1 1 82 82 GLU HB3  H  1   2.090 0.01 . 2 . . . .  92 GLU HB3  . 6690 1 
+      294 . 1 1 82 82 GLU HG2  H  1   2.092 0.01 . 2 . . . .  92 GLU HG2  . 6690 1 
+      295 . 1 1 82 82 GLU HG3  H  1   2.525 0.01 . 2 . . . .  92 GLU HG3  . 6690 1 
+      296 . 1 1 82 82 GLU CA   C 13  59.400 0.2  . 1 . . . .  92 GLU CA   . 6690 1 
+      297 . 1 1 82 82 GLU CB   C 13  29.342 0.2  . 1 . . . .  92 GLU CB   . 6690 1 
+      298 . 1 1 82 82 GLU CG   C 13  37.304 0.2  . 1 . . . .  92 GLU CG   . 6690 1 
+      299 . 1 1 82 82 GLU N    N 15 117.700 0.2  . 1 . . . .  92 GLU N    . 6690 1 
+      300 . 1 1 83 83 ALA H    H  1   7.763 0.01 . 1 . . . .  93 ALA H    . 6690 1 
+      301 . 1 1 83 83 ALA HA   H  1   4.064 0.01 . 1 . . . .  93 ALA HA   . 6690 1 
+      302 . 1 1 83 83 ALA HB1  H  1   1.442 0.01 . 1 . . . .  93 ALA HB   . 6690 1 
+      303 . 1 1 83 83 ALA HB2  H  1   1.442 0.01 . 1 . . . .  93 ALA HB   . 6690 1 
+      304 . 1 1 83 83 ALA HB3  H  1   1.442 0.01 . 1 . . . .  93 ALA HB   . 6690 1 
+      305 . 1 1 83 83 ALA CA   C 13  55.000 0.2  . 1 . . . .  93 ALA CA   . 6690 1 
+      306 . 1 1 83 83 ALA CB   C 13  17.792 0.2  . 1 . . . .  93 ALA CB   . 6690 1 
+      307 . 1 1 83 83 ALA N    N 15 120.700 0.2  . 1 . . . .  93 ALA N    . 6690 1 
+      308 . 1 1 84 84 ILE H    H  1   7.264 0.01 . 1 . . . .  94 ILE H    . 6690 1 
+      309 . 1 1 84 84 ILE HA   H  1   3.750 0.01 . 1 . . . .  94 ILE HA   . 6690 1 
+      310 . 1 1 84 84 ILE HB   H  1   1.916 0.01 . 1 . . . .  94 ILE HB   . 6690 1 
+      311 . 1 1 84 84 ILE HG12 H  1   0.863 0.01 . 2 . . . .  94 ILE HG12 . 6690 1 
+      312 . 1 1 84 84 ILE HG13 H  1   1.923 0.01 . 2 . . . .  94 ILE HG13 . 6690 1 
+      313 . 1 1 84 84 ILE HG21 H  1   0.757 0.01 . 1 . . . .  94 ILE HG2  . 6690 1 
+      314 . 1 1 84 84 ILE HG22 H  1   0.757 0.01 . 1 . . . .  94 ILE HG2  . 6690 1 
+      315 . 1 1 84 84 ILE HG23 H  1   0.757 0.01 . 1 . . . .  94 ILE HG2  . 6690 1 
+      316 . 1 1 84 84 ILE HD11 H  1   0.852 0.01 . 1 . . . .  94 ILE HD1  . 6690 1 
+      317 . 1 1 84 84 ILE HD12 H  1   0.852 0.01 . 1 . . . .  94 ILE HD1  . 6690 1 
+      318 . 1 1 84 84 ILE HD13 H  1   0.852 0.01 . 1 . . . .  94 ILE HD1  . 6690 1 
+      319 . 1 1 84 84 ILE CA   C 13  64.630 0.2  . 1 . . . .  94 ILE CA   . 6690 1 
+      320 . 1 1 84 84 ILE CB   C 13  39.098 0.2  . 1 . . . .  94 ILE CB   . 6690 1 
+      321 . 1 1 84 84 ILE CG1  C 13  28.442 0.2  . 1 . . . .  94 ILE CG1  . 6690 1 
+      322 . 1 1 84 84 ILE CG2  C 13  18.040 0.2  . 1 . . . .  94 ILE CG2  . 6690 1 
+      323 . 1 1 84 84 ILE CD1  C 13  14.860 0.2  . 1 . . . .  94 ILE CD1  . 6690 1 
+      324 . 1 1 84 84 ILE N    N 15 118.200 0.2  . 1 . . . .  94 ILE N    . 6690 1 
+      325 . 1 1 85 85 GLU H    H  1   8.762 0.01 . 1 . . . .  95 GLU H    . 6690 1 
+      326 . 1 1 85 85 GLU HA   H  1   3.721 0.01 . 1 . . . .  95 GLU HA   . 6690 1 
+      327 . 1 1 85 85 GLU HB2  H  1   1.896 0.01 . 2 . . . .  95 GLU HB2  . 6690 1 
+      328 . 1 1 85 85 GLU HB3  H  1   2.078 0.01 . 2 . . . .  95 GLU HB3  . 6690 1 
+      329 . 1 1 85 85 GLU HG2  H  1   2.195 0.01 . 2 . . . .  95 GLU HG2  . 6690 1 
+      330 . 1 1 85 85 GLU HG3  H  1   2.393 0.01 . 2 . . . .  95 GLU HG3  . 6690 1 
+      331 . 1 1 85 85 GLU CA   C 13  59.600 0.2  . 1 . . . .  95 GLU CA   . 6690 1 
+      332 . 1 1 85 85 GLU CG   C 13  36.221 0.2  . 1 . . . .  95 GLU CG   . 6690 1 
+      333 . 1 1 85 85 GLU N    N 15 120.500 0.2  . 1 . . . .  95 GLU N    . 6690 1 
+      334 . 1 1 86 86 LYS H    H  1   8.074 0.01 . 1 . . . .  96 LYS H    . 6690 1 
+      335 . 1 1 86 86 LYS HA   H  1   4.064 0.01 . 1 . . . .  96 LYS HA   . 6690 1 
+      336 . 1 1 86 86 LYS HB2  H  1   1.872 0.01 . 2 . . . .  96 LYS HB2  . 6690 1 
+      337 . 1 1 86 86 LYS CA   C 13  59.200 0.2  . 1 . . . .  96 LYS CA   . 6690 1 
+      338 . 1 1 86 86 LYS CB   C 13  32.600 0.2  . 1 . . . .  96 LYS CB   . 6690 1 
+      339 . 1 1 86 86 LYS N    N 15 117.700 0.2  . 1 . . . .  96 LYS N    . 6690 1 
+      340 . 1 1 87 87 THR H    H  1   7.629 0.01 . 1 . . . .  97 THR H    . 6690 1 
+      341 . 1 1 87 87 THR HA   H  1   4.261 0.01 . 1 . . . .  97 THR HA   . 6690 1 
+      342 . 1 1 87 87 THR HB   H  1   4.426 0.01 . 1 . . . .  97 THR HB   . 6690 1 
+      343 . 1 1 87 87 THR HG21 H  1   1.254 0.01 . 1 . . . .  97 THR HG2  . 6690 1 
+      344 . 1 1 87 87 THR HG22 H  1   1.254 0.01 . 1 . . . .  97 THR HG2  . 6690 1 
+      345 . 1 1 87 87 THR HG23 H  1   1.254 0.01 . 1 . . . .  97 THR HG2  . 6690 1 
+      346 . 1 1 87 87 THR CA   C 13  63.700 0.2  . 1 . . . .  97 THR CA   . 6690 1 
+      347 . 1 1 87 87 THR CB   C 13  69.513 0.2  . 1 . . . .  97 THR CB   . 6690 1 
+      348 . 1 1 87 87 THR CG2  C 13  21.899 0.2  . 1 . . . .  97 THR CG2  . 6690 1 
+      349 . 1 1 87 87 THR N    N 15 111.197 0.2  . 1 . . . .  97 THR N    . 6690 1 
+      350 . 1 1 88 88 LEU H    H  1   7.623 0.01 . 1 . . . .  98 LEU H    . 6690 1 
+      351 . 1 1 88 88 LEU HA   H  1   4.142 0.01 . 1 . . . .  98 LEU HA   . 6690 1 
+      352 . 1 1 88 88 LEU HB2  H  1   1.500 0.01 . 2 . . . .  98 LEU HB2  . 6690 1 
+      353 . 1 1 88 88 LEU HB3  H  1   1.750 0.01 . 2 . . . .  98 LEU HB3  . 6690 1 
+      354 . 1 1 88 88 LEU HG   H  1   1.749 0.01 . 1 . . . .  98 LEU HG   . 6690 1 
+      355 . 1 1 88 88 LEU HD11 H  1   0.752 0.01 . 2 . . . .  98 LEU HD1  . 6690 1 
+      356 . 1 1 88 88 LEU HD12 H  1   0.752 0.01 . 2 . . . .  98 LEU HD1  . 6690 1 
+      357 . 1 1 88 88 LEU HD13 H  1   0.752 0.01 . 2 . . . .  98 LEU HD1  . 6690 1 
+      358 . 1 1 88 88 LEU CA   C 13  56.300 0.2  . 1 . . . .  98 LEU CA   . 6690 1 
+      359 . 1 1 88 88 LEU CB   C 13  41.900 0.2  . 1 . . . .  98 LEU CB   . 6690 1 
+      360 . 1 1 88 88 LEU CG   C 13  26.428 0.2  . 1 . . . .  98 LEU CG   . 6690 1 
+      361 . 1 1 88 88 LEU CD1  C 13  22.810 0.2  . 2 . . . .  98 LEU CD1  . 6690 1 
+      362 . 1 1 88 88 LEU N    N 15 122.096 0.2  . 1 . . . .  98 LEU N    . 6690 1 
+      363 . 1 1 89 89 LYS H    H  1   7.965 0.01 . 1 . . . .  99 LYS H    . 6690 1 
+      364 . 1 1 89 89 LYS HA   H  1   4.182 0.01 . 1 . . . .  99 LYS HA   . 6690 1 
+      365 . 1 1 89 89 LYS HB2  H  1   1.864 0.01 . 2 . . . .  99 LYS HB2  . 6690 1 
+      366 . 1 1 89 89 LYS HB3  H  1   1.747 0.01 . 2 . . . .  99 LYS HB3  . 6690 1 
+      367 . 1 1 89 89 LYS CA   C 13  57.100 0.2  . 1 . . . .  99 LYS CA   . 6690 1 
+      368 . 1 1 89 89 LYS CB   C 13  32.600 0.2  . 1 . . . .  99 LYS CB   . 6690 1 
+      369 . 1 1 89 89 LYS N    N 15 119.343 0.2  . 1 . . . .  99 LYS N    . 6690 1 
+      370 . 1 1 90 90 ASN H    H  1   8.056 0.01 . 1 . . . . 100 ASN H    . 6690 1 
+      371 . 1 1 90 90 ASN HA   H  1   4.621 0.01 . 1 . . . . 100 ASN HA   . 6690 1 
+      372 . 1 1 90 90 ASN HB2  H  1   2.736 0.01 . 2 . . . . 100 ASN HB2  . 6690 1 
+      373 . 1 1 90 90 ASN HB3  H  1   2.806 0.01 . 2 . . . . 100 ASN HB3  . 6690 1 
+      374 . 1 1 90 90 ASN CA   C 13  53.480 0.2  . 1 . . . . 100 ASN CA   . 6690 1 
+      375 . 1 1 90 90 ASN CB   C 13  38.550 0.2  . 1 . . . . 100 ASN CB   . 6690 1 
+      376 . 1 1 90 90 ASN N    N 15 118.300 0.2  . 1 . . . . 100 ASN N    . 6690 1 
+      377 . 1 1 91 91 LYS H    H  1   8.036 0.01 . 1 . . . . 101 LYS H    . 6690 1 
+      378 . 1 1 91 91 LYS HA   H  1   4.245 0.01 . 1 . . . . 101 LYS HA   . 6690 1 
+      379 . 1 1 91 91 LYS HB2  H  1   1.736 0.01 . 2 . . . . 101 LYS HB2  . 6690 1 
+      380 . 1 1 91 91 LYS HB3  H  1   1.803 0.01 . 2 . . . . 101 LYS HB3  . 6690 1 
+      381 . 1 1 91 91 LYS HG2  H  1   1.384 0.01 . 2 . . . . 101 LYS HG2  . 6690 1 
+      382 . 1 1 91 91 LYS HD2  H  1   1.628 0.01 . 2 . . . . 101 LYS HD2  . 6690 1 
+      383 . 1 1 91 91 LYS CA   C 13  56.638 0.2  . 1 . . . . 101 LYS CA   . 6690 1 
+      384 . 1 1 91 91 LYS CB   C 13  32.921 0.2  . 1 . . . . 101 LYS CB   . 6690 1 
+      385 . 1 1 91 91 LYS CG   C 13  24.751 0.2  . 1 . . . . 101 LYS CG   . 6690 1 
+      386 . 1 1 91 91 LYS CD   C 13  29.159 0.2  . 1 . . . . 101 LYS CD   . 6690 1 
+      387 . 1 1 91 91 LYS CE   C 13  42.114 0.2  . 1 . . . . 101 LYS CE   . 6690 1 
+      388 . 1 1 91 91 LYS N    N 15 121.300 0.2  . 1 . . . . 101 LYS N    . 6690 1 
+      389 . 1 1 92 92 GLN H    H  1   8.350 0.01 . 1 . . . . 102 GLN H    . 6690 1 
+      390 . 1 1 92 92 GLN HA   H  1   4.269 0.01 . 1 . . . . 102 GLN HA   . 6690 1 
+      391 . 1 1 92 92 GLN HB2  H  1   1.905 0.01 . 2 . . . . 102 GLN HB2  . 6690 1 
+      392 . 1 1 92 92 GLN HB3  H  1   2.074 0.01 . 2 . . . . 102 GLN HB3  . 6690 1 
+      393 . 1 1 92 92 GLN CB   C 13  29.547 0.2  . 1 . . . . 102 GLN CB   . 6690 1 
+      394 . 1 1 92 92 GLN N    N 15 121.800 0.2  . 1 . . . . 102 GLN N    . 6690 1 
+      395 . 1 1 93 93 ASN H    H  1   8.056 0.01 . 1 . . . . 103 ASN H    . 6690 1 
+      396 . 1 1 93 93 ASN HA   H  1   4.394 0.01 . 1 . . . . 103 ASN HA   . 6690 1 
+      397 . 1 1 93 93 ASN HB2  H  1   2.703 0.01 . 2 . . . . 103 ASN HB2  . 6690 1 
+      398 . 1 1 93 93 ASN HB3  H  1   2.607 0.01 . 2 . . . . 103 ASN HB3  . 6690 1 
+      399 . 1 1 93 93 ASN CA   C 13  54.811 0.2  . 1 . . . . 103 ASN CA   . 6690 1 
+      400 . 1 1 93 93 ASN CB   C 13  40.200 0.2  . 1 . . . . 103 ASN CB   . 6690 1 
+      401 . 1 1 93 93 ASN N    N 15 125.504 0.2  . 1 . . . . 103 ASN N    . 6690 1 
+      402 . 2 2  5  5 ALA H    H  1   8.353 0.01 . 1 . . . .   5 ALA H    . 6690 1 
+      403 . 2 2  5  5 ALA HA   H  1   4.154 0.01 . 1 . . . .   5 ALA HA   . 6690 1 
+      404 . 2 2  5  5 ALA HB1  H  1   1.240 0.01 . 1 . . . .   5 ALA HB   . 6690 1 
+      405 . 2 2  5  5 ALA HB2  H  1   1.240 0.01 . 1 . . . .   5 ALA HB   . 6690 1 
+      406 . 2 2  5  5 ALA HB3  H  1   1.240 0.01 . 1 . . . .   5 ALA HB   . 6690 1 
+      407 . 2 2  8  8 ASN H    H  1   8.582 0.01 . 1 . . . .   8 ASN H    . 6690 1 
+      408 . 2 2  8  8 ASN HA   H  1   4.523 0.01 . 1 . . . .   8 ASN HA   . 6690 1 
+      409 . 2 2  8  8 ASN HB2  H  1   2.690 0.01 . 2 . . . .   8 ASN HB2  . 6690 1 
+      410 . 2 2 10 10 PHE H    H  1   8.344 0.01 . 1 . . . .  10 PHE H    . 6690 1 
+      411 . 2 2 10 10 PHE HA   H  1   4.555 0.01 . 1 . . . .  10 PHE HA   . 6690 1 
+      412 . 2 2 10 10 PHE HB2  H  1   3.091 0.01 . 2 . . . .  10 PHE HB2  . 6690 1 
+      413 . 2 2 10 10 PHE HD1  H  1   7.278 0.01 . 1 . . . .  10 PHE HD1  . 6690 1 
+      414 . 2 2 10 10 PHE HD2  H  1   7.278 0.01 . 1 . . . .  10 PHE HD2  . 6690 1 
+      415 . 2 2 10 10 PHE HE1  H  1   7.310 0.01 . 1 . . . .  10 PHE HE1  . 6690 1 
+      416 . 2 2 10 10 PHE HE2  H  1   7.310 0.01 . 1 . . . .  10 PHE HE2  . 6690 1 
+      417 . 2 2 10 10 PHE HZ   H  1   7.198 0.01 . 1 . . . .  10 PHE HZ   . 6690 1 
+      418 . 2 2 12 12 VAL H    H  1   8.017 0.01 . 1 . . . .  12 VAL H    . 6690 1 
+      419 . 2 2 12 12 VAL HA   H  1   4.084 0.01 . 1 . . . .  12 VAL HA   . 6690 1 
+      420 . 2 2 12 12 VAL HB   H  1   1.965 0.01 . 1 . . . .  12 VAL HB   . 6690 1 
+      421 . 2 2 12 12 VAL HG11 H  1   0.851 0.01 . 2 . . . .  12 VAL HG1  . 6690 1 
+      422 . 2 2 12 12 VAL HG12 H  1   0.851 0.01 . 2 . . . .  12 VAL HG1  . 6690 1 
+      423 . 2 2 12 12 VAL HG13 H  1   0.851 0.01 . 2 . . . .  12 VAL HG1  . 6690 1 
+      424 . 2 2 17 17 ILE H    H  1   8.205 0.01 . 1 . . . .  17 ILE H    . 6690 1 
+      425 . 2 2 17 17 ILE HA   H  1   4.052 0.01 . 1 . . . .  17 ILE HA   . 6690 1 
+      426 . 2 2 17 17 ILE HB   H  1   1.742 0.01 . 1 . . . .  17 ILE HB   . 6690 1 
+      427 . 2 2 17 17 ILE HG12 H  1   1.112 0.01 . 2 . . . .  17 ILE HG12 . 6690 1 
+      428 . 2 2 17 17 ILE HG13 H  1   1.462 0.01 . 2 . . . .  17 ILE HG13 . 6690 1 
+      429 . 2 2 17 17 ILE HG21 H  1   0.839 0.01 . 1 . . . .  17 ILE HG2  . 6690 1 
+      430 . 2 2 17 17 ILE HG22 H  1   0.839 0.01 . 1 . . . .  17 ILE HG2  . 6690 1 
+      431 . 2 2 17 17 ILE HG23 H  1   0.839 0.01 . 1 . . . .  17 ILE HG2  . 6690 1 
+      432 . 2 2 17 17 ILE HD11 H  1   0.788 0.01 . 1 . . . .  17 ILE HD1  . 6690 1 
+      433 . 2 2 17 17 ILE HD12 H  1   0.788 0.01 . 1 . . . .  17 ILE HD1  . 6690 1 
+      434 . 2 2 17 17 ILE HD13 H  1   0.788 0.01 . 1 . . . .  17 ILE HD1  . 6690 1 
+      435 . 2 2 18 18 LEU H    H  1   8.344 0.01 . 1 . . . .  18 LEU H    . 6690 1 
+      436 . 2 2 18 18 LEU HA   H  1   4.351 0.01 . 1 . . . .  18 LEU HA   . 6690 1 
+      437 . 2 2 18 18 LEU HB2  H  1   1.539 0.01 . 2 . . . .  18 LEU HB2  . 6690 1 
+      438 . 2 2 18 18 LEU HB3  H  1   1.640 0.01 . 2 . . . .  18 LEU HB3  . 6690 1 
+      439 . 2 2 18 18 LEU HD11 H  1   0.877 0.01 . 1 . . . .  18 LEU HD1  . 6690 1 
+      440 . 2 2 18 18 LEU HD12 H  1   0.877 0.01 . 1 . . . .  18 LEU HD1  . 6690 1 
+      441 . 2 2 18 18 LEU HD13 H  1   0.877 0.01 . 1 . . . .  18 LEU HD1  . 6690 1 
+      442 . 2 2 19 19 GLY H    H  1   8.114 0.01 . 1 . . . .  19 GLY H    . 6690 1 
+      443 . 2 2 19 19 GLY HA2  H  1   3.715 0.01 . 2 . . . .  19 GLY HA2  . 6690 1 
+      444 . 2 2 20 20 ARG H    H  1   8.200 0.01 . 1 . . . .  20 ARG H    . 6690 1 
+      445 . 2 2 20 20 ARG HA   H  1   4.346 0.01 . 1 . . . .  20 ARG HA   . 6690 1 
+      446 . 2 2 20 20 ARG HB2  H  1   1.704 0.01 . 2 . . . .  20 ARG HB2  . 6690 1 
+      447 . 2 2 20 20 ARG HB3  H  1   1.882 0.01 . 2 . . . .  20 ARG HB3  . 6690 1 
+      448 . 2 2 20 20 ARG HG2  H  1   1.590 0.01 . 2 . . . .  20 ARG HG2  . 6690 1 
+      449 . 2 2 20 20 ARG HD2  H  1   3.155 0.01 . 2 . . . .  20 ARG HD2  . 6690 1 
+      450 . 2 2 21 21 GLY H    H  1   8.458 0.01 . 1 . . . .  21 GLY H    . 6690 1 
+      451 . 2 2 21 21 GLY HA2  H  1   3.912 0.01 . 2 . . . .  21 GLY HA2  . 6690 1 
+
+   stop_
+
+save_
+

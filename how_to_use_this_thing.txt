@@ -38,3 +38,14 @@ Oh yes, and then we add pH and temperature. Do it like this:
 python scripts/add_pH_T_to_features.py get_star_files/star_file_conditions.csv training_data_pH_T
 (It does it in batch btw. Also it makes the output target directory for you.)
 
+
+IDEAS:
+- don't use hydrogens, only heavy atoms (easiest implementation is to skip any neighbor that is H)
+- utilize atom types, rather than amino acid type + element type (with no H's, should be okay) ((but maybe keep AA type for the residue being predicted?))
+- use all frames of alphaflow, instead of averaging
+- assess accuracy of the predictions in the training set ONLY, discard outliers, retrain, validate against UNALTERED test set
+- add a small constant to the H shifts in every a given protein to minimize prediction error, retrain on data after adding constants
+(the last point has the purpose in correcting H dimension offsets between spectrometers, which are common)
+- train against NMR structures instead of alphaflow structures
+- train only on single alphaflow structures (to test necessity of dynamics)
+

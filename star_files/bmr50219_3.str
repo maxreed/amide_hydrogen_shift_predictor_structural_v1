@@ -1,0 +1,1802 @@
+data_50219
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information_1
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information_1
+   _Entry.ID                             50219
+   _Entry.Title
+;
+Mfd_RID
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2020-03-30
+   _Entry.Accession_date                 2020-03-30
+   _Entry.Last_release_date              2020-03-30
+   _Entry.Original_release_date          2020-03-30
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.6.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          1
+   _Entry.Generated_software_label       $software_1
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Ashish   Kawale    .   A.   .   0000-0002-5074-680X   50219
+      2   Bjorn    Burmann   .   M.   .   0000-0002-3135-7964   50219
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   .   'Department of Chemistry and Molecular Biology, University of Gothenburg'   .   50219
+      2   .   'Wallenberg Centre for Molecular and Translational Medicine'                .   50219
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   50219
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   303   50219
+      '15N chemical shifts'   63    50219
+      '1H chemical shifts'    488   50219
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2020-11-30   2020-03-29   update     BMRB     'update entry citation'   50219
+      1   .   .   2020-10-12   2020-03-29   original   author   'original release'        50219
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   50218   'UvrD CTD'   50219
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citations_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations_1
+   _Citation.Entry_ID                     50219
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    33154434
+   _Citation.DOI                          .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+UvrD helicase-RNA polymerase interactions are governed by UvrD's carboxy-terminal Tudor domain
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Commun. Biol.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               3
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   607
+   _Citation.Page_last                    607
+   _Citation.Year                         2020
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Ashish   Kawale    .   A.   .   .   50219   1
+      2   Bjorn    Burmann   .   M.   .   .   50219   1
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'UvrD, Mfd, Tudor, TCR, DNA repair'   50219   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          50219
+   _Assembly.ID                                1
+   _Assembly.Name                              RID
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   no
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   RID   1   $entity_1   .   .   yes   native   no   no   .   .   .   50219   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          50219
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+RNLAELHIGQPVVHLEHGVG
+RYAGMTTLEAGGITGEYLML
+TYANDAKLYVPVSSLHLISR
+YAGGAEENAPLHKLGG
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        472
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                76
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    472   ARG   .   50219   1
+      2    473   ASN   .   50219   1
+      3    474   LEU   .   50219   1
+      4    475   ALA   .   50219   1
+      5    476   GLU   .   50219   1
+      6    477   LEU   .   50219   1
+      7    478   HIS   .   50219   1
+      8    479   ILE   .   50219   1
+      9    480   GLY   .   50219   1
+      10   481   GLN   .   50219   1
+      11   482   PRO   .   50219   1
+      12   483   VAL   .   50219   1
+      13   484   VAL   .   50219   1
+      14   485   HIS   .   50219   1
+      15   486   LEU   .   50219   1
+      16   487   GLU   .   50219   1
+      17   488   HIS   .   50219   1
+      18   489   GLY   .   50219   1
+      19   490   VAL   .   50219   1
+      20   491   GLY   .   50219   1
+      21   492   ARG   .   50219   1
+      22   493   TYR   .   50219   1
+      23   494   ALA   .   50219   1
+      24   495   GLY   .   50219   1
+      25   496   MET   .   50219   1
+      26   497   THR   .   50219   1
+      27   498   THR   .   50219   1
+      28   499   LEU   .   50219   1
+      29   500   GLU   .   50219   1
+      30   501   ALA   .   50219   1
+      31   502   GLY   .   50219   1
+      32   503   GLY   .   50219   1
+      33   504   ILE   .   50219   1
+      34   505   THR   .   50219   1
+      35   506   GLY   .   50219   1
+      36   507   GLU   .   50219   1
+      37   508   TYR   .   50219   1
+      38   509   LEU   .   50219   1
+      39   510   MET   .   50219   1
+      40   511   LEU   .   50219   1
+      41   512   THR   .   50219   1
+      42   513   TYR   .   50219   1
+      43   514   ALA   .   50219   1
+      44   515   ASN   .   50219   1
+      45   516   ASP   .   50219   1
+      46   517   ALA   .   50219   1
+      47   518   LYS   .   50219   1
+      48   519   LEU   .   50219   1
+      49   520   TYR   .   50219   1
+      50   521   VAL   .   50219   1
+      51   522   PRO   .   50219   1
+      52   523   VAL   .   50219   1
+      53   524   SER   .   50219   1
+      54   525   SER   .   50219   1
+      55   526   LEU   .   50219   1
+      56   527   HIS   .   50219   1
+      57   528   LEU   .   50219   1
+      58   529   ILE   .   50219   1
+      59   530   SER   .   50219   1
+      60   531   ARG   .   50219   1
+      61   532   TYR   .   50219   1
+      62   533   ALA   .   50219   1
+      63   534   GLY   .   50219   1
+      64   535   GLY   .   50219   1
+      65   536   ALA   .   50219   1
+      66   537   GLU   .   50219   1
+      67   538   GLU   .   50219   1
+      68   539   ASN   .   50219   1
+      69   540   ALA   .   50219   1
+      70   541   PRO   .   50219   1
+      71   542   LEU   .   50219   1
+      72   543   HIS   .   50219   1
+      73   544   LYS   .   50219   1
+      74   545   LEU   .   50219   1
+      75   546   GLY   .   50219   1
+      76   547   GLY   .   50219   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   ARG   1    1    50219   1
+      .   ASN   2    2    50219   1
+      .   LEU   3    3    50219   1
+      .   ALA   4    4    50219   1
+      .   GLU   5    5    50219   1
+      .   LEU   6    6    50219   1
+      .   HIS   7    7    50219   1
+      .   ILE   8    8    50219   1
+      .   GLY   9    9    50219   1
+      .   GLN   10   10   50219   1
+      .   PRO   11   11   50219   1
+      .   VAL   12   12   50219   1
+      .   VAL   13   13   50219   1
+      .   HIS   14   14   50219   1
+      .   LEU   15   15   50219   1
+      .   GLU   16   16   50219   1
+      .   HIS   17   17   50219   1
+      .   GLY   18   18   50219   1
+      .   VAL   19   19   50219   1
+      .   GLY   20   20   50219   1
+      .   ARG   21   21   50219   1
+      .   TYR   22   22   50219   1
+      .   ALA   23   23   50219   1
+      .   GLY   24   24   50219   1
+      .   MET   25   25   50219   1
+      .   THR   26   26   50219   1
+      .   THR   27   27   50219   1
+      .   LEU   28   28   50219   1
+      .   GLU   29   29   50219   1
+      .   ALA   30   30   50219   1
+      .   GLY   31   31   50219   1
+      .   GLY   32   32   50219   1
+      .   ILE   33   33   50219   1
+      .   THR   34   34   50219   1
+      .   GLY   35   35   50219   1
+      .   GLU   36   36   50219   1
+      .   TYR   37   37   50219   1
+      .   LEU   38   38   50219   1
+      .   MET   39   39   50219   1
+      .   LEU   40   40   50219   1
+      .   THR   41   41   50219   1
+      .   TYR   42   42   50219   1
+      .   ALA   43   43   50219   1
+      .   ASN   44   44   50219   1
+      .   ASP   45   45   50219   1
+      .   ALA   46   46   50219   1
+      .   LYS   47   47   50219   1
+      .   LEU   48   48   50219   1
+      .   TYR   49   49   50219   1
+      .   VAL   50   50   50219   1
+      .   PRO   51   51   50219   1
+      .   VAL   52   52   50219   1
+      .   SER   53   53   50219   1
+      .   SER   54   54   50219   1
+      .   LEU   55   55   50219   1
+      .   HIS   56   56   50219   1
+      .   LEU   57   57   50219   1
+      .   ILE   58   58   50219   1
+      .   SER   59   59   50219   1
+      .   ARG   60   60   50219   1
+      .   TYR   61   61   50219   1
+      .   ALA   62   62   50219   1
+      .   GLY   63   63   50219   1
+      .   GLY   64   64   50219   1
+      .   ALA   65   65   50219   1
+      .   GLU   66   66   50219   1
+      .   GLU   67   67   50219   1
+      .   ASN   68   68   50219   1
+      .   ALA   69   69   50219   1
+      .   PRO   70   70   50219   1
+      .   LEU   71   71   50219   1
+      .   HIS   72   72   50219   1
+      .   LYS   73   73   50219   1
+      .   LEU   74   74   50219   1
+      .   GLY   75   75   50219   1
+      .   GLY   76   76   50219   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source_1
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source_1
+   _Entity_natural_src_list.Entry_ID       50219
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   562   organism   .   'Escherichia coli'   'E. coli'   .   .   Bacteria   .   Escherichia   coli   K12   .   .   .   .   .   .   .   .   .   .   mfd   .   50219   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source_1
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source_1
+   _Entity_experimental_src_list.Entry_ID       50219
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   'BL21 StarTM (DE3)'   .   .   plasmid   .   .   pET28b(+)   .   .   .   50219   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         50219
+   _Sample.ID                               1
+   _Sample.Name                             RID
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details
+;
+[NaCl]: 137 mM
+[KCl]: 2.7 mM
+[Na2HPO4]: 10 mM
+[KH2PO4]: 1.8 mM
+;
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   RID               '[U-100% 13C; U-100% 15N]'   .   .   1   $entity_1   .   .   600   .   .   uM   .   .   .   .   50219   1
+      2   '1x PBS buffer'   'natural abundance'          .   .   .   .           .   .   152   .   .   mM   .   .   .   .   50219   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       50219
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           'pbs buffer'
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   152   .   mM    50219   1
+      pH                 7.4   .   pH    50219   1
+      pressure           1     .   atm   50219   1
+      temperature        298   .   K     50219   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       50219
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           NMRFAM-SPARKY
+   _Software.Version        1.413
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   'chemical shift assignment'   50219   1
+      .   'data analysis'               50219   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         50219
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             bruker
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+save_
+
+save_NMR_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_2
+   _NMR_spectrometer.Entry_ID         50219
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Name             bruker
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list_1
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list_1
+   _Experiment_list.Entry_ID       50219
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    '2D 1H-15N HSQC'              no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      2    '2D 1H-13C HSQC aliphatic'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      3    '2D 1H-13C HSQC aromatic'     no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      4    '3D CBCA(CO)NH'               no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      5    '3D HNCACB'                   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      6    '3D HNCO'                     no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      7    '3D HCCH-TOCSY'               no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      8    '3D H(CCO)NH'                 no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      9    '3D HBHA(CO)NH'               no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      10   '3D 1H-15N NOESY'             no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      11   '3D 1H-13C NOESY aliphatic'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      12   '3D 1H-13C NOESY aromatic'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      13   '2D HBCBCGCDCEHE'             no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+      14   '2D HBCBCGCDHD'               no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50219   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       50219
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           IUPAC
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.251449530   .   .   .   .   .   50219   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.00   internal   direct     1.000000000   .   .   .   .   .   50219   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.101329118   .   .   .   .   .   50219   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      50219
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          RID
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1    '2D 1H-15N HSQC'              .   .   .   50219   1
+      2    '2D 1H-13C HSQC aliphatic'    .   .   .   50219   1
+      3    '2D 1H-13C HSQC aromatic'     .   .   .   50219   1
+      4    '3D CBCA(CO)NH'               .   .   .   50219   1
+      5    '3D HNCACB'                   .   .   .   50219   1
+      6    '3D HNCO'                     .   .   .   50219   1
+      7    '3D HCCH-TOCSY'               .   .   .   50219   1
+      8    '3D H(CCO)NH'                 .   .   .   50219   1
+      9    '3D HBHA(CO)NH'               .   .   .   50219   1
+      10   '3D 1H-15N NOESY'             .   .   .   50219   1
+      11   '3D 1H-13C NOESY aliphatic'   .   .   .   50219   1
+      12   '3D 1H-13C NOESY aromatic'    .   .   .   50219   1
+      13   '2D HBCBCGCDCEHE'             .   .   .   50219   1
+      14   '2D HBCBCGCDHD'               .   .   .   50219   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $software_1   .   .   50219   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_assembly_asym_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   .   1   1    1    ARG   HA     H   1    3.606     0.00   .   .   .   .   .   .   .   472   ARG   HA     .   50219   1
+      2     .   1   .   1   1    1    ARG   HB2    H   1    1.708     0.00   .   .   .   .   .   .   .   472   ARG   HB#    .   50219   1
+      3     .   1   .   1   1    1    ARG   HB3    H   1    1.708     0.00   .   .   .   .   .   .   .   472   ARG   HB#    .   50219   1
+      4     .   1   .   1   1    1    ARG   HG2    H   1    1.595     0.00   .   .   .   .   .   .   .   472   ARG   HG#    .   50219   1
+      5     .   1   .   1   1    1    ARG   HG3    H   1    1.595     0.00   .   .   .   .   .   .   .   472   ARG   HG#    .   50219   1
+      6     .   1   .   1   1    1    ARG   HD2    H   1    3.182     0.00   .   .   .   .   .   .   .   472   ARG   HD#    .   50219   1
+      7     .   1   .   1   1    1    ARG   HD3    H   1    3.182     0.00   .   .   .   .   .   .   .   472   ARG   HD#    .   50219   1
+      8     .   1   .   1   1    1    ARG   CA     C   13   56.474    0.00   .   .   .   .   .   .   .   472   ARG   CA     .   50219   1
+      9     .   1   .   1   1    1    ARG   CB     C   13   33.341    0.00   .   .   .   .   .   .   .   472   ARG   CB     .   50219   1
+      10    .   1   .   1   1    1    ARG   CG     C   13   26.944    0.00   .   .   .   .   .   .   .   472   ARG   CG     .   50219   1
+      11    .   1   .   1   1    1    ARG   CD     C   13   43.539    0.00   .   .   .   .   .   .   .   472   ARG   CD     .   50219   1
+      12    .   1   .   1   2    2    ASN   HA     H   1    4.735     0.00   .   .   .   .   .   .   .   473   ASN   HA     .   50219   1
+      13    .   1   .   1   2    2    ASN   HB2    H   1    2.860     0.00   .   .   .   .   .   .   .   473   ASN   HB2    .   50219   1
+      14    .   1   .   1   2    2    ASN   HB3    H   1    2.780     0.00   .   .   .   .   .   .   .   473   ASN   HB3    .   50219   1
+      15    .   1   .   1   2    2    ASN   CA     C   13   53.100    0.00   .   .   .   .   .   .   .   473   ASN   CA     .   50219   1
+      16    .   1   .   1   2    2    ASN   CB     C   13   39.070    0.01   .   .   .   .   .   .   .   473   ASN   CB     .   50219   1
+      17    .   1   .   1   3    3    LEU   HA     H   1    4.160     0.00   .   .   .   .   .   .   .   474   LEU   HA     .   50219   1
+      18    .   1   .   1   3    3    LEU   HB2    H   1    1.639     0.00   .   .   .   .   .   .   .   474   LEU   HB2    .   50219   1
+      19    .   1   .   1   3    3    LEU   HB3    H   1    1.560     0.00   .   .   .   .   .   .   .   474   LEU   HB3    .   50219   1
+      20    .   1   .   1   3    3    LEU   HG     H   1    1.649     0.00   .   .   .   .   .   .   .   474   LEU   HG     .   50219   1
+      21    .   1   .   1   3    3    LEU   HD11   H   1    0.895     0.00   .   .   .   .   .   .   .   474   LEU   HD1#   .   50219   1
+      22    .   1   .   1   3    3    LEU   HD12   H   1    0.895     0.00   .   .   .   .   .   .   .   474   LEU   HD1#   .   50219   1
+      23    .   1   .   1   3    3    LEU   HD13   H   1    0.895     0.00   .   .   .   .   .   .   .   474   LEU   HD1#   .   50219   1
+      24    .   1   .   1   3    3    LEU   HD21   H   1    0.807     0.00   .   .   .   .   .   .   .   474   LEU   HD2#   .   50219   1
+      25    .   1   .   1   3    3    LEU   HD22   H   1    0.807     0.00   .   .   .   .   .   .   .   474   LEU   HD2#   .   50219   1
+      26    .   1   .   1   3    3    LEU   HD23   H   1    0.807     0.00   .   .   .   .   .   .   .   474   LEU   HD2#   .   50219   1
+      27    .   1   .   1   3    3    LEU   C      C   13   177.467   0.00   .   .   .   .   .   .   .   474   LEU   CO     .   50219   1
+      28    .   1   .   1   3    3    LEU   CA     C   13   55.876    0.00   .   .   .   .   .   .   .   474   LEU   CA     .   50219   1
+      29    .   1   .   1   3    3    LEU   CB     C   13   41.901    0.01   .   .   .   .   .   .   .   474   LEU   CB     .   50219   1
+      30    .   1   .   1   3    3    LEU   CG     C   13   27.143    0.00   .   .   .   .   .   .   .   474   LEU   CG     .   50219   1
+      31    .   1   .   1   3    3    LEU   CD1    C   13   25.427    0.00   .   .   .   .   .   .   .   474   LEU   CD1    .   50219   1
+      32    .   1   .   1   3    3    LEU   CD2    C   13   23.738    0.00   .   .   .   .   .   .   .   474   LEU   CD2    .   50219   1
+      33    .   1   .   1   4    4    ALA   H      H   1    8.134     0.00   .   .   .   .   .   .   .   475   ALA   HN     .   50219   1
+      34    .   1   .   1   4    4    ALA   HA     H   1    4.202     0.00   .   .   .   .   .   .   .   475   ALA   HA     .   50219   1
+      35    .   1   .   1   4    4    ALA   HB1    H   1    1.391     0.00   .   .   .   .   .   .   .   475   ALA   HB#    .   50219   1
+      36    .   1   .   1   4    4    ALA   HB2    H   1    1.391     0.00   .   .   .   .   .   .   .   475   ALA   HB#    .   50219   1
+      37    .   1   .   1   4    4    ALA   HB3    H   1    1.391     0.00   .   .   .   .   .   .   .   475   ALA   HB#    .   50219   1
+      38    .   1   .   1   4    4    ALA   C      C   13   177.915   0.03   .   .   .   .   .   .   .   475   ALA   CO     .   50219   1
+      39    .   1   .   1   4    4    ALA   CA     C   13   53.289    0.00   .   .   .   .   .   .   .   475   ALA   CA     .   50219   1
+      40    .   1   .   1   4    4    ALA   CB     C   13   19.089    0.00   .   .   .   .   .   .   .   475   ALA   CB     .   50219   1
+      41    .   1   .   1   4    4    ALA   N      N   15   122.823   0.07   .   .   .   .   .   .   .   475   ALA   N      .   50219   1
+      42    .   1   .   1   5    5    GLU   H      H   1    7.977     0.01   .   .   .   .   .   .   .   476   GLU   HN     .   50219   1
+      43    .   1   .   1   5    5    GLU   HB2    H   1    2.072     0.00   .   .   .   .   .   .   .   476   GLU   HB2    .   50219   1
+      44    .   1   .   1   5    5    GLU   HB3    H   1    1.912     0.00   .   .   .   .   .   .   .   476   GLU   HB3    .   50219   1
+      45    .   1   .   1   5    5    GLU   HG2    H   1    2.203     0.00   .   .   .   .   .   .   .   476   GLU   HG#    .   50219   1
+      46    .   1   .   1   5    5    GLU   HG3    H   1    2.203     0.00   .   .   .   .   .   .   .   476   GLU   HG#    .   50219   1
+      47    .   1   .   1   5    5    GLU   C      C   13   175.990   0.00   .   .   .   .   .   .   .   476   GLU   CO     .   50219   1
+      48    .   1   .   1   5    5    GLU   CB     C   13   29.884    0.00   .   .   .   .   .   .   .   476   GLU   CB     .   50219   1
+      49    .   1   .   1   5    5    GLU   CG     C   13   36.451    0.00   .   .   .   .   .   .   .   476   GLU   CG     .   50219   1
+      50    .   1   .   1   5    5    GLU   N      N   15   117.554   0.01   .   .   .   .   .   .   .   476   GLU   N      .   50219   1
+      51    .   1   .   1   6    6    LEU   H      H   1    7.433     0.00   .   .   .   .   .   .   .   477   LEU   HN     .   50219   1
+      52    .   1   .   1   6    6    LEU   HA     H   1    4.417     0.00   .   .   .   .   .   .   .   477   LEU   HA     .   50219   1
+      53    .   1   .   1   6    6    LEU   HB2    H   1    0.899     0.00   .   .   .   .   .   .   .   477   LEU   HB2    .   50219   1
+      54    .   1   .   1   6    6    LEU   HB3    H   1    0.516     0.00   .   .   .   .   .   .   .   477   LEU   HB3    .   50219   1
+      55    .   1   .   1   6    6    LEU   HG     H   1    1.287     0.00   .   .   .   .   .   .   .   477   LEU   HG     .   50219   1
+      56    .   1   .   1   6    6    LEU   HD11   H   1    0.328     0.00   .   .   .   .   .   .   .   477   LEU   HD1#   .   50219   1
+      57    .   1   .   1   6    6    LEU   HD12   H   1    0.328     0.00   .   .   .   .   .   .   .   477   LEU   HD1#   .   50219   1
+      58    .   1   .   1   6    6    LEU   HD13   H   1    0.328     0.00   .   .   .   .   .   .   .   477   LEU   HD1#   .   50219   1
+      59    .   1   .   1   6    6    LEU   HD21   H   1    0.414     0.00   .   .   .   .   .   .   .   477   LEU   HD2#   .   50219   1
+      60    .   1   .   1   6    6    LEU   HD22   H   1    0.414     0.00   .   .   .   .   .   .   .   477   LEU   HD2#   .   50219   1
+      61    .   1   .   1   6    6    LEU   HD23   H   1    0.414     0.00   .   .   .   .   .   .   .   477   LEU   HD2#   .   50219   1
+      62    .   1   .   1   6    6    LEU   C      C   13   176.155   0.00   .   .   .   .   .   .   .   477   LEU   CO     .   50219   1
+      63    .   1   .   1   6    6    LEU   CA     C   13   54.404    0.00   .   .   .   .   .   .   .   477   LEU   CA     .   50219   1
+      64    .   1   .   1   6    6    LEU   CB     C   13   43.437    0.00   .   .   .   .   .   .   .   477   LEU   CB     .   50219   1
+      65    .   1   .   1   6    6    LEU   CG     C   13   26.436    0.00   .   .   .   .   .   .   .   477   LEU   CG     .   50219   1
+      66    .   1   .   1   6    6    LEU   CD1    C   13   25.580    0.00   .   .   .   .   .   .   .   477   LEU   CD1    .   50219   1
+      67    .   1   .   1   6    6    LEU   CD2    C   13   23.444    0.00   .   .   .   .   .   .   .   477   LEU   CD2    .   50219   1
+      68    .   1   .   1   6    6    LEU   N      N   15   122.482   0.00   .   .   .   .   .   .   .   477   LEU   N      .   50219   1
+      69    .   1   .   1   7    7    HIS   H      H   1    8.293     0.00   .   .   .   .   .   .   .   478   HIS   HN     .   50219   1
+      70    .   1   .   1   7    7    HIS   HA     H   1    5.028     0.00   .   .   .   .   .   .   .   478   HIS   HA     .   50219   1
+      71    .   1   .   1   7    7    HIS   HB2    H   1    3.119     0.00   .   .   .   .   .   .   .   478   HIS   HB2    .   50219   1
+      72    .   1   .   1   7    7    HIS   HB3    H   1    3.066     0.00   .   .   .   .   .   .   .   478   HIS   HB3    .   50219   1
+      73    .   1   .   1   7    7    HIS   HD2    H   1    7.001     0.00   .   .   .   .   .   .   .   478   HIS   HD2    .   50219   1
+      74    .   1   .   1   7    7    HIS   C      C   13   175.966   0.01   .   .   .   .   .   .   .   478   HIS   CO     .   50219   1
+      75    .   1   .   1   7    7    HIS   CA     C   13   54.190    0.00   .   .   .   .   .   .   .   478   HIS   CA     .   50219   1
+      76    .   1   .   1   7    7    HIS   CB     C   13   32.386    0.00   .   .   .   .   .   .   .   478   HIS   CB     .   50219   1
+      77    .   1   .   1   7    7    HIS   CD2    C   13   121.296   0.00   .   .   .   .   .   .   .   478   HIS   CD2    .   50219   1
+      78    .   1   .   1   7    7    HIS   N      N   15   120.711   0.05   .   .   .   .   .   .   .   478   HIS   N      .   50219   1
+      79    .   1   .   1   8    8    ILE   H      H   1    8.859     0.01   .   .   .   .   .   .   .   479   ILE   HN     .   50219   1
+      80    .   1   .   1   8    8    ILE   HA     H   1    3.682     0.00   .   .   .   .   .   .   .   479   ILE   HA     .   50219   1
+      81    .   1   .   1   8    8    ILE   HB     H   1    1.890     0.00   .   .   .   .   .   .   .   479   ILE   HB     .   50219   1
+      82    .   1   .   1   8    8    ILE   HG12   H   1    1.611     0.00   .   .   .   .   .   .   .   479   ILE   HG12   .   50219   1
+      83    .   1   .   1   8    8    ILE   HG13   H   1    1.140     0.00   .   .   .   .   .   .   .   479   ILE   HG13   .   50219   1
+      84    .   1   .   1   8    8    ILE   HG21   H   1    0.859     0.00   .   .   .   .   .   .   .   479   ILE   HG2#   .   50219   1
+      85    .   1   .   1   8    8    ILE   HG22   H   1    0.859     0.00   .   .   .   .   .   .   .   479   ILE   HG2#   .   50219   1
+      86    .   1   .   1   8    8    ILE   HG23   H   1    0.859     0.00   .   .   .   .   .   .   .   479   ILE   HG2#   .   50219   1
+      87    .   1   .   1   8    8    ILE   HD11   H   1    0.681     0.00   .   .   .   .   .   .   .   479   ILE   HD1#   .   50219   1
+      88    .   1   .   1   8    8    ILE   HD12   H   1    0.681     0.00   .   .   .   .   .   .   .   479   ILE   HD1#   .   50219   1
+      89    .   1   .   1   8    8    ILE   HD13   H   1    0.681     0.00   .   .   .   .   .   .   .   479   ILE   HD1#   .   50219   1
+      90    .   1   .   1   8    8    ILE   C      C   13   177.965   0.01   .   .   .   .   .   .   .   479   ILE   CO     .   50219   1
+      91    .   1   .   1   8    8    ILE   CA     C   13   63.230    0.00   .   .   .   .   .   .   .   479   ILE   CA     .   50219   1
+      92    .   1   .   1   8    8    ILE   CB     C   13   36.318    0.00   .   .   .   .   .   .   .   479   ILE   CB     .   50219   1
+      93    .   1   .   1   8    8    ILE   CG1    C   13   28.176    0.03   .   .   .   .   .   .   .   479   ILE   CG1    .   50219   1
+      94    .   1   .   1   8    8    ILE   CG2    C   13   17.233    0.00   .   .   .   .   .   .   .   479   ILE   CG2    .   50219   1
+      95    .   1   .   1   8    8    ILE   CD1    C   13   11.285    0.00   .   .   .   .   .   .   .   479   ILE   CD1    .   50219   1
+      96    .   1   .   1   8    8    ILE   N      N   15   124.499   0.02   .   .   .   .   .   .   .   479   ILE   N      .   50219   1
+      97    .   1   .   1   9    9    GLY   H      H   1    9.302     0.00   .   .   .   .   .   .   .   480   GLY   HN     .   50219   1
+      98    .   1   .   1   9    9    GLY   HA2    H   1    4.520     0.00   .   .   .   .   .   .   .   480   GLY   HA2    .   50219   1
+      99    .   1   .   1   9    9    GLY   HA3    H   1    3.566     0.00   .   .   .   .   .   .   .   480   GLY   HA3    .   50219   1
+      100   .   1   .   1   9    9    GLY   C      C   13   174.333   0.01   .   .   .   .   .   .   .   480   GLY   CO     .   50219   1
+      101   .   1   .   1   9    9    GLY   CA     C   13   44.776    0.00   .   .   .   .   .   .   .   480   GLY   CA     .   50219   1
+      102   .   1   .   1   9    9    GLY   N      N   15   116.846   0.01   .   .   .   .   .   .   .   480   GLY   N      .   50219   1
+      103   .   1   .   1   10   10   GLN   H      H   1    8.326     0.00   .   .   .   .   .   .   .   481   GLN   HN     .   50219   1
+      104   .   1   .   1   10   10   GLN   HA     H   1    4.509     0.00   .   .   .   .   .   .   .   481   GLN   HA     .   50219   1
+      105   .   1   .   1   10   10   GLN   HB2    H   1    2.015     0.00   .   .   .   .   .   .   .   481   GLN   HB2    .   50219   1
+      106   .   1   .   1   10   10   GLN   HB3    H   1    1.953     0.00   .   .   .   .   .   .   .   481   GLN   HB3    .   50219   1
+      107   .   1   .   1   10   10   GLN   HG2    H   1    2.560     0.00   .   .   .   .   .   .   .   481   GLN   HG2    .   50219   1
+      108   .   1   .   1   10   10   GLN   HG3    H   1    2.441     0.00   .   .   .   .   .   .   .   481   GLN   HG3    .   50219   1
+      109   .   1   .   1   10   10   GLN   CA     C   13   55.064    0.00   .   .   .   .   .   .   .   481   GLN   CA     .   50219   1
+      110   .   1   .   1   10   10   GLN   CB     C   13   30.248    0.01   .   .   .   .   .   .   .   481   GLN   CB     .   50219   1
+      111   .   1   .   1   10   10   GLN   CG     C   13   33.623    0.00   .   .   .   .   .   .   .   481   GLN   CG     .   50219   1
+      112   .   1   .   1   10   10   GLN   N      N   15   123.039   0.02   .   .   .   .   .   .   .   481   GLN   N      .   50219   1
+      113   .   1   .   1   11   11   PRO   HA     H   1    5.136     0.00   .   .   .   .   .   .   .   482   PRO   HA     .   50219   1
+      114   .   1   .   1   11   11   PRO   HB2    H   1    1.689     0.00   .   .   .   .   .   .   .   482   PRO   HB2    .   50219   1
+      115   .   1   .   1   11   11   PRO   HB3    H   1    1.626     0.00   .   .   .   .   .   .   .   482   PRO   HB3    .   50219   1
+      116   .   1   .   1   11   11   PRO   HG2    H   1    2.166     0.00   .   .   .   .   .   .   .   482   PRO   HG2    .   50219   1
+      117   .   1   .   1   11   11   PRO   HG3    H   1    1.733     0.00   .   .   .   .   .   .   .   482   PRO   HG3    .   50219   1
+      118   .   1   .   1   11   11   PRO   HD2    H   1    4.069     0.00   .   .   .   .   .   .   .   482   PRO   HD2    .   50219   1
+      119   .   1   .   1   11   11   PRO   HD3    H   1    3.773     0.00   .   .   .   .   .   .   .   482   PRO   HD3    .   50219   1
+      120   .   1   .   1   11   11   PRO   C      C   13   175.621   0.00   .   .   .   .   .   .   .   482   PRO   CO     .   50219   1
+      121   .   1   .   1   11   11   PRO   CA     C   13   62.784    0.08   .   .   .   .   .   .   .   482   PRO   CA     .   50219   1
+      122   .   1   .   1   11   11   PRO   CB     C   13   31.707    0.00   .   .   .   .   .   .   .   482   PRO   CB     .   50219   1
+      123   .   1   .   1   11   11   PRO   CG     C   13   28.366    0.00   .   .   .   .   .   .   .   482   PRO   CG     .   50219   1
+      124   .   1   .   1   11   11   PRO   CD     C   13   50.993    0.02   .   .   .   .   .   .   .   482   PRO   CD     .   50219   1
+      125   .   1   .   1   12   12   VAL   H      H   1    8.075     0.01   .   .   .   .   .   .   .   483   VAL   HN     .   50219   1
+      126   .   1   .   1   12   12   VAL   HA     H   1    4.588     0.00   .   .   .   .   .   .   .   483   VAL   HA     .   50219   1
+      127   .   1   .   1   12   12   VAL   HB     H   1    1.937     0.00   .   .   .   .   .   .   .   483   VAL   HB     .   50219   1
+      128   .   1   .   1   12   12   VAL   HG11   H   1    0.851     0.00   .   .   .   .   .   .   .   483   VAL   HG1#   .   50219   1
+      129   .   1   .   1   12   12   VAL   HG12   H   1    0.851     0.00   .   .   .   .   .   .   .   483   VAL   HG1#   .   50219   1
+      130   .   1   .   1   12   12   VAL   HG13   H   1    0.851     0.00   .   .   .   .   .   .   .   483   VAL   HG1#   .   50219   1
+      131   .   1   .   1   12   12   VAL   HG21   H   1    0.801     0.00   .   .   .   .   .   .   .   483   VAL   HG2#   .   50219   1
+      132   .   1   .   1   12   12   VAL   HG22   H   1    0.801     0.00   .   .   .   .   .   .   .   483   VAL   HG2#   .   50219   1
+      133   .   1   .   1   12   12   VAL   HG23   H   1    0.801     0.00   .   .   .   .   .   .   .   483   VAL   HG2#   .   50219   1
+      134   .   1   .   1   12   12   VAL   C      C   13   172.633   0.01   .   .   .   .   .   .   .   483   VAL   CO     .   50219   1
+      135   .   1   .   1   12   12   VAL   CA     C   13   60.191    0.03   .   .   .   .   .   .   .   483   VAL   CA     .   50219   1
+      136   .   1   .   1   12   12   VAL   CB     C   13   36.395    0.00   .   .   .   .   .   .   .   483   VAL   CB     .   50219   1
+      137   .   1   .   1   12   12   VAL   CG1    C   13   23.308    0.00   .   .   .   .   .   .   .   483   VAL   CG1    .   50219   1
+      138   .   1   .   1   12   12   VAL   CG2    C   13   21.132    0.00   .   .   .   .   .   .   .   483   VAL   CG2    .   50219   1
+      139   .   1   .   1   12   12   VAL   N      N   15   120.010   0.05   .   .   .   .   .   .   .   483   VAL   N      .   50219   1
+      140   .   1   .   1   13   13   VAL   H      H   1    9.022     0.00   .   .   .   .   .   .   .   484   VAL   HN     .   50219   1
+      141   .   1   .   1   13   13   VAL   HA     H   1    4.306     0.00   .   .   .   .   .   .   .   484   VAL   HA     .   50219   1
+      142   .   1   .   1   13   13   VAL   HB     H   1    2.050     0.00   .   .   .   .   .   .   .   484   VAL   HB     .   50219   1
+      143   .   1   .   1   13   13   VAL   HG11   H   1    1.056     0.00   .   .   .   .   .   .   .   484   VAL   HG1#   .   50219   1
+      144   .   1   .   1   13   13   VAL   HG12   H   1    1.056     0.00   .   .   .   .   .   .   .   484   VAL   HG1#   .   50219   1
+      145   .   1   .   1   13   13   VAL   HG13   H   1    1.056     0.00   .   .   .   .   .   .   .   484   VAL   HG1#   .   50219   1
+      146   .   1   .   1   13   13   VAL   HG21   H   1    0.838     0.00   .   .   .   .   .   .   .   484   VAL   HG2#   .   50219   1
+      147   .   1   .   1   13   13   VAL   HG22   H   1    0.838     0.00   .   .   .   .   .   .   .   484   VAL   HG2#   .   50219   1
+      148   .   1   .   1   13   13   VAL   HG23   H   1    0.838     0.00   .   .   .   .   .   .   .   484   VAL   HG2#   .   50219   1
+      149   .   1   .   1   13   13   VAL   C      C   13   175.075   0.01   .   .   .   .   .   .   .   484   VAL   CO     .   50219   1
+      150   .   1   .   1   13   13   VAL   CA     C   13   61.725    0.05   .   .   .   .   .   .   .   484   VAL   CA     .   50219   1
+      151   .   1   .   1   13   13   VAL   CB     C   13   33.697    0.00   .   .   .   .   .   .   .   484   VAL   CB     .   50219   1
+      152   .   1   .   1   13   13   VAL   CG1    C   13   22.103    0.00   .   .   .   .   .   .   .   484   VAL   CG1    .   50219   1
+      153   .   1   .   1   13   13   VAL   CG2    C   13   21.483    0.00   .   .   .   .   .   .   .   484   VAL   CG2    .   50219   1
+      154   .   1   .   1   13   13   VAL   N      N   15   123.377   0.02   .   .   .   .   .   .   .   484   VAL   N      .   50219   1
+      155   .   1   .   1   14   14   HIS   H      H   1    8.931     0.01   .   .   .   .   .   .   .   485   HIS   HN     .   50219   1
+      156   .   1   .   1   14   14   HIS   HA     H   1    5.237     0.00   .   .   .   .   .   .   .   485   HIS   HA     .   50219   1
+      157   .   1   .   1   14   14   HIS   HB2    H   1    3.292     0.00   .   .   .   .   .   .   .   485   HIS   HB2    .   50219   1
+      158   .   1   .   1   14   14   HIS   HB3    H   1    2.883     0.00   .   .   .   .   .   .   .   485   HIS   HB3    .   50219   1
+      159   .   1   .   1   14   14   HIS   HD2    H   1    6.734     0.00   .   .   .   .   .   .   .   485   HIS   HD2    .   50219   1
+      160   .   1   .   1   14   14   HIS   C      C   13   177.808   0.00   .   .   .   .   .   .   .   485   HIS   CO     .   50219   1
+      161   .   1   .   1   14   14   HIS   CA     C   13   55.442    0.03   .   .   .   .   .   .   .   485   HIS   CA     .   50219   1
+      162   .   1   .   1   14   14   HIS   CB     C   13   34.289    0.00   .   .   .   .   .   .   .   485   HIS   CB     .   50219   1
+      163   .   1   .   1   14   14   HIS   CD2    C   13   117.558   0.00   .   .   .   .   .   .   .   485   HIS   CD2    .   50219   1
+      164   .   1   .   1   14   14   HIS   N      N   15   130.054   0.05   .   .   .   .   .   .   .   485   HIS   N      .   50219   1
+      165   .   1   .   1   15   15   LEU   H      H   1    8.671     0.00   .   .   .   .   .   .   .   486   LEU   HN     .   50219   1
+      166   .   1   .   1   15   15   LEU   HA     H   1    3.969     0.00   .   .   .   .   .   .   .   486   LEU   HA     .   50219   1
+      167   .   1   .   1   15   15   LEU   HB2    H   1    1.598     0.00   .   .   .   .   .   .   .   486   LEU   HB2    .   50219   1
+      168   .   1   .   1   15   15   LEU   HB3    H   1    1.548     0.00   .   .   .   .   .   .   .   486   LEU   HB3    .   50219   1
+      169   .   1   .   1   15   15   LEU   HG     H   1    1.647     0.00   .   .   .   .   .   .   .   486   LEU   HG     .   50219   1
+      170   .   1   .   1   15   15   LEU   HD11   H   1    0.877     0.00   .   .   .   .   .   .   .   486   LEU   HD1#   .   50219   1
+      171   .   1   .   1   15   15   LEU   HD12   H   1    0.877     0.00   .   .   .   .   .   .   .   486   LEU   HD1#   .   50219   1
+      172   .   1   .   1   15   15   LEU   HD13   H   1    0.877     0.00   .   .   .   .   .   .   .   486   LEU   HD1#   .   50219   1
+      173   .   1   .   1   15   15   LEU   HD21   H   1    0.932     0.00   .   .   .   .   .   .   .   486   LEU   HD2#   .   50219   1
+      174   .   1   .   1   15   15   LEU   HD22   H   1    0.932     0.00   .   .   .   .   .   .   .   486   LEU   HD2#   .   50219   1
+      175   .   1   .   1   15   15   LEU   HD23   H   1    0.932     0.00   .   .   .   .   .   .   .   486   LEU   HD2#   .   50219   1
+      176   .   1   .   1   15   15   LEU   C      C   13   177.730   0.00   .   .   .   .   .   .   .   486   LEU   CO     .   50219   1
+      177   .   1   .   1   15   15   LEU   CA     C   13   58.741    0.00   .   .   .   .   .   .   .   486   LEU   CA     .   50219   1
+      178   .   1   .   1   15   15   LEU   CB     C   13   43.675    0.01   .   .   .   .   .   .   .   486   LEU   CB     .   50219   1
+      179   .   1   .   1   15   15   LEU   CG     C   13   27.131    0.00   .   .   .   .   .   .   .   486   LEU   CG     .   50219   1
+      180   .   1   .   1   15   15   LEU   CD1    C   13   24.934    0.00   .   .   .   .   .   .   .   486   LEU   CD1    .   50219   1
+      181   .   1   .   1   15   15   LEU   CD2    C   13   24.358    0.00   .   .   .   .   .   .   .   486   LEU   CD2    .   50219   1
+      182   .   1   .   1   15   15   LEU   N      N   15   130.188   0.01   .   .   .   .   .   .   .   486   LEU   N      .   50219   1
+      183   .   1   .   1   16   16   GLU   H      H   1    9.875     0.00   .   .   .   .   .   .   .   487   GLU   HN     .   50219   1
+      184   .   1   .   1   16   16   GLU   HA     H   1    4.359     0.00   .   .   .   .   .   .   .   487   GLU   HA     .   50219   1
+      185   .   1   .   1   16   16   GLU   HB2    H   1    1.659     0.00   .   .   .   .   .   .   .   487   GLU   HB2    .   50219   1
+      186   .   1   .   1   16   16   GLU   HB3    H   1    1.556     0.00   .   .   .   .   .   .   .   487   GLU   HB3    .   50219   1
+      187   .   1   .   1   16   16   GLU   HG2    H   1    2.075     0.00   .   .   .   .   .   .   .   487   GLU   HG2    .   50219   1
+      188   .   1   .   1   16   16   GLU   HG3    H   1    1.842     0.00   .   .   .   .   .   .   .   487   GLU   HG3    .   50219   1
+      189   .   1   .   1   16   16   GLU   C      C   13   178.291   0.02   .   .   .   .   .   .   .   487   GLU   CO     .   50219   1
+      190   .   1   .   1   16   16   GLU   CA     C   13   57.203    0.00   .   .   .   .   .   .   .   487   GLU   CA     .   50219   1
+      191   .   1   .   1   16   16   GLU   CB     C   13   31.554    0.01   .   .   .   .   .   .   .   487   GLU   CB     .   50219   1
+      192   .   1   .   1   16   16   GLU   CG     C   13   36.349    0.02   .   .   .   .   .   .   .   487   GLU   CG     .   50219   1
+      193   .   1   .   1   16   16   GLU   N      N   15   117.389   0.01   .   .   .   .   .   .   .   487   GLU   N      .   50219   1
+      194   .   1   .   1   17   17   HIS   H      H   1    7.550     0.00   .   .   .   .   .   .   .   488   HIS   HN     .   50219   1
+      195   .   1   .   1   17   17   HIS   HA     H   1    4.540     0.00   .   .   .   .   .   .   .   488   HIS   HA     .   50219   1
+      196   .   1   .   1   17   17   HIS   HB2    H   1    2.619     0.00   .   .   .   .   .   .   .   488   HIS   HB2    .   50219   1
+      197   .   1   .   1   17   17   HIS   HB3    H   1    2.242     0.00   .   .   .   .   .   .   .   488   HIS   HB3    .   50219   1
+      198   .   1   .   1   17   17   HIS   C      C   13   175.521   0.01   .   .   .   .   .   .   .   488   HIS   CO     .   50219   1
+      199   .   1   .   1   17   17   HIS   CA     C   13   57.387    0.00   .   .   .   .   .   .   .   488   HIS   CA     .   50219   1
+      200   .   1   .   1   17   17   HIS   CB     C   13   31.842    0.03   .   .   .   .   .   .   .   488   HIS   CB     .   50219   1
+      201   .   1   .   1   17   17   HIS   N      N   15   116.696   0.01   .   .   .   .   .   .   .   488   HIS   N      .   50219   1
+      202   .   1   .   1   18   18   GLY   H      H   1    8.712     0.00   .   .   .   .   .   .   .   489   GLY   HN     .   50219   1
+      203   .   1   .   1   18   18   GLY   HA2    H   1    4.181     0.00   .   .   .   .   .   .   .   489   GLY   HA2    .   50219   1
+      204   .   1   .   1   18   18   GLY   HA3    H   1    3.682     0.00   .   .   .   .   .   .   .   489   GLY   HA3    .   50219   1
+      205   .   1   .   1   18   18   GLY   C      C   13   177.631   0.00   .   .   .   .   .   .   .   489   GLY   CO     .   50219   1
+      206   .   1   .   1   18   18   GLY   CA     C   13   45.167    0.01   .   .   .   .   .   .   .   489   GLY   CA     .   50219   1
+      207   .   1   .   1   18   18   GLY   N      N   15   107.767   0.01   .   .   .   .   .   .   .   489   GLY   N      .   50219   1
+      208   .   1   .   1   19   19   VAL   HA     H   1    4.500     0.00   .   .   .   .   .   .   .   490   VAL   HA     .   50219   1
+      209   .   1   .   1   19   19   VAL   HB     H   1    1.804     0.00   .   .   .   .   .   .   .   490   VAL   HB     .   50219   1
+      210   .   1   .   1   19   19   VAL   HG11   H   1    1.100     0.00   .   .   .   .   .   .   .   490   VAL   HG1#   .   50219   1
+      211   .   1   .   1   19   19   VAL   HG12   H   1    1.100     0.00   .   .   .   .   .   .   .   490   VAL   HG1#   .   50219   1
+      212   .   1   .   1   19   19   VAL   HG13   H   1    1.100     0.00   .   .   .   .   .   .   .   490   VAL   HG1#   .   50219   1
+      213   .   1   .   1   19   19   VAL   HG21   H   1    0.653     0.00   .   .   .   .   .   .   .   490   VAL   HG2#   .   50219   1
+      214   .   1   .   1   19   19   VAL   HG22   H   1    0.653     0.00   .   .   .   .   .   .   .   490   VAL   HG2#   .   50219   1
+      215   .   1   .   1   19   19   VAL   HG23   H   1    0.653     0.00   .   .   .   .   .   .   .   490   VAL   HG2#   .   50219   1
+      216   .   1   .   1   19   19   VAL   C      C   13   174.396   0.00   .   .   .   .   .   .   .   490   VAL   CO     .   50219   1
+      217   .   1   .   1   19   19   VAL   CA     C   13   64.481    0.02   .   .   .   .   .   .   .   490   VAL   CA     .   50219   1
+      218   .   1   .   1   19   19   VAL   CB     C   13   31.238    0.00   .   .   .   .   .   .   .   490   VAL   CB     .   50219   1
+      219   .   1   .   1   19   19   VAL   CG1    C   13   22.349    0.00   .   .   .   .   .   .   .   490   VAL   CG1    .   50219   1
+      220   .   1   .   1   19   19   VAL   CG2    C   13   22.687    0.00   .   .   .   .   .   .   .   490   VAL   CG2    .   50219   1
+      221   .   1   .   1   20   20   GLY   H      H   1    8.455     0.00   .   .   .   .   .   .   .   491   GLY   HN     .   50219   1
+      222   .   1   .   1   20   20   GLY   HA2    H   1    4.196     0.00   .   .   .   .   .   .   .   491   GLY   HA2    .   50219   1
+      223   .   1   .   1   20   20   GLY   HA3    H   1    2.251     0.00   .   .   .   .   .   .   .   491   GLY   HA3    .   50219   1
+      224   .   1   .   1   20   20   GLY   C      C   13   175.660   0.03   .   .   .   .   .   .   .   491   GLY   CO     .   50219   1
+      225   .   1   .   1   20   20   GLY   CA     C   13   43.370    0.01   .   .   .   .   .   .   .   491   GLY   CA     .   50219   1
+      226   .   1   .   1   20   20   GLY   N      N   15   116.591   0.03   .   .   .   .   .   .   .   491   GLY   N      .   50219   1
+      227   .   1   .   1   21   21   ARG   H      H   1    9.056     0.00   .   .   .   .   .   .   .   492   ARG   HN     .   50219   1
+      228   .   1   .   1   21   21   ARG   HA     H   1    4.959     0.00   .   .   .   .   .   .   .   492   ARG   HA     .   50219   1
+      229   .   1   .   1   21   21   ARG   HB2    H   1    1.709     0.00   .   .   .   .   .   .   .   492   ARG   HB2    .   50219   1
+      230   .   1   .   1   21   21   ARG   HB3    H   1    1.190     0.00   .   .   .   .   .   .   .   492   ARG   HB3    .   50219   1
+      231   .   1   .   1   21   21   ARG   HG2    H   1    1.484     0.00   .   .   .   .   .   .   .   492   ARG   HG2    .   50219   1
+      232   .   1   .   1   21   21   ARG   HG3    H   1    1.182     0.00   .   .   .   .   .   .   .   492   ARG   HG3    .   50219   1
+      233   .   1   .   1   21   21   ARG   HD2    H   1    3.088     0.00   .   .   .   .   .   .   .   492   ARG   HD2    .   50219   1
+      234   .   1   .   1   21   21   ARG   HD3    H   1    2.957     0.00   .   .   .   .   .   .   .   492   ARG   HD3    .   50219   1
+      235   .   1   .   1   21   21   ARG   C      C   13   176.376   0.00   .   .   .   .   .   .   .   492   ARG   CO     .   50219   1
+      236   .   1   .   1   21   21   ARG   CA     C   13   52.986    0.05   .   .   .   .   .   .   .   492   ARG   CA     .   50219   1
+      237   .   1   .   1   21   21   ARG   CB     C   13   32.454    0.02   .   .   .   .   .   .   .   492   ARG   CB     .   50219   1
+      238   .   1   .   1   21   21   ARG   CG     C   13   26.911    0.01   .   .   .   .   .   .   .   492   ARG   CG     .   50219   1
+      239   .   1   .   1   21   21   ARG   CD     C   13   42.311    0.00   .   .   .   .   .   .   .   492   ARG   CD     .   50219   1
+      240   .   1   .   1   21   21   ARG   N      N   15   121.966   0.03   .   .   .   .   .   .   .   492   ARG   N      .   50219   1
+      241   .   1   .   1   22   22   TYR   H      H   1    9.003     0.01   .   .   .   .   .   .   .   493   TYR   HN     .   50219   1
+      242   .   1   .   1   22   22   TYR   HA     H   1    4.555     0.00   .   .   .   .   .   .   .   493   TYR   HA     .   50219   1
+      243   .   1   .   1   22   22   TYR   HB2    H   1    3.133     0.00   .   .   .   .   .   .   .   493   TYR   HB2    .   50219   1
+      244   .   1   .   1   22   22   TYR   HB3    H   1    2.942     0.00   .   .   .   .   .   .   .   493   TYR   HB3    .   50219   1
+      245   .   1   .   1   22   22   TYR   HD1    H   1    6.915     0.00   .   .   .   .   .   .   .   493   TYR   HD#    .   50219   1
+      246   .   1   .   1   22   22   TYR   HD2    H   1    6.915     0.00   .   .   .   .   .   .   .   493   TYR   HD#    .   50219   1
+      247   .   1   .   1   22   22   TYR   HE1    H   1    6.715     0.00   .   .   .   .   .   .   .   493   TYR   HE#    .   50219   1
+      248   .   1   .   1   22   22   TYR   HE2    H   1    6.715     0.00   .   .   .   .   .   .   .   493   TYR   HE#    .   50219   1
+      249   .   1   .   1   22   22   TYR   C      C   13   176.154   0.00   .   .   .   .   .   .   .   493   TYR   CO     .   50219   1
+      250   .   1   .   1   22   22   TYR   CA     C   13   59.270    0.02   .   .   .   .   .   .   .   493   TYR   CA     .   50219   1
+      251   .   1   .   1   22   22   TYR   CB     C   13   37.901    0.00   .   .   .   .   .   .   .   493   TYR   CB     .   50219   1
+      252   .   1   .   1   22   22   TYR   CD1    C   13   132.695   0.00   .   .   .   .   .   .   .   493   TYR   CD#    .   50219   1
+      253   .   1   .   1   22   22   TYR   CD2    C   13   132.695   0.00   .   .   .   .   .   .   .   493   TYR   CD#    .   50219   1
+      254   .   1   .   1   22   22   TYR   CE1    C   13   119.335   0.00   .   .   .   .   .   .   .   493   TYR   CE#    .   50219   1
+      255   .   1   .   1   22   22   TYR   CE2    C   13   119.335   0.00   .   .   .   .   .   .   .   493   TYR   CE#    .   50219   1
+      256   .   1   .   1   22   22   TYR   N      N   15   123.834   0.01   .   .   .   .   .   .   .   493   TYR   N      .   50219   1
+      257   .   1   .   1   23   23   ALA   H      H   1    8.921     0.00   .   .   .   .   .   .   .   494   ALA   HN     .   50219   1
+      258   .   1   .   1   23   23   ALA   HA     H   1    4.434     0.00   .   .   .   .   .   .   .   494   ALA   HA     .   50219   1
+      259   .   1   .   1   23   23   ALA   HB1    H   1    1.149     0.00   .   .   .   .   .   .   .   494   ALA   HB#    .   50219   1
+      260   .   1   .   1   23   23   ALA   HB2    H   1    1.149     0.00   .   .   .   .   .   .   .   494   ALA   HB#    .   50219   1
+      261   .   1   .   1   23   23   ALA   HB3    H   1    1.149     0.00   .   .   .   .   .   .   .   494   ALA   HB#    .   50219   1
+      262   .   1   .   1   23   23   ALA   C      C   13   175.985   0.00   .   .   .   .   .   .   .   494   ALA   CO     .   50219   1
+      263   .   1   .   1   23   23   ALA   CA     C   13   51.423    0.00   .   .   .   .   .   .   .   494   ALA   CA     .   50219   1
+      264   .   1   .   1   23   23   ALA   CB     C   13   20.280    0.00   .   .   .   .   .   .   .   494   ALA   CB     .   50219   1
+      265   .   1   .   1   23   23   ALA   N      N   15   132.565   0.01   .   .   .   .   .   .   .   494   ALA   N      .   50219   1
+      266   .   1   .   1   24   24   GLY   HA2    H   1    4.303     0.00   .   .   .   .   .   .   .   495   GLY   HA2    .   50219   1
+      267   .   1   .   1   24   24   GLY   HA3    H   1    3.235     0.00   .   .   .   .   .   .   .   495   GLY   HA3    .   50219   1
+      268   .   1   .   1   24   24   GLY   C      C   13   170.805   0.00   .   .   .   .   .   .   .   495   GLY   CO     .   50219   1
+      269   .   1   .   1   24   24   GLY   CA     C   13   44.271    0.00   .   .   .   .   .   .   .   495   GLY   CA     .   50219   1
+      270   .   1   .   1   25   25   MET   H      H   1    8.180     0.00   .   .   .   .   .   .   .   496   MET   HN     .   50219   1
+      271   .   1   .   1   25   25   MET   HA     H   1    5.585     0.00   .   .   .   .   .   .   .   496   MET   HA     .   50219   1
+      272   .   1   .   1   25   25   MET   HB2    H   1    2.179     0.00   .   .   .   .   .   .   .   496   MET   HB2    .   50219   1
+      273   .   1   .   1   25   25   MET   HB3    H   1    1.986     0.00   .   .   .   .   .   .   .   496   MET   HB3    .   50219   1
+      274   .   1   .   1   25   25   MET   HG2    H   1    2.765     0.00   .   .   .   .   .   .   .   496   MET   HG2    .   50219   1
+      275   .   1   .   1   25   25   MET   HG3    H   1    2.709     0.00   .   .   .   .   .   .   .   496   MET   HG3    .   50219   1
+      276   .   1   .   1   25   25   MET   C      C   13   177.085   0.00   .   .   .   .   .   .   .   496   MET   CO     .   50219   1
+      277   .   1   .   1   25   25   MET   CA     C   13   53.500    0.02   .   .   .   .   .   .   .   496   MET   CA     .   50219   1
+      278   .   1   .   1   25   25   MET   CB     C   13   34.350    0.00   .   .   .   .   .   .   .   496   MET   CB     .   50219   1
+      279   .   1   .   1   25   25   MET   CG     C   13   32.048    0.00   .   .   .   .   .   .   .   496   MET   CG     .   50219   1
+      280   .   1   .   1   25   25   MET   N      N   15   116.917   0.00   .   .   .   .   .   .   .   496   MET   N      .   50219   1
+      281   .   1   .   1   26   26   THR   H      H   1    9.361     0.00   .   .   .   .   .   .   .   497   THR   HN     .   50219   1
+      282   .   1   .   1   26   26   THR   HA     H   1    4.862     0.00   .   .   .   .   .   .   .   497   THR   HA     .   50219   1
+      283   .   1   .   1   26   26   THR   HB     H   1    4.127     0.00   .   .   .   .   .   .   .   497   THR   HB     .   50219   1
+      284   .   1   .   1   26   26   THR   HG21   H   1    1.148     0.00   .   .   .   .   .   .   .   497   THR   HG2#   .   50219   1
+      285   .   1   .   1   26   26   THR   HG22   H   1    1.148     0.00   .   .   .   .   .   .   .   497   THR   HG2#   .   50219   1
+      286   .   1   .   1   26   26   THR   HG23   H   1    1.148     0.00   .   .   .   .   .   .   .   497   THR   HG2#   .   50219   1
+      287   .   1   .   1   26   26   THR   C      C   13   172.540   0.00   .   .   .   .   .   .   .   497   THR   CO     .   50219   1
+      288   .   1   .   1   26   26   THR   CA     C   13   60.568    0.00   .   .   .   .   .   .   .   497   THR   CA     .   50219   1
+      289   .   1   .   1   26   26   THR   CB     C   13   70.638    0.00   .   .   .   .   .   .   .   497   THR   CB     .   50219   1
+      290   .   1   .   1   26   26   THR   CG2    C   13   19.517    0.00   .   .   .   .   .   .   .   497   THR   CG2    .   50219   1
+      291   .   1   .   1   26   26   THR   N      N   15   117.850   0.01   .   .   .   .   .   .   .   497   THR   N      .   50219   1
+      292   .   1   .   1   27   27   THR   H      H   1    8.132     0.00   .   .   .   .   .   .   .   498   THR   HN     .   50219   1
+      293   .   1   .   1   27   27   THR   HA     H   1    5.462     0.00   .   .   .   .   .   .   .   498   THR   HA     .   50219   1
+      294   .   1   .   1   27   27   THR   HB     H   1    4.039     0.00   .   .   .   .   .   .   .   498   THR   HB     .   50219   1
+      295   .   1   .   1   27   27   THR   HG21   H   1    1.171     0.00   .   .   .   .   .   .   .   498   THR   HG2#   .   50219   1
+      296   .   1   .   1   27   27   THR   HG22   H   1    1.171     0.00   .   .   .   .   .   .   .   498   THR   HG2#   .   50219   1
+      297   .   1   .   1   27   27   THR   HG23   H   1    1.171     0.00   .   .   .   .   .   .   .   498   THR   HG2#   .   50219   1
+      298   .   1   .   1   27   27   THR   C      C   13   174.082   0.00   .   .   .   .   .   .   .   498   THR   CO     .   50219   1
+      299   .   1   .   1   27   27   THR   CA     C   13   61.038    0.02   .   .   .   .   .   .   .   498   THR   CA     .   50219   1
+      300   .   1   .   1   27   27   THR   CB     C   13   71.058    0.00   .   .   .   .   .   .   .   498   THR   CB     .   50219   1
+      301   .   1   .   1   27   27   THR   CG2    C   13   21.918    0.00   .   .   .   .   .   .   .   498   THR   CG2    .   50219   1
+      302   .   1   .   1   27   27   THR   N      N   15   118.971   0.00   .   .   .   .   .   .   .   498   THR   N      .   50219   1
+      303   .   1   .   1   28   28   LEU   H      H   1    8.765     0.01   .   .   .   .   .   .   .   499   LEU   HN     .   50219   1
+      304   .   1   .   1   28   28   LEU   HA     H   1    4.675     0.00   .   .   .   .   .   .   .   499   LEU   HA     .   50219   1
+      305   .   1   .   1   28   28   LEU   HB2    H   1    1.315     0.00   .   .   .   .   .   .   .   499   LEU   HB2    .   50219   1
+      306   .   1   .   1   28   28   LEU   HB3    H   1    1.244     0.00   .   .   .   .   .   .   .   499   LEU   HB3    .   50219   1
+      307   .   1   .   1   28   28   LEU   HG     H   1    1.058     0.00   .   .   .   .   .   .   .   499   LEU   HG     .   50219   1
+      308   .   1   .   1   28   28   LEU   HD11   H   1    0.392     0.00   .   .   .   .   .   .   .   499   LEU   HD1#   .   50219   1
+      309   .   1   .   1   28   28   LEU   HD12   H   1    0.392     0.00   .   .   .   .   .   .   .   499   LEU   HD1#   .   50219   1
+      310   .   1   .   1   28   28   LEU   HD13   H   1    0.392     0.00   .   .   .   .   .   .   .   499   LEU   HD1#   .   50219   1
+      311   .   1   .   1   28   28   LEU   HD21   H   1    -0.177    0.00   .   .   .   .   .   .   .   499   LEU   HD2#   .   50219   1
+      312   .   1   .   1   28   28   LEU   HD22   H   1    -0.177    0.00   .   .   .   .   .   .   .   499   LEU   HD2#   .   50219   1
+      313   .   1   .   1   28   28   LEU   HD23   H   1    -0.177    0.00   .   .   .   .   .   .   .   499   LEU   HD2#   .   50219   1
+      314   .   1   .   1   28   28   LEU   C      C   13   175.816   0.00   .   .   .   .   .   .   .   499   LEU   CO     .   50219   1
+      315   .   1   .   1   28   28   LEU   CA     C   13   54.110    0.00   .   .   .   .   .   .   .   499   LEU   CA     .   50219   1
+      316   .   1   .   1   28   28   LEU   CB     C   13   45.228    0.01   .   .   .   .   .   .   .   499   LEU   CB     .   50219   1
+      317   .   1   .   1   28   28   LEU   CG     C   13   26.583    0.00   .   .   .   .   .   .   .   499   LEU   CG     .   50219   1
+      318   .   1   .   1   28   28   LEU   CD1    C   13   23.648    0.00   .   .   .   .   .   .   .   499   LEU   CD1    .   50219   1
+      319   .   1   .   1   28   28   LEU   CD2    C   13   23.884    0.00   .   .   .   .   .   .   .   499   LEU   CD2    .   50219   1
+      320   .   1   .   1   28   28   LEU   N      N   15   123.998   0.01   .   .   .   .   .   .   .   499   LEU   N      .   50219   1
+      321   .   1   .   1   29   29   GLU   H      H   1    8.466     0.00   .   .   .   .   .   .   .   500   GLU   HN     .   50219   1
+      322   .   1   .   1   29   29   GLU   HA     H   1    4.879     0.00   .   .   .   .   .   .   .   500   GLU   HA     .   50219   1
+      323   .   1   .   1   29   29   GLU   HB2    H   1    1.888     0.00   .   .   .   .   .   .   .   500   GLU   HB#    .   50219   1
+      324   .   1   .   1   29   29   GLU   HB3    H   1    1.888     0.00   .   .   .   .   .   .   .   500   GLU   HB#    .   50219   1
+      325   .   1   .   1   29   29   GLU   HG2    H   1    2.075     0.00   .   .   .   .   .   .   .   500   GLU   HG2    .   50219   1
+      326   .   1   .   1   29   29   GLU   HG3    H   1    1.918     0.00   .   .   .   .   .   .   .   500   GLU   HG3    .   50219   1
+      327   .   1   .   1   29   29   GLU   C      C   13   175.527   0.02   .   .   .   .   .   .   .   500   GLU   CO     .   50219   1
+      328   .   1   .   1   29   29   GLU   CA     C   13   55.278    0.00   .   .   .   .   .   .   .   500   GLU   CA     .   50219   1
+      329   .   1   .   1   29   29   GLU   CB     C   13   31.346    0.00   .   .   .   .   .   .   .   500   GLU   CB     .   50219   1
+      330   .   1   .   1   29   29   GLU   CG     C   13   36.423    0.02   .   .   .   .   .   .   .   500   GLU   CG     .   50219   1
+      331   .   1   .   1   29   29   GLU   N      N   15   123.877   0.02   .   .   .   .   .   .   .   500   GLU   N      .   50219   1
+      332   .   1   .   1   30   30   ALA   H      H   1    8.399     0.01   .   .   .   .   .   .   .   501   ALA   HN     .   50219   1
+      333   .   1   .   1   30   30   ALA   HA     H   1    4.504     0.00   .   .   .   .   .   .   .   501   ALA   HA     .   50219   1
+      334   .   1   .   1   30   30   ALA   HB1    H   1    1.296     0.00   .   .   .   .   .   .   .   501   ALA   HB#    .   50219   1
+      335   .   1   .   1   30   30   ALA   HB2    H   1    1.296     0.00   .   .   .   .   .   .   .   501   ALA   HB#    .   50219   1
+      336   .   1   .   1   30   30   ALA   HB3    H   1    1.296     0.00   .   .   .   .   .   .   .   501   ALA   HB#    .   50219   1
+      337   .   1   .   1   30   30   ALA   C      C   13   178.593   0.00   .   .   .   .   .   .   .   501   ALA   CO     .   50219   1
+      338   .   1   .   1   30   30   ALA   CA     C   13   52.417    0.00   .   .   .   .   .   .   .   501   ALA   CA     .   50219   1
+      339   .   1   .   1   30   30   ALA   CB     C   13   20.561    0.00   .   .   .   .   .   .   .   501   ALA   CB     .   50219   1
+      340   .   1   .   1   30   30   ALA   N      N   15   128.180   0.02   .   .   .   .   .   .   .   501   ALA   N      .   50219   1
+      341   .   1   .   1   31   31   GLY   HA2    H   1    3.905     0.01   .   .   .   .   .   .   .   502   GLY   HA#    .   50219   1
+      342   .   1   .   1   31   31   GLY   HA3    H   1    3.905     0.01   .   .   .   .   .   .   .   502   GLY   HA#    .   50219   1
+      343   .   1   .   1   31   31   GLY   CA     C   13   47.063    0.00   .   .   .   .   .   .   .   502   GLY   CA     .   50219   1
+      344   .   1   .   1   32   32   GLY   H      H   1    8.783     0.00   .   .   .   .   .   .   .   503   GLY   HN     .   50219   1
+      345   .   1   .   1   32   32   GLY   HA2    H   1    4.166     0.00   .   .   .   .   .   .   .   503   GLY   HA2    .   50219   1
+      346   .   1   .   1   32   32   GLY   HA3    H   1    3.674     0.00   .   .   .   .   .   .   .   503   GLY   HA3    .   50219   1
+      347   .   1   .   1   32   32   GLY   C      C   13   173.992   0.00   .   .   .   .   .   .   .   503   GLY   CO     .   50219   1
+      348   .   1   .   1   32   32   GLY   CA     C   13   45.171    0.00   .   .   .   .   .   .   .   503   GLY   CA     .   50219   1
+      349   .   1   .   1   32   32   GLY   N      N   15   107.113   0.00   .   .   .   .   .   .   .   503   GLY   N      .   50219   1
+      350   .   1   .   1   33   33   ILE   H      H   1    7.675     0.00   .   .   .   .   .   .   .   504   ILE   HN     .   50219   1
+      351   .   1   .   1   33   33   ILE   HA     H   1    4.470     0.00   .   .   .   .   .   .   .   504   ILE   HA     .   50219   1
+      352   .   1   .   1   33   33   ILE   HB     H   1    1.985     0.00   .   .   .   .   .   .   .   504   ILE   HB     .   50219   1
+      353   .   1   .   1   33   33   ILE   HG12   H   1    1.479     0.00   .   .   .   .   .   .   .   504   ILE   HG12   .   50219   1
+      354   .   1   .   1   33   33   ILE   HG13   H   1    1.180     0.00   .   .   .   .   .   .   .   504   ILE   HG13   .   50219   1
+      355   .   1   .   1   33   33   ILE   HG21   H   1    0.929     0.00   .   .   .   .   .   .   .   504   ILE   HG2#   .   50219   1
+      356   .   1   .   1   33   33   ILE   HG22   H   1    0.929     0.00   .   .   .   .   .   .   .   504   ILE   HG2#   .   50219   1
+      357   .   1   .   1   33   33   ILE   HG23   H   1    0.929     0.00   .   .   .   .   .   .   .   504   ILE   HG2#   .   50219   1
+      358   .   1   .   1   33   33   ILE   HD11   H   1    0.870     0.00   .   .   .   .   .   .   .   504   ILE   HD1#   .   50219   1
+      359   .   1   .   1   33   33   ILE   HD12   H   1    0.870     0.00   .   .   .   .   .   .   .   504   ILE   HD1#   .   50219   1
+      360   .   1   .   1   33   33   ILE   HD13   H   1    0.870     0.00   .   .   .   .   .   .   .   504   ILE   HD1#   .   50219   1
+      361   .   1   .   1   33   33   ILE   C      C   13   176.207   0.03   .   .   .   .   .   .   .   504   ILE   CO     .   50219   1
+      362   .   1   .   1   33   33   ILE   CA     C   13   60.033    0.00   .   .   .   .   .   .   .   504   ILE   CA     .   50219   1
+      363   .   1   .   1   33   33   ILE   CB     C   13   40.022    0.00   .   .   .   .   .   .   .   504   ILE   CB     .   50219   1
+      364   .   1   .   1   33   33   ILE   CG1    C   13   27.144    0.01   .   .   .   .   .   .   .   504   ILE   CG1    .   50219   1
+      365   .   1   .   1   33   33   ILE   CG2    C   13   17.649    0.00   .   .   .   .   .   .   .   504   ILE   CG2    .   50219   1
+      366   .   1   .   1   33   33   ILE   CD1    C   13   12.702    0.00   .   .   .   .   .   .   .   504   ILE   CD1    .   50219   1
+      367   .   1   .   1   33   33   ILE   N      N   15   121.506   0.03   .   .   .   .   .   .   .   504   ILE   N      .   50219   1
+      368   .   1   .   1   34   34   THR   H      H   1    8.701     0.00   .   .   .   .   .   .   .   505   THR   HN     .   50219   1
+      369   .   1   .   1   34   34   THR   HA     H   1    4.962     0.01   .   .   .   .   .   .   .   505   THR   HA     .   50219   1
+      370   .   1   .   1   34   34   THR   HB     H   1    4.043     0.00   .   .   .   .   .   .   .   505   THR   HB     .   50219   1
+      371   .   1   .   1   34   34   THR   HG21   H   1    1.150     0.00   .   .   .   .   .   .   .   505   THR   HG2#   .   50219   1
+      372   .   1   .   1   34   34   THR   HG22   H   1    1.150     0.00   .   .   .   .   .   .   .   505   THR   HG2#   .   50219   1
+      373   .   1   .   1   34   34   THR   HG23   H   1    1.150     0.00   .   .   .   .   .   .   .   505   THR   HG2#   .   50219   1
+      374   .   1   .   1   34   34   THR   C      C   13   174.578   0.00   .   .   .   .   .   .   .   505   THR   CO     .   50219   1
+      375   .   1   .   1   34   34   THR   CA     C   13   62.259    0.02   .   .   .   .   .   .   .   505   THR   CA     .   50219   1
+      376   .   1   .   1   34   34   THR   CB     C   13   69.808    0.00   .   .   .   .   .   .   .   505   THR   CB     .   50219   1
+      377   .   1   .   1   34   34   THR   CG2    C   13   21.871    0.00   .   .   .   .   .   .   .   505   THR   CG2    .   50219   1
+      378   .   1   .   1   34   34   THR   N      N   15   123.802   0.03   .   .   .   .   .   .   .   505   THR   N      .   50219   1
+      379   .   1   .   1   35   35   GLY   H      H   1    8.686     0.00   .   .   .   .   .   .   .   506   GLY   HN     .   50219   1
+      380   .   1   .   1   35   35   GLY   HA2    H   1    4.503     0.00   .   .   .   .   .   .   .   506   GLY   HA2    .   50219   1
+      381   .   1   .   1   35   35   GLY   HA3    H   1    3.898     0.00   .   .   .   .   .   .   .   506   GLY   HA3    .   50219   1
+      382   .   1   .   1   35   35   GLY   C      C   13   171.458   0.00   .   .   .   .   .   .   .   506   GLY   CO     .   50219   1
+      383   .   1   .   1   35   35   GLY   CA     C   13   44.775    0.01   .   .   .   .   .   .   .   506   GLY   CA     .   50219   1
+      384   .   1   .   1   35   35   GLY   N      N   15   113.893   0.03   .   .   .   .   .   .   .   506   GLY   N      .   50219   1
+      385   .   1   .   1   36   36   GLU   H      H   1    8.200     0.00   .   .   .   .   .   .   .   507   GLU   HN     .   50219   1
+      386   .   1   .   1   36   36   GLU   HA     H   1    5.083     0.00   .   .   .   .   .   .   .   507   GLU   HA     .   50219   1
+      387   .   1   .   1   36   36   GLU   HB2    H   1    1.937     0.00   .   .   .   .   .   .   .   507   GLU   HB#    .   50219   1
+      388   .   1   .   1   36   36   GLU   HB3    H   1    1.937     0.00   .   .   .   .   .   .   .   507   GLU   HB#    .   50219   1
+      389   .   1   .   1   36   36   GLU   HG2    H   1    2.277     0.00   .   .   .   .   .   .   .   507   GLU   HG2    .   50219   1
+      390   .   1   .   1   36   36   GLU   HG3    H   1    2.192     0.00   .   .   .   .   .   .   .   507   GLU   HG3    .   50219   1
+      391   .   1   .   1   36   36   GLU   C      C   13   176.843   0.01   .   .   .   .   .   .   .   507   GLU   CO     .   50219   1
+      392   .   1   .   1   36   36   GLU   CA     C   13   56.169    0.02   .   .   .   .   .   .   .   507   GLU   CA     .   50219   1
+      393   .   1   .   1   36   36   GLU   CB     C   13   32.168    0.00   .   .   .   .   .   .   .   507   GLU   CB     .   50219   1
+      394   .   1   .   1   36   36   GLU   CG     C   13   37.265    0.02   .   .   .   .   .   .   .   507   GLU   CG     .   50219   1
+      395   .   1   .   1   36   36   GLU   N      N   15   120.238   0.02   .   .   .   .   .   .   .   507   GLU   N      .   50219   1
+      396   .   1   .   1   37   37   TYR   H      H   1    9.234     0.00   .   .   .   .   .   .   .   508   TYR   HN     .   50219   1
+      397   .   1   .   1   37   37   TYR   HA     H   1    5.078     0.00   .   .   .   .   .   .   .   508   TYR   HA     .   50219   1
+      398   .   1   .   1   37   37   TYR   HB2    H   1    2.718     0.00   .   .   .   .   .   .   .   508   TYR   HB2    .   50219   1
+      399   .   1   .   1   37   37   TYR   HB3    H   1    2.582     0.00   .   .   .   .   .   .   .   508   TYR   HB3    .   50219   1
+      400   .   1   .   1   37   37   TYR   HD1    H   1    6.844     0.00   .   .   .   .   .   .   .   508   TYR   HD#    .   50219   1
+      401   .   1   .   1   37   37   TYR   HD2    H   1    6.844     0.00   .   .   .   .   .   .   .   508   TYR   HD#    .   50219   1
+      402   .   1   .   1   37   37   TYR   HE1    H   1    6.731     0.00   .   .   .   .   .   .   .   508   TYR   HE#    .   50219   1
+      403   .   1   .   1   37   37   TYR   HE2    H   1    6.731     0.00   .   .   .   .   .   .   .   508   TYR   HE#    .   50219   1
+      404   .   1   .   1   37   37   TYR   C      C   13   174.773   0.01   .   .   .   .   .   .   .   508   TYR   CO     .   50219   1
+      405   .   1   .   1   37   37   TYR   CA     C   13   57.048    0.04   .   .   .   .   .   .   .   508   TYR   CA     .   50219   1
+      406   .   1   .   1   37   37   TYR   CB     C   13   42.453    0.00   .   .   .   .   .   .   .   508   TYR   CB     .   50219   1
+      407   .   1   .   1   37   37   TYR   CD1    C   13   133.369   0.00   .   .   .   .   .   .   .   508   TYR   CD#    .   50219   1
+      408   .   1   .   1   37   37   TYR   CD2    C   13   133.369   0.00   .   .   .   .   .   .   .   508   TYR   CD#    .   50219   1
+      409   .   1   .   1   37   37   TYR   CE1    C   13   118.455   0.00   .   .   .   .   .   .   .   508   TYR   CE#    .   50219   1
+      410   .   1   .   1   37   37   TYR   CE2    C   13   118.455   0.00   .   .   .   .   .   .   .   508   TYR   CE#    .   50219   1
+      411   .   1   .   1   37   37   TYR   N      N   15   122.494   0.01   .   .   .   .   .   .   .   508   TYR   N      .   50219   1
+      412   .   1   .   1   38   38   LEU   H      H   1    9.584     0.00   .   .   .   .   .   .   .   509   LEU   HN     .   50219   1
+      413   .   1   .   1   38   38   LEU   HA     H   1    5.016     0.00   .   .   .   .   .   .   .   509   LEU   HA     .   50219   1
+      414   .   1   .   1   38   38   LEU   HB2    H   1    1.670     0.00   .   .   .   .   .   .   .   509   LEU   HB#    .   50219   1
+      415   .   1   .   1   38   38   LEU   HB3    H   1    1.670     0.00   .   .   .   .   .   .   .   509   LEU   HB#    .   50219   1
+      416   .   1   .   1   38   38   LEU   HG     H   1    1.942     0.00   .   .   .   .   .   .   .   509   LEU   HG     .   50219   1
+      417   .   1   .   1   38   38   LEU   HD11   H   1    0.943     0.00   .   .   .   .   .   .   .   509   LEU   HD1#   .   50219   1
+      418   .   1   .   1   38   38   LEU   HD12   H   1    0.943     0.00   .   .   .   .   .   .   .   509   LEU   HD1#   .   50219   1
+      419   .   1   .   1   38   38   LEU   HD13   H   1    0.943     0.00   .   .   .   .   .   .   .   509   LEU   HD1#   .   50219   1
+      420   .   1   .   1   38   38   LEU   HD21   H   1    0.892     0.00   .   .   .   .   .   .   .   509   LEU   HD2#   .   50219   1
+      421   .   1   .   1   38   38   LEU   HD22   H   1    0.892     0.00   .   .   .   .   .   .   .   509   LEU   HD2#   .   50219   1
+      422   .   1   .   1   38   38   LEU   HD23   H   1    0.892     0.00   .   .   .   .   .   .   .   509   LEU   HD2#   .   50219   1
+      423   .   1   .   1   38   38   LEU   C      C   13   176.081   0.01   .   .   .   .   .   .   .   509   LEU   CO     .   50219   1
+      424   .   1   .   1   38   38   LEU   CA     C   13   55.728    0.05   .   .   .   .   .   .   .   509   LEU   CA     .   50219   1
+      425   .   1   .   1   38   38   LEU   CB     C   13   44.103    0.00   .   .   .   .   .   .   .   509   LEU   CB     .   50219   1
+      426   .   1   .   1   38   38   LEU   CG     C   13   28.717    0.00   .   .   .   .   .   .   .   509   LEU   CG     .   50219   1
+      427   .   1   .   1   38   38   LEU   CD1    C   13   26.606    0.00   .   .   .   .   .   .   .   509   LEU   CD1    .   50219   1
+      428   .   1   .   1   38   38   LEU   CD2    C   13   26.404    0.00   .   .   .   .   .   .   .   509   LEU   CD2    .   50219   1
+      429   .   1   .   1   38   38   LEU   N      N   15   123.525   0.02   .   .   .   .   .   .   .   509   LEU   N      .   50219   1
+      430   .   1   .   1   39   39   MET   H      H   1    9.075     0.00   .   .   .   .   .   .   .   510   MET   HN     .   50219   1
+      431   .   1   .   1   39   39   MET   HA     H   1    4.942     0.00   .   .   .   .   .   .   .   510   MET   HA     .   50219   1
+      432   .   1   .   1   39   39   MET   HB2    H   1    1.751     0.00   .   .   .   .   .   .   .   510   MET   HB2    .   50219   1
+      433   .   1   .   1   39   39   MET   HB3    H   1    1.503     0.00   .   .   .   .   .   .   .   510   MET   HB3    .   50219   1
+      434   .   1   .   1   39   39   MET   HG2    H   1    1.985     0.00   .   .   .   .   .   .   .   510   MET   HG2    .   50219   1
+      435   .   1   .   1   39   39   MET   HG3    H   1    1.825     0.00   .   .   .   .   .   .   .   510   MET   HG3    .   50219   1
+      436   .   1   .   1   39   39   MET   C      C   13   174.108   0.00   .   .   .   .   .   .   .   510   MET   CO     .   50219   1
+      437   .   1   .   1   39   39   MET   CA     C   13   55.018    0.06   .   .   .   .   .   .   .   510   MET   CA     .   50219   1
+      438   .   1   .   1   39   39   MET   CB     C   13   35.680    0.01   .   .   .   .   .   .   .   510   MET   CB     .   50219   1
+      439   .   1   .   1   39   39   MET   CG     C   13   31.727    0.01   .   .   .   .   .   .   .   510   MET   CG     .   50219   1
+      440   .   1   .   1   39   39   MET   N      N   15   123.825   0.02   .   .   .   .   .   .   .   510   MET   N      .   50219   1
+      441   .   1   .   1   40   40   LEU   H      H   1    9.028     0.01   .   .   .   .   .   .   .   511   LEU   HN     .   50219   1
+      442   .   1   .   1   40   40   LEU   HA     H   1    5.175     0.00   .   .   .   .   .   .   .   511   LEU   HA     .   50219   1
+      443   .   1   .   1   40   40   LEU   HB2    H   1    1.322     0.00   .   .   .   .   .   .   .   511   LEU   HB2    .   50219   1
+      444   .   1   .   1   40   40   LEU   HB3    H   1    1.140     0.00   .   .   .   .   .   .   .   511   LEU   HB3    .   50219   1
+      445   .   1   .   1   40   40   LEU   HG     H   1    1.666     0.00   .   .   .   .   .   .   .   511   LEU   HG     .   50219   1
+      446   .   1   .   1   40   40   LEU   HD11   H   1    1.038     0.00   .   .   .   .   .   .   .   511   LEU   HD1#   .   50219   1
+      447   .   1   .   1   40   40   LEU   HD12   H   1    1.038     0.00   .   .   .   .   .   .   .   511   LEU   HD1#   .   50219   1
+      448   .   1   .   1   40   40   LEU   HD13   H   1    1.038     0.00   .   .   .   .   .   .   .   511   LEU   HD1#   .   50219   1
+      449   .   1   .   1   40   40   LEU   HD21   H   1    0.960     0.00   .   .   .   .   .   .   .   511   LEU   HD2#   .   50219   1
+      450   .   1   .   1   40   40   LEU   HD22   H   1    0.960     0.00   .   .   .   .   .   .   .   511   LEU   HD2#   .   50219   1
+      451   .   1   .   1   40   40   LEU   HD23   H   1    0.960     0.00   .   .   .   .   .   .   .   511   LEU   HD2#   .   50219   1
+      452   .   1   .   1   40   40   LEU   C      C   13   176.111   0.00   .   .   .   .   .   .   .   511   LEU   CO     .   50219   1
+      453   .   1   .   1   40   40   LEU   CA     C   13   53.163    0.04   .   .   .   .   .   .   .   511   LEU   CA     .   50219   1
+      454   .   1   .   1   40   40   LEU   CB     C   13   46.431    0.02   .   .   .   .   .   .   .   511   LEU   CB     .   50219   1
+      455   .   1   .   1   40   40   LEU   CG     C   13   28.809    0.00   .   .   .   .   .   .   .   511   LEU   CG     .   50219   1
+      456   .   1   .   1   40   40   LEU   CD1    C   13   25.523    0.00   .   .   .   .   .   .   .   511   LEU   CD1    .   50219   1
+      457   .   1   .   1   40   40   LEU   CD2    C   13   25.391    0.00   .   .   .   .   .   .   .   511   LEU   CD2    .   50219   1
+      458   .   1   .   1   40   40   LEU   N      N   15   125.770   0.07   .   .   .   .   .   .   .   511   LEU   N      .   50219   1
+      459   .   1   .   1   41   41   THR   H      H   1    9.285     0.00   .   .   .   .   .   .   .   512   THR   HN     .   50219   1
+      460   .   1   .   1   41   41   THR   HA     H   1    5.011     0.00   .   .   .   .   .   .   .   512   THR   HA     .   50219   1
+      461   .   1   .   1   41   41   THR   HB     H   1    3.887     0.00   .   .   .   .   .   .   .   512   THR   HB     .   50219   1
+      462   .   1   .   1   41   41   THR   HG21   H   1    1.101     0.00   .   .   .   .   .   .   .   512   THR   HG2#   .   50219   1
+      463   .   1   .   1   41   41   THR   HG22   H   1    1.101     0.00   .   .   .   .   .   .   .   512   THR   HG2#   .   50219   1
+      464   .   1   .   1   41   41   THR   HG23   H   1    1.101     0.00   .   .   .   .   .   .   .   512   THR   HG2#   .   50219   1
+      465   .   1   .   1   41   41   THR   C      C   13   173.629   0.01   .   .   .   .   .   .   .   512   THR   CO     .   50219   1
+      466   .   1   .   1   41   41   THR   CA     C   13   60.896    0.03   .   .   .   .   .   .   .   512   THR   CA     .   50219   1
+      467   .   1   .   1   41   41   THR   CB     C   13   70.539    0.00   .   .   .   .   .   .   .   512   THR   CB     .   50219   1
+      468   .   1   .   1   41   41   THR   CG2    C   13   22.684    0.00   .   .   .   .   .   .   .   512   THR   CG2    .   50219   1
+      469   .   1   .   1   41   41   THR   N      N   15   116.440   0.03   .   .   .   .   .   .   .   512   THR   N      .   50219   1
+      470   .   1   .   1   42   42   TYR   H      H   1    8.843     0.00   .   .   .   .   .   .   .   513   TYR   HN     .   50219   1
+      471   .   1   .   1   42   42   TYR   HA     H   1    4.604     0.01   .   .   .   .   .   .   .   513   TYR   HA     .   50219   1
+      472   .   1   .   1   42   42   TYR   HB2    H   1    3.533     0.00   .   .   .   .   .   .   .   513   TYR   HB2    .   50219   1
+      473   .   1   .   1   42   42   TYR   HB3    H   1    2.384     0.00   .   .   .   .   .   .   .   513   TYR   HB3    .   50219   1
+      474   .   1   .   1   42   42   TYR   C      C   13   175.381   0.00   .   .   .   .   .   .   .   513   TYR   CO     .   50219   1
+      475   .   1   .   1   42   42   TYR   CA     C   13   58.398    0.00   .   .   .   .   .   .   .   513   TYR   CA     .   50219   1
+      476   .   1   .   1   42   42   TYR   CB     C   13   41.784    0.00   .   .   .   .   .   .   .   513   TYR   CB     .   50219   1
+      477   .   1   .   1   42   42   TYR   N      N   15   125.738   0.03   .   .   .   .   .   .   .   513   TYR   N      .   50219   1
+      478   .   1   .   1   43   43   ALA   H      H   1    8.633     0.00   .   .   .   .   .   .   .   514   ALA   HN     .   50219   1
+      479   .   1   .   1   43   43   ALA   HA     H   1    4.096     0.00   .   .   .   .   .   .   .   514   ALA   HA     .   50219   1
+      480   .   1   .   1   43   43   ALA   HB1    H   1    1.343     0.00   .   .   .   .   .   .   .   514   ALA   HB#    .   50219   1
+      481   .   1   .   1   43   43   ALA   HB2    H   1    1.343     0.00   .   .   .   .   .   .   .   514   ALA   HB#    .   50219   1
+      482   .   1   .   1   43   43   ALA   HB3    H   1    1.343     0.00   .   .   .   .   .   .   .   514   ALA   HB#    .   50219   1
+      483   .   1   .   1   43   43   ALA   C      C   13   178.653   0.00   .   .   .   .   .   .   .   514   ALA   CO     .   50219   1
+      484   .   1   .   1   43   43   ALA   CA     C   13   53.751    0.00   .   .   .   .   .   .   .   514   ALA   CA     .   50219   1
+      485   .   1   .   1   43   43   ALA   CB     C   13   18.745    0.00   .   .   .   .   .   .   .   514   ALA   CB     .   50219   1
+      486   .   1   .   1   43   43   ALA   N      N   15   121.763   0.02   .   .   .   .   .   .   .   514   ALA   N      .   50219   1
+      487   .   1   .   1   44   44   ASN   H      H   1    9.218     0.00   .   .   .   .   .   .   .   515   ASN   HN     .   50219   1
+      488   .   1   .   1   44   44   ASN   HA     H   1    4.342     0.00   .   .   .   .   .   .   .   515   ASN   HA     .   50219   1
+      489   .   1   .   1   44   44   ASN   HB2    H   1    3.035     0.00   .   .   .   .   .   .   .   515   ASN   HB2    .   50219   1
+      490   .   1   .   1   44   44   ASN   HB3    H   1    2.910     0.00   .   .   .   .   .   .   .   515   ASN   HB3    .   50219   1
+      491   .   1   .   1   44   44   ASN   CA     C   13   54.864    0.00   .   .   .   .   .   .   .   515   ASN   CA     .   50219   1
+      492   .   1   .   1   44   44   ASN   CB     C   13   37.160    0.01   .   .   .   .   .   .   .   515   ASN   CB     .   50219   1
+      493   .   1   .   1   44   44   ASN   N      N   15   116.745   0.00   .   .   .   .   .   .   .   515   ASN   N      .   50219   1
+      494   .   1   .   1   45   45   ASP   H      H   1    8.386     0.00   .   .   .   .   .   .   .   516   ASP   HN     .   50219   1
+      495   .   1   .   1   45   45   ASP   HA     H   1    4.219     0.00   .   .   .   .   .   .   .   516   ASP   HA     .   50219   1
+      496   .   1   .   1   45   45   ASP   HB2    H   1    2.950     0.00   .   .   .   .   .   .   .   516   ASP   HB2    .   50219   1
+      497   .   1   .   1   45   45   ASP   HB3    H   1    2.705     0.00   .   .   .   .   .   .   .   516   ASP   HB3    .   50219   1
+      498   .   1   .   1   45   45   ASP   C      C   13   174.828   0.02   .   .   .   .   .   .   .   516   ASP   CO     .   50219   1
+      499   .   1   .   1   45   45   ASP   CA     C   13   55.768    0.00   .   .   .   .   .   .   .   516   ASP   CA     .   50219   1
+      500   .   1   .   1   45   45   ASP   CB     C   13   39.892    0.00   .   .   .   .   .   .   .   516   ASP   CB     .   50219   1
+      501   .   1   .   1   45   45   ASP   N      N   15   113.512   0.01   .   .   .   .   .   .   .   516   ASP   N      .   50219   1
+      502   .   1   .   1   46   46   ALA   H      H   1    7.030     0.01   .   .   .   .   .   .   .   517   ALA   HN     .   50219   1
+      503   .   1   .   1   46   46   ALA   HA     H   1    4.272     0.00   .   .   .   .   .   .   .   517   ALA   HA     .   50219   1
+      504   .   1   .   1   46   46   ALA   HB1    H   1    1.416     0.00   .   .   .   .   .   .   .   517   ALA   HB#    .   50219   1
+      505   .   1   .   1   46   46   ALA   HB2    H   1    1.416     0.00   .   .   .   .   .   .   .   517   ALA   HB#    .   50219   1
+      506   .   1   .   1   46   46   ALA   HB3    H   1    1.416     0.00   .   .   .   .   .   .   .   517   ALA   HB#    .   50219   1
+      507   .   1   .   1   46   46   ALA   C      C   13   176.917   0.00   .   .   .   .   .   .   .   517   ALA   CO     .   50219   1
+      508   .   1   .   1   46   46   ALA   CA     C   13   52.775    0.00   .   .   .   .   .   .   .   517   ALA   CA     .   50219   1
+      509   .   1   .   1   46   46   ALA   CB     C   13   20.533    0.00   .   .   .   .   .   .   .   517   ALA   CB     .   50219   1
+      510   .   1   .   1   46   46   ALA   N      N   15   123.553   0.04   .   .   .   .   .   .   .   517   ALA   N      .   50219   1
+      511   .   1   .   1   47   47   LYS   H      H   1    8.233     0.00   .   .   .   .   .   .   .   518   LYS   HN     .   50219   1
+      512   .   1   .   1   47   47   LYS   HA     H   1    5.052     0.00   .   .   .   .   .   .   .   518   LYS   HA     .   50219   1
+      513   .   1   .   1   47   47   LYS   HB2    H   1    1.576     0.00   .   .   .   .   .   .   .   518   LYS   HB2    .   50219   1
+      514   .   1   .   1   47   47   LYS   HB3    H   1    1.221     0.00   .   .   .   .   .   .   .   518   LYS   HB3    .   50219   1
+      515   .   1   .   1   47   47   LYS   HG2    H   1    1.289     0.00   .   .   .   .   .   .   .   518   LYS   HG2    .   50219   1
+      516   .   1   .   1   47   47   LYS   HG3    H   1    1.126     0.00   .   .   .   .   .   .   .   518   LYS   HG3    .   50219   1
+      517   .   1   .   1   47   47   LYS   HD2    H   1    1.525     0.00   .   .   .   .   .   .   .   518   LYS   HD2    .   50219   1
+      518   .   1   .   1   47   47   LYS   HD3    H   1    1.422     0.00   .   .   .   .   .   .   .   518   LYS   HD3    .   50219   1
+      519   .   1   .   1   47   47   LYS   HE2    H   1    2.838     0.00   .   .   .   .   .   .   .   518   LYS   HE#    .   50219   1
+      520   .   1   .   1   47   47   LYS   HE3    H   1    2.838     0.00   .   .   .   .   .   .   .   518   LYS   HE#    .   50219   1
+      521   .   1   .   1   47   47   LYS   C      C   13   174.988   0.01   .   .   .   .   .   .   .   518   LYS   CO     .   50219   1
+      522   .   1   .   1   47   47   LYS   CA     C   13   55.045    0.03   .   .   .   .   .   .   .   518   LYS   CA     .   50219   1
+      523   .   1   .   1   47   47   LYS   CB     C   13   35.727    0.01   .   .   .   .   .   .   .   518   LYS   CB     .   50219   1
+      524   .   1   .   1   47   47   LYS   CG     C   13   25.032    0.01   .   .   .   .   .   .   .   518   LYS   CG     .   50219   1
+      525   .   1   .   1   47   47   LYS   CD     C   13   29.319    0.01   .   .   .   .   .   .   .   518   LYS   CD     .   50219   1
+      526   .   1   .   1   47   47   LYS   CE     C   13   42.315    0.00   .   .   .   .   .   .   .   518   LYS   CE     .   50219   1
+      527   .   1   .   1   47   47   LYS   N      N   15   121.035   0.00   .   .   .   .   .   .   .   518   LYS   N      .   50219   1
+      528   .   1   .   1   48   48   LEU   H      H   1    9.056     0.01   .   .   .   .   .   .   .   519   LEU   HN     .   50219   1
+      529   .   1   .   1   48   48   LEU   HA     H   1    4.430     0.00   .   .   .   .   .   .   .   519   LEU   HA     .   50219   1
+      530   .   1   .   1   48   48   LEU   HB2    H   1    1.833     0.00   .   .   .   .   .   .   .   519   LEU   HB2    .   50219   1
+      531   .   1   .   1   48   48   LEU   HB3    H   1    1.734     0.00   .   .   .   .   .   .   .   519   LEU   HB3    .   50219   1
+      532   .   1   .   1   48   48   LEU   HG     H   1    0.481     0.00   .   .   .   .   .   .   .   519   LEU   HG     .   50219   1
+      533   .   1   .   1   48   48   LEU   HD11   H   1    0.562     0.00   .   .   .   .   .   .   .   519   LEU   HD1#   .   50219   1
+      534   .   1   .   1   48   48   LEU   HD12   H   1    0.562     0.00   .   .   .   .   .   .   .   519   LEU   HD1#   .   50219   1
+      535   .   1   .   1   48   48   LEU   HD13   H   1    0.562     0.00   .   .   .   .   .   .   .   519   LEU   HD1#   .   50219   1
+      536   .   1   .   1   48   48   LEU   HD21   H   1    0.562     0.00   .   .   .   .   .   .   .   519   LEU   HD2#   .   50219   1
+      537   .   1   .   1   48   48   LEU   HD22   H   1    0.562     0.00   .   .   .   .   .   .   .   519   LEU   HD2#   .   50219   1
+      538   .   1   .   1   48   48   LEU   HD23   H   1    0.562     0.00   .   .   .   .   .   .   .   519   LEU   HD2#   .   50219   1
+      539   .   1   .   1   48   48   LEU   C      C   13   174.714   0.00   .   .   .   .   .   .   .   519   LEU   CO     .   50219   1
+      540   .   1   .   1   48   48   LEU   CA     C   13   53.399    0.00   .   .   .   .   .   .   .   519   LEU   CA     .   50219   1
+      541   .   1   .   1   48   48   LEU   CB     C   13   46.428    0.01   .   .   .   .   .   .   .   519   LEU   CB     .   50219   1
+      542   .   1   .   1   48   48   LEU   CG     C   13   27.408    0.00   .   .   .   .   .   .   .   519   LEU   CG     .   50219   1
+      543   .   1   .   1   48   48   LEU   CD1    C   13   23.392    0.00   .   .   .   .   .   .   .   519   LEU   CD#    .   50219   1
+      544   .   1   .   1   48   48   LEU   CD2    C   13   23.392    0.00   .   .   .   .   .   .   .   519   LEU   CD#    .   50219   1
+      545   .   1   .   1   48   48   LEU   N      N   15   125.667   0.05   .   .   .   .   .   .   .   519   LEU   N      .   50219   1
+      546   .   1   .   1   49   49   TYR   H      H   1    8.670     0.00   .   .   .   .   .   .   .   520   TYR   HN     .   50219   1
+      547   .   1   .   1   49   49   TYR   HA     H   1    5.161     0.00   .   .   .   .   .   .   .   520   TYR   HA     .   50219   1
+      548   .   1   .   1   49   49   TYR   HB2    H   1    2.718     0.00   .   .   .   .   .   .   .   520   TYR   HB2    .   50219   1
+      549   .   1   .   1   49   49   TYR   HB3    H   1    2.428     0.00   .   .   .   .   .   .   .   520   TYR   HB3    .   50219   1
+      550   .   1   .   1   49   49   TYR   HD1    H   1    6.755     0.00   .   .   .   .   .   .   .   520   TYR   HD#    .   50219   1
+      551   .   1   .   1   49   49   TYR   HD2    H   1    6.755     0.00   .   .   .   .   .   .   .   520   TYR   HD#    .   50219   1
+      552   .   1   .   1   49   49   TYR   HE1    H   1    6.647     0.00   .   .   .   .   .   .   .   520   TYR   HE#    .   50219   1
+      553   .   1   .   1   49   49   TYR   HE2    H   1    6.647     0.00   .   .   .   .   .   .   .   520   TYR   HE#    .   50219   1
+      554   .   1   .   1   49   49   TYR   C      C   13   176.163   0.01   .   .   .   .   .   .   .   520   TYR   CO     .   50219   1
+      555   .   1   .   1   49   49   TYR   CA     C   13   56.801    0.07   .   .   .   .   .   .   .   520   TYR   CA     .   50219   1
+      556   .   1   .   1   49   49   TYR   CB     C   13   38.767    0.03   .   .   .   .   .   .   .   520   TYR   CB     .   50219   1
+      557   .   1   .   1   49   49   TYR   CD1    C   13   132.894   0.00   .   .   .   .   .   .   .   520   TYR   CD#    .   50219   1
+      558   .   1   .   1   49   49   TYR   CD2    C   13   132.894   0.00   .   .   .   .   .   .   .   520   TYR   CD#    .   50219   1
+      559   .   1   .   1   49   49   TYR   CE1    C   13   117.953   0.00   .   .   .   .   .   .   .   520   TYR   CE#    .   50219   1
+      560   .   1   .   1   49   49   TYR   CE2    C   13   117.953   0.00   .   .   .   .   .   .   .   520   TYR   CE#    .   50219   1
+      561   .   1   .   1   49   49   TYR   N      N   15   125.689   0.07   .   .   .   .   .   .   .   520   TYR   N      .   50219   1
+      562   .   1   .   1   50   50   VAL   H      H   1    9.806     0.00   .   .   .   .   .   .   .   521   VAL   HN     .   50219   1
+      563   .   1   .   1   50   50   VAL   HB     H   1    2.266     0.00   .   .   .   .   .   .   .   521   VAL   HB     .   50219   1
+      564   .   1   .   1   50   50   VAL   HG11   H   1    1.104     0.00   .   .   .   .   .   .   .   521   VAL   HG1#   .   50219   1
+      565   .   1   .   1   50   50   VAL   HG12   H   1    1.104     0.00   .   .   .   .   .   .   .   521   VAL   HG1#   .   50219   1
+      566   .   1   .   1   50   50   VAL   HG13   H   1    1.104     0.00   .   .   .   .   .   .   .   521   VAL   HG1#   .   50219   1
+      567   .   1   .   1   50   50   VAL   HG21   H   1    1.057     0.00   .   .   .   .   .   .   .   521   VAL   HG2#   .   50219   1
+      568   .   1   .   1   50   50   VAL   HG22   H   1    1.057     0.00   .   .   .   .   .   .   .   521   VAL   HG2#   .   50219   1
+      569   .   1   .   1   50   50   VAL   HG23   H   1    1.057     0.00   .   .   .   .   .   .   .   521   VAL   HG2#   .   50219   1
+      570   .   1   .   1   50   50   VAL   C      C   13   173.502   0.00   .   .   .   .   .   .   .   521   VAL   CO     .   50219   1
+      571   .   1   .   1   50   50   VAL   CB     C   13   34.970    0.00   .   .   .   .   .   .   .   521   VAL   CB     .   50219   1
+      572   .   1   .   1   50   50   VAL   CG1    C   13   22.057    0.00   .   .   .   .   .   .   .   521   VAL   CG1    .   50219   1
+      573   .   1   .   1   50   50   VAL   CG2    C   13   19.995    0.00   .   .   .   .   .   .   .   521   VAL   CG2    .   50219   1
+      574   .   1   .   1   50   50   VAL   N      N   15   128.282   0.02   .   .   .   .   .   .   .   521   VAL   N      .   50219   1
+      575   .   1   .   1   51   51   PRO   HA     H   1    4.100     0.00   .   .   .   .   .   .   .   522   PRO   HA     .   50219   1
+      576   .   1   .   1   51   51   PRO   HB2    H   1    2.135     0.00   .   .   .   .   .   .   .   522   PRO   HB2    .   50219   1
+      577   .   1   .   1   51   51   PRO   HB3    H   1    2.015     0.00   .   .   .   .   .   .   .   522   PRO   HB3    .   50219   1
+      578   .   1   .   1   51   51   PRO   HG2    H   1    2.187     0.00   .   .   .   .   .   .   .   522   PRO   HG#    .   50219   1
+      579   .   1   .   1   51   51   PRO   HG3    H   1    2.187     0.00   .   .   .   .   .   .   .   522   PRO   HG#    .   50219   1
+      580   .   1   .   1   51   51   PRO   HD2    H   1    4.154     0.00   .   .   .   .   .   .   .   522   PRO   HD2    .   50219   1
+      581   .   1   .   1   51   51   PRO   HD3    H   1    3.979     0.00   .   .   .   .   .   .   .   522   PRO   HD3    .   50219   1
+      582   .   1   .   1   51   51   PRO   C      C   13   178.825   0.00   .   .   .   .   .   .   .   522   PRO   CO     .   50219   1
+      583   .   1   .   1   51   51   PRO   CA     C   13   63.247    0.04   .   .   .   .   .   .   .   522   PRO   CA     .   50219   1
+      584   .   1   .   1   51   51   PRO   CB     C   13   32.007    0.01   .   .   .   .   .   .   .   522   PRO   CB     .   50219   1
+      585   .   1   .   1   51   51   PRO   CG     C   13   27.640    0.00   .   .   .   .   .   .   .   522   PRO   CG     .   50219   1
+      586   .   1   .   1   51   51   PRO   CD     C   13   51.262    0.00   .   .   .   .   .   .   .   522   PRO   CD     .   50219   1
+      587   .   1   .   1   52   52   VAL   H      H   1    7.734     0.00   .   .   .   .   .   .   .   523   VAL   HN     .   50219   1
+      588   .   1   .   1   52   52   VAL   HA     H   1    3.798     0.00   .   .   .   .   .   .   .   523   VAL   HA     .   50219   1
+      589   .   1   .   1   52   52   VAL   HB     H   1    2.133     0.00   .   .   .   .   .   .   .   523   VAL   HB     .   50219   1
+      590   .   1   .   1   52   52   VAL   HG11   H   1    0.973     0.00   .   .   .   .   .   .   .   523   VAL   HG1#   .   50219   1
+      591   .   1   .   1   52   52   VAL   HG12   H   1    0.973     0.00   .   .   .   .   .   .   .   523   VAL   HG1#   .   50219   1
+      592   .   1   .   1   52   52   VAL   HG13   H   1    0.973     0.00   .   .   .   .   .   .   .   523   VAL   HG1#   .   50219   1
+      593   .   1   .   1   52   52   VAL   HG21   H   1    1.012     0.00   .   .   .   .   .   .   .   523   VAL   HG2#   .   50219   1
+      594   .   1   .   1   52   52   VAL   HG22   H   1    1.012     0.00   .   .   .   .   .   .   .   523   VAL   HG2#   .   50219   1
+      595   .   1   .   1   52   52   VAL   HG23   H   1    1.012     0.00   .   .   .   .   .   .   .   523   VAL   HG2#   .   50219   1
+      596   .   1   .   1   52   52   VAL   C      C   13   177.396   0.00   .   .   .   .   .   .   .   523   VAL   CO     .   50219   1
+      597   .   1   .   1   52   52   VAL   CA     C   13   65.733    0.00   .   .   .   .   .   .   .   523   VAL   CA     .   50219   1
+      598   .   1   .   1   52   52   VAL   CB     C   13   31.720    0.00   .   .   .   .   .   .   .   523   VAL   CB     .   50219   1
+      599   .   1   .   1   52   52   VAL   CG1    C   13   21.712    0.00   .   .   .   .   .   .   .   523   VAL   CG1    .   50219   1
+      600   .   1   .   1   52   52   VAL   CG2    C   13   21.133    0.00   .   .   .   .   .   .   .   523   VAL   CG2    .   50219   1
+      601   .   1   .   1   52   52   VAL   N      N   15   119.423   0.05   .   .   .   .   .   .   .   523   VAL   N      .   50219   1
+      602   .   1   .   1   53   53   SER   H      H   1    8.001     0.01   .   .   .   .   .   .   .   524   SER   HN     .   50219   1
+      603   .   1   .   1   53   53   SER   HA     H   1    4.430     0.00   .   .   .   .   .   .   .   524   SER   HA     .   50219   1
+      604   .   1   .   1   53   53   SER   HB2    H   1    4.169     0.00   .   .   .   .   .   .   .   524   SER   HB2    .   50219   1
+      605   .   1   .   1   53   53   SER   HB3    H   1    3.930     0.00   .   .   .   .   .   .   .   524   SER   HB3    .   50219   1
+      606   .   1   .   1   53   53   SER   C      C   13   175.878   0.03   .   .   .   .   .   .   .   524   SER   CO     .   50219   1
+      607   .   1   .   1   53   53   SER   CA     C   13   59.687    0.00   .   .   .   .   .   .   .   524   SER   CA     .   50219   1
+      608   .   1   .   1   53   53   SER   CB     C   13   62.833    0.01   .   .   .   .   .   .   .   524   SER   CB     .   50219   1
+      609   .   1   .   1   53   53   SER   N      N   15   114.276   0.04   .   .   .   .   .   .   .   524   SER   N      .   50219   1
+      610   .   1   .   1   54   54   SER   H      H   1    8.349     0.00   .   .   .   .   .   .   .   525   SER   HN     .   50219   1
+      611   .   1   .   1   54   54   SER   HA     H   1    5.043     0.00   .   .   .   .   .   .   .   525   SER   HA     .   50219   1
+      612   .   1   .   1   54   54   SER   HB2    H   1    4.234     0.00   .   .   .   .   .   .   .   525   SER   HB2    .   50219   1
+      613   .   1   .   1   54   54   SER   HB3    H   1    3.778     0.00   .   .   .   .   .   .   .   525   SER   HB3    .   50219   1
+      614   .   1   .   1   54   54   SER   C      C   13   174.433   0.00   .   .   .   .   .   .   .   525   SER   CO     .   50219   1
+      615   .   1   .   1   54   54   SER   CA     C   13   57.636    0.00   .   .   .   .   .   .   .   525   SER   CA     .   50219   1
+      616   .   1   .   1   54   54   SER   CB     C   13   63.857    0.01   .   .   .   .   .   .   .   525   SER   CB     .   50219   1
+      617   .   1   .   1   54   54   SER   N      N   15   118.923   0.05   .   .   .   .   .   .   .   525   SER   N      .   50219   1
+      618   .   1   .   1   55   55   LEU   H      H   1    7.492     0.00   .   .   .   .   .   .   .   526   LEU   HN     .   50219   1
+      619   .   1   .   1   55   55   LEU   HA     H   1    3.820     0.00   .   .   .   .   .   .   .   526   LEU   HA     .   50219   1
+      620   .   1   .   1   55   55   LEU   HB2    H   1    1.909     0.00   .   .   .   .   .   .   .   526   LEU   HB2    .   50219   1
+      621   .   1   .   1   55   55   LEU   HB3    H   1    1.694     0.00   .   .   .   .   .   .   .   526   LEU   HB3    .   50219   1
+      622   .   1   .   1   55   55   LEU   HG     H   1    1.954     0.00   .   .   .   .   .   .   .   526   LEU   HG     .   50219   1
+      623   .   1   .   1   55   55   LEU   HD11   H   1    0.959     0.00   .   .   .   .   .   .   .   526   LEU   HD1#   .   50219   1
+      624   .   1   .   1   55   55   LEU   HD12   H   1    0.959     0.00   .   .   .   .   .   .   .   526   LEU   HD1#   .   50219   1
+      625   .   1   .   1   55   55   LEU   HD13   H   1    0.959     0.00   .   .   .   .   .   .   .   526   LEU   HD1#   .   50219   1
+      626   .   1   .   1   55   55   LEU   HD21   H   1    0.862     0.00   .   .   .   .   .   .   .   526   LEU   HD2#   .   50219   1
+      627   .   1   .   1   55   55   LEU   HD22   H   1    0.862     0.00   .   .   .   .   .   .   .   526   LEU   HD2#   .   50219   1
+      628   .   1   .   1   55   55   LEU   HD23   H   1    0.862     0.00   .   .   .   .   .   .   .   526   LEU   HD2#   .   50219   1
+      629   .   1   .   1   55   55   LEU   C      C   13   177.357   0.00   .   .   .   .   .   .   .   526   LEU   CO     .   50219   1
+      630   .   1   .   1   55   55   LEU   CA     C   13   57.762    0.00   .   .   .   .   .   .   .   526   LEU   CA     .   50219   1
+      631   .   1   .   1   55   55   LEU   CB     C   13   41.571    0.01   .   .   .   .   .   .   .   526   LEU   CB     .   50219   1
+      632   .   1   .   1   55   55   LEU   CG     C   13   27.131    0.00   .   .   .   .   .   .   .   526   LEU   CG     .   50219   1
+      633   .   1   .   1   55   55   LEU   CD1    C   13   25.452    0.00   .   .   .   .   .   .   .   526   LEU   CD1    .   50219   1
+      634   .   1   .   1   55   55   LEU   CD2    C   13   24.732    0.00   .   .   .   .   .   .   .   526   LEU   CD2    .   50219   1
+      635   .   1   .   1   55   55   LEU   N      N   15   120.693   0.05   .   .   .   .   .   .   .   526   LEU   N      .   50219   1
+      636   .   1   .   1   56   56   HIS   H      H   1    8.167     0.01   .   .   .   .   .   .   .   527   HIS   HN     .   50219   1
+      637   .   1   .   1   56   56   HIS   HA     H   1    4.472     0.00   .   .   .   .   .   .   .   527   HIS   HA     .   50219   1
+      638   .   1   .   1   56   56   HIS   HB2    H   1    3.231     0.00   .   .   .   .   .   .   .   527   HIS   HB2    .   50219   1
+      639   .   1   .   1   56   56   HIS   HB3    H   1    2.999     0.00   .   .   .   .   .   .   .   527   HIS   HB3    .   50219   1
+      640   .   1   .   1   56   56   HIS   HD2    H   1    6.962     0.00   .   .   .   .   .   .   .   527   HIS   HD2    .   50219   1
+      641   .   1   .   1   56   56   HIS   C      C   13   176.640   0.01   .   .   .   .   .   .   .   527   HIS   CO     .   50219   1
+      642   .   1   .   1   56   56   HIS   CA     C   13   58.235    0.00   .   .   .   .   .   .   .   527   HIS   CA     .   50219   1
+      643   .   1   .   1   56   56   HIS   CB     C   13   29.352    0.00   .   .   .   .   .   .   .   527   HIS   CB     .   50219   1
+      644   .   1   .   1   56   56   HIS   CD2    C   13   118.618   0.00   .   .   .   .   .   .   .   527   HIS   CD2    .   50219   1
+      645   .   1   .   1   56   56   HIS   N      N   15   115.303   0.03   .   .   .   .   .   .   .   527   HIS   N      .   50219   1
+      646   .   1   .   1   57   57   LEU   H      H   1    7.323     0.00   .   .   .   .   .   .   .   528   LEU   HN     .   50219   1
+      647   .   1   .   1   57   57   LEU   HA     H   1    3.994     0.00   .   .   .   .   .   .   .   528   LEU   HA     .   50219   1
+      648   .   1   .   1   57   57   LEU   HB2    H   1    1.367     0.00   .   .   .   .   .   .   .   528   LEU   HB2    .   50219   1
+      649   .   1   .   1   57   57   LEU   HB3    H   1    0.821     0.00   .   .   .   .   .   .   .   528   LEU   HB3    .   50219   1
+      650   .   1   .   1   57   57   LEU   HG     H   1    0.919     0.00   .   .   .   .   .   .   .   528   LEU   HG     .   50219   1
+      651   .   1   .   1   57   57   LEU   HD11   H   1    0.696     0.00   .   .   .   .   .   .   .   528   LEU   HD1#   .   50219   1
+      652   .   1   .   1   57   57   LEU   HD12   H   1    0.696     0.00   .   .   .   .   .   .   .   528   LEU   HD1#   .   50219   1
+      653   .   1   .   1   57   57   LEU   HD13   H   1    0.696     0.00   .   .   .   .   .   .   .   528   LEU   HD1#   .   50219   1
+      654   .   1   .   1   57   57   LEU   HD21   H   1    0.696     0.00   .   .   .   .   .   .   .   528   LEU   HD2#   .   50219   1
+      655   .   1   .   1   57   57   LEU   HD22   H   1    0.696     0.00   .   .   .   .   .   .   .   528   LEU   HD2#   .   50219   1
+      656   .   1   .   1   57   57   LEU   HD23   H   1    0.696     0.00   .   .   .   .   .   .   .   528   LEU   HD2#   .   50219   1
+      657   .   1   .   1   57   57   LEU   C      C   13   175.763   0.01   .   .   .   .   .   .   .   528   LEU   CO     .   50219   1
+      658   .   1   .   1   57   57   LEU   CA     C   13   55.247    0.00   .   .   .   .   .   .   .   528   LEU   CA     .   50219   1
+      659   .   1   .   1   57   57   LEU   CB     C   13   42.063    0.00   .   .   .   .   .   .   .   528   LEU   CB     .   50219   1
+      660   .   1   .   1   57   57   LEU   CG     C   13   26.234    0.00   .   .   .   .   .   .   .   528   LEU   CG     .   50219   1
+      661   .   1   .   1   57   57   LEU   CD1    C   13   23.017    0.00   .   .   .   .   .   .   .   528   LEU   CD#    .   50219   1
+      662   .   1   .   1   57   57   LEU   CD2    C   13   23.017    0.00   .   .   .   .   .   .   .   528   LEU   CD#    .   50219   1
+      663   .   1   .   1   57   57   LEU   N      N   15   120.546   0.06   .   .   .   .   .   .   .   528   LEU   N      .   50219   1
+      664   .   1   .   1   58   58   ILE   H      H   1    7.658     0.01   .   .   .   .   .   .   .   529   ILE   HN     .   50219   1
+      665   .   1   .   1   58   58   ILE   HA     H   1    5.232     0.00   .   .   .   .   .   .   .   529   ILE   HA     .   50219   1
+      666   .   1   .   1   58   58   ILE   HB     H   1    1.994     0.00   .   .   .   .   .   .   .   529   ILE   HB     .   50219   1
+      667   .   1   .   1   58   58   ILE   HG12   H   1    1.408     0.00   .   .   .   .   .   .   .   529   ILE   HG12   .   50219   1
+      668   .   1   .   1   58   58   ILE   HG13   H   1    1.268     0.00   .   .   .   .   .   .   .   529   ILE   HG13   .   50219   1
+      669   .   1   .   1   58   58   ILE   HG21   H   1    0.745     0.00   .   .   .   .   .   .   .   529   ILE   HG2#   .   50219   1
+      670   .   1   .   1   58   58   ILE   HG22   H   1    0.745     0.00   .   .   .   .   .   .   .   529   ILE   HG2#   .   50219   1
+      671   .   1   .   1   58   58   ILE   HG23   H   1    0.745     0.00   .   .   .   .   .   .   .   529   ILE   HG2#   .   50219   1
+      672   .   1   .   1   58   58   ILE   HD11   H   1    0.797     0.00   .   .   .   .   .   .   .   529   ILE   HD1#   .   50219   1
+      673   .   1   .   1   58   58   ILE   HD12   H   1    0.797     0.00   .   .   .   .   .   .   .   529   ILE   HD1#   .   50219   1
+      674   .   1   .   1   58   58   ILE   HD13   H   1    0.797     0.00   .   .   .   .   .   .   .   529   ILE   HD1#   .   50219   1
+      675   .   1   .   1   58   58   ILE   C      C   13   175.098   0.01   .   .   .   .   .   .   .   529   ILE   CO     .   50219   1
+      676   .   1   .   1   58   58   ILE   CA     C   13   58.024    0.04   .   .   .   .   .   .   .   529   ILE   CA     .   50219   1
+      677   .   1   .   1   58   58   ILE   CB     C   13   38.933    0.00   .   .   .   .   .   .   .   529   ILE   CB     .   50219   1
+      678   .   1   .   1   58   58   ILE   CG1    C   13   26.834    0.04   .   .   .   .   .   .   .   529   ILE   CG1    .   50219   1
+      679   .   1   .   1   58   58   ILE   CG2    C   13   18.304    0.00   .   .   .   .   .   .   .   529   ILE   CG2    .   50219   1
+      680   .   1   .   1   58   58   ILE   CD1    C   13   13.528    0.00   .   .   .   .   .   .   .   529   ILE   CD1    .   50219   1
+      681   .   1   .   1   58   58   ILE   N      N   15   117.293   0.04   .   .   .   .   .   .   .   529   ILE   N      .   50219   1
+      682   .   1   .   1   59   59   SER   H      H   1    8.923     0.00   .   .   .   .   .   .   .   530   SER   HN     .   50219   1
+      683   .   1   .   1   59   59   SER   HA     H   1    4.750     0.00   .   .   .   .   .   .   .   530   SER   HA     .   50219   1
+      684   .   1   .   1   59   59   SER   HB2    H   1    3.818     0.00   .   .   .   .   .   .   .   530   SER   HB2    .   50219   1
+      685   .   1   .   1   59   59   SER   HB3    H   1    3.784     0.00   .   .   .   .   .   .   .   530   SER   HB3    .   50219   1
+      686   .   1   .   1   59   59   SER   C      C   13   173.816   0.00   .   .   .   .   .   .   .   530   SER   CO     .   50219   1
+      687   .   1   .   1   59   59   SER   CA     C   13   56.724    0.00   .   .   .   .   .   .   .   530   SER   CA     .   50219   1
+      688   .   1   .   1   59   59   SER   CB     C   13   66.369    0.00   .   .   .   .   .   .   .   530   SER   CB     .   50219   1
+      689   .   1   .   1   59   59   SER   N      N   15   118.352   0.01   .   .   .   .   .   .   .   530   SER   N      .   50219   1
+      690   .   1   .   1   60   60   ARG   H      H   1    8.689     0.00   .   .   .   .   .   .   .   531   ARG   HN     .   50219   1
+      691   .   1   .   1   60   60   ARG   HA     H   1    4.270     0.00   .   .   .   .   .   .   .   531   ARG   HA     .   50219   1
+      692   .   1   .   1   60   60   ARG   HB2    H   1    1.850     0.00   .   .   .   .   .   .   .   531   ARG   HB2    .   50219   1
+      693   .   1   .   1   60   60   ARG   HB3    H   1    1.754     0.00   .   .   .   .   .   .   .   531   ARG   HB3    .   50219   1
+      694   .   1   .   1   60   60   ARG   HG2    H   1    1.673     0.00   .   .   .   .   .   .   .   531   ARG   HG2    .   50219   1
+      695   .   1   .   1   60   60   ARG   HG3    H   1    1.583     0.00   .   .   .   .   .   .   .   531   ARG   HG3    .   50219   1
+      696   .   1   .   1   60   60   ARG   HD2    H   1    3.199     0.00   .   .   .   .   .   .   .   531   ARG   HD#    .   50219   1
+      697   .   1   .   1   60   60   ARG   HD3    H   1    3.199     0.00   .   .   .   .   .   .   .   531   ARG   HD#    .   50219   1
+      698   .   1   .   1   60   60   ARG   CA     C   13   56.819    0.07   .   .   .   .   .   .   .   531   ARG   CA     .   50219   1
+      699   .   1   .   1   60   60   ARG   CB     C   13   30.527    0.01   .   .   .   .   .   .   .   531   ARG   CB     .   50219   1
+      700   .   1   .   1   60   60   ARG   CG     C   13   27.889    0.01   .   .   .   .   .   .   .   531   ARG   CG     .   50219   1
+      701   .   1   .   1   60   60   ARG   CD     C   13   43.280    0.00   .   .   .   .   .   .   .   531   ARG   CD     .   50219   1
+      702   .   1   .   1   60   60   ARG   N      N   15   121.519   0.00   .   .   .   .   .   .   .   531   ARG   N      .   50219   1
+      703   .   1   .   1   61   61   TYR   H      H   1    8.553     0.00   .   .   .   .   .   .   .   532   TYR   HN     .   50219   1
+      704   .   1   .   1   61   61   TYR   HA     H   1    4.361     0.00   .   .   .   .   .   .   .   532   TYR   HA     .   50219   1
+      705   .   1   .   1   61   61   TYR   HB2    H   1    2.825     0.00   .   .   .   .   .   .   .   532   TYR   HB2    .   50219   1
+      706   .   1   .   1   61   61   TYR   HB3    H   1    2.604     0.00   .   .   .   .   .   .   .   532   TYR   HB3    .   50219   1
+      707   .   1   .   1   61   61   TYR   HD1    H   1    7.024     0.00   .   .   .   .   .   .   .   532   TYR   HD#    .   50219   1
+      708   .   1   .   1   61   61   TYR   HD2    H   1    7.024     0.00   .   .   .   .   .   .   .   532   TYR   HD#    .   50219   1
+      709   .   1   .   1   61   61   TYR   HE1    H   1    6.766     0.00   .   .   .   .   .   .   .   532   TYR   HE#    .   50219   1
+      710   .   1   .   1   61   61   TYR   HE2    H   1    6.766     0.00   .   .   .   .   .   .   .   532   TYR   HE#    .   50219   1
+      711   .   1   .   1   61   61   TYR   CA     C   13   58.846    0.00   .   .   .   .   .   .   .   532   TYR   CA     .   50219   1
+      712   .   1   .   1   61   61   TYR   CB     C   13   39.483    0.04   .   .   .   .   .   .   .   532   TYR   CB     .   50219   1
+      713   .   1   .   1   61   61   TYR   CD1    C   13   133.577   0.00   .   .   .   .   .   .   .   532   TYR   CD#    .   50219   1
+      714   .   1   .   1   61   61   TYR   CD2    C   13   133.577   0.00   .   .   .   .   .   .   .   532   TYR   CD#    .   50219   1
+      715   .   1   .   1   61   61   TYR   CE1    C   13   118.672   0.00   .   .   .   .   .   .   .   532   TYR   CE#    .   50219   1
+      716   .   1   .   1   61   61   TYR   CE2    C   13   118.672   0.00   .   .   .   .   .   .   .   532   TYR   CE#    .   50219   1
+      717   .   1   .   1   61   61   TYR   N      N   15   124.327   0.01   .   .   .   .   .   .   .   532   TYR   N      .   50219   1
+      718   .   1   .   1   62   62   ALA   HA     H   1    4.361     0.00   .   .   .   .   .   .   .   533   ALA   HA     .   50219   1
+      719   .   1   .   1   62   62   ALA   HB1    H   1    1.472     0.00   .   .   .   .   .   .   .   533   ALA   HB#    .   50219   1
+      720   .   1   .   1   62   62   ALA   HB2    H   1    1.472     0.00   .   .   .   .   .   .   .   533   ALA   HB#    .   50219   1
+      721   .   1   .   1   62   62   ALA   HB3    H   1    1.472     0.00   .   .   .   .   .   .   .   533   ALA   HB#    .   50219   1
+      722   .   1   .   1   62   62   ALA   CA     C   13   52.885    0.00   .   .   .   .   .   .   .   533   ALA   CA     .   50219   1
+      723   .   1   .   1   62   62   ALA   CB     C   13   18.857    0.02   .   .   .   .   .   .   .   533   ALA   CB     .   50219   1
+      724   .   1   .   1   63   63   GLY   HA2    H   1    3.893     0.00   .   .   .   .   .   .   .   534   GLY   HA2    .   50219   1
+      725   .   1   .   1   63   63   GLY   HA3    H   1    3.556     0.00   .   .   .   .   .   .   .   534   GLY   HA3    .   50219   1
+      726   .   1   .   1   63   63   GLY   CA     C   13   45.882    0.00   .   .   .   .   .   .   .   534   GLY   CA     .   50219   1
+      727   .   1   .   1   64   64   GLY   H      H   1    7.626     0.00   .   .   .   .   .   .   .   535   GLY   HN     .   50219   1
+      728   .   1   .   1   64   64   GLY   N      N   15   108.381   0.00   .   .   .   .   .   .   .   535   GLY   N      .   50219   1
+      729   .   1   .   1   65   65   ALA   HA     H   1    4.521     0.00   .   .   .   .   .   .   .   536   ALA   HA     .   50219   1
+      730   .   1   .   1   65   65   ALA   HB1    H   1    1.209     0.00   .   .   .   .   .   .   .   536   ALA   HB#    .   50219   1
+      731   .   1   .   1   65   65   ALA   HB2    H   1    1.209     0.00   .   .   .   .   .   .   .   536   ALA   HB#    .   50219   1
+      732   .   1   .   1   65   65   ALA   HB3    H   1    1.209     0.00   .   .   .   .   .   .   .   536   ALA   HB#    .   50219   1
+      733   .   1   .   1   65   65   ALA   CA     C   13   51.237    0.00   .   .   .   .   .   .   .   536   ALA   CA     .   50219   1
+      734   .   1   .   1   65   65   ALA   CB     C   13   19.815    0.00   .   .   .   .   .   .   .   536   ALA   CB     .   50219   1
+      735   .   1   .   1   66   66   GLU   HA     H   1    3.937     0.00   .   .   .   .   .   .   .   537   GLU   HA     .   50219   1
+      736   .   1   .   1   66   66   GLU   HB2    H   1    2.072     0.00   .   .   .   .   .   .   .   537   GLU   HB#    .   50219   1
+      737   .   1   .   1   66   66   GLU   HB3    H   1    2.072     0.00   .   .   .   .   .   .   .   537   GLU   HB#    .   50219   1
+      738   .   1   .   1   66   66   GLU   HG2    H   1    2.524     0.00   .   .   .   .   .   .   .   537   GLU   HG2    .   50219   1
+      739   .   1   .   1   66   66   GLU   HG3    H   1    2.293     0.00   .   .   .   .   .   .   .   537   GLU   HG3    .   50219   1
+      740   .   1   .   1   66   66   GLU   CA     C   13   59.711    0.00   .   .   .   .   .   .   .   537   GLU   CA     .   50219   1
+      741   .   1   .   1   66   66   GLU   CB     C   13   29.885    0.00   .   .   .   .   .   .   .   537   GLU   CB     .   50219   1
+      742   .   1   .   1   66   66   GLU   CG     C   13   37.393    0.01   .   .   .   .   .   .   .   537   GLU   CG     .   50219   1
+      743   .   1   .   1   67   67   GLU   H      H   1    9.150     0.00   .   .   .   .   .   .   .   538   GLU   HN     .   50219   1
+      744   .   1   .   1   67   67   GLU   HA     H   1    4.176     0.00   .   .   .   .   .   .   .   538   GLU   HA     .   50219   1
+      745   .   1   .   1   67   67   GLU   HB2    H   1    2.019     0.00   .   .   .   .   .   .   .   538   GLU   HB#    .   50219   1
+      746   .   1   .   1   67   67   GLU   HB3    H   1    2.019     0.00   .   .   .   .   .   .   .   538   GLU   HB#    .   50219   1
+      747   .   1   .   1   67   67   GLU   HG2    H   1    2.268     0.00   .   .   .   .   .   .   .   538   GLU   HG2    .   50219   1
+      748   .   1   .   1   67   67   GLU   HG3    H   1    2.247     0.00   .   .   .   .   .   .   .   538   GLU   HG3    .   50219   1
+      749   .   1   .   1   67   67   GLU   CA     C   13   58.257    0.00   .   .   .   .   .   .   .   538   GLU   CA     .   50219   1
+      750   .   1   .   1   67   67   GLU   CB     C   13   29.281    0.00   .   .   .   .   .   .   .   538   GLU   CB     .   50219   1
+      751   .   1   .   1   67   67   GLU   CG     C   13   36.203    0.01   .   .   .   .   .   .   .   538   GLU   CG     .   50219   1
+      752   .   1   .   1   67   67   GLU   N      N   15   119.156   0.00   .   .   .   .   .   .   .   538   GLU   N      .   50219   1
+      753   .   1   .   1   68   68   ASN   H      H   1    7.753     0.00   .   .   .   .   .   .   .   539   ASN   HN     .   50219   1
+      754   .   1   .   1   68   68   ASN   HA     H   1    4.901     0.00   .   .   .   .   .   .   .   539   ASN   HA     .   50219   1
+      755   .   1   .   1   68   68   ASN   HB2    H   1    2.993     0.00   .   .   .   .   .   .   .   539   ASN   HB2    .   50219   1
+      756   .   1   .   1   68   68   ASN   HB3    H   1    2.602     0.00   .   .   .   .   .   .   .   539   ASN   HB3    .   50219   1
+      757   .   1   .   1   68   68   ASN   CA     C   13   52.265    0.00   .   .   .   .   .   .   .   539   ASN   CA     .   50219   1
+      758   .   1   .   1   68   68   ASN   CB     C   13   39.570    0.05   .   .   .   .   .   .   .   539   ASN   CB     .   50219   1
+      759   .   1   .   1   68   68   ASN   N      N   15   117.368   0.00   .   .   .   .   .   .   .   539   ASN   N      .   50219   1
+      760   .   1   .   1   69   69   ALA   H      H   1    7.560     0.00   .   .   .   .   .   .   .   540   ALA   HN     .   50219   1
+      761   .   1   .   1   69   69   ALA   HA     H   1    4.215     0.00   .   .   .   .   .   .   .   540   ALA   HA     .   50219   1
+      762   .   1   .   1   69   69   ALA   HB1    H   1    0.779     0.00   .   .   .   .   .   .   .   540   ALA   HB#    .   50219   1
+      763   .   1   .   1   69   69   ALA   HB2    H   1    0.779     0.00   .   .   .   .   .   .   .   540   ALA   HB#    .   50219   1
+      764   .   1   .   1   69   69   ALA   HB3    H   1    0.779     0.00   .   .   .   .   .   .   .   540   ALA   HB#    .   50219   1
+      765   .   1   .   1   69   69   ALA   C      C   13   175.453   0.00   .   .   .   .   .   .   .   540   ALA   CO     .   50219   1
+      766   .   1   .   1   69   69   ALA   CA     C   13   50.871    0.00   .   .   .   .   .   .   .   540   ALA   CA     .   50219   1
+      767   .   1   .   1   69   69   ALA   CB     C   13   17.464    0.00   .   .   .   .   .   .   .   540   ALA   CB     .   50219   1
+      768   .   1   .   1   69   69   ALA   N      N   15   125.365   0.03   .   .   .   .   .   .   .   540   ALA   N      .   50219   1
+      769   .   1   .   1   70   70   PRO   HA     H   1    4.330     0.00   .   .   .   .   .   .   .   541   PRO   HA     .   50219   1
+      770   .   1   .   1   70   70   PRO   HB2    H   1    2.190     0.00   .   .   .   .   .   .   .   541   PRO   HB2    .   50219   1
+      771   .   1   .   1   70   70   PRO   HB3    H   1    1.393     0.00   .   .   .   .   .   .   .   541   PRO   HB3    .   50219   1
+      772   .   1   .   1   70   70   PRO   HG2    H   1    2.119     0.00   .   .   .   .   .   .   .   541   PRO   HG2    .   50219   1
+      773   .   1   .   1   70   70   PRO   HG3    H   1    1.769     0.00   .   .   .   .   .   .   .   541   PRO   HG3    .   50219   1
+      774   .   1   .   1   70   70   PRO   HD2    H   1    3.873     0.00   .   .   .   .   .   .   .   541   PRO   HD2    .   50219   1
+      775   .   1   .   1   70   70   PRO   HD3    H   1    3.231     0.00   .   .   .   .   .   .   .   541   PRO   HD3    .   50219   1
+      776   .   1   .   1   70   70   PRO   C      C   13   176.137   0.00   .   .   .   .   .   .   .   541   PRO   CO     .   50219   1
+      777   .   1   .   1   70   70   PRO   CA     C   13   62.570    0.00   .   .   .   .   .   .   .   541   PRO   CA     .   50219   1
+      778   .   1   .   1   70   70   PRO   CB     C   13   32.677    0.00   .   .   .   .   .   .   .   541   PRO   CB     .   50219   1
+      779   .   1   .   1   70   70   PRO   CG     C   13   27.114    0.01   .   .   .   .   .   .   .   541   PRO   CG     .   50219   1
+      780   .   1   .   1   70   70   PRO   CD     C   13   50.315    0.00   .   .   .   .   .   .   .   541   PRO   CD     .   50219   1
+      781   .   1   .   1   71   71   LEU   H      H   1    8.274     0.00   .   .   .   .   .   .   .   542   LEU   HN     .   50219   1
+      782   .   1   .   1   71   71   LEU   HA     H   1    4.490     0.00   .   .   .   .   .   .   .   542   LEU   HA     .   50219   1
+      783   .   1   .   1   71   71   LEU   HB2    H   1    1.805     0.00   .   .   .   .   .   .   .   542   LEU   HB2    .   50219   1
+      784   .   1   .   1   71   71   LEU   HB3    H   1    1.089     0.00   .   .   .   .   .   .   .   542   LEU   HB3    .   50219   1
+      785   .   1   .   1   71   71   LEU   HG     H   1    1.358     0.00   .   .   .   .   .   .   .   542   LEU   HG     .   50219   1
+      786   .   1   .   1   71   71   LEU   HD11   H   1    0.761     0.00   .   .   .   .   .   .   .   542   LEU   HD1#   .   50219   1
+      787   .   1   .   1   71   71   LEU   HD12   H   1    0.761     0.00   .   .   .   .   .   .   .   542   LEU   HD1#   .   50219   1
+      788   .   1   .   1   71   71   LEU   HD13   H   1    0.761     0.00   .   .   .   .   .   .   .   542   LEU   HD1#   .   50219   1
+      789   .   1   .   1   71   71   LEU   HD21   H   1    0.812     0.00   .   .   .   .   .   .   .   542   LEU   HD2#   .   50219   1
+      790   .   1   .   1   71   71   LEU   HD22   H   1    0.812     0.00   .   .   .   .   .   .   .   542   LEU   HD2#   .   50219   1
+      791   .   1   .   1   71   71   LEU   HD23   H   1    0.812     0.00   .   .   .   .   .   .   .   542   LEU   HD2#   .   50219   1
+      792   .   1   .   1   71   71   LEU   C      C   13   174.775   0.00   .   .   .   .   .   .   .   542   LEU   CO     .   50219   1
+      793   .   1   .   1   71   71   LEU   CA     C   13   54.306    0.00   .   .   .   .   .   .   .   542   LEU   CA     .   50219   1
+      794   .   1   .   1   71   71   LEU   CB     C   13   43.330    0.00   .   .   .   .   .   .   .   542   LEU   CB     .   50219   1
+      795   .   1   .   1   71   71   LEU   CG     C   13   27.471    0.00   .   .   .   .   .   .   .   542   LEU   CG     .   50219   1
+      796   .   1   .   1   71   71   LEU   CD1    C   13   25.907    0.00   .   .   .   .   .   .   .   542   LEU   CD1    .   50219   1
+      797   .   1   .   1   71   71   LEU   CD2    C   13   24.768    0.00   .   .   .   .   .   .   .   542   LEU   CD2    .   50219   1
+      798   .   1   .   1   71   71   LEU   N      N   15   123.576   0.03   .   .   .   .   .   .   .   542   LEU   N      .   50219   1
+      799   .   1   .   1   72   72   HIS   H      H   1    8.783     0.00   .   .   .   .   .   .   .   543   HIS   HN     .   50219   1
+      800   .   1   .   1   72   72   HIS   HA     H   1    4.757     0.00   .   .   .   .   .   .   .   543   HIS   HA     .   50219   1
+      801   .   1   .   1   72   72   HIS   HB2    H   1    3.423     0.00   .   .   .   .   .   .   .   543   HIS   HB2    .   50219   1
+      802   .   1   .   1   72   72   HIS   HB3    H   1    3.289     0.00   .   .   .   .   .   .   .   543   HIS   HB3    .   50219   1
+      803   .   1   .   1   72   72   HIS   HD2    H   1    7.211     0.00   .   .   .   .   .   .   .   543   HIS   HD2    .   50219   1
+      804   .   1   .   1   72   72   HIS   C      C   13   174.537   0.01   .   .   .   .   .   .   .   543   HIS   CO     .   50219   1
+      805   .   1   .   1   72   72   HIS   CA     C   13   57.908    0.00   .   .   .   .   .   .   .   543   HIS   CA     .   50219   1
+      806   .   1   .   1   72   72   HIS   CB     C   13   32.774    0.01   .   .   .   .   .   .   .   543   HIS   CB     .   50219   1
+      807   .   1   .   1   72   72   HIS   CD2    C   13   116.884   0.00   .   .   .   .   .   .   .   543   HIS   CD2    .   50219   1
+      808   .   1   .   1   72   72   HIS   N      N   15   126.291   0.04   .   .   .   .   .   .   .   543   HIS   N      .   50219   1
+      809   .   1   .   1   73   73   LYS   H      H   1    8.642     0.00   .   .   .   .   .   .   .   544   LYS   HN     .   50219   1
+      810   .   1   .   1   73   73   LYS   HA     H   1    4.684     0.00   .   .   .   .   .   .   .   544   LYS   HA     .   50219   1
+      811   .   1   .   1   73   73   LYS   HB3    H   1    1.761     0.03   .   .   .   .   .   .   .   544   LYS   HB3    .   50219   1
+      812   .   1   .   1   73   73   LYS   HG2    H   1    1.490     0.00   .   .   .   .   .   .   .   544   LYS   HG2    .   50219   1
+      813   .   1   .   1   73   73   LYS   HG3    H   1    1.352     0.00   .   .   .   .   .   .   .   544   LYS   HG3    .   50219   1
+      814   .   1   .   1   73   73   LYS   HD2    H   1    1.681     0.00   .   .   .   .   .   .   .   544   LYS   HD#    .   50219   1
+      815   .   1   .   1   73   73   LYS   HD3    H   1    1.681     0.00   .   .   .   .   .   .   .   544   LYS   HD#    .   50219   1
+      816   .   1   .   1   73   73   LYS   HE2    H   1    2.984     0.00   .   .   .   .   .   .   .   544   LYS   HE#    .   50219   1
+      817   .   1   .   1   73   73   LYS   HE3    H   1    2.984     0.00   .   .   .   .   .   .   .   544   LYS   HE#    .   50219   1
+      818   .   1   .   1   73   73   LYS   C      C   13   177.219   0.02   .   .   .   .   .   .   .   544   LYS   CO     .   50219   1
+      819   .   1   .   1   73   73   LYS   CA     C   13   55.431    0.00   .   .   .   .   .   .   .   544   LYS   CA     .   50219   1
+      820   .   1   .   1   73   73   LYS   CB     C   13   34.112    0.01   .   .   .   .   .   .   .   544   LYS   CB     .   50219   1
+      821   .   1   .   1   73   73   LYS   CG     C   13   24.963    0.02   .   .   .   .   .   .   .   544   LYS   CG     .   50219   1
+      822   .   1   .   1   73   73   LYS   CD     C   13   29.607    0.00   .   .   .   .   .   .   .   544   LYS   CD     .   50219   1
+      823   .   1   .   1   73   73   LYS   CE     C   13   42.263    0.00   .   .   .   .   .   .   .   544   LYS   CE     .   50219   1
+      824   .   1   .   1   73   73   LYS   N      N   15   120.603   0.02   .   .   .   .   .   .   .   544   LYS   N      .   50219   1
+      825   .   1   .   1   74   74   LEU   H      H   1    9.013     0.00   .   .   .   .   .   .   .   545   LEU   HN     .   50219   1
+      826   .   1   .   1   74   74   LEU   HA     H   1    4.103     0.00   .   .   .   .   .   .   .   545   LEU   HA     .   50219   1
+      827   .   1   .   1   74   74   LEU   HB2    H   1    1.367     0.00   .   .   .   .   .   .   .   545   LEU   HB2    .   50219   1
+      828   .   1   .   1   74   74   LEU   HB3    H   1    1.168     0.00   .   .   .   .   .   .   .   545   LEU   HB3    .   50219   1
+      829   .   1   .   1   74   74   LEU   HG     H   1    1.128     0.00   .   .   .   .   .   .   .   545   LEU   HG     .   50219   1
+      830   .   1   .   1   74   74   LEU   HD11   H   1    0.203     0.00   .   .   .   .   .   .   .   545   LEU   HD1#   .   50219   1
+      831   .   1   .   1   74   74   LEU   HD12   H   1    0.203     0.00   .   .   .   .   .   .   .   545   LEU   HD1#   .   50219   1
+      832   .   1   .   1   74   74   LEU   HD13   H   1    0.203     0.00   .   .   .   .   .   .   .   545   LEU   HD1#   .   50219   1
+      833   .   1   .   1   74   74   LEU   HD21   H   1    0.103     0.00   .   .   .   .   .   .   .   545   LEU   HD2#   .   50219   1
+      834   .   1   .   1   74   74   LEU   HD22   H   1    0.103     0.00   .   .   .   .   .   .   .   545   LEU   HD2#   .   50219   1
+      835   .   1   .   1   74   74   LEU   HD23   H   1    0.103     0.00   .   .   .   .   .   .   .   545   LEU   HD2#   .   50219   1
+      836   .   1   .   1   74   74   LEU   C      C   13   177.821   0.00   .   .   .   .   .   .   .   545   LEU   CO     .   50219   1
+      837   .   1   .   1   74   74   LEU   CA     C   13   54.964    0.00   .   .   .   .   .   .   .   545   LEU   CA     .   50219   1
+      838   .   1   .   1   74   74   LEU   CB     C   13   42.072    0.01   .   .   .   .   .   .   .   545   LEU   CB     .   50219   1
+      839   .   1   .   1   74   74   LEU   CG     C   13   26.651    0.00   .   .   .   .   .   .   .   545   LEU   CG     .   50219   1
+      840   .   1   .   1   74   74   LEU   CD1    C   13   24.278    0.00   .   .   .   .   .   .   .   545   LEU   CD1    .   50219   1
+      841   .   1   .   1   74   74   LEU   CD2    C   13   23.858    0.00   .   .   .   .   .   .   .   545   LEU   CD2    .   50219   1
+      842   .   1   .   1   74   74   LEU   N      N   15   127.627   0.05   .   .   .   .   .   .   .   545   LEU   N      .   50219   1
+      843   .   1   .   1   75   75   GLY   H      H   1    8.813     0.00   .   .   .   .   .   .   .   546   GLY   HN     .   50219   1
+      844   .   1   .   1   75   75   GLY   HA2    H   1    3.970     0.00   .   .   .   .   .   .   .   546   GLY   HA2    .   50219   1
+      845   .   1   .   1   75   75   GLY   HA3    H   1    3.863     0.00   .   .   .   .   .   .   .   546   GLY   HA3    .   50219   1
+      846   .   1   .   1   75   75   GLY   C      C   13   173.866   0.00   .   .   .   .   .   .   .   546   GLY   CO     .   50219   1
+      847   .   1   .   1   75   75   GLY   CA     C   13   45.443    0.01   .   .   .   .   .   .   .   546   GLY   CA     .   50219   1
+      848   .   1   .   1   75   75   GLY   N      N   15   114.417   0.00   .   .   .   .   .   .   .   546   GLY   N      .   50219   1
+      849   .   1   .   1   76   76   GLY   H      H   1    7.867     0.00   .   .   .   .   .   .   .   547   GLY   HN     .   50219   1
+      850   .   1   .   1   76   76   GLY   HA2    H   1    3.753     0.00   .   .   .   .   .   .   .   547   GLY   HA#    .   50219   1
+      851   .   1   .   1   76   76   GLY   HA3    H   1    3.753     0.00   .   .   .   .   .   .   .   547   GLY   HA#    .   50219   1
+      852   .   1   .   1   76   76   GLY   C      C   13   179.317   0.00   .   .   .   .   .   .   .   547   GLY   CO     .   50219   1
+      853   .   1   .   1   76   76   GLY   CA     C   13   46.228    0.00   .   .   .   .   .   .   .   547   GLY   CA     .   50219   1
+      854   .   1   .   1   76   76   GLY   N      N   15   115.281   0.02   .   .   .   .   .   .   .   547   GLY   N      .   50219   1
+   stop_
+save_
+

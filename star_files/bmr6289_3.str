@@ -1,0 +1,1578 @@
+data_6289
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            6289
+  _Entry.Title                         
+;
+NMR Structure of the Free Zinc Binding C-terminal Domain of SecA
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2004-08-13
+  _Entry.Accession_date                2004-08-13
+  _Entry.Last_release_date             .
+  _Entry.Original_release_date         .
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     2.1
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   .
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    William    Matousek        .   M.    .   6289    
+    2    Andrei     Alexandrescu    .   T.    .   6289    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    assigned_chemical_shifts    1    6289    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    '13C chemical shifts'  55     6289    
+    '15N chemical shifts'  18     6289    
+    '1H chemical shifts'   113    6289    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    2    .   .   2011-06-16    2004-08-13    update      author    'update entry citation'  6289    
+    1    .   .   2004-09-01    2004-08-13    original    author    'original release'       6289    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_entry_citation
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                entry_citation
+  _Citation.Entry_ID                    6289
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             .
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   15488768
+  _Citation.Full_citation               .
+  _Citation.Title                       'NMR structure of the C-terminal domain of SecA in the free state.'
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              'Biochim. Biophys. Acta'
+  _Citation.Journal_name_full           'Biochimica et biophysica acta'
+  _Citation.Journal_volume              1702
+  _Citation.Journal_issue               2
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  163
+  _Citation.Page_last                   171
+  _Citation.Year                        2004
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    William    Matousek        .   M.    .   6289    1    
+    2    Andrei     Alexandrescu    .   T.    .   6289    1    
+  stop_
+
+  loop_
+    _Citation_keyword.Keyword
+    _Citation_keyword.Entry_ID
+    _Citation_keyword.Citation_ID
+
+    'beta hairpin'  6289    1    
+    SecA            6289    1    
+    'zinc finger'   6289    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_molecular_system_SecA_Ct
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     molecular_system_SecA_Ct
+  _Assembly.Entry_ID                         6289
+  _Assembly.ID                               1
+  _Assembly.Name                             SecA_Ct
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             .
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               .
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      'all other bound'
+  _Assembly.Molecular_mass                   .
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          'C-terminal 22 residue domains of SecA from E. coli.'
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Assembly_type.Type
+    _Assembly_type.Entry_ID
+    _Assembly_type.Assembly_ID
+
+    monomer    6289    1    
+  stop_
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    SecA_Ct     1    $SecA_Ct   .   .   .   native    .   .   .   .   .   6289    1    
+    2    'Zinc ion'  2    $ZN        .   .   .   native    .   .   .   .   .   6289    1    
+  stop_
+
+  loop_
+    _Bond.ID
+    _Bond.Type
+    _Bond.Value_order
+    _Bond.Assembly_atom_ID_1
+    _Bond.Entity_assembly_ID_1
+    _Bond.Entity_assembly_name_1
+    _Bond.Entity_ID_1
+    _Bond.Comp_ID_1
+    _Bond.Comp_index_ID_1
+    _Bond.Seq_ID_1
+    _Bond.Atom_ID_1
+    _Bond.Assembly_atom_ID_2
+    _Bond.Entity_assembly_ID_2
+    _Bond.Entity_assembly_name_2
+    _Bond.Entity_ID_2
+    _Bond.Comp_ID_2
+    _Bond.Comp_index_ID_2
+    _Bond.Seq_ID_2
+    _Bond.Atom_ID_2
+    _Bond.Auth_entity_assembly_ID_1
+    _Bond.Auth_entity_assembly_name_1
+    _Bond.Auth_seq_ID_1
+    _Bond.Auth_comp_ID_1
+    _Bond.Auth_atom_ID_1
+    _Bond.Auth_entity_assembly_ID_2
+    _Bond.Auth_entity_assembly_name_2
+    _Bond.Auth_seq_ID_2
+    _Bond.Auth_comp_ID_2
+    _Bond.Auth_atom_ID_2
+    _Bond.Entry_ID
+    _Bond.Assembly_ID
+
+    1    coordination    single    .   1    .   1    CYS    6     6     SG    .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6289    1    
+    2    coordination    single    .   1    .   1    CYS    8     8     SG    .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6289    1    
+    3    coordination    single    .   1    .   1    CYS    17    17    SG    .   2    .   2    ZN    1    1    ZN    .   .   .   .   .   .   .   .   .   .   6289    1    
+  stop_
+
+  loop_
+    _Assembly_common_name.Name
+    _Assembly_common_name.Type
+    _Assembly_common_name.Entry_ID
+    _Assembly_common_name.Assembly_ID
+
+    SecA_Ct    abbreviation    6289    1    
+    SecA_Ct    system          6289    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_SecA_Ct
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     SecA_Ct
+  _Entity.Entry_ID                         6289
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             SecA_Ct
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polypeptide(L)
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      
+;
+GRNDPCPCGSGKKYKQCHGR
+LQ
+;
+
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  .
+  _Entity.Ambiguous_chem_comp_sites        .
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   .
+  _Entity.Nstd_linkage                     .
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               22
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      'all other bound'
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 1
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    2010-09-18
+  _Entity.DB_query_revised_last_date       2009-12-05
+
+  loop_
+    _Entity_db_link.Ordinal
+    _Entity_db_link.Author_supplied
+    _Entity_db_link.Database_code
+    _Entity_db_link.Accession_code
+    _Entity_db_link.Entry_mol_code
+    _Entity_db_link.Entry_mol_name
+    _Entity_db_link.Entry_experimental_method
+    _Entity_db_link.Entry_structure_resolution
+    _Entity_db_link.Entry_relation_type
+    _Entity_db_link.Entry_details
+    _Entity_db_link.Chimera_segment_ID
+    _Entity_db_link.Seq_query_to_submitted_percent
+    _Entity_db_link.Seq_subject_length
+    _Entity_db_link.Seq_identity
+    _Entity_db_link.Seq_positive
+    _Entity_db_link.Seq_homology_expectation_val
+    _Entity_db_link.Seq_align_begin
+    _Entity_db_link.Seq_align_end
+    _Entity_db_link.Seq_difference_details
+    _Entity_db_link.Seq_alignment_details
+    _Entity_db_link.Entry_ID
+    _Entity_db_link.Entity_ID
+
+    .   .   SP      A4G8S7       .   'RecName: Full=Protein translocase subunit secA'                                                                                  .   .   .   .   .   95.45     921    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   SP      A4TQ74       .   'RecName: Full=Protein translocase subunit secA'                                                                                  .   .   .   .   .   100.00    904    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   SP      A1JJK2       .   'RecName: Full=Protein translocase subunit secA'                                                                                  .   .   .   .   .   100.00    904    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   SP      A2SJF9       .   'RecName: Full=Protein translocase subunit secA'                                                                                  .   .   .   .   .   95.45     918    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   REF     NP_454748    .   'preprotein translocase subunit SecA [Salmonella enterica subsp. enterica serovar Typhi str. CT18]'                               .   .   .   .   .   95.45     901    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   SP      A1A7E3       .   'RecName: Full=Protein translocase subunit secA'                                                                                  .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   REF     NP_308129    .   'preprotein translocase subunit SecA [Escherichia coli O157:H7 str. Sakai]'                                                       .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   REF     NP_414640    .   'preprotein translocase subunit, ATPase [Escherichia coli str. K-12 substr. MG1655]'                                              .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   REF     AP_000761    .   'preprotein translocase subunit, ATPase that targets protein precursors to the SecYE core translocon [Escherichia coli str. K-1'  .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   REF     NP_285794    .   'preprotein translocase subunit SecA [Escherichia coli O157:H7 EDL933]'                                                           .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   GB      AAM87165     .   'preprotein translocase; secretion protein [Yersinia pestis KIM 10]'                                                              .   .   .   .   .   100.00    904    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   PIR     AE0519       .   'preprotein translocase SecA chain [imported] - Salmonella enterica subsp. enterica serovar Typhi (strain CT18)'                  .   .   .   .   .   95.45     901    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   GB      AAG54402     .   'preprotein translocase; secretion protein [Escherichia coli O157:H7 EDL933]'                                                     .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   GB      AAL19100     .   'preprotein translocase; secretion protein of IISP family [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]'     .   .   .   .   .   95.45     901    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   GB      AAA24619     .   'secA protein [Escherichia coli]'                                                                                                 .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   GB      AAC73209     .   'preprotein translocase subunit, ATPase [Escherichia coli str. K-12 substr. MG1655]'                                              .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   EMBL    CAH19937     .   'Type II general secretory pathway preprotein translocase ATPase subunit secA [Yersinia pseudotuberculosis IP 32953]'             .   .   .   .   .   100.00    904    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   EMBL    CAL10790     .   'preprotein translocase SecA [Yersinia enterocolitica subsp. enterocolitica 8081]'                                                .   .   .   .   .   100.00    904    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   EMBL    CAD01293     .   'preprotein translocase SecA subunit [Salmonella enterica subsp. enterica serovar Typhi]'                                         .   .   .   .   .   95.45     901    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   EMBL    CAG76705     .   'preprotein translocase SecA subunit [Pectobacterium atrosepticum SCRI1043]'                                                      .   .   .   .   .   100.00    900    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   DBJ     BAI23462     .   'preprotein translocase subunit SecA [Escherichia coli O26:H11 str. 11368]'                                                       .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   EMBL    CAA38875     .   'SecA protein [Escherichia coli]'                                                                                                 .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   DBJ     BAG75624     .   'preprotein translocase SecA [Escherichia coli SE11]'                                                                             .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   DBJ     BAH61745     .   'preprotein translocase ATPase subunit [Klebsiella pneumoniae NTUH-K2044]'                                                        .   .   .   .   .   95.45     901    100.00    100.00    8.28e-07    .   .   .   .   6289    1    
+    .   .   DBJ     BAB33525     .   'preprotein translocase SecA [Escherichia coli O157:H7 str. Sakai]'                                                               .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+    .   .   DBJ     BAB96666     .   'preprotein translocase subunit, ATPase that targets protein precursors to the SecYE core translocon [Escherichia coli str. K12'  .   .   .   .   .   100.00    901    100.00    100.00    1.77e-07    .   .   .   .   6289    1    
+  stop_
+
+  loop_
+    _Entity_common_name.Name
+    _Entity_common_name.Type
+    _Entity_common_name.Entry_ID
+    _Entity_common_name.Entity_ID
+
+    SecA_Ct    abbreviation    6289    1    
+    SecA_Ct    common          6289    1    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     .   GLY    .   6289    1    
+    2     .   ARG    .   6289    1    
+    3     .   ASN    .   6289    1    
+    4     .   ASP    .   6289    1    
+    5     .   PRO    .   6289    1    
+    6     .   CYS    .   6289    1    
+    7     .   PRO    .   6289    1    
+    8     .   CYS    .   6289    1    
+    9     .   GLY    .   6289    1    
+    10    .   SER    .   6289    1    
+    11    .   GLY    .   6289    1    
+    12    .   LYS    .   6289    1    
+    13    .   LYS    .   6289    1    
+    14    .   TYR    .   6289    1    
+    15    .   LYS    .   6289    1    
+    16    .   GLN    .   6289    1    
+    17    .   CYS    .   6289    1    
+    18    .   HIS    .   6289    1    
+    19    .   GLY    .   6289    1    
+    20    .   ARG    .   6289    1    
+    21    .   LEU    .   6289    1    
+    22    .   GLN    .   6289    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   GLY    1     1     6289    1    
+    .   ARG    2     2     6289    1    
+    .   ASN    3     3     6289    1    
+    .   ASP    4     4     6289    1    
+    .   PRO    5     5     6289    1    
+    .   CYS    6     6     6289    1    
+    .   PRO    7     7     6289    1    
+    .   CYS    8     8     6289    1    
+    .   GLY    9     9     6289    1    
+    .   SER    10    10    6289    1    
+    .   GLY    11    11    6289    1    
+    .   LYS    12    12    6289    1    
+    .   LYS    13    13    6289    1    
+    .   TYR    14    14    6289    1    
+    .   LYS    15    15    6289    1    
+    .   GLN    16    16    6289    1    
+    .   CYS    17    17    6289    1    
+    .   HIS    18    18    6289    1    
+    .   GLY    19    19    6289    1    
+    .   ARG    20    20    6289    1    
+    .   LEU    21    21    6289    1    
+    .   GLN    22    22    6289    1    
+  stop_
+
+save_
+
+save_ZN
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     ZN
+  _Entity.Entry_ID                         6289
+  _Entity.ID                               2
+  _Entity.BMRB_code                        .
+  _Entity.Name                             ZN
+  _Entity.Type                             non-polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     .
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      .
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  no
+  _Entity.Ambiguous_chem_comp_sites        no
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   no
+  _Entity.Nstd_linkage                     no
+  _Entity.Nonpolymer_comp_ID               ZN
+  _Entity.Nonpolymer_comp_label            $chem_comp_ZN
+  _Entity.Number_of_monomers               .
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      .
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 2
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1    .   ZN    .   6289    2    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      6289
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $SecA_Ct   .   562    organism    .   'Escherichia coli'  'E. coli'  .   .   Bacteria    .   Escherichia    coli    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      6289
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $SecA_Ct   .   'chemical synthesis'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+  stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+save_chem_comp_ZN
+  _Chem_comp.Sf_category                      chem_comp
+  _Chem_comp.Sf_framecode                     chem_comp_ZN
+  _Chem_comp.Entry_ID                         6289
+  _Chem_comp.ID                               ZN
+  _Chem_comp.Provenance                       .
+  _Chem_comp.Name                             'ZINC ION'
+  _Chem_comp.Type                             non-polymer
+  _Chem_comp.BMRB_code                        .
+  _Chem_comp.PDB_code                         ZN
+  _Chem_comp.Ambiguous_flag                   no
+  _Chem_comp.Initial_date                     1999-07-08
+  _Chem_comp.Modified_date                    2011-06-04
+  _Chem_comp.Release_status                   REL
+  _Chem_comp.Replaced_by                      .
+  _Chem_comp.Replaces                         .
+  _Chem_comp.One_letter_code                  .
+  _Chem_comp.Three_letter_code                ZN
+  _Chem_comp.Number_atoms_all                 .
+  _Chem_comp.Number_atoms_nh                  .
+  _Chem_comp.PubChem_code                     .
+  _Chem_comp.Subcomponent_list                .
+  _Chem_comp.InChI_code                       .
+  _Chem_comp.Mon_nstd_flag                    .
+  _Chem_comp.Mon_nstd_class                   .
+  _Chem_comp.Mon_nstd_details                 .
+  _Chem_comp.Mon_nstd_parent                  .
+  _Chem_comp.Mon_nstd_parent_comp_ID          .
+  _Chem_comp.Std_deriv_one_letter_code        .
+  _Chem_comp.Std_deriv_three_letter_code      .
+  _Chem_comp.Std_deriv_BMRB_code              .
+  _Chem_comp.Std_deriv_PDB_code               .
+  _Chem_comp.Std_deriv_chem_comp_name         .
+  _Chem_comp.Synonyms                         .
+  _Chem_comp.Formal_charge                    2
+  _Chem_comp.Paramagnetic                     .
+  _Chem_comp.Aromatic                         no
+  _Chem_comp.Formula                          Zn
+  _Chem_comp.Formula_weight                   65.409
+  _Chem_comp.Formula_mono_iso_wt_nat          .
+  _Chem_comp.Formula_mono_iso_wt_13C          .
+  _Chem_comp.Formula_mono_iso_wt_15N          .
+  _Chem_comp.Formula_mono_iso_wt_13C_15N      .
+  _Chem_comp.Image_file_name                  .
+  _Chem_comp.Image_file_format                .
+  _Chem_comp.Topo_file_name                   .
+  _Chem_comp.Topo_file_format                 .
+  _Chem_comp.Struct_file_name                 .
+  _Chem_comp.Struct_file_format               .
+  _Chem_comp.Stereochem_param_file_name       .
+  _Chem_comp.Stereochem_param_file_format     .
+  _Chem_comp.Model_details                    .
+  _Chem_comp.Model_erf                        .
+  _Chem_comp.Model_source                     .
+  _Chem_comp.Model_coordinates_details        .
+  _Chem_comp.Model_coordinates_missing_flag   no
+  _Chem_comp.Ideal_coordinates_details        .
+  _Chem_comp.Ideal_coordinates_missing_flag   no
+  _Chem_comp.Model_coordinates_db_code        .
+  _Chem_comp.Processing_site                  RCSB
+  _Chem_comp.Vendor                           .
+  _Chem_comp.Vendor_product_code              .
+  _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Wed Jun 15 12:20:01 2011
+;
+
+  _Chem_comp.DB_query_date                    .
+  _Chem_comp.DB_last_query_revised_last_date  .
+
+  loop_
+    _Chem_comp_descriptor.Descriptor
+    _Chem_comp_descriptor.Type
+    _Chem_comp_descriptor.Program
+    _Chem_comp_descriptor.Program_version
+    _Chem_comp_descriptor.Entry_ID
+    _Chem_comp_descriptor.Comp_ID
+
+    InChI=1S/Zn/q+2                InChI               InChI                 1.03     6289    ZN    
+    PTFCDOFLOPIGGS-UHFFFAOYSA-N    InChIKey            InChI                 1.03     6289    ZN    
+    [Zn++]                         SMILES              CACTVS                3.341    6289    ZN    
+    [Zn++]                         SMILES_CANONICAL    CACTVS                3.341    6289    ZN    
+    [Zn+2]                         SMILES              ACDLabs               10.04    6289    ZN    
+    [Zn+2]                         SMILES              'OpenEye OEToolkits'  1.5.0    6289    ZN    
+    [Zn+2]                         SMILES_CANONICAL    'OpenEye OEToolkits'  1.5.0    6289    ZN    
+  stop_
+
+  loop_
+    _Chem_comp_identifier.Identifier
+    _Chem_comp_identifier.Type
+    _Chem_comp_identifier.Program
+    _Chem_comp_identifier.Program_version
+    _Chem_comp_identifier.Entry_ID
+    _Chem_comp_identifier.Comp_ID
+
+    zinc               'SYSTEMATIC NAME'  ACDLabs               10.04    6289    ZN    
+    'zinc(+2) cation'  'SYSTEMATIC NAME'  'OpenEye OEToolkits'  1.5.0    6289    ZN    
+  stop_
+
+  loop_
+    _Chem_comp_atom.Atom_ID
+    _Chem_comp_atom.BMRB_code
+    _Chem_comp_atom.PDB_atom_ID
+    _Chem_comp_atom.Alt_atom_ID
+    _Chem_comp_atom.Auth_atom_ID
+    _Chem_comp_atom.Type_symbol
+    _Chem_comp_atom.Isotope_number
+    _Chem_comp_atom.Chirality
+    _Chem_comp_atom.Stereo_config
+    _Chem_comp_atom.Charge
+    _Chem_comp_atom.Partial_charge
+    _Chem_comp_atom.Oxidation_number
+    _Chem_comp_atom.Unpaired_electron_number
+    _Chem_comp_atom.Align
+    _Chem_comp_atom.Aromatic_flag
+    _Chem_comp_atom.Leaving_atom_flag
+    _Chem_comp_atom.Substruct_code
+    _Chem_comp_atom.Ionizable
+    _Chem_comp_atom.Drawing_2D_coord_x
+    _Chem_comp_atom.Drawing_2D_coord_y
+    _Chem_comp_atom.Model_Cartn_x
+    _Chem_comp_atom.Model_Cartn_x_esd
+    _Chem_comp_atom.Model_Cartn_y
+    _Chem_comp_atom.Model_Cartn_y_esd
+    _Chem_comp_atom.Model_Cartn_z
+    _Chem_comp_atom.Model_Cartn_z_esd
+    _Chem_comp_atom.Model_Cartn_x_ideal
+    _Chem_comp_atom.Model_Cartn_y_ideal
+    _Chem_comp_atom.Model_Cartn_z_ideal
+    _Chem_comp_atom.PDBX_ordinal
+    _Chem_comp_atom.Details
+    _Chem_comp_atom.Entry_ID
+    _Chem_comp_atom.Comp_ID
+
+    ZN    .   ZN    .   .   ZN    .   .   N    2    .   .   .   .   no    no    .   .   .   .   0.000    .   0.000    .   0.000    .   0.000    0.000    0.000    1    .   6289    ZN    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_1
+  _Sample.Entry_ID                        6289
+  _Sample.ID                              1
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    SecA_Ct                .   .   .   1    $SecA_Ct   .   .   2.5    .   .   mM    .   .   .   .   6289    1    
+    2    'zinc chloride'        .   .   .   .    .          .   .   2.7    .   .   mM    .   .   .   .   6289    1    
+    3    'potassium phosphate'  .   .   .   .    .          .   .   10     .   .   mM    .   .   .   .   6289    1    
+    4    H2O                    .   .   .   .    .          .   .   90     .   .   %     .   .   .   .   6289    1    
+    5    D2O                    .   .   .   .    .          .   .   10     .   .   %     .   .   .   .   6289    1    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_sample_condition_1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_condition_1
+  _Sample_condition_list.Entry_ID      6289
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  0.01    0      M      6289    1    
+    pH                7.4     0.1    pH     6289    1    
+    pressure          1       0      atm    6289    1    
+    temperature       298     0.1    K      6289    1    
+  stop_
+
+save_
+
+save_sample_condition_2
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_condition_2
+  _Sample_condition_list.Entry_ID      6289
+  _Sample_condition_list.ID            2
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  0.01    0      M      6289    2    
+    pH                6.03    0.1    pH     6289    2    
+    pressure          1       0      atm    6289    2    
+    temperature       298     0.1    K      6289    2    
+  stop_
+
+save_
+
+save_sample_condition_3
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_condition_3
+  _Sample_condition_list.Entry_ID      6289
+  _Sample_condition_list.ID            3
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  0.01    0      M      6289    3    
+    pH                6.80    0.1    pH     6289    3    
+    pressure          1       0      atm    6289    3    
+    temperature       298     0.1    K      6289    3    
+  stop_
+
+save_
+
+save_sample_condition_4
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_condition_4
+  _Sample_condition_list.Entry_ID      6289
+  _Sample_condition_list.ID            4
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  0.01    0      M      6289    4    
+    pH                6.43    0.1    pH     6289    4    
+    pressure          1       0      atm    6289    4    
+    temperature       298     0.1    K      6289    4    
+  stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+save_software_VNMR
+  _Software.Sf_category   software
+  _Software.Sf_framecode  software_VNMR
+  _Software.Entry_ID      6289
+  _Software.ID            1
+  _Software.Name          VNMR
+  _Software.Version       .
+  _Software.Details       .
+
+save_
+
+save_software_Felix
+  _Software.Sf_category   software
+  _Software.Sf_framecode  software_Felix
+  _Software.Entry_ID      6289
+  _Software.ID            2
+  _Software.Name          FELIX
+  _Software.Version       2000
+  _Software.Details       .
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_NMR_spectrometer
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer
+  _NMR_spectrometer.Entry_ID        6289
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           Inova
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  500
+
+save_
+
+save_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      6289
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    NMR_spectrometer    Varian    Inova    .   500    .   .   .   6289    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      6289
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1    '2D 1H NOESY'                   .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+    2    '2D 1H TOCSY'                   .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+    3    'natural abundance 1H15N HSQC'  .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+    4    '1D hydrogen exchange'          .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+    5    'natural abundance 1H13C HSQC'  .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+    6    '1H 2D ECOSY'                   .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+    7    '1H 2D phase sensitive COSY'    .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   .   .   .   .   .   1    $NMR_spectrometer   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   6289    1    
+  stop_
+
+save_
+
+save_NMR_spec_expt__0_1
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_1
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             1
+  _NMR_spec_expt.Name                           '2D 1H NOESY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+save_NMR_spec_expt__0_2
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_2
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             2
+  _NMR_spec_expt.Name                           '2D 1H TOCSY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+save_NMR_spec_expt__0_3
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_3
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             3
+  _NMR_spec_expt.Name                           'natural abundance 1H15N HSQC'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+save_NMR_spec_expt__0_4
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_4
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             4
+  _NMR_spec_expt.Name                           '1D hydrogen exchange'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+save_NMR_spec_expt__0_5
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_5
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             5
+  _NMR_spec_expt.Name                           'natural abundance 1H13C HSQC'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+save_NMR_spec_expt__0_7
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_7
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             6
+  _NMR_spec_expt.Name                           '1H 2D ECOSY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+save_NMR_spec_expt__0_8
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_8
+  _NMR_spec_expt.Entry_ID                       6289
+  _NMR_spec_expt.ID                             7
+  _NMR_spec_expt.Name                           '1H 2D phase sensitive COSY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            1
+  _NMR_spec_expt.NMR_spectrometer_label         $NMR_spectrometer
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+save_chemical_shift_reference
+  _Chem_shift_reference.Sf_category   chem_shift_reference
+  _Chem_shift_reference.Sf_framecode  chemical_shift_reference
+  _Chem_shift_reference.Entry_ID      6289
+  _Chem_shift_reference.ID            1
+  _Chem_shift_reference.Details       .
+
+  loop_
+    _Chem_shift_ref.Atom_type
+    _Chem_shift_ref.Atom_isotope_number
+    _Chem_shift_ref.Mol_common_name
+    _Chem_shift_ref.Atom_group
+    _Chem_shift_ref.Concentration_val
+    _Chem_shift_ref.Concentration_units
+    _Chem_shift_ref.Solvent
+    _Chem_shift_ref.Rank
+    _Chem_shift_ref.Chem_shift_units
+    _Chem_shift_ref.Chem_shift_val
+    _Chem_shift_ref.Ref_method
+    _Chem_shift_ref.Ref_type
+    _Chem_shift_ref.Indirect_shift_ratio
+    _Chem_shift_ref.External_ref_loc
+    _Chem_shift_ref.External_ref_sample_geometry
+    _Chem_shift_ref.External_ref_axis
+    _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+    _Chem_shift_ref.Indirect_shift_ratio_cit_label
+    _Chem_shift_ref.Ref_correction_type
+    _Chem_shift_ref.Correction_val
+    _Chem_shift_ref.Correction_val_cit_ID
+    _Chem_shift_ref.Correction_val_cit_label
+    _Chem_shift_ref.Entry_ID
+    _Chem_shift_ref.Chem_shift_reference_ID
+
+    C    13    DSS    'methyl protons'  .   .   .   .   ppm    0.0    external    indirect    0.251449530    .   .   .   1    $entry_citation   .   .   1    $entry_citation   6289    1    
+    H    1     DSS    'methyl protons'  .   .   .   .   ppm    0.0    internal    direct      1.0            .   .   .   1    $entry_citation   .   .   1    $entry_citation   6289    1    
+    N    15    DSS    'methyl protons'  .   .   .   .   ppm    0.0    external    indirect    0.101329118    .   .   .   1    $entry_citation   .   .   1    $entry_citation   6289    1    
+  stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_framecode                 assigned_chemical_shifts
+  _Assigned_chem_shift_list.Entry_ID                     6289
+  _Assigned_chem_shift_list.ID                           1
+  _Assigned_chem_shift_list.Sample_condition_list_ID     1
+  _Assigned_chem_shift_list.Sample_condition_list_label  $sample_condition_1
+  _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+  _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+  _Assigned_chem_shift_list.Chem_shift_1H_err            .
+  _Assigned_chem_shift_list.Chem_shift_13C_err           .
+  _Assigned_chem_shift_list.Chem_shift_15N_err           .
+  _Assigned_chem_shift_list.Chem_shift_31P_err           .
+  _Assigned_chem_shift_list.Chem_shift_2H_err            .
+  _Assigned_chem_shift_list.Chem_shift_19F_err           .
+  _Assigned_chem_shift_list.Error_derivation_method      .
+  _Assigned_chem_shift_list.Details                      .
+  _Assigned_chem_shift_list.Text_data_format             .
+  _Assigned_chem_shift_list.Text_data                    .
+
+  loop_
+    _Chem_shift_experiment.Experiment_ID
+    _Chem_shift_experiment.Experiment_name
+    _Chem_shift_experiment.Sample_ID
+    _Chem_shift_experiment.Sample_label
+    _Chem_shift_experiment.Sample_state
+    _Chem_shift_experiment.Entry_ID
+    _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+    .   .   1    $sample_1   .   6289    1    
+  stop_
+
+  loop_
+    _Atom_chem_shift.ID
+    _Atom_chem_shift.Assembly_atom_ID
+    _Atom_chem_shift.Entity_assembly_ID
+    _Atom_chem_shift.Entity_ID
+    _Atom_chem_shift.Comp_index_ID
+    _Atom_chem_shift.Seq_ID
+    _Atom_chem_shift.Comp_ID
+    _Atom_chem_shift.Atom_ID
+    _Atom_chem_shift.Atom_type
+    _Atom_chem_shift.Atom_isotope_number
+    _Atom_chem_shift.Val
+    _Atom_chem_shift.Val_err
+    _Atom_chem_shift.Assign_fig_of_merit
+    _Atom_chem_shift.Ambiguity_code
+    _Atom_chem_shift.Occupancy
+    _Atom_chem_shift.Resonance_ID
+    _Atom_chem_shift.Auth_entity_assembly_ID
+    _Atom_chem_shift.Auth_asym_ID
+    _Atom_chem_shift.Auth_seq_ID
+    _Atom_chem_shift.Auth_comp_ID
+    _Atom_chem_shift.Auth_atom_ID
+    _Atom_chem_shift.Details
+    _Atom_chem_shift.Entry_ID
+    _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+    1      .   1    1    1     1     GLY    HA2     H    1     3.96      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    2      .   1    1    1     1     GLY    HA3     H    1     3.90      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    3      .   1    1    1     1     GLY    CA      C    13    43.54     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    4      .   1    1    2     2     ARG    HA      H    1     4.14      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    5      .   1    1    2     2     ARG    HB2     H    1     2.09      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    6      .   1    1    2     2     ARG    HB3     H    1     1.93      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    7      .   1    1    2     2     ARG    HG2     H    1     2.27      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    8      .   1    1    2     2     ARG    CA      C    13    56.88     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    9      .   1    1    2     2     ARG    CB      C    13    30.32     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    10     .   1    1    2     2     ARG    N       N    15    125.19    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    11     .   1    1    2     2     ARG    H       H    1     7.91      0.10    .   2    .   .   .   .   .   .   .   .   6289    1    
+    12     .   1    1    3     3     ASN    HA      H    1     4.87      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    13     .   1    1    3     3     ASN    HB2     H    1     2.52      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    14     .   1    1    3     3     ASN    HB3     H    1     2.79      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    15     .   1    1    3     3     ASN    CA      C    13    53.65     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    16     .   1    1    3     3     ASN    CB      C    13    40.29     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    17     .   1    1    3     3     ASN    N       N    15    120.13    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    18     .   1    1    3     3     ASN    H       H    1     7.69      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    19     .   1    1    4     4     ASP    HA      H    1     4.97      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    20     .   1    1    4     4     ASP    HB2     H    1     2.69      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    21     .   1    1    4     4     ASP    HB3     H    1     2.97      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    22     .   1    1    4     4     ASP    CA      C    13    52.93     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    23     .   1    1    4     4     ASP    CB      C    13    39.30     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    24     .   1    1    4     4     ASP    N       N    15    115.64    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    25     .   1    1    4     4     ASP    H       H    1     7.63      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    26     .   1    1    5     5     PRO    HA      H    1     4.35      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    27     .   1    1    5     5     PRO    HB2     H    1     2.25      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    28     .   1    1    5     5     PRO    HB3     H    1     1.76      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    29     .   1    1    5     5     PRO    HG2     H    1     2.11      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    30     .   1    1    5     5     PRO    HG3     H    1     1.97      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    31     .   1    1    5     5     PRO    HD2     H    1     3.91      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    32     .   1    1    5     5     PRO    HD3     H    1     3.60      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    33     .   1    1    5     5     PRO    CA      C    13    63.30     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    34     .   1    1    5     5     PRO    CB      C    13    32.05     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    35     .   1    1    5     5     PRO    CG      C    13    28.11     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    36     .   1    1    5     5     PRO    CD      C    13    50.70     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    37     .   1    1    6     6     CYS    HA      H    1     4.45      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    38     .   1    1    6     6     CYS    HB2     H    1     2.43      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    39     .   1    1    6     6     CYS    HB3     H    1     3.29      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    40     .   1    1    6     6     CYS    CA      C    13    59.78     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    41     .   1    1    6     6     CYS    CB      C    13    30.03     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    42     .   1    1    6     6     CYS    N       N    15    115.64    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    43     .   1    1    6     6     CYS    H       H    1     7.61      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    44     .   1    1    7     7     PRO    HA      H    1     4.45      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    45     .   1    1    7     7     PRO    HB2     H    1     1.92      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    46     .   1    1    7     7     PRO    HB3     H    1     2.33      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    47     .   1    1    7     7     PRO    HG2     H    1     2.42      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    48     .   1    1    7     7     PRO    HD2     H    1     4.47      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    49     .   1    1    7     7     PRO    HD3     H    1     4.07      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    50     .   1    1    7     7     PRO    CA      C    13    64.80     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    51     .   1    1    7     7     PRO    CB      C    13    32.47     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    52     .   1    1    7     7     PRO    CG      C    13    29.86     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    53     .   1    1    7     7     PRO    CD      C    13    53.59     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    54     .   1    1    8     8     CYS    HA      H    1     4.60      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    55     .   1    1    8     8     CYS    HB2     H    1     3.24      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    56     .   1    1    8     8     CYS    HB3     H    1     2.86      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    57     .   1    1    8     8     CYS    CA      C    13    59.61     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    58     .   1    1    8     8     CYS    CB      C    13    31.25     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    59     .   1    1    8     8     CYS    N       N    15    127.40    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    60     .   1    1    8     8     CYS    H       H    1     9.37      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    61     .   1    1    9     9     GLY    HA2     H    1     3.92      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    62     .   1    1    9     9     GLY    HA3     H    1     4.34      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    63     .   1    1    9     9     GLY    CA      C    13    46.20     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    64     .   1    1    9     9     GLY    N       N    15    108.74    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    65     .   1    1    9     9     GLY    H       H    1     7.88      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    66     .   1    1    10    10    SER    HA      H    1     4.18      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    67     .   1    1    10    10    SER    HB2     H    1     3.94      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    68     .   1    1    10    10    SER    HB3     H    1     4.22      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    69     .   1    1    10    10    SER    CA      C    13    61.92     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    70     .   1    1    10    10    SER    CB      C    13    63.57     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    71     .   1    1    10    10    SER    N       N    15    118.96    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    72     .   1    1    10    10    SER    H       H    1     8.90      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    73     .   1    1    11    11    GLY    HA2     H    1     4.36      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    74     .   1    1    11    11    GLY    HA3     H    1     3.62      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    75     .   1    1    11    11    GLY    CA      C    13    45.19     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    76     .   1    1    11    11    GLY    N       N    15    111.50    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    77     .   1    1    11    11    GLY    H       H    1     9.46      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    78     .   1    1    12    12    LYS    HA      H    1     4.46      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    79     .   1    1    12    12    LYS    HB2     H    1     1.53      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    80     .   1    1    12    12    LYS    HB3     H    1     1.84      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    81     .   1    1    12    12    LYS    HG2     H    1     1.98      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    82     .   1    1    12    12    LYS    HG3     H    1     1.94      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    83     .   1    1    12    12    LYS    HD2     H    1     1.41      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    84     .   1    1    12    12    LYS    HE2     H    1     3.02      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    85     .   1    1    12    12    LYS    CA      C    13    55.04     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    86     .   1    1    12    12    LYS    CB      C    13    35.02     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    87     .   1    1    12    12    LYS    CG      C    13    27.43     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    88     .   1    1    12    12    LYS    CE      C    13    42.22     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    89     .   1    1    12    12    LYS    N       N    15    119.61    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    90     .   1    1    12    12    LYS    H       H    1     7.87      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    91     .   1    1    13    13    LYS    HA      H    1     4.24      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    92     .   1    1    13    13    LYS    HB2     H    1     1.58      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    93     .   1    1    13    13    LYS    HB3     H    1     2.01      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    94     .   1    1    13    13    LYS    HG2     H    1     1.69      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    95     .   1    1    13    13    LYS    HG3     H    1     1.41      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    96     .   1    1    13    13    LYS    CA      C    13    59.34     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    97     .   1    1    13    13    LYS    CB      C    13    33.49     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    98     .   1    1    13    13    LYS    CG      C    13    25.91     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    99     .   1    1    13    13    LYS    N       N    15    119.07    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    100    .   1    1    13    13    LYS    H       H    1     8.59      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    101    .   1    1    14    14    TYR    HA      H    1     4.51      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    102    .   1    1    14    14    TYR    HB2     H    1     3.25      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    103    .   1    1    14    14    TYR    HB3     H    1     3.19      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    104    .   1    1    14    14    TYR    HD1     H    1     7.55      0.05    .   3    .   .   .   .   .   .   .   .   6289    1    
+    105    .   1    1    14    14    TYR    HE1     H    1     6.79      0.05    .   3    .   .   .   .   .   .   .   .   6289    1    
+    106    .   1    1    14    14    TYR    CA      C    13    62.49     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    107    .   1    1    14    14    TYR    CB      C    13    38.95     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    108    .   1    1    14    14    TYR    N       N    15    124.01    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    109    .   1    1    14    14    TYR    H       H    1     9.31      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    110    .   1    1    15    15    LYS    HA      H    1     3.75      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    111    .   1    1    15    15    LYS    HB2     H    1     1.96      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    112    .   1    1    15    15    LYS    HB3     H    1     1.80      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    113    .   1    1    15    15    LYS    HG2     H    1     1.39      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    114    .   1    1    15    15    LYS    HG3     H    1     1.29      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    115    .   1    1    15    15    LYS    HE2     H    1     2.97      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    116    .   1    1    15    15    LYS    CA      C    13    58.34     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    117    .   1    1    15    15    LYS    CB      C    13    31.75     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    118    .   1    1    15    15    LYS    CG      C    13    24.94     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    119    .   1    1    15    15    LYS    CE      C    13    42.18     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    120    .   1    1    15    15    LYS    N       N    15    123.71    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    121    .   1    1    15    15    LYS    H       H    1     8.80      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    122    .   1    1    16    16    GLN    HA      H    1     4.42      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    123    .   1    1    16    16    GLN    HB2     H    1     1.98      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    124    .   1    1    16    16    GLN    HB3     H    1     2.34      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    125    .   1    1    16    16    GLN    HG2     H    1     2.42      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    126    .   1    1    16    16    GLN    HG3     H    1     2.22      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    127    .   1    1    16    16    GLN    CA      C    13    59.78     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    128    .   1    1    16    16    GLN    CB      C    13    30.35     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    129    .   1    1    16    16    GLN    CG      C    13    34.64     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    130    .   1    1    16    16    GLN    N       N    15    114.96    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    131    .   1    1    16    16    GLN    H       H    1     7.50      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    132    .   1    1    17    17    CYS    HA      H    1     4.50      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    133    .   1    1    17    17    CYS    HB2     H    1     2.53      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    134    .   1    1    17    17    CYS    HB3     H    1     3.01      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    135    .   1    1    17    17    CYS    CA      C    13    60.34     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    136    .   1    1    17    17    CYS    CB      C    13    29.88     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    137    .   1    1    17    17    CYS    N       N    15    126.14    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    138    .   1    1    17    17    CYS    H       H    1     7.78      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    139    .   1    1    18    18    HIS    HA      H    1     4.23      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    140    .   1    1    18    18    HIS    HB2     H    1     3.10      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    141    .   1    1    18    18    HIS    HB3     H    1     3.44      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    142    .   1    1    18    18    HIS    HD1     H    1     7.34      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    143    .   1    1    18    18    HIS    HE1     H    1     7.98      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    144    .   1    1    18    18    HIS    CA      C    13    56.66     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    145    .   1    1    18    18    HIS    CB      C    13    26.69     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    146    .   1    1    18    18    HIS    H       H    1     8.85      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    147    .   1    1    18    18    HIS    N       N    15    114.75    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    148    .   1    1    19    19    GLY    HA2     H    1     3.88      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    149    .   1    1    19    19    GLY    HA3     H    1     1.95      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    150    .   1    1    19    19    GLY    CA      C    13    44.67     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    151    .   1    1    19    19    GLY    N       N    15    108.74    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    152    .   1    1    19    19    GLY    H       H    1     7.90      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    153    .   1    1    20    20    ARG    HA      H    1     4.16      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    154    .   1    1    20    20    ARG    HB2     H    1     1.64      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    155    .   1    1    20    20    ARG    HG2     H    1     1.55      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    156    .   1    1    20    20    ARG    HG3     H    1     1.47      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    157    .   1    1    20    20    ARG    HD2     H    1     3.10      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    158    .   1    1    20    20    ARG    CA      C    13    59.77     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    159    .   1    1    20    20    ARG    CB      C    13    30.98     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    160    .   1    1    20    20    ARG    CG      C    13    27.18     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    161    .   1    1    20    20    ARG    CD      C    13    43.62     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    162    .   1    1    20    20    ARG    N       N    15    119.06    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    163    .   1    1    20    20    ARG    H       H    1     6.82      0.10    .   2    .   .   .   .   .   .   .   .   6289    1    
+    164    .   1    1    21    21    LEU    HA      H    1     4.37      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    165    .   1    1    21    21    LEU    HB2     H    1     1.63      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    166    .   1    1    21    21    LEU    HG      H    1     1.19      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    167    .   1    1    21    21    LEU    HD11    H    1     0.92      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    168    .   1    1    21    21    LEU    HD12    H    1     0.92      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    169    .   1    1    21    21    LEU    HD13    H    1     0.92      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    170    .   1    1    21    21    LEU    HD21    H    1     0.85      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    171    .   1    1    21    21    LEU    HD22    H    1     0.85      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    172    .   1    1    21    21    LEU    HD23    H    1     0.85      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    173    .   1    1    21    21    LEU    CA      C    13    55.19     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    174    .   1    1    21    21    LEU    CB      C    13    42.14     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    175    .   1    1    21    21    LEU    CD1     C    13    25.16     0.10    .   2    .   .   .   .   .   .   .   .   6289    1    
+    176    .   1    1    21    21    LEU    CD2     C    13    23.29     0.10    .   2    .   .   .   .   .   .   .   .   6289    1    
+    177    .   1    1    21    21    LEU    H       H    1     8.21      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    178    .   1    1    22    22    GLN    HA      H    1     4.14      0.05    .   1    .   .   .   .   .   .   .   .   6289    1    
+    179    .   1    1    22    22    GLN    HB2     H    1     1.91      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    180    .   1    1    22    22    GLN    HB3     H    1     2.12      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    181    .   1    1    22    22    GLN    HG2     H    1     2.27      0.05    .   2    .   .   .   .   .   .   .   .   6289    1    
+    182    .   1    1    22    22    GLN    CA      C    13    57.14     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    183    .   1    1    22    22    GLN    CB      C    13    30.70     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    184    .   1    1    22    22    GLN    CG      C    13    34.36     0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    185    .   1    1    22    22    GLN    N       N    15    125.01    0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+    186    .   1    1    22    22    GLN    H       H    1     7.76      0.10    .   1    .   .   .   .   .   .   .   .   6289    1    
+  stop_
+
+save_
+

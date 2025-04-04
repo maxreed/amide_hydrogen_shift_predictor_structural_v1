@@ -1,0 +1,1692 @@
+data_30433
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             30433
+   _Entry.Title
+;
+CSP2-E1Ad10
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2018-03-12
+   _Entry.Accession_date                 2018-03-12
+   _Entry.Last_release_date              2018-07-17
+   _Entry.Original_release_date          2018-07-17
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.2.0.16
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLUTION
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_experimental_methods.ID
+      _Entry_experimental_methods.Method
+      _Entry_experimental_methods.Subtype
+      _Entry_experimental_methods.Entry_ID
+
+      1   'SOLUTION NMR'   'SOLUTION NMR'   30433
+   stop_
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Y.   Yang   Y.   .   .   .   30433
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      CSP                    .   30433
+      'SIGNALING PROTEIN'    .   30433
+      pneumococcus           .   30433
+      'quorum sensing'       .   30433
+      'signaling molecule'   .   30433
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   30433
+      spectral_peak_list         1   30433
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   30    30433
+      '15N chemical shifts'   14    30433
+      '1H chemical shifts'    107   30433
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2019-01-10   2018-03-12   update     BMRB     'update entry citation'   30433
+      1   .   .   2018-08-22   2018-03-12   original   author   'original release'        30433
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   30432   CSP2-d10   30433
+      BMRB   30434   CSP2-l14   30433
+      PDB    6COU    .          30433
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     30433
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1021/acs.biochem.8b00653
+   _Citation.PubMed_ID                    30125091
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Structural Characterization of Competence-Stimulating Peptide Analogues Reveals Key Features for ComD1 and ComD2 Receptor Binding in Streptococcus pneumoniae
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Biochemistry
+   _Citation.Journal_name_full            Biochemistry
+   _Citation.Journal_volume               57
+   _Citation.Journal_issue                36
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 1520-4995
+   _Citation.Journal_CSD                  0353
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   5359
+   _Citation.Page_last                    5369
+   _Citation.Year                         2018
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Y.   Yang         Y.   .   .   .   30433   1
+      2   G.   Cornilescu   G.   .   .   .   30433   1
+      3   Y.   Tal-Gan      Y.   .   .   .   30433   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          30433
+   _Assembly.ID                                1
+   _Assembly.Name                              'Competence-stimulating peptide type 1'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   entity_1   1   $entity_1   A   A   yes   .   .   .   .   .   .   30433   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          30433
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              'Competence-stimulating peptide type 2'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+AMRISRIILDFLFLRKK
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                17
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        syn
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          'UNP residues 25-41'
+   _Entity.Mutation                          E1A
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    2125.690
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      CSP-2   na   30433   1
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    .   ALA   .   30433   1
+      2    .   MET   .   30433   1
+      3    .   ARG   .   30433   1
+      4    .   ILE   .   30433   1
+      5    .   SER   .   30433   1
+      6    .   ARG   .   30433   1
+      7    .   ILE   .   30433   1
+      8    .   ILE   .   30433   1
+      9    .   LEU   .   30433   1
+      10   .   ASP   .   30433   1
+      11   .   PHE   .   30433   1
+      12   .   LEU   .   30433   1
+      13   .   PHE   .   30433   1
+      14   .   LEU   .   30433   1
+      15   .   ARG   .   30433   1
+      16   .   LYS   .   30433   1
+      17   .   LYS   .   30433   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   ALA   1    1    30433   1
+      .   MET   2    2    30433   1
+      .   ARG   3    3    30433   1
+      .   ILE   4    4    30433   1
+      .   SER   5    5    30433   1
+      .   ARG   6    6    30433   1
+      .   ILE   7    7    30433   1
+      .   ILE   8    8    30433   1
+      .   LEU   9    9    30433   1
+      .   ASP   10   10   30433   1
+      .   PHE   11   11   30433   1
+      .   LEU   12   12   30433   1
+      .   PHE   13   13   30433   1
+      .   LEU   14   14   30433   1
+      .   ARG   15   15   30433   1
+      .   LYS   16   16   30433   1
+      .   LYS   17   17   30433   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       30433
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   1313   organism   .   'Streptococcus pneumoniae'   'Streptococcus pneumoniae'   .   .   Bacteria   .   Streptococcus   pneumoniae   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       30433
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'chemical synthesis'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         30433
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          '250 mM D DPC, 1.9 mM competence stimulating peptide type 2 mutant-CSP2E1Ad10, 90% H2O/10% D2O'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   DPC                                                         D                     .   .   .   .           .   .   250   .   .   mM   .   .   .   .   30433   1
+      2   'competence stimulating peptide type 2 mutant-CSP2E1Ad10'   'natural abundance'   .   .   1   $entity_1   .   .   1.9   .   .   mM   .   .   .   .   30433   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       30433
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.15   .   M     30433   1
+      pH                 7.4    .   pH    30433   1
+      pressure           1      .   atm   30433   1
+      temperature        298    .   K     30433   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       30433
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           'X-PLOR NIH'
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Schwieters, Kuszewski, Tjandra and Clore'   .   .   30433   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement                30433   1
+      'structure calculation'   30433   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       30433
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           SPARKY
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard   .   .   30433   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   30433   2
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         30433
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   900
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       30433
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   NMR_spectrometer_1   Bruker   Avance   .   900   .   .   .   30433   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       30433
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D 1H-1H COSY'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+      2   '2D 1H-1H TOCSY'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+      3   '2D 1H-1H NOESY'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+      4   '2D 1H-15N HSQC'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+      5   '2D 1H-13C HSQC'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30433   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       30433
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS     'methyl protons'   .   .   .   .   ppm   0.00    na   indirect   0.251449530   .   .   .   .   .   30433   1
+      H   1    water   protons            .   .   .   .   ppm   4.771   na   direct     1.000000000   .   .   .   .   .   30433   1
+      N   15   DSS     'methyl protons'   .   .   .   .   ppm   0.00    na   indirect   0.101329118   .   .   .   .   .   30433   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      30433
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D 1H-1H COSY'    .   .   .   30433   1
+      2   '2D 1H-1H TOCSY'   .   .   .   30433   1
+      3   '2D 1H-1H NOESY'   .   .   .   30433   1
+      4   '2D 1H-15N HSQC'   .   .   .   30433   1
+      5   '2D 1H-13C HSQC'   .   .   .   30433   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   2    2    MET   HA     H   1    4.410     0.00   .   .   .   .   .   .   A   2    MET   HA     .   30433   1
+      2     .   1   1   2    2    MET   HB2    H   1    2.007     0.00   .   .   .   .   .   .   A   2    MET   HB2    .   30433   1
+      3     .   1   1   2    2    MET   HG2    H   1    2.561     0.00   .   .   .   .   .   .   A   2    MET   HG2    .   30433   1
+      4     .   1   1   2    2    MET   HG3    H   1    2.501     0.00   .   .   .   .   .   .   A   2    MET   HG3    .   30433   1
+      5     .   1   1   2    2    MET   CA     C   13   53.206    0.00   .   .   .   .   .   .   A   2    MET   CA     .   30433   1
+      6     .   1   1   3    3    ARG   H      H   1    8.607     0.00   .   .   .   .   .   .   A   3    ARG   H      .   30433   1
+      7     .   1   1   3    3    ARG   HA     H   1    4.388     0.01   .   .   .   .   .   .   A   3    ARG   HA     .   30433   1
+      8     .   1   1   3    3    ARG   HB2    H   1    1.954     0.00   .   .   .   .   .   .   A   3    ARG   HB2    .   30433   1
+      9     .   1   1   3    3    ARG   HB3    H   1    1.790     0.00   .   .   .   .   .   .   A   3    ARG   HB3    .   30433   1
+      10    .   1   1   3    3    ARG   HG2    H   1    1.696     0.00   .   .   .   .   .   .   A   3    ARG   HG2    .   30433   1
+      11    .   1   1   3    3    ARG   HG3    H   1    1.597     0.00   .   .   .   .   .   .   A   3    ARG   HG3    .   30433   1
+      12    .   1   1   3    3    ARG   HD2    H   1    3.191     0.00   .   .   .   .   .   .   A   3    ARG   HD2    .   30433   1
+      13    .   1   1   3    3    ARG   CA     C   13   53.868    0.00   .   .   .   .   .   .   A   3    ARG   CA     .   30433   1
+      14    .   1   1   3    3    ARG   CB     C   13   27.742    0.00   .   .   .   .   .   .   A   3    ARG   CB     .   30433   1
+      15    .   1   1   3    3    ARG   N      N   15   123.389   0.00   .   .   .   .   .   .   A   3    ARG   N      .   30433   1
+      16    .   1   1   4    4    ILE   H      H   1    8.876     0.00   .   .   .   .   .   .   A   4    ILE   H      .   30433   1
+      17    .   1   1   4    4    ILE   HA     H   1    3.782     0.00   .   .   .   .   .   .   A   4    ILE   HA     .   30433   1
+      18    .   1   1   4    4    ILE   HB     H   1    1.945     0.00   .   .   .   .   .   .   A   4    ILE   HB     .   30433   1
+      19    .   1   1   4    4    ILE   HG12   H   1    1.569     0.00   .   .   .   .   .   .   A   4    ILE   HG12   .   30433   1
+      20    .   1   1   4    4    ILE   HG13   H   1    1.251     0.00   .   .   .   .   .   .   A   4    ILE   HG13   .   30433   1
+      21    .   1   1   4    4    ILE   HG21   H   1    0.887     0.00   .   .   .   .   .   .   A   4    ILE   HG21   .   30433   1
+      22    .   1   1   4    4    ILE   HG22   H   1    0.887     0.00   .   .   .   .   .   .   A   4    ILE   HG22   .   30433   1
+      23    .   1   1   4    4    ILE   HG23   H   1    0.887     0.00   .   .   .   .   .   .   A   4    ILE   HG23   .   30433   1
+      24    .   1   1   4    4    ILE   CA     C   13   61.105    0.00   .   .   .   .   .   .   A   4    ILE   CA     .   30433   1
+      25    .   1   1   4    4    ILE   CB     C   13   34.873    0.00   .   .   .   .   .   .   A   4    ILE   CB     .   30433   1
+      26    .   1   1   4    4    ILE   N      N   15   122.279   0.00   .   .   .   .   .   .   A   4    ILE   N      .   30433   1
+      27    .   1   1   5    5    SER   H      H   1    8.535     0.00   .   .   .   .   .   .   A   5    SER   H      .   30433   1
+      28    .   1   1   5    5    SER   HA     H   1    3.879     0.00   .   .   .   .   .   .   A   5    SER   HA     .   30433   1
+      29    .   1   1   5    5    SER   HB2    H   1    3.822     0.00   .   .   .   .   .   .   A   5    SER   HB2    .   30433   1
+      30    .   1   1   5    5    SER   CA     C   13   59.205    0.00   .   .   .   .   .   .   A   5    SER   CA     .   30433   1
+      31    .   1   1   5    5    SER   CB     C   13   59.602    0.00   .   .   .   .   .   .   A   5    SER   CB     .   30433   1
+      32    .   1   1   5    5    SER   N      N   15   115.515   0.00   .   .   .   .   .   .   A   5    SER   N      .   30433   1
+      33    .   1   1   6    6    ARG   H      H   1    7.260     0.00   .   .   .   .   .   .   A   6    ARG   H      .   30433   1
+      34    .   1   1   6    6    ARG   HA     H   1    4.062     0.00   .   .   .   .   .   .   A   6    ARG   HA     .   30433   1
+      35    .   1   1   6    6    ARG   HB2    H   1    2.002     0.00   .   .   .   .   .   .   A   6    ARG   HB2    .   30433   1
+      36    .   1   1   6    6    ARG   HB3    H   1    1.921     0.00   .   .   .   .   .   .   A   6    ARG   HB3    .   30433   1
+      37    .   1   1   6    6    ARG   HG2    H   1    1.699     0.00   .   .   .   .   .   .   A   6    ARG   HG2    .   30433   1
+      38    .   1   1   6    6    ARG   HD2    H   1    3.196     0.00   .   .   .   .   .   .   A   6    ARG   HD2    .   30433   1
+      39    .   1   1   6    6    ARG   HE     H   1    7.651     0.00   .   .   .   .   .   .   A   6    ARG   HE     .   30433   1
+      40    .   1   1   6    6    ARG   CA     C   13   55.091    0.00   .   .   .   .   .   .   A   6    ARG   CA     .   30433   1
+      41    .   1   1   6    6    ARG   CB     C   13   27.105    0.00   .   .   .   .   .   .   A   6    ARG   CB     .   30433   1
+      42    .   1   1   7    7    ILE   H      H   1    7.716     0.00   .   .   .   .   .   .   A   7    ILE   H      .   30433   1
+      43    .   1   1   7    7    ILE   HA     H   1    3.802     0.00   .   .   .   .   .   .   A   7    ILE   HA     .   30433   1
+      44    .   1   1   7    7    ILE   HB     H   1    1.989     0.00   .   .   .   .   .   .   A   7    ILE   HB     .   30433   1
+      45    .   1   1   7    7    ILE   HG12   H   1    1.674     0.00   .   .   .   .   .   .   A   7    ILE   HG12   .   30433   1
+      46    .   1   1   7    7    ILE   HG13   H   1    1.161     0.00   .   .   .   .   .   .   A   7    ILE   HG13   .   30433   1
+      47    .   1   1   7    7    ILE   HG21   H   1    0.865     0.00   .   .   .   .   .   .   A   7    ILE   HG21   .   30433   1
+      48    .   1   1   7    7    ILE   HG22   H   1    0.865     0.00   .   .   .   .   .   .   A   7    ILE   HG22   .   30433   1
+      49    .   1   1   7    7    ILE   HG23   H   1    0.865     0.00   .   .   .   .   .   .   A   7    ILE   HG23   .   30433   1
+      50    .   1   1   7    7    ILE   HD11   H   1    0.826     0.00   .   .   .   .   .   .   A   7    ILE   HD11   .   30433   1
+      51    .   1   1   7    7    ILE   HD12   H   1    0.826     0.00   .   .   .   .   .   .   A   7    ILE   HD12   .   30433   1
+      52    .   1   1   7    7    ILE   HD13   H   1    0.826     0.00   .   .   .   .   .   .   A   7    ILE   HD13   .   30433   1
+      53    .   1   1   7    7    ILE   CA     C   13   61.629    0.00   .   .   .   .   .   .   A   7    ILE   CA     .   30433   1
+      54    .   1   1   7    7    ILE   CB     C   13   35.362    0.00   .   .   .   .   .   .   A   7    ILE   CB     .   30433   1
+      55    .   1   1   7    7    ILE   N      N   15   120.159   0.00   .   .   .   .   .   .   A   7    ILE   N      .   30433   1
+      56    .   1   1   8    8    ILE   H      H   1    7.832     0.00   .   .   .   .   .   .   A   8    ILE   H      .   30433   1
+      57    .   1   1   8    8    ILE   HA     H   1    3.674     0.00   .   .   .   .   .   .   A   8    ILE   HA     .   30433   1
+      58    .   1   1   8    8    ILE   HB     H   1    1.853     0.00   .   .   .   .   .   .   A   8    ILE   HB     .   30433   1
+      59    .   1   1   8    8    ILE   HG12   H   1    1.751     0.00   .   .   .   .   .   .   A   8    ILE   HG12   .   30433   1
+      60    .   1   1   8    8    ILE   HG13   H   1    1.033     0.00   .   .   .   .   .   .   A   8    ILE   HG13   .   30433   1
+      61    .   1   1   8    8    ILE   HG21   H   1    0.864     0.00   .   .   .   .   .   .   A   8    ILE   HG21   .   30433   1
+      62    .   1   1   8    8    ILE   HG22   H   1    0.864     0.00   .   .   .   .   .   .   A   8    ILE   HG22   .   30433   1
+      63    .   1   1   8    8    ILE   HG23   H   1    0.864     0.00   .   .   .   .   .   .   A   8    ILE   HG23   .   30433   1
+      64    .   1   1   8    8    ILE   HD11   H   1    0.770     0.00   .   .   .   .   .   .   A   8    ILE   HD11   .   30433   1
+      65    .   1   1   8    8    ILE   HD12   H   1    0.770     0.00   .   .   .   .   .   .   A   8    ILE   HD12   .   30433   1
+      66    .   1   1   8    8    ILE   HD13   H   1    0.770     0.00   .   .   .   .   .   .   A   8    ILE   HD13   .   30433   1
+      67    .   1   1   8    8    ILE   CA     C   13   61.654    0.00   .   .   .   .   .   .   A   8    ILE   CA     .   30433   1
+      68    .   1   1   8    8    ILE   CB     C   13   35.383    0.00   .   .   .   .   .   .   A   8    ILE   CB     .   30433   1
+      69    .   1   1   8    8    ILE   N      N   15   118.339   0.00   .   .   .   .   .   .   A   8    ILE   N      .   30433   1
+      70    .   1   1   9    9    LEU   H      H   1    8.076     0.00   .   .   .   .   .   .   A   9    LEU   H      .   30433   1
+      71    .   1   1   9    9    LEU   HA     H   1    3.885     0.00   .   .   .   .   .   .   A   9    LEU   HA     .   30433   1
+      72    .   1   1   9    9    LEU   HB2    H   1    1.782     0.00   .   .   .   .   .   .   A   9    LEU   HB2    .   30433   1
+      73    .   1   1   9    9    LEU   HB3    H   1    1.507     0.00   .   .   .   .   .   .   A   9    LEU   HB3    .   30433   1
+      74    .   1   1   9    9    LEU   HD11   H   1    0.862     0.00   .   .   .   .   .   .   A   9    LEU   HD11   .   30433   1
+      75    .   1   1   9    9    LEU   HD12   H   1    0.862     0.00   .   .   .   .   .   .   A   9    LEU   HD12   .   30433   1
+      76    .   1   1   9    9    LEU   HD13   H   1    0.862     0.00   .   .   .   .   .   .   A   9    LEU   HD13   .   30433   1
+      77    .   1   1   9    9    LEU   CA     C   13   55.936    0.00   .   .   .   .   .   .   A   9    LEU   CA     .   30433   1
+      78    .   1   1   9    9    LEU   CB     C   13   38.830    0.00   .   .   .   .   .   .   A   9    LEU   CB     .   30433   1
+      79    .   1   1   9    9    LEU   N      N   15   118.855   0.00   .   .   .   .   .   .   A   9    LEU   N      .   30433   1
+      80    .   1   1   10   10   ASP   H      H   1    8.417     0.00   .   .   .   .   .   .   A   10   DAS   H      .   30433   1
+      81    .   1   1   10   10   ASP   N      N   15   114.940   0.00   .   .   .   .   .   .   A   10   DAS   N      .   30433   1
+      82    .   1   1   10   10   ASP   CA     C   13   51.979    0.00   .   .   .   .   .   .   A   10   DAS   CA     .   30433   1
+      83    .   1   1   10   10   ASP   CB     C   13   37.272    0.00   .   .   .   .   .   .   A   10   DAS   CB     .   30433   1
+      84    .   1   1   10   10   ASP   HA     H   1    4.247     0.00   .   .   .   .   .   .   A   10   DAS   HA     .   30433   1
+      85    .   1   1   10   10   ASP   HB2    H   1    3.001     0.00   .   .   .   .   .   .   A   10   DAS   HB2    .   30433   1
+      86    .   1   1   10   10   ASP   HB3    H   1    2.614     0.00   .   .   .   .   .   .   A   10   DAS   HB3    .   30433   1
+      87    .   1   1   11   11   PHE   H      H   1    7.683     0.00   .   .   .   .   .   .   A   11   PHE   H      .   30433   1
+      88    .   1   1   11   11   PHE   HA     H   1    4.269     0.01   .   .   .   .   .   .   A   11   PHE   HA     .   30433   1
+      89    .   1   1   11   11   PHE   HB2    H   1    3.198     0.00   .   .   .   .   .   .   A   11   PHE   HB2    .   30433   1
+      90    .   1   1   11   11   PHE   HE2    H   1    7.187     0.00   .   .   .   .   .   .   A   11   PHE   HE2    .   30433   1
+      91    .   1   1   11   11   PHE   CA     C   13   58.279    0.00   .   .   .   .   .   .   A   11   PHE   CA     .   30433   1
+      92    .   1   1   11   11   PHE   CB     C   13   40.765    0.00   .   .   .   .   .   .   A   11   PHE   CB     .   30433   1
+      93    .   1   1   11   11   PHE   N      N   15   118.807   0.00   .   .   .   .   .   .   A   11   PHE   N      .   30433   1
+      94    .   1   1   12   12   LEU   H      H   1    8.077     0.00   .   .   .   .   .   .   A   12   LEU   H      .   30433   1
+      95    .   1   1   12   12   LEU   HA     H   1    3.794     0.00   .   .   .   .   .   .   A   12   LEU   HA     .   30433   1
+      96    .   1   1   12   12   LEU   HB2    H   1    1.866     0.00   .   .   .   .   .   .   A   12   LEU   HB2    .   30433   1
+      97    .   1   1   12   12   LEU   HB3    H   1    1.681     0.00   .   .   .   .   .   .   A   12   LEU   HB3    .   30433   1
+      98    .   1   1   12   12   LEU   HG     H   1    1.103     0.00   .   .   .   .   .   .   A   12   LEU   HG     .   30433   1
+      99    .   1   1   12   12   LEU   HD11   H   1    0.860     0.00   .   .   .   .   .   .   A   12   LEU   HD11   .   30433   1
+      100   .   1   1   12   12   LEU   HD12   H   1    0.860     0.00   .   .   .   .   .   .   A   12   LEU   HD12   .   30433   1
+      101   .   1   1   12   12   LEU   HD13   H   1    0.860     0.00   .   .   .   .   .   .   A   12   LEU   HD13   .   30433   1
+      102   .   1   1   12   12   LEU   HD21   H   1    0.781     0.00   .   .   .   .   .   .   A   12   LEU   HD21   .   30433   1
+      103   .   1   1   12   12   LEU   HD22   H   1    0.781     0.00   .   .   .   .   .   .   A   12   LEU   HD22   .   30433   1
+      104   .   1   1   12   12   LEU   HD23   H   1    0.781     0.00   .   .   .   .   .   .   A   12   LEU   HD23   .   30433   1
+      105   .   1   1   12   12   LEU   CA     C   13   54.518    0.00   .   .   .   .   .   .   A   12   LEU   CA     .   30433   1
+      106   .   1   1   12   12   LEU   N      N   15   117.199   0.00   .   .   .   .   .   .   A   12   LEU   N      .   30433   1
+      107   .   1   1   13   13   PHE   H      H   1    8.147     0.00   .   .   .   .   .   .   A   13   PHE   H      .   30433   1
+      108   .   1   1   13   13   PHE   HA     H   1    4.488     0.00   .   .   .   .   .   .   A   13   PHE   HA     .   30433   1
+      109   .   1   1   13   13   PHE   HB2    H   1    3.238     0.00   .   .   .   .   .   .   A   13   PHE   HB2    .   30433   1
+      110   .   1   1   13   13   PHE   HB3    H   1    3.018     0.00   .   .   .   .   .   .   A   13   PHE   HB3    .   30433   1
+      111   .   1   1   13   13   PHE   HE2    H   1    7.342     0.00   .   .   .   .   .   .   A   13   PHE   HE2    .   30433   1
+      112   .   1   1   13   13   PHE   HZ     H   1    7.244     0.00   .   .   .   .   .   .   A   13   PHE   HZ     .   30433   1
+      113   .   1   1   13   13   PHE   CA     C   13   55.910    0.00   .   .   .   .   .   .   A   13   PHE   CA     .   30433   1
+      114   .   1   1   13   13   PHE   CB     C   13   36.464    0.00   .   .   .   .   .   .   A   13   PHE   CB     .   30433   1
+      115   .   1   1   13   13   PHE   N      N   15   115.161   0.00   .   .   .   .   .   .   A   13   PHE   N      .   30433   1
+      116   .   1   1   14   14   LEU   H      H   1    7.805     0.00   .   .   .   .   .   .   A   14   LEU   H      .   30433   1
+      117   .   1   1   14   14   LEU   HA     H   1    4.250     0.00   .   .   .   .   .   .   A   14   LEU   HA     .   30433   1
+      118   .   1   1   14   14   LEU   HB2    H   1    1.738     0.00   .   .   .   .   .   .   A   14   LEU   HB2    .   30433   1
+      119   .   1   1   14   14   LEU   HB3    H   1    1.546     0.00   .   .   .   .   .   .   A   14   LEU   HB3    .   30433   1
+      120   .   1   1   14   14   LEU   HG     H   1    1.638     0.00   .   .   .   .   .   .   A   14   LEU   HG     .   30433   1
+      121   .   1   1   14   14   LEU   CA     C   13   53.219    0.00   .   .   .   .   .   .   A   14   LEU   CA     .   30433   1
+      122   .   1   1   14   14   LEU   CB     C   13   39.444    0.00   .   .   .   .   .   .   A   14   LEU   CB     .   30433   1
+      123   .   1   1   14   14   LEU   N      N   15   120.454   0.00   .   .   .   .   .   .   A   14   LEU   N      .   30433   1
+      124   .   1   1   15   15   ARG   H      H   1    7.874     0.00   .   .   .   .   .   .   A   15   ARG   H      .   30433   1
+      125   .   1   1   15   15   ARG   HA     H   1    4.161     0.00   .   .   .   .   .   .   A   15   ARG   HA     .   30433   1
+      126   .   1   1   15   15   ARG   HB2    H   1    1.736     0.00   .   .   .   .   .   .   A   15   ARG   HB2    .   30433   1
+      127   .   1   1   15   15   ARG   HB3    H   1    1.671     0.00   .   .   .   .   .   .   A   15   ARG   HB3    .   30433   1
+      128   .   1   1   15   15   ARG   HG2    H   1    1.494     0.00   .   .   .   .   .   .   A   15   ARG   HG2    .   30433   1
+      129   .   1   1   15   15   ARG   HD2    H   1    2.989     0.00   .   .   .   .   .   .   A   15   ARG   HD2    .   30433   1
+      130   .   1   1   15   15   ARG   HE     H   1    7.419     0.00   .   .   .   .   .   .   A   15   ARG   HE     .   30433   1
+      131   .   1   1   15   15   ARG   CA     C   13   53.422    0.00   .   .   .   .   .   .   A   15   ARG   CA     .   30433   1
+      132   .   1   1   15   15   ARG   CB     C   13   27.679    0.00   .   .   .   .   .   .   A   15   ARG   CB     .   30433   1
+      133   .   1   1   15   15   ARG   N      N   15   120.733   0.00   .   .   .   .   .   .   A   15   ARG   N      .   30433   1
+      134   .   1   1   16   16   LYS   H      H   1    8.048     0.00   .   .   .   .   .   .   A   16   LYS   H      .   30433   1
+      135   .   1   1   16   16   LYS   HA     H   1    4.220     0.00   .   .   .   .   .   .   A   16   LYS   HA     .   30433   1
+      136   .   1   1   16   16   LYS   HB2    H   1    1.790     0.00   .   .   .   .   .   .   A   16   LYS   HB2    .   30433   1
+      137   .   1   1   16   16   LYS   HB3    H   1    1.667     0.00   .   .   .   .   .   .   A   16   LYS   HB3    .   30433   1
+      138   .   1   1   16   16   LYS   HG2    H   1    1.380     0.00   .   .   .   .   .   .   A   16   LYS   HG2    .   30433   1
+      139   .   1   1   16   16   LYS   HD2    H   1    1.612     0.00   .   .   .   .   .   .   A   16   LYS   HD2    .   30433   1
+      140   .   1   1   16   16   LYS   CA     C   13   53.612    0.00   .   .   .   .   .   .   A   16   LYS   CA     .   30433   1
+      141   .   1   1   16   16   LYS   CB     C   13   30.267    0.00   .   .   .   .   .   .   A   16   LYS   CB     .   30433   1
+      142   .   1   1   16   16   LYS   N      N   15   122.203   0.00   .   .   .   .   .   .   A   16   LYS   N      .   30433   1
+      143   .   1   1   17   17   LYS   H      H   1    7.845     0.00   .   .   .   .   .   .   A   17   LYS   H      .   30433   1
+      144   .   1   1   17   17   LYS   HA     H   1    4.055     0.00   .   .   .   .   .   .   A   17   LYS   HA     .   30433   1
+      145   .   1   1   17   17   LYS   HB2    H   1    1.737     0.00   .   .   .   .   .   .   A   17   LYS   HB2    .   30433   1
+      146   .   1   1   17   17   LYS   HB3    H   1    1.645     0.00   .   .   .   .   .   .   A   17   LYS   HB3    .   30433   1
+      147   .   1   1   17   17   LYS   HG2    H   1    1.334     0.00   .   .   .   .   .   .   A   17   LYS   HG2    .   30433   1
+      148   .   1   1   17   17   LYS   HD2    H   1    1.601     0.00   .   .   .   .   .   .   A   17   LYS   HD2    .   30433   1
+      149   .   1   1   17   17   LYS   CA     C   13   54.019    0.00   .   .   .   .   .   .   A   17   LYS   CA     .   30433   1
+      150   .   1   1   17   17   LYS   CB     C   13   30.924    0.00   .   .   .   .   .   .   A   17   LYS   CB     .   30433   1
+      151   .   1   1   17   17   LYS   N      N   15   128.004   0.00   .   .   .   .   .   .   A   17   LYS   N      .   30433   1
+   stop_
+save_
+
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+save_spectral_peak_list_1
+   _Spectral_peak_list.Sf_category                      spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                     spectral_peak_list_1
+   _Spectral_peak_list.Entry_ID                         30433
+   _Spectral_peak_list.ID                               1
+   _Spectral_peak_list.Sample_ID                        1
+   _Spectral_peak_list.Sample_label                     $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID         1
+   _Spectral_peak_list.Sample_condition_list_label      $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                    3
+   _Spectral_peak_list.Experiment_name                  '2D 1H-1H NOESY'
+   _Spectral_peak_list.Experiment_class                 .
+   _Spectral_peak_list.Experiment_type                  .
+   _Spectral_peak_list.Number_of_spectral_dimensions    2
+   _Spectral_peak_list.Chemical_shift_list              .
+   _Spectral_peak_list.Assigned_chem_shift_list_ID      1
+   _Spectral_peak_list.Assigned_chem_shift_list_label   $assigned_chemical_shifts_1
+   _Spectral_peak_list.Details                          .
+   _Spectral_peak_list.Text_data_format                 text
+   _Spectral_peak_list.Text_data
+;
+Assignment         w1         w2        Volume  
+
+       Met2HA-HB#      4.411      2.010  3.10e+009 ga 
+       Met2HB#-HA      2.009      4.407  2.63e+009 ga 
+       Met2HG1-HA      2.561      4.409  4.61e+008 ga 
+      Met2HG1-HB#      2.561      2.008  2.93e+009 ga 
+   Met2HG1-Arg3HN      2.561      8.607  1.67e+008 ga 
+       Met2HG2-HA      2.501      4.410  7.07e+008 ga 
+      Met2HG2-HB#      2.501      2.008  3.01e+009 ga 
+   Met2HG2-Arg3HN      2.502      8.606  2.01e+008 ga 
+        Arg3HA-HN      4.411      8.606  2.40e+009 ga 
+  Arg3HA-Ile4HG12      4.386      1.251  6.93e+008 ga 
+    Ile4HN-Arg3HA      8.877      4.386  2.09e+009 ga 
+    Arg3HA-Ile4HN      4.386      8.875  5.51e+008 ga 
+    Ser5HN-Arg3HA      8.534      4.388  2.54e+008 ga 
+    Arg3HA-Ser5HN      4.387      8.535  6.07e+008 ga 
+   Arg3HA-Ile7HD#      4.386      0.825  5.73e+008 ga 
+       Arg3HA-HB1      4.387      1.952  3.45e+009 ga 
+       Arg3HB1-HA      1.951      4.386  2.40e+009 ga 
+      Arg3HD#-HB1      3.192      1.955  4.86e+009 ga 
+      Arg3HB1-HD#      1.953      3.191  5.17e+009 ga 
+       Arg3HN-HB1      8.607      1.955  6.56e+008 ga 
+       Arg3HB1-HN      1.953      8.606  3.80e+009 ga 
+       Arg3HA-HB2      4.387      1.790  2.07e+009 ga 
+       Arg3HB2-HA      1.793      4.386  1.13e+009 ga 
+      Arg3HB2-HB1      1.792      1.956  5.64e+009 ga 
+      Arg3HD#-HB2      3.192      1.788  2.43e+009 ga 
+      Arg3HB2-HD#      1.789      3.191  3.01e+009 ga 
+       Arg3HN-HB2      8.607      1.789  5.46e+008 ga 
+       Arg3HB2-HN      1.792      8.606  6.64e+008 ga 
+   Ser5HN-Arg3HB2      8.534      1.788  2.76e+008 ga 
+   Arg3HB2-Ser5HN      1.792      8.534  3.24e+008 ga 
+       Arg3HA-HD#      4.387      3.191  1.04e+009 ga 
+       Arg3HD#-HA      3.192      4.386  6.52e+008 ga 
+       Arg3HD#-HN      3.191      8.607  1.86e+008 ga 
+  Arg3HD#-Ile7HD#      3.192      0.826  8.26e+009 ga 
+       Arg3HA-HG1      4.387      1.696  2.02e+009 ga 
+       Arg3HG1-HA      1.697      4.386  1.12e+009 ga 
+       Arg3HN-HG1      8.608      1.694  4.61e+008 ga 
+       Arg3HG1-HN      1.697      8.606  5.38e+008 ga 
+   Ser5HN-Arg3HG1      8.536      1.696  3.99e+008 ga 
+   Arg3HG1-Ser5HN      1.698      8.535  3.13e+008 ga 
+       Arg3HA-HG2      4.387      1.594  2.25e+009 ga 
+       Arg3HG2-HA      1.599      4.386  1.35e+009 ga 
+      Arg3HG2-HB2      1.600      1.792  7.35e+008 ga 
+      Arg3HD#-HG2      3.191      1.596  3.34e+009 ga 
+      Arg3HG2-HD#      1.599      3.191  3.27e+009 ga 
+      Arg3HG2-HG1      1.597      1.696  4.45e+009 ga 
+       Arg3HN-HG2      8.608      1.594  3.40e+008 ga 
+       Arg3HG2-HN      1.598      8.606  4.48e+008 ga 
+    Arg3HN-Met2HA      8.607      4.410  1.71e+009 ga 
+   Arg3HN-Met2HB#      8.607      2.008  5.44e+008 ga 
+    Arg3HA-Ile4HA      4.389      3.781  3.47e+008 ga 
+    Ile4HA-Arg3HA      3.778      4.387  3.03e+008 ga 
+    Ser5HN-Ile4HA      8.535      3.782  9.95e+008 ga 
+    Ile4HA-Ser5HN      3.786      8.534  6.56e+008 ga 
+        Ile4HA-HB      3.782      1.946  1.56e+010 ga 
+        Ile4HB-HA      1.946      3.781  2.80e+009 ga 
+        Ile4HN-HB      8.876      1.946  2.89e+009 ga 
+        Ile4HB-HN      1.947      8.875  5.60e+008 ga 
+    Ser5HA-Ile4HB      3.880      1.942  4.47e+008 ga 
+    Ile4HB-Ser5HA      1.944      3.877  1.22e+009 ga 
+    Ser5HN-Ile4HB      8.536      1.945  1.33e+009 ga 
+    Ile4HB-Ser5HN      1.946      8.534  1.54e+009 ga 
+   Ile4HB-Ile8HD#      1.943      0.767  6.04e+008 ga 
+      Ile4HA-HG11      3.782      1.569  7.63e+008 ga 
+      Ile4HG11-HA      1.569      3.781  1.32e+009 ga 
+      Ile4HG11-HB      1.569      1.946  3.18e+009 ga 
+      Ile4HN-HG11      8.876      1.570  1.43e+009 ga 
+      Ile4HG11-HN      1.570      8.875  2.79e+008 ga 
+  Ser5HN-Ile4HG11      8.535      1.573  5.13e+008 ga 
+  Ile4HG11-Ser5HN      1.571      8.534  6.02e+008 ga 
+      Ile4HA-HG12      3.782      1.250  1.08e+009 ga 
+      Ile4HG12-HA      1.252      3.781  1.72e+009 ga 
+      Ile4HB-HG12      1.945      1.249  1.76e+009 ga 
+      Ile4HG12-HB      1.253      1.946  1.62e+009 ga 
+    Ile4HG12-HG11      1.252      1.568  6.09e+009 ga 
+      Ile4HN-HG12      8.876      1.249  9.38e+008 ga 
+      Ile4HG12-HN      1.253      8.874  3.25e+008 ga 
+  Ile4HG12-Ser5HN      1.253      8.535  2.85e+008 ga 
+ Ile4HG12-Ile7HD#      1.251      0.823  1.32e+009 ga 
+  Arg3HA-Ile4HG2#      4.388      0.888  1.14e+009 ga 
+  Ile4HG2#-Arg3HA      0.888      4.386  4.83e+008 ga 
+  Ile4HG2#-Arg3HN      0.886      8.607  5.58e+008 ga 
+      Ile4HA-HG2#      3.782      0.888  3.48e+009 ga 
+      Ile4HG2#-HA      0.885      3.781  6.11e+009 ga 
+      Ile4HB-HG2#      1.946      0.888  4.96e+009 ga 
+      Ile4HG2#-HB      0.887      1.945  7.18e+009 ga 
+    Ile4HG12-HG2#      1.251      0.879  6.35e+009 ga 
+    Ile4HG2#-HG12      0.884      1.249  3.44e+009 ga 
+      Ile4HN-HG2#      8.877      0.889  1.31e+009 ga 
+      Ile4HG2#-HN      0.886      8.876  4.83e+008 ga 
+  Ser5HN-Ile4HG2#      8.535      0.889  1.46e+009 ga 
+  Ile4HG2#-Ser5HN      0.888      8.534  1.71e+009 ga 
+   Ile4HN-Met2HB#      8.874      2.005  4.58e+008 ga 
+   Ile4HN-Arg3HB2      8.876      1.790  5.60e+008 ga 
+   Ile4HN-Arg3HG1      8.876      1.694  4.83e+008 ga 
+    Ile4HN-Arg3HN      8.877      8.606  2.80e+008 ga 
+        Ile4HN-HA      8.877      3.781  1.24e+009 ga 
+    Ile4HN-Ser5HA      8.880      3.880  1.59e+008 ga 
+    Ile4HN-Ser5HN      8.877      8.534  7.09e+008 ga 
+   Ile4HN-Ile7HD#      8.876      0.826  4.64e+009 ga 
+        Ser5HN-HA      8.535      3.878  1.10e+009 ga 
+        Ser5HA-HN      3.879      8.534  1.05e+009 ga 
+    Ser5HA-Ile7HB      3.880      1.993  3.44e+008 ga 
+    Ile7HN-Ser5HA      7.716      3.879  2.27e+008 ga 
+    Ser5HA-Ile7HN      3.881      7.715  2.30e+008 ga 
+    Ile8HN-Ser5HA      7.833      3.879  6.54e+008 ga 
+    Ser5HA-Ile8HN      3.881      7.831  6.02e+008 ga 
+       Ser5HB#-HA      3.823      3.877  5.88e+009 ga 
+       Ser5HN-HB#      8.535      3.824  1.79e+009 ga 
+       Ser5HB#-HN      3.821      8.534  1.68e+009 ga 
+   Ser5HN-Met2HB#      8.535      2.004  4.73e+008 ga 
+        Arg6HN-HA      7.262      4.063  1.22e+009 ga 
+        Arg6HA-HN      4.063      7.260  7.63e+008 ga 
+   Arg6HA-Ile7HD#      4.062      0.826  8.99e+008 ga 
+    Ile7HN-Arg6HA      7.716      4.062  5.93e+008 ga 
+    Arg6HA-Ile7HN      4.063      7.716  4.67e+008 ga 
+    Leu9HN-Arg6HA      8.077      4.062  6.46e+008 ga 
+    Arg6HA-Leu9HN      4.063      8.077  5.18e+008 ga 
+   Asp10HN-Arg6HA      8.418      4.061  5.08e+008 ga 
+   Arg6HA-Asp10HN      4.064      8.416  3.49e+008 ga 
+   Arg6HB1-Ser5HA      2.001      3.878  3.32e+008 ga 
+       Arg6HA-HB1      4.063      2.002  2.02e+009 ga 
+       Arg6HB1-HA      2.001      4.063  2.93e+009 ga 
+      Arg6HD#-HB1      3.196      2.003  2.96e+008 ga 
+      Arg6HB1-HD#      2.002      3.196  6.02e+008 ga 
+       Arg6HB1-HE      1.996      7.650  9.63e+009 ga 
+       Arg6HN-HB1      7.261      2.001  1.69e+009 ga 
+       Arg6HB1-HN      2.001      7.260  1.45e+009 ga 
+       Arg6HA-HB2      4.063      1.919  1.91e+009 ga 
+       Arg6HB2-HA      1.921      4.062  2.38e+009 ga 
+       Arg6HN-HB2      7.261      1.919  1.81e+009 ga 
+       Arg6HB2-HN      1.922      7.261  1.47e+009 ga 
+   Ile7HN-Arg6HB2      7.717      1.921  8.34e+008 ga 
+   Arg6HB2-Ile7HN      1.923      7.715  5.38e+008 ga 
+       Arg6HA-HD#      4.063      3.197  2.18e+009 ga 
+       Arg6HD#-HA      3.198      4.062  2.08e+009 ga 
+      Arg6HD#-HB2      3.196      1.923  3.04e+008 ga 
+       Arg6HD#-HE      3.197      7.654  7.95e+008 ga 
+       Arg6HN-HD#      7.261      3.195  5.32e+008 ga 
+       Arg6HD#-HN      3.196      7.261  3.46e+008 ga 
+   Ile7HA-Arg6HD#      3.799      3.196  1.71e+009 ga 
+   Arg6HD#-Ile7HA      3.195      3.799  9.69e+008 ga 
+   Arg6HD#-Ile8HA      3.195      3.674  1.35e+009 ga 
+   Arg6HD#-Leu9HA      3.196      3.882  2.37e+008 ga 
+       Arg6HA-HG#      4.063      1.700  2.87e+009 ga 
+       Arg6HG#-HA      1.702      4.062  2.65e+009 ga 
+      Arg6HG#-HB1      1.700      2.004  3.43e+009 ga 
+      Arg6HG#-HB2      1.701      1.923  3.92e+009 ga 
+      Arg6HD#-HG#      3.195      1.698  8.82e+009 ga 
+      Arg6HG#-HD#      1.700      3.195  9.60e+009 ga 
+       Arg6HG#-HE      1.701      7.649  4.68e+008 ga 
+       Arg6HN-HG#      7.261      1.698  1.83e+009 ga 
+       Arg6HG#-HN      1.700      7.259  1.80e+009 ga 
+  Asp10HN-Arg6HG#      8.419      1.697  2.38e+008 ga 
+  Arg6HG#-Asp10HN      1.697      8.414  3.47e+008 ga 
+    Arg6HN-Ser5HA      7.258      3.879  8.05e+008 ga 
+    Ser5HN-Arg6HN      8.535      7.258  4.24e+008 ga 
+    Arg6HN-Ser5HN      7.262      8.535  6.05e+008 ga 
+    Ile7HN-Arg6HN      7.717      7.261  5.63e+008 ga 
+    Arg6HN-Ile7HN      7.263      7.716  6.54e+008 ga 
+    Ile7HA-Arg6HA      3.806      4.062  2.10e+008 ga 
+    Arg6HN-Ile7HA      7.262      3.806  1.52e+009 ga 
+    Ile7HA-Arg6HN      3.804      7.255  1.08e+009 ga 
+      Ile7HA-HG11      3.797      1.676  4.74e+009 ga 
+        Ile7HN-HA      7.717      3.803  2.00e+009 ga 
+        Ile7HA-HN      3.803      7.716  2.11e+009 ga 
+    Ile8HN-Ile7HA      7.832      3.802  1.82e+009 ga 
+    Ile7HA-Ile8HN      3.803      7.831  5.82e+008 ga 
+   Asp10HA-Ile7HA      4.248      3.802  9.19e+008 ga 
+   Ile7HA-Asp10HA      3.803      4.247  6.69e+008 ga 
+   Asp10HN-Ile7HA      8.418      3.803  5.91e+008 ga 
+   Ile7HA-Asp10HN      3.804      8.417  4.46e+008 ga 
+   Phe11HN-Ile7HA      7.685      3.799  2.13e+009 ga 
+   Ile7HA-Phe11HN      3.800      7.683  7.15e+008 ga 
+        Ile7HB-HA      1.991      3.802  6.11e+009 ga 
+        Ile7HN-HB      7.717      1.989  2.56e+009 ga 
+        Ile7HB-HN      1.991      7.716  2.28e+009 ga 
+    Ile8HA-Ile7HB      3.677      1.984  2.24e+008 ga 
+    Ile7HB-Ile8HA      1.991      3.674  6.12e+008 ga 
+    Ile8HN-Ile7HB      7.833      1.986  1.06e+009 ga 
+    Ile7HB-Ile8HN      1.988      7.832  1.17e+009 ga 
+   Ile7HB-Asp10HN      1.995      8.415  1.80e+008 ga 
+   Ile4HA-Ile7HD#      3.785      0.824  4.63e+009 ga 
+   Ile7HD#-Ile4HA      0.825      3.781  4.88e+009 ga 
+   Ile7HD#-Ser5HN      0.825      8.532  3.04e+008 ga 
+       Ile7HB-HD#      1.990      0.823  3.56e+009 ga 
+       Ile7HD#-HB      0.825      1.988  3.84e+009 ga 
+       Ile7HN-HD#      7.717      0.823  1.06e+009 ga 
+       Ile7HD#-HN      0.825      7.716  1.19e+009 ga 
+   Ile7HD#-Ile8HA      0.829      3.670  7.44e+008 ga 
+      Ile7HN-HG11      7.717      1.675  2.35e+009 ga 
+      Ile7HG11-HN      1.675      7.716  1.58e+009 ga 
+Ile7HG11-Leu9HD1#      1.672      0.862  6.03e+009 ga 
+      Ile7HG12-HA      1.160      3.803  4.01e+009 ga 
+    Ile7HG12-HG11      1.166      1.672  2.26e+009 ga 
+      Ile7HG12-HN      1.160      7.716  1.48e+009 ga 
+  Ile7HG12-Ile8HN      1.159      7.832  5.11e+008 ga 
+      Ile7HB-HG2#      1.989      0.864  5.19e+009 ga 
+      Ile7HG2#-HB      0.865      1.988  5.39e+009 ga 
+      Ile7HG2#-HN      0.865      7.716  2.05e+009 ga 
+  Ile7HN-Ile8HG2#      7.717      0.864  1.47e+009 ga 
+    Leu9HN-Ile7HN      8.076      7.715  2.73e+008 ga 
+    Ile7HN-Leu9HN      7.715      8.076  1.70e+008 ga 
+    Ile7HN-Ile8HA      7.715      3.674  2.62e+008 ga 
+    Ile8HA-Ile7HN      3.675      7.714  2.11e+008 ga 
+        Ile8HN-HA      7.833      3.674  1.32e+009 ga 
+        Ile8HA-HN      3.676      7.831  1.08e+009 ga 
+    Ile8HA-Leu9HN      3.675      8.076  7.17e+008 ga 
+   Asp10HN-Ile8HA      8.418      3.674  2.95e+008 ga 
+   Ile8HA-Asp10HN      3.675      8.416  1.82e+008 ga 
+   Phe11HA-Ile8HA      4.270      3.674  2.30e+008 ga 
+   Ile8HA-Phe11HA      3.675      4.270  6.69e+008 ga 
+  Phe11HE#-Ile8HA      7.186      3.674  6.46e+008 ga 
+  Ile8HA-Phe11HE#      3.675      7.187  5.26e+008 ga 
+   Phe11HN-Ile8HA      7.683      3.674  5.70e+008 ga 
+   Ile8HA-Phe11HN      3.675      7.682  5.81e+008 ga 
+    Ser5HA-Ile8HB      3.881      1.854  1.65e+009 ga 
+    Ile8HB-Ser5HA      1.855      3.879  1.95e+009 ga 
+    Ile7HN-Ile8HB      7.717      1.850  4.82e+008 ga 
+    Ile8HB-Ile7HN      1.853      7.714  3.98e+008 ga 
+        Ile8HA-HB      3.675      1.854  1.44e+009 ga 
+        Ile8HB-HA      1.854      3.673  1.97e+009 ga 
+        Ile8HN-HB      7.832      1.851  1.77e+009 ga 
+        Ile8HB-HN      1.852      7.832  1.97e+009 ga 
+  Ile8HB-Leu9HD1#      1.855      0.862  5.96e+009 ga 
+   Asp10HN-Ile8HB      8.418      1.855  2.67e+008 ga 
+   Ile8HB-Asp10HN      1.855      8.416  3.13e+008 ga 
+ Ile4HG11-Ile8HD#      1.566      0.769  8.53e+008 ga 
+ Ile8HD#-Ile4HG11      0.774      1.566  1.29e+009 ga 
+   Ile8HD#-Ser5HN      0.768      8.534  2.10e+008 ga 
+   Ile7HB-Ile8HD#      1.986      0.768  8.99e+008 ga 
+   Ile8HD#-Ile7HB      0.771      1.987  4.87e+008 ga 
+   Ile7HN-Ile8HD#      7.716      0.769  3.17e+008 ga 
+   Ile8HD#-Ile7HN      0.770      7.715  3.73e+008 ga 
+       Ile8HA-HD#      3.675      0.768  1.86e+009 ga 
+       Ile8HD#-HA      0.772      3.674  2.82e+009 ga 
+     Ile8HG11-HD#      1.751      0.768  4.24e+009 ga 
+     Ile8HD#-HG11      0.772      1.750  2.62e+009 ga 
+     Ile8HD#-HG12      0.772      1.035  3.39e+009 ga 
+       Ile8HN-HD#      7.833      0.769  1.47e+009 ga 
+       Ile8HD#-HN      0.771      7.832  1.86e+009 ga 
+      Ile8HA-HG11      3.676      1.751  1.76e+009 ga 
+      Ile8HG11-HA      1.752      3.674  2.46e+009 ga 
+  Ser5HA-Ile8HG12      3.880      1.032  2.70e+008 ga 
+  Ile8HG12-Ser5HA      1.033      3.878  4.08e+008 ga 
+      Ile8HA-HG12      3.675      1.032  1.71e+009 ga 
+      Ile8HG12-HA      1.033      3.674  2.36e+009 ga 
+      Ile8HB-HG12      1.853      1.031  1.38e+009 ga 
+      Ile8HG12-HB      1.033      1.852  1.55e+009 ga 
+    Ile8HG11-HG12      1.751      1.032  4.00e+009 ga 
+    Ile8HG12-HG11      1.033      1.751  4.51e+009 ga 
+      Ile8HN-HG12      7.833      1.031  1.09e+009 ga 
+      Ile8HG12-HN      1.033      7.832  1.26e+009 ga 
+  Ile8HG12-Leu9HN      1.035      8.074  4.05e+008 ga 
+  Arg6HA-Ile8HG2#      4.063      0.864  1.25e+009 ga 
+  Ile8HG2#-Arg6HA      0.864      4.062  2.00e+009 ga 
+ Ile8HG2#-Arg6HD#      0.863      3.197  2.79e+009 ga 
+  Ile7HA-Ile8HG2#      3.803      0.864  6.43e+009 ga 
+  Ile8HG2#-Ile7HA      0.864      3.803  7.75e+009 ga 
+      Ile8HA-HG2#      3.675      0.863  4.03e+009 ga 
+      Ile8HG2#-HA      0.864      3.674  5.63e+009 ga 
+      Ile8HG2#-HB      0.864      1.853  5.36e+009 ga 
+      Ile8HN-HG2#      7.833      0.863  5.06e+009 ga 
+      Ile8HG2#-HN      0.864      7.832  6.79e+009 ga 
+    Ile8HN-Ile7HN      7.835      7.717  1.34e+009 ga 
+    Ile8HN-Leu9HN      7.831      8.076  1.19e+009 ga 
+        Leu9HA-HN      3.886      8.076  1.96e+009 ga 
+   Asp10HA-Leu9HA      4.247      3.884  3.55e+008 ga 
+   Leu9HA-Asp10HA      3.883      4.246  2.35e+008 ga 
+   Asp10HN-Leu9HA      8.418      3.885  7.92e+008 ga 
+   Leu9HA-Asp10HN      3.886      8.417  7.20e+008 ga 
+  Leu9HA-Phe11HB#      3.882      3.198  9.00e+008 ga 
+  Phe11HE#-Leu9HA      7.185      3.881  2.44e+008 ga 
+  Leu9HA-Phe11HE#      3.885      7.186  1.50e+008 ga 
+   Phe11HN-Leu9HA      7.684      3.885  2.71e+008 ga 
+   Leu9HA-Phe11HN      3.885      7.683  2.79e+008 ga 
+ Leu9HA-Leu12HD2#      3.885      0.782  3.01e+009 ga 
+  Phe13HE#-Leu9HA      7.343      3.885  4.45e+008 ga 
+  Leu9HA-Phe13HE#      3.886      7.342  5.32e+008 ga 
+   Phe13HN-Leu9HA      8.146      3.885  4.08e+008 ga 
+   Leu9HA-Phe13HN      3.886      8.147  3.15e+008 ga 
+   Arg6HA-Leu9HB1      4.063      1.781  2.73e+009 ga 
+   Leu9HB1-Arg6HA      1.783      4.061  2.31e+009 ga 
+   Leu9HB1-Ile7HA      1.784      3.800  7.11e+007 ga 
+       Leu9HA-HB1      3.886      1.781  3.43e+009 ga 
+       Leu9HB1-HA      1.782      3.885  4.01e+009 ga 
+       Leu9HB1-HN      1.782      8.076  3.33e+009 ga 
+ Leu9HB1-Asp10HB1      1.781      2.997  1.29e+009 ga 
+  Asp10HN-Leu9HB1      8.418      1.781  1.30e+009 ga 
+  Leu9HB1-Asp10HN      1.781      8.417  1.64e+009 ga 
+  Leu9HB1-Phe11HN      1.778      7.682  1.36e+009 ga 
+Leu9HB1-Leu12HD1#      1.782      0.861  1.30e+010 ga 
+ Leu9HB1-Phe13HE#      1.783      7.342  4.39e+008 ga 
+  Phe13HZ-Leu9HB1      7.249      1.785  7.82e+008 ga 
+  Leu9HB1-Phe13HZ      1.783      7.244  6.75e+008 ga 
+   Arg6HA-Leu9HB2      4.062      1.508  5.64e+010 ga 
+   Leu9HB2-Arg6HA      1.507      4.061  5.62e+010 ga 
+  Leu9HB2-Arg6HD#      1.506      3.197  4.75e+008 ga 
+ Leu9HB2-Ile7HG11      1.503      1.673  2.71e+009 ga 
+       Leu9HA-HB2      3.886      1.508  2.19e+009 ga 
+       Leu9HB2-HA      1.509      3.885  2.59e+009 ga 
+      Leu9HB2-HB1      1.510      1.781  6.38e+009 ga 
+       Leu9HN-HB2      8.077      1.508  1.15e+009 ga 
+       Leu9HB2-HN      1.509      8.076  1.40e+009 ga 
+  Asp10HA-Leu9HB2      4.249      1.511  2.59e+009 ga 
+  Leu9HB2-Asp10HA      1.502      4.246  1.21e+009 ga 
+  Asp10HN-Leu9HB2      8.418      1.509  7.01e+008 ga 
+  Leu9HB2-Asp10HN      1.509      8.417  9.02e+008 ga 
+Leu9HB2-Leu12HD1#      1.510      0.860  5.54e+009 ga 
+Leu9HB2-Leu12HD2#      1.502      0.780  9.42e+008 ga 
+ Phe13HE#-Leu9HB2      7.343      1.504  4.17e+008 ga 
+ Leu9HB2-Phe13HE#      1.509      7.342  4.61e+008 ga 
+  Phe13HZ-Leu9HB2      7.245      1.503  3.93e+008 ga 
+  Leu9HB2-Phe13HZ      1.508      7.244  3.06e+008 ga 
+     Leu9HD1#-HB1      0.862      1.780  1.86e+010 ga 
+     Leu9HD1#-HB2      0.861      1.509  3.61e+010 ga 
+ Asp10HN-Leu9HD1#      8.417      0.862  1.03e+009 ga 
+ Leu9HD1#-Asp10HN      0.862      8.417  1.60e+009 ga 
+   Leu9HN-Phe13HZ      8.076      7.245  1.73e+008 ga 
+   Asp10HA-Ile8HA      4.249      3.675  1.41e+008 ga 
+       Asp10HN-HA      8.418      4.246  4.08e+009 ga 
+       Asp10HA-HN      4.247      8.417  3.88e+009 ga 
+  Phe11HN-Asp10HA      7.683      4.246  1.98e+009 ga 
+  Asp10HA-Phe11HN      4.248      7.682  2.21e+009 ga 
+  Asp10HA-Phe13HN      4.250      8.147  6.86e+008 ga 
+ Asp10HB1-Ile7HD#      3.006      0.838  6.21e+008 ga 
+  Asp10HB1-Leu9HN      3.010      8.076  6.82e+008 ga 
+      Asp10HA-HB1      4.247      2.997  3.21e+009 ga 
+      Asp10HB1-HA      3.001      4.246  3.20e+009 ga 
+      Asp10HN-HB1      8.417      2.999  9.38e+008 ga 
+      Asp10HB1-HN      3.002      8.417  9.06e+008 ga 
+ Phe11HN-Asp10HB1      7.682      2.997  5.31e+008 ga 
+ Asp10HB1-Phe11HN      3.002      7.681  4.75e+008 ga 
+ Asp10HB2-Leu9HB1      2.613      1.782  2.99e+008 ga 
+      Asp10HB2-HA      2.615      4.246  2.43e+009 ga 
+     Asp10HB2-HB1      2.614      2.997  8.16e+009 ga 
+      Asp10HB2-HN      2.614      8.417  9.20e+008 ga 
+ Asp10HB2-Phe11HN      2.617      7.682  3.49e+008 ga 
+Asp10HB2-Leu12HD1#      2.613      0.860  9.79e+008 ga 
+ Asp10HB2-Leu12HN      2.615      8.077  2.49e+008 ga 
+Asp10HB2-Phe13HB1      2.614      3.241  1.15e+009 ga 
+Asp10HB2-Phe13HE#      2.614      7.342  4.20e+008 ga 
+ Asp10HB2-Phe13HN      2.614      8.147  5.15e+008 ga 
+Asp10HB2-Leu14HB1      2.612      1.739  3.06e+008 ga 
+ Asp10HB2-Leu14HG      2.613      1.636  4.55e+008 ga 
+ Asp10HB2-Leu14HN      2.615      7.805  3.54e+008 ga 
+      Phe11HE#-HA      7.186      4.271  2.22e+009 ga 
+      Phe11HA-HE#      4.272      7.186  1.94e+009 ga 
+       Phe11HN-HA      7.683      4.270  1.34e+009 ga 
+       Phe11HA-HN      4.269      7.682  1.65e+009 ga 
+  Leu12HN-Phe11HA      8.077      4.269  6.95e+008 ga 
+  Phe11HA-Leu12HN      4.249      8.077  1.87e+009 ga 
+Phe11HB#-Ile8HG2#      3.197      0.863  1.44e+009 ga 
+ Asp10HN-Phe11HB#      8.418      3.198  7.07e+008 ga 
+ Phe11HB#-Asp10HN      3.198      8.417  5.81e+008 ga 
+      Phe11HA-HB#      4.272      3.202  6.26e+009 ga 
+      Phe11HB#-HA      3.197      4.271  5.68e+009 ga 
+     Phe11HE#-HB#      7.186      3.199  5.25e+009 ga 
+     Phe11HB#-HE#      3.196      7.186  4.31e+009 ga 
+      Phe11HN-HB#      7.683      3.200  4.64e+009 ga 
+      Phe11HB#-HN      3.197      7.682  3.87e+009 ga 
+ Leu12HN-Phe11HB#      8.078      3.199  2.50e+009 ga 
+ Phe11HB#-Leu12HN      3.197      8.077  2.00e+009 ga 
+Phe11HE#-Ile7HG11      7.188      1.675  6.25e+008 ga 
+Phe11HE#-Leu9HD1#      7.187      0.862  1.39e+009 ga 
+      Phe11HN-HE#      7.683      7.186  7.18e+008 ga 
+      Phe11HE#-HN      7.186      7.682  6.82e+008 ga 
+ Leu12HN-Phe11HE#      8.078      7.187  7.04e+008 ga 
+ Phe11HE#-Leu12HN      7.187      8.077  6.33e+008 ga 
+ Phe11HE#-Arg15HA      7.185      4.161  2.56e+009 ga 
+ Phe11HN-Leu9HD1#      7.684      0.862  9.07e+008 ga 
+  Asp10HN-Phe11HN      8.418      7.682  1.14e+009 ga 
+  Phe11HN-Asp10HN      7.682      8.417  1.05e+009 ga 
+  Leu12HN-Phe11HN      8.077      7.682  1.35e+009 ga 
+  Phe11HN-Leu12HN      7.683      8.077  1.06e+009 ga 
+  Phe13HN-Phe11HN      8.145      7.681  3.32e+008 ga 
+  Phe11HN-Phe13HN      7.682      8.147  2.51e+008 ga 
+ Phe11HE#-Leu12HA      7.186      3.794  9.87e+008 ga 
+ Leu12HA-Phe11HE#      3.794      7.187  8.51e+008 ga 
+       Leu12HN-HA      8.078      3.794  1.90e+009 ga 
+       Leu12HA-HN      3.795      8.077  1.74e+009 ga 
+ Phe13HE#-Leu12HA      7.342      3.795  2.09e+008 ga 
+ Leu12HA-Phe13HE#      3.794      7.342  2.14e+008 ga 
+  Phe13HN-Leu12HA      8.147      3.793  7.48e+008 ga 
+  Leu12HA-Phe13HN      3.793      8.147  6.62e+008 ga 
+  Leu12HA-Leu14HN      3.794      7.807  1.75e+008 ga 
+  Arg15HN-Leu12HA      7.874      3.792  1.71e+008 ga 
+  Leu12HA-Arg15HN      3.793      7.873  2.41e+009 ga 
+Leu12HB1-Phe11HB#      1.867      3.202  9.60e+008 ga 
+Phe11HE#-Leu12HB1      7.187      1.867  1.03e+009 ga 
+Leu12HB1-Phe11HE#      1.868      7.186  1.12e+009 ga 
+ Phe11HN-Leu12HB1      7.684      1.864  3.02e+008 ga 
+ Leu12HB1-Phe11HN      1.865      7.683  5.89e+008 ga 
+      Leu12HA-HB1      3.793      1.867  4.14e+008 ga 
+      Leu12HB1-HA      1.867      3.794  1.68e+009 ga 
+      Leu12HN-HB1      8.077      1.861  3.06e+009 ga 
+      Leu12HB1-HN      1.862      8.077  3.43e+009 ga 
+Leu12HB1-Phe13HE#      1.866      7.342  2.31e+008 ga 
+ Phe13HN-Leu12HB1      8.147      1.868  3.99e+008 ga 
+ Leu12HB1-Phe13HN      1.868      8.147  5.07e+008 ga 
+ Leu12HB1-Phe13HZ      1.860      7.244  2.26e+008 ga 
+  Ile8HA-Leu12HB2      3.676      1.681  2.33e+008 ga 
+  Leu12HB2-Ile8HA      1.681      3.670  4.42e+008 ga 
+  Leu9HA-Leu12HB2      3.885      1.683  2.07e+009 ga 
+  Leu12HB2-Leu9HA      1.685      3.883  2.34e+009 ga 
+Leu12HB2-Phe11HE#      1.676      7.186  6.28e+008 ga 
+ Leu12HB2-Phe11HN      1.678      7.684  5.55e+009 ga 
+      Leu12HB2-HA      1.677      3.798  4.76e+009 ga 
+     Leu12HB2-HB1      1.685      1.868  1.91e+009 ga 
+      Leu12HN-HB2      8.077      1.680  2.86e+009 ga 
+      Leu12HB2-HN      1.681      8.076  1.82e+009 ga 
+Leu12HB2-Phe13HE#      1.680      7.342  3.17e+008 ga 
+ Phe13HN-Leu12HB2      8.148      1.680  1.41e+009 ga 
+ Leu12HB2-Phe13HN      1.681      8.146  1.28e+009 ga 
+ Leu9HA-Leu12HD1#      3.885      0.858  6.62e+009 ga 
+ Leu12HD1#-Leu9HA      0.859      3.884  8.52e+009 ga 
+Asp10HB1-Leu12HD1#      3.002      0.861  1.14e+009 ga 
+Leu12HD1#-Asp10HB1      0.861      2.999  2.85e+009 ga 
+Leu12HD1#-Phe11HE#      0.863      7.187  1.83e+009 ga 
+Leu12HD1#-Phe11HN      0.863      7.683  1.37e+009 ga 
+     Leu12HD1#-HN      0.862      8.076  4.42e+009 ga 
+Phe13HE#-Leu12HD1#      7.343      0.858  1.26e+009 ga 
+Leu12HD1#-Phe13HE#      0.859      7.342  1.91e+009 ga 
+Leu12HD1#-Phe13HN      0.860      8.147  9.17e+008 ga 
+Phe13HZ-Leu12HD1#      7.245      0.857  1.57e+009 ga 
+Leu12HD1#-Phe13HZ      0.859      7.243  2.09e+009 ga 
+ Leu12HD2#-Ser5HA      0.779      3.882  3.93e+009 ga 
+Leu12HD2#-Asp10HN      0.780      8.416  2.86e+008 ga 
+Leu12HD2#-Phe11HA      0.781      4.270  3.13e+008 ga 
+Phe11HB#-Leu12HD2#      3.193      0.779  1.09e+009 ga 
+Leu12HD2#-Phe11HB#      0.779      3.200  2.52e+010 ga 
+Phe11HE#-Leu12HD2#      7.187      0.778  2.27e+009 ga 
+Leu12HD2#-Phe11HE#      0.779      7.187  3.05e+009 ga 
+Phe11HN-Leu12HD2#      7.684      0.781  3.45e+008 ga 
+Leu12HD2#-Phe11HN      0.780      7.682  6.10e+008 ga 
+     Leu12HA-HD2#      3.793      0.778  6.51e+009 ga 
+     Leu12HD2#-HA      0.779      3.792  9.30e+009 ga 
+    Leu12HB1-HD2#      1.866      0.780  8.51e+009 ga 
+    Leu12HD2#-HB1      0.780      1.864  1.11e+010 ga 
+    Leu12HB2-HD2#      1.681      0.783  4.62e+009 ga 
+    Leu12HD2#-HB2      0.783      1.681  5.17e+010 ga 
+     Leu12HD2#-HG      0.783      1.102  5.32e+009 ga 
+     Leu12HN-HD2#      8.078      0.781  2.44e+009 ga 
+     Leu12HD2#-HN      0.781      8.077  3.46e+009 ga 
+Phe13HE#-Leu12HD2#      7.342      0.784  4.37e+008 ga 
+Leu12HD2#-Phe13HE#      0.783      7.342  7.23e+008 ga 
+Phe13HN-Leu12HD2#      8.147      0.781  7.65e+008 ga 
+Leu12HD2#-Phe13HN      0.782      8.147  1.03e+009 ga 
+Phe13HZ-Leu12HD2#      7.245      0.783  5.72e+008 ga 
+Leu12HD2#-Phe13HZ      0.784      7.243  6.80e+008 ga 
+Arg15HD#-Leu12HD2#      2.990      0.779  6.27e+008 ga 
+Leu12HD2#-Arg15HD#      0.779      2.989  1.06e+009 ga 
+   Leu9HA-Leu12HG      3.887      1.101  9.51e+008 ga 
+   Leu12HG-Leu9HA      1.105      3.886  8.20e+008 ga 
+ Phe11HE#-Leu12HG      7.189      1.102  1.38e+008 ga 
+ Leu12HG-Phe11HE#      1.105      7.186  2.61e+008 ga 
+       Leu12HA-HG      3.793      1.103  9.45e+009 ga 
+       Leu12HG-HA      1.104      3.793  2.87e+009 ga 
+      Leu12HB1-HG      1.868      1.103  1.98e+009 ga 
+      Leu12HG-HB1      1.104      1.870  1.54e+009 ga 
+      Leu12HB2-HG      1.681      1.103  5.43e+009 ga 
+      Leu12HG-HB2      1.104      1.681  4.56e+009 ga 
+       Leu12HN-HG      8.078      1.102  1.23e+009 ga 
+       Leu12HG-HN      1.103      8.077  1.56e+009 ga 
+ Phe13HE#-Leu12HG      7.343      1.104  3.08e+008 ga 
+ Leu12HG-Phe13HE#      1.104      7.342  4.69e+008 ga 
+  Phe13HN-Leu12HG      8.147      1.102  7.33e+008 ga 
+  Leu12HG-Phe13HN      1.104      8.147  8.96e+008 ga 
+  Leu12HG-Phe13HZ      1.103      7.243  2.27e+008 ga 
+   Leu12HN-Ile8HA      8.077      3.674  8.81e+008 ga 
+ Leu12HN-Ile8HG12      8.077      1.031  4.02e+008 ga 
+   Leu12HN-Leu9HA      8.077      3.884  2.04e+009 ga 
+  Leu12HN-Leu9HB1      8.077      1.782  4.92e+009 ga 
+ Leu12HN-Leu9HD1#      8.077      0.862  3.42e+009 ga 
+  Leu12HN-Asp10HA      8.077      4.247  9.82e+008 ga 
+ Leu12HN-Asp10HB1      8.078      3.003  1.70e+009 ga 
+  Asp10HN-Leu12HN      8.417      8.077  1.18e+009 ga 
+  Leu12HN-Asp10HN      8.077      8.416  1.20e+009 ga 
+  Phe13HN-Leu12HN      8.146      8.079  1.62e+009 ga 
+  Leu12HN-Phe13HN      8.079      8.149  6.65e+008 ga 
+ Phe13HA-Leu9HD1#      4.488      0.862  2.29e+008 ga 
+Phe13HA-Leu12HD2#      4.489      0.784  1.81e+008 ga 
+  Phe13HA-Leu12HN      4.488      8.076  2.42e+008 ga 
+      Phe13HA-HB2      4.488      3.019  2.39e+009 ga 
+      Phe13HA-HE#      4.488      7.342  1.71e+009 ga 
+       Phe13HA-HN      4.489      8.147  1.44e+009 ga 
+       Phe13HA-HZ      4.488      7.243  2.91e+008 ga 
+  Phe13HA-Leu14HN      4.488      7.805  9.59e+008 ga 
+  Phe13HA-Lys16HN      4.486      8.046  1.71e+008 ga 
+      Phe13HA-HB1      4.488      3.240  2.54e+009 ga 
+      Phe13HB1-HA      3.233      4.486  9.01e+008 ga 
+     Phe13HE#-HB1      7.343      3.241  1.55e+009 ga 
+     Phe13HB1-HE#      3.236      7.342  1.52e+009 ga 
+      Phe13HN-HB1      8.148      3.240  2.18e+009 ga 
+      Phe13HB1-HN      3.235      8.147  1.61e+009 ga 
+      Phe13HZ-HB1      7.244      3.240  3.44e+008 ga 
+      Phe13HB1-HZ      3.236      7.243  3.16e+008 ga 
+ Leu14HN-Phe13HB1      7.806      3.240  9.15e+008 ga 
+ Phe13HB1-Leu14HN      3.235      7.805  7.37e+008 ga 
+     Phe13HB1-HB2      3.235      3.019  6.36e+009 ga 
+     Phe13HB2-HB1      3.022      3.240  6.52e+009 ga 
+     Phe13HE#-HB2      7.343      3.017  1.68e+009 ga 
+     Phe13HB2-HE#      3.021      7.342  1.94e+009 ga 
+      Phe13HN-HB2      8.148      3.017  2.27e+009 ga 
+      Phe13HB2-HN      3.020      8.147  2.29e+009 ga 
+      Phe13HZ-HB2      7.245      3.018  3.29e+008 ga 
+      Phe13HB2-HZ      3.021      7.243  3.49e+008 ga 
+ Leu14HN-Phe13HB2      7.805      3.011  1.30e+009 ga 
+ Phe13HB2-Leu14HN      3.016      7.805  1.27e+009 ga 
+ Leu12HN-Phe13HE#      8.077      7.342  3.43e+008 ga 
+ Phe13HE#-Leu12HN      7.343      8.077  1.94e+008 ga 
+      Phe13HN-HE#      8.147      7.342  7.75e+008 ga 
+      Phe13HE#-HN      7.343      8.147  6.20e+008 ga 
+ Leu14HN-Phe13HE#      7.806      7.341  3.23e+008 ga 
+ Phe13HE#-Leu14HN      7.343      7.805  1.48e+008 ga 
+  Phe13HN-Leu14HA      8.146      4.249  8.32e+008 ga 
+  Phe13HN-Arg15HN      8.145      7.874  2.24e+008 ga 
+       Phe13HN-HZ      8.144      7.243  1.72e+008 ga 
+       Phe13HZ-HN      7.246      8.147  1.25e+008 ga 
+Leu14HA-Leu12HD1#      4.250      0.860  9.58e+009 ga 
+ Phe13HE#-Leu14HA      7.341      4.249  2.53e+008 ga 
+ Leu14HA-Phe13HE#      4.249      7.342  2.75e+008 ga 
+       Leu14HN-HA      7.805      4.250  2.09e+009 ga 
+       Leu14HA-HN      4.251      7.805  2.54e+009 ga 
+  Arg15HN-Leu14HA      7.875      4.250  1.79e+009 ga 
+  Leu14HA-Arg15HN      4.251      7.874  1.99e+009 ga 
+Phe11HE#-Leu14HB1      7.188      1.736  4.21e+008 ga 
+Leu14HB1-Phe11HE#      1.737      7.186  4.54e+008 ga 
+ Leu12HA-Leu14HB1      3.794      1.740  2.50e+009 ga 
+ Leu14HB1-Leu12HA      1.743      3.792  9.97e+009 ga 
+ Phe13HN-Leu14HB1      8.147      1.738  1.09e+008 ga 
+ Leu14HB1-Phe13HN      1.735      8.145  1.94e+008 ga 
+      Leu14HA-HB1      4.251      1.737  2.84e+009 ga 
+      Leu14HB1-HA      1.736      4.250  3.35e+009 ga 
+      Leu14HB1-HN      1.736      7.805  1.64e+009 ga 
+      Leu14HA-HB2      4.250      1.544  1.94e+009 ga 
+      Leu14HB2-HA      1.546      4.249  2.66e+009 ga 
+      Leu14HB2-HG      1.548      1.637  2.05e+009 ga 
+      Leu14HN-HB2      7.805      1.544  1.55e+009 ga 
+      Leu14HB2-HN      1.547      7.804  1.36e+009 ga 
+Leu14HB2-Arg15HB1      1.547      1.736  8.31e+009 ga 
+ Arg15HN-Leu14HB2      7.875      1.543  4.03e+008 ga 
+ Leu14HB2-Arg15HN      1.546      7.873  3.09e+008 ga 
+Leu14HG-Leu12HD1#      1.638      0.857  2.95e+009 ga 
+ Leu14HG-Phe13HB1      1.639      3.231  6.71e+008 ga 
+ Leu14HG-Phe13HE#      1.643      7.341  1.27e+009 ga 
+       Leu14HA-HG      4.251      1.638  1.19e+010 ga 
+       Leu14HG-HA      1.639      4.249  1.89e+009 ga 
+       Leu14HN-HG      7.805      1.637  1.78e+009 ga 
+       Leu14HG-HN      1.639      7.804  1.84e+009 ga 
+  Phe13HN-Leu14HN      8.148      7.805  1.46e+009 ga 
+  Leu14HN-Phe13HN      7.805      8.147  1.27e+009 ga 
+  Leu14HN-Arg15HN      7.806      7.872  1.06e+009 ga 
+ Leu14HN-Lys17HB1      7.806      1.736  2.45e+009 ga 
+  Leu14HN-Arg15HA      7.805      4.161  2.22e+008 ga 
+  Arg15HA-Leu14HN      4.161      7.805  6.36e+009 ga 
+       Arg15HN-HA      7.875      4.160  1.90e+009 ga 
+       Arg15HA-HN      4.161      7.873  1.23e+009 ga 
+ Arg15HA-Lys16HB2      4.161      1.669  2.35e+009 ga 
+  Lys16HN-Arg15HA      8.048      4.160  2.31e+009 ga 
+  Arg15HA-Lys16HN      4.161      8.047  2.32e+009 ga 
+      Arg15HA-HB1      4.161      1.735  2.21e+009 ga 
+      Arg15HB1-HA      1.735      4.160  2.78e+009 ga 
+     Arg15HB1-HD#      1.735      2.989  1.89e+009 ga 
+      Arg15HB1-HN      1.735      7.873  1.65e+010 ga 
+      Arg15HB2-HA      1.670      4.160  2.69e+009 ga 
+     Arg15HD#-HB2      2.989      1.670  2.73e+009 ga 
+     Arg15HB2-HD#      1.670      2.988  3.03e+009 ga 
+      Arg15HB2-HN      1.669      7.874  1.02e+009 ga 
+Arg15HB2-Lys16HB1      1.670      1.792  1.12e+010 ga 
+Phe11HE#-Arg15HD#      7.187      2.989  7.50e+008 ga 
+Arg15HD#-Phe11HE#      2.989      7.187  7.83e+008 ga 
+ Leu12HA-Arg15HD#      3.794      2.991  8.93e+008 ga 
+ Arg15HD#-Leu12HA      2.990      3.793  5.94e+008 ga 
+      Arg15HA-HD#      4.161      2.988  1.28e+009 ga 
+      Arg15HD#-HA      2.989      4.160  1.47e+009 ga 
+      Arg15HE-HD#      7.420      2.988  3.74e+008 ga 
+      Arg15HD#-HE      2.989      7.419  6.71e+008 ga 
+      Arg15HN-HD#      7.876      2.990  5.45e+008 ga 
+      Arg15HD#-HN      2.990      7.874  4.96e+008 ga 
+ Arg15HD#-Lys16HN      2.990      8.049  1.90e+008 ga 
+Arg15HD#-Lys17HB1      2.991      1.736  1.89e+009 ga 
+Arg15HG#-Phe11HE#      1.496      7.187  3.99e+008 ga 
+ Leu12HA-Arg15HG#      3.790      1.493  2.30e+009 ga 
+ Arg15HG#-Leu12HA      1.496      3.794  1.17e+009 ga 
+ Leu14HN-Arg15HG#      7.806      1.494  3.82e+008 ga 
+ Arg15HG#-Leu14HN      1.496      7.803  8.69e+009 ga 
+      Arg15HA-HG#      4.161      1.491  1.90e+009 ga 
+      Arg15HG#-HA      1.494      4.160  2.28e+009 ga 
+     Arg15HD#-HG#      2.989      1.492  5.36e+009 ga 
+     Arg15HG#-HD#      1.494      2.989  5.43e+009 ga 
+      Arg15HG#-HE      1.493      7.419  3.16e+008 ga 
+      Arg15HN-HG#      7.875      1.496  1.92e+009 ga 
+      Arg15HG#-HN      1.495      7.874  1.15e+009 ga 
+ Lys16HN-Arg15HG#      8.053      1.494  1.13e+009 ga 
+ Arg15HG#-Lys16HN      1.496      8.048  7.70e+008 ga 
+Arg15HN-Leu12HD1#      7.870      0.859  1.34e+007 ga 
+ Arg15HN-Lys16HB2      7.875      1.668  1.64e+009 ga 
+  Lys16HN-Arg15HN      8.048      7.873  7.34e+008 ga 
+  Arg15HN-Lys16HN      7.875      8.046  6.39e+008 ga 
+ Arg15HN-Lys17HB1      7.875      1.736  1.66e+009 ga 
+       Lys16HN-HA      8.047      4.219  1.06e+009 ga 
+       Lys16HA-HN      4.221      8.047  1.29e+009 ga 
+  Lys17HN-Lys16HA      7.846      4.219  4.04e+009 ga 
+  Lys16HA-Lys17HN      4.220      7.846  4.10e+009 ga 
+      Lys16HA-HB1      4.220      1.791  2.10e+009 ga 
+      Lys16HB1-HA      1.790      4.219  2.42e+009 ga 
+      Lys16HB1-HN      1.788      8.049  1.80e+009 ga 
+      Lys16HB2-HA      1.667      4.219  2.39e+009 ga 
+      Lys16HN-HB2      8.049      1.667  1.74e+009 ga 
+      Lys16HB2-HN      1.669      8.047  2.51e+009 ga 
+      Lys16HD#-HA      1.606      4.219  1.27e+009 ga 
+ Lys16HG#-Arg15HA      1.378      4.157  3.20e+008 ga 
+Lys16HG#-Arg15HB2      1.384      1.677  1.84e+010 ga 
+      Lys16HA-HG#      4.220      1.377  1.53e+009 ga 
+      Lys16HG#-HA      1.380      4.219  1.72e+009 ga 
+     Lys16HG#-HD#      1.384      1.616  1.88e+009 ga 
+      Lys16HN-HG#      8.048      1.381  7.12e+008 ga 
+      Lys16HG#-HN      1.381      8.047  9.01e+008 ga 
+ Lys17HN-Lys16HG#      7.847      1.377  4.21e+008 ga 
+ Lys16HG#-Lys17HN      1.380      7.845  5.44e+008 ga 
+       Lys17HN-HA      7.845      4.056  1.52e+009 ga 
+       Lys17HA-HN      4.056      7.845  1.29e+009 ga 
+ Lys17HB1-Lys16HN      1.736      8.047  1.70e+009 ga 
+      Lys17HB1-HA      1.736      4.048  1.56e+009 ga 
+      Lys17HA-HB2      4.056      1.644  9.24e+008 ga 
+      Lys17HB2-HA      1.644      4.053  1.43e+009 ga 
+      Lys17HN-HB2      7.846      1.648  2.68e+009 ga 
+      Lys17HB2-HN      1.646      7.846  2.50e+009 ga 
+      Lys17HA-HD#      4.057      1.600  5.78e+008 ga 
+      Lys17HD#-HA      1.601      4.053  8.19e+008 ga 
+Lys17HG#-Lys16HB2      1.334      1.660  2.37e+008 ga 
+Lys17HG#-Lys16HD#      1.338      1.613  1.60e+009 ga 
+      Lys17HA-HG#      4.055      1.333  5.06e+008 ga 
+      Lys17HG#-HA      1.332      4.055  7.65e+008 ga 
+      Lys17HN-HG#      7.847      1.332  5.75e+008 ga 
+      Lys17HG#-HN      1.333      7.846  7.65e+008 ga 
+ Lys17HN-Lys16HB1      7.841      1.785  1.06e+009 ga 
+  Lys17HN-Lys16HN      7.847      8.047  4.98e+008 ga 
+      Lys17HN-HB1      7.841      1.743  1.87e+009 ga
+;
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Axis_code
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Magnetization_linkage_ID
+      _Spectral_dim.Under_sampling_type
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Value_first_point
+      _Spectral_dim.Absolute_peak_positions
+      _Spectral_dim.Acquisition
+      _Spectral_dim.Center_frequency_offset
+      _Spectral_dim.Encoding_code
+      _Spectral_dim.Encoded_reduced_dimension_ID
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+      1   .   .   H   1   H   .   .   9.0    ppm   .   .   .   4.5   .   .   30433   1
+      2   .   .   H   1   H   .   .   10.0   ppm   .   .   .   5.0   .   .   30433   1
+   stop_
+save_
+
