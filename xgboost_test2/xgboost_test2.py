@@ -33,7 +33,24 @@ def load_data(file_list):
             if df.empty:
                 continue
             target = df.iloc[1:, 0].astype(float).values
+            
+
             features = df.iloc[1:, 5:-2].astype(float).values
+
+            # # remove some unnecessary features
+            # # Start with all candidate columns
+            # columns = list(range(5, df.shape[1] - 252))
+            # # Drop known bad blocks
+            # drop_ranges = list(range(62, 107))
+            # columns = [c for c in columns if c not in drop_ranges]
+            # # Extract only the selected features
+            # features = df.iloc[1:, columns].astype(float).values
+            # # Print the corresponding column names
+            # # print("✅ Keeping the following columns:")
+            # # for i in columns:
+            # #     print(f"{i}: {df.columns[i]}")
+            # # exit()
+
             X.append(features)
             y.append(target)
             # Extract numeric ID from file name, repeat for all rows

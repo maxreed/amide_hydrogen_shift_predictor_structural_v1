@@ -39,6 +39,10 @@ python scripts/add_pH_T_to_features.py get_star_files/star_file_conditions.csv t
 (It does it in batch btw. Also it makes the output target directory for you.)
 
 
+Optional: We can remove amino acid information (and the n_1 info and the neighbors over 20) with this:
+python scripts/remove_AA_info_from_training_data_plusOver20NN.py -i training_data_withAmber_noH -o training_data_withAmber_noH_noAA_only20
+
+
 IDEAS:
 - don't use hydrogens, only heavy atoms (easiest implementation is to skip any neighbor that is H)
 - utilize atom types, rather than amino acid type + element type (with no H's, should be okay) ((but maybe keep AA type for the residue being predicted?))
